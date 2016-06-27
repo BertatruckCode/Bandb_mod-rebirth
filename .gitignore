@@ -47,8 +47,8 @@ Temporary Items
 .apdisk
 
 /*
-!/bin
 !/model techne
 !/src
 !.project
-!.build.gradle
+!build.gradle
+!.classpath
