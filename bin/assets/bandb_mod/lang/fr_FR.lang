@@ -1,0 +1,211 @@
+item..name=
+//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS
+	
+	//items beverage
+itemGroup.Creative_Tabs_Beverage=Boisson
+
+item.itemCapCorse.name=Cap-Corse
+
+	//items beverage empty
+itemGroup.Creative_Tabs_Beverage_Bottle_Empty=Bouteille vide
+
+item.itemCapCorseEmpty.name=Bouteille de Cap-Corse
+item.itemCapCorseWOLabel.name=Bouteille de Cap-Corse sans étiquette
+item.itemPint.name=Chopine
+
+	//items processed food	
+itemGroup.Creative_Tabs_Processed_Food=Aliments transformés
+
+item.itemPetitEcolier.name=Petit-écolier
+item.itemGranol.name=Granola
+item.itemCountry.name=Kinder Country
+item.itemPrince.name=Prince
+item.itemBarbapapa.name=Barbapapa
+
+item.itemBounty.name=Bounty	
+item.itemMars.name=Mars
+item.itemSnickers.name=Snickers
+item.itemTwix.name=Twix
+item.itemSmarties.name=Smarties
+
+	//items ingredients
+itemGroup.Creative_Tabs_Ingredients=Ingredients
+
+item.itemBenco.name=Benco
+item.itemBanania.name=Banania
+
+	//items miscellaneous
+itemGroup.Creative_Tabs_Miscellaneous=Divers
+
+item.itemDollars.name=Argent
+item.itemIPhone.name=iPhone
+item.itemiPad.name=iPad
+item.itemFuck.name=Fuck
+item.itemNotes.name=Notes
+item.itemMinecraftForDummies.name=Minecraft pour les nuls
+item.itemRegistrationPlate.name=Plaque d'immatriculation
+item.itemUHUPatafix.name=UHU Patafix
+item.itemMagentaInkCartridge.name=Cartouche d'encre magenta
+item.itemCyanInkCartridge.name=Cartouche d'encre cyan
+item.itemBlackInkCartridge.name=Cartouche d'encre noir
+item.itemYellowInkCartridge.name=Cartouche d'encre jaune
+item.itemEmptyInkCartridge.name=Cartouche d'encre vide
+item.itemEtoile.name=Étoile
+item.itemFleche.name=Flèche directionnel
+
+item.itemBarba.name=Barbapapa
+
+
+	//items tools
+itemGroup.Creative_Tabs_Tools=Outils
+
+item.itemPinkGode.name=Gode rose 
+item.itemGreenGode.name=Gode vert 
+item.itemPurpleGode.name=Gode violet
+
+	//items fruits
+itemGroup.Creative_Tabs_Fruit=Fruits	
+
+item.itemAlmond.name=Amande
+item.itemApricot.name=Abricot
+item.itemBanana.name=Banane
+item.itemCherry.name=Cerise
+item.itemClementine.name=Clémentine
+item.itemDate.name=Datte
+item.itemDragonfruit.name=Fruit du dragon
+item.itemFig.name=Figue
+item.itemGuava.name=Goyave
+item.itemLemon.name=Citron jaune
+item.itemLime.name=Citron vert
+item.itemLychee.name=Litchi
+item.itemPassionfruit.name=Fruit de la passion
+item.itemPomegranate.name=Grenade
+item.itemQuince.name=Coing
+
+	
+	//items Vegetable
+	
+	//items crops
+	
+	//items ore
+	
+	//mushroom
+itemGroup.Creative_Tabs_Mushroom=Champignons
+	
+item.itemTruffle.name=Truffe Melanosporum
+item.itemAmanitaMuscaria.name=Amonite tue-mouche
+
+
+	//blocks Pharmaceuticals
+itemGroup.Creative_Tabs_Pharmaceuticals=Médicaments
+item.itemDoliprane200mg.name=Doliprane 200 mg
+item.itemDoliprane300mg.name=Doliprane 300 mg
+item.itemDoliprane500mg.name=Doliprane 500 mg
+item.itemDoliprane1000mg.name=Doliprane 1000 mg
+
+	//blocks Wrapping
+itemGroup.Creative_Tabs_Wrapping=Emballage
+item.itemWrappingDoliprane200mg.name=Emballage de Doliprane 200 mg
+item.itemWrappingDoliprane300mg.name=Emballage de Doliprane 300 mg
+item.itemWrappingDoliprane500mg.name=Emballage de Doliprane 500 mg
+item.itemWrappingDoliprane1000mg.name=Emballage de Doliprane 1000 mg
+
+
+	//blocks Labels
+itemGroup.CreativeTabsLabels=Étiquettes
+item.itemCapCorseLabel.name=Étiquette de Cap-Corse
+
+	
+//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS//BLOCKS
+		
+		//plants
+itemGroup.CreativeTabsPlants=Plantes
+tile.block_Mint.name=Menthe
+tile.block_Rape.name=Colza
+	
+	//Trees
+		//blocks wood
+itemGroup.Creative_Tabs_Trees=Arbres 
+
+tile.block_Almond_Wood.name=Almond Wood
+tile.block_Apricot_Wood.name=Apricot Wood		
+tile.block_Banana_Wood.name=Banana Wood	
+tile.block_Cherry_Wood.name=Cherry Wood
+tile.block_Clementine_Wood.name=Clementine Wood
+tile.block_Date_Wood.name=Date Wood
+tile.block_Dragonfruit_Wood.name=Dragon Fruit Wood
+tile.block_Fig_Wood.name=Fig Wood
+tile.block_Guava_Wood.name=Guava Wood
+tile.block_Lemon_Wood.name=Lemon Wood
+tile.block_Lime_Wood.name=Lime Wood
+tile.block_Lychee_Wood.name=Lychee Wood
+tile.block_Passionfruit_Wood.name=Passion Fruit Wood
+tile.block_Pomegranate_Wood.name=Pomegranate Wood
+tile.block_Quince_Wood.name=Quince Wood
+		
+		//blocks leaves
+tile.block_Almond_Leaves.name=Almond Tree Leaves
+tile.block_Almond_Leaves_Almond.name=Almond Tree Fruit Leaves
+tile.block_Apricot_Leaves.name=Apricot Tree Leaves 
+tile.block_Apricot_Leaves_Fruit.name=Apricot Tree Fruit Leaves 
+tile.block_Banana_Leaves.name=Banana Tree Leaves 
+tile.block_Banana_Leaves_Fruit.name=Banana Tree Fruit Leaves 
+tile.block_Cherry_Leaves.name=Cherry Tree Leaves 
+tile.block_Cherry_Leaves_Fruit.name=Cherry Tree Fruit Leaves 
+tile.block_Clementine_Leaves.name=Clementine Tree Leaves 
+tile.block_Clementine_Leaves_Fruit.name=Clementine Tree Fruit Leaves 
+tile.block_Date_Leaves.name=Date Tree Leaves 
+tile.block_Date_Leaves_Fruit.name=Date Tree Fruit Leaves 
+tile.block_Dragonfruit_Leaves.name=Dragon Fruit Tree Leaves 
+tile.block_Dragonfruit_Leaves_Fruit.name=Dragon Fruit Tree Fruit Leaves 
+tile.block_Fig_Leaves.name=Fig Tree Leaves 
+tile.block_Fig_Leaves_Fruit.name=Fig Tree Fruit Leaves 
+tile.block_Guava_Leaves.name=Guava Tree Leaves 
+tile.block_Guava_Leaves_Fruit.name=Guava Tree Fruit Leaves 
+tile.block_Lemon_Leaves.name=Lemon Tree Leaves 
+tile.block_Lemon_Leaves_Fruit.name=Lemon Tree Fruit Leaves 
+tile.block_Lime_Leaves.name=Lime Tree Leaves 
+tile.block_Lime_Leaves_Fruit.name=Lime Tree Fruit Leaves 
+tile.block_Lychee_Leaves.name=Lychee Tree Leaves 
+tile.block_Lychee_Leaves_Fruit.name=Lychee Tree Fruit Leaves 
+tile.block_Passionfruit_Leaves.name=Passion Fruit Tree Leaves 
+tile.block_Passionfruit_Leaves_Fruit.name=Passion Fruit Tree Fruit Leaves 
+tile.block_Pomegranate_Leaves.name=Pomegranate Tree Leaves 
+tile.block_Pomegranate_Leaves_Fruit.name=Pomegranate Tree Fruit Leaves 
+tile.block_Quince_Leaves.name=Quince Tree Leaves 
+tile.block_Quince_Leaves_Fruit.name=Quince Tree Fruit Leaves 
+		
+		//blocks sapling
+itemGroup.Creative_Tabs_Sapling=Jeunes Pousses d'Arbres
+tile.block_Almond_Sapling.name=Almond Sapling
+tile.block_Apricot_Sapling.name=Apricot Sapling
+tile.block_Banana_Sapling.name=Banana Sapling
+tile.block_Cherry_Sapling.name=Cherry Sapling
+tile.block_Clementine_Sapling.name=Clementine Sapling
+tile.block_Date_Sapling.name=Date Sapling
+tile.block_Dragonfruit_Sapling.name=Dragon Fruit Sapling
+tile.block_Fig_Sapling.name=Fig Sapling
+tile.block_Guava_Sapling.name=Guava Sapling
+tile.block_Lemon_Sapling.name=Lemon Sapling
+tile.block_Lime_Sapling.name=Lime Sapling
+tile.block_Lychee_Sapling.name=Lychee Sapling
+tile.block_Passionfruit_Sapling.name=Passion Fruit Sapling
+tile.block_Pomegranate_Sapling.name=Pomegranate Sapling
+tile.block_Quince_Sapling.name=Quince Sapling
+
+
+
+		//blocks mushromms
+itemGroup.Creative_Tabs_Mushrooms=Champignons 
+tile.BlockTruffle.name=Dirt for mushrooms
+tile.blockCep.name=Cep
+tile.blockAmanitaMuscaria.name=Amanita Muscaria
+tile.blockHornOfPlenty.name=Horn of plenty
+tile.blockHydnumRepandum.name=Hydnem Repandum
+tile.blockMorel.name=Morel
+
+
+	//creative tabs
+
+
+
