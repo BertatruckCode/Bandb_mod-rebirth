@@ -1,0 +1,9 @@
+{
+     
+     "vodka": {"category": "neutral", "sounds": ["vodka"]},
+	 
+	 "nespresso": {"category": "ambient", "sounds": [{"name": "nespresso", "stream": false}]},
+	 
+     "goat.hurt": {"category": "neutral", "sounds": ["goat_hurt"]}
+ 
+}

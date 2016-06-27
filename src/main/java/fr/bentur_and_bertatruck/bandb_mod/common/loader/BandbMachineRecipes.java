@@ -1,0 +1,1047 @@
+package fr.bentur_and_bertatruck.bandb_mod.common.loader;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import fr.bentur_and_bertatruck.bandb_mod.common.lists.ListApple;
+import fr.bentur_and_bertatruck.bandb_mod.common.lists.ListAppleJuice;
+import fr.bentur_and_bertatruck.bandb_mod.common.lists.ListCoffeeCup;
+import fr.bentur_and_bertatruck.bandb_mod.common.lists.ListPineapple;
+import fr.bentur_and_bertatruck.bandb_mod.common.lists.ListPineapplejuice;
+import fr.bentur_and_bertatruck.bandb_mod.common.lists.ListTeaCup;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeBarrelApple;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeBottleCaster;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeCocktailBar;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeCoffeeMaker;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeDrier;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeLabelMachine;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipePress;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipePrinter;
+import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeSyrupMachine;
+
+public class BandbMachineRecipes {
+
+	public static void init(){
+		
+		//SYRUP MACHINE
+		RecipeSyrupMachine.addRecipe(BandbItems.itemAlmond, new ItemStack(BandbBeverages.itemSyrupAlmond));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageAmaretto, new ItemStack(BandbBeverages.itemSyrupAmaretto));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleAntares, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleAriane, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleBelchardChancelier, new ItemStack(BandbBeverages.itemSyrupApple));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemAlmond, new ItemStack(BandbBeverages.itemSyrupAlmond));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageAmaretto, new ItemStack(BandbBeverages.itemSyrupAmaretto));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleAntares, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleAriane, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleBelchardChancelier, new ItemStack(BandbBeverages.itemSyrupApple));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleBelleDeBoskoop, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleBraeburn, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleDuLimousin, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleElstar, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleFuji, new ItemStack(BandbBeverages.itemSyrupApple));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleGala, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleGolden, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleGrannySmith, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleHoneycrunch, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleJazz, new ItemStack(BandbBeverages.itemSyrupApple));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleJonagoldJonagored, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleLesRouges, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceApplePinkLady, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleReineDesReinettes, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleReinetteGriseDuCanada, new ItemStack(BandbBeverages.itemSyrupApple));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleTentation, new ItemStack(BandbBeverages.itemSyrupApple));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemApplePie, new ItemStack(BandbBeverages.itemSyrupApplePie));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceApricot, new ItemStack(BandbBeverages.itemSyrupApricot));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemBasil, new ItemStack(BandbBeverages.itemSyrupBasil));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageBitter, new ItemStack(BandbBeverages.itemSyrupBitter));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceBlackberry, new ItemStack(BandbBeverages.itemSyrupBlackberry));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceBlackCurrant, new ItemStack(BandbBeverages.itemSyrupBlackcurrant));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemBlackForest, new ItemStack(BandbBeverages.itemSyrupBlackForest));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceBloodOrange, new ItemStack(BandbBeverages.itemSyrupBloodOrange));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceBlueberry, new ItemStack(BandbBeverages.itemSyrupBlueberry));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageBlueCuracao , new ItemStack(BandbBeverages.itemSyrupBlueCuracao ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemBubbleGum , new ItemStack(BandbBeverages.itemSyrupBubbleGum ));
+		RecipeSyrupMachine.addRecipe(BandbCocktails.itemCocktailCaipirinha , new ItemStack(BandbBeverages.itemSyrupCaipirinha ));
+		RecipeSyrupMachine.addRecipe(BandbItems. itemCandyStrawberry , new ItemStack(BandbBeverages.itemSyrupCandyStrawberry ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCaramel , new ItemStack(BandbBeverages.itemSyrupCaramel ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCardamom , new ItemStack(BandbBeverages.itemSyrupCardamom ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChaiTea , new ItemStack(BandbBeverages.itemSyrupChaiTea ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCherry , new ItemStack(BandbBeverages.itemSyrupCherry ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCherryPlum , new ItemStack(BandbBeverages.itemSyrupCherryPlum ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChestnut , new ItemStack(BandbBeverages.itemSyrupChestnut ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChocolate , new ItemStack(BandbBeverages. itemSyrupChocolate ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCinnamon , new ItemStack(BandbBeverages. itemSyrupCinnamon ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCocoMilk , new ItemStack(BandbBeverages. itemSyrupCoconut ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeArabicas , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeBlueMountain , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeBourbonPointu , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeCattura , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeMoka , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeHarrar , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeJava , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeHuehuetenango , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeKenyaAA , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeKona , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeKontirWildForest , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeKopiLuwak , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeKupeAlamid , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeMundoNovo , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeMuragogype , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeePeaberry , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeTarrazu , new ItemStack(BandbBeverages. itemSyrupCoffee ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeTorajaKalossi , new ItemStack(BandbBeverages.itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCoffeeYirgacheffe , new ItemStack(BandbBeverages.itemSyrupCoffee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemBarba , new ItemStack(BandbBeverages.itemSyrupCottonCandy ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCranberry , new ItemStack(BandbBeverages.itemSyrupCranberry ));
+		RecipeSyrupMachine.addRecipe(BandbItems.ItemCremeBrulee , new ItemStack(BandbBeverages.itemSyrupCremeBrulee ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemCucumber , new ItemStack(BandbBeverages.itemSyrupCucumber ));
+		RecipeSyrupMachine.addRecipe(Item.getItemFromBlock(BandbBlocks.blockElderberryLeaves) , new ItemStack(BandbBeverages.itemSyrupElderFlower ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceFig , new ItemStack(BandbBeverages.itemSyrupFig ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageGin , new ItemStack(BandbBeverages.itemSyrupGin ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemGinger , new ItemStack(BandbBeverages.itemSyrupGinger ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemGingerBread , new ItemStack(BandbBeverages.itemSyrupGingerBread ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceGrapefruit , new ItemStack(BandbBeverages.itemSyrupGrapefruit ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePlantainBanana , new ItemStack(BandbBeverages.itemSyrupGreenBanana ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemMint , new ItemStack(BandbBeverages.itemSyrupGreenMint ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceGuava , new ItemStack(BandbBeverages.itemSyrupGuava ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemGum , new ItemStack(BandbBeverages.itemSyrupGum ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemNuts , new ItemStack(BandbBeverages.itemSyrupHazelnut ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemHibiscus , new ItemStack(BandbBeverages.itemSyrupHibiscus ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemHoney , new ItemStack(BandbBeverages.itemSyrupHoney ));
+		RecipeSyrupMachine.addRecipe(BandbCocktails.itemCocktailIrishCoffee , new ItemStack(BandbBeverages.itemSyrupIrish ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemJasmine , new ItemStack(BandbBeverages.itemSyrupJasmine ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceKiwi , new ItemStack(BandbBeverages.itemSyrupKiwi ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemLavender , new ItemStack(BandbBeverages.itemSyrupLavender ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemLemonGrass , new ItemStack(BandbBeverages.itemSyrupLemonGrass ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemLemonPie , new ItemStack(BandbBeverages.itemSyrupLemonPie ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemLemonTea , new ItemStack(BandbBeverages.itemSyrupLemonTea ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLime , new ItemStack(BandbBeverages.itemSyrupLime ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLychee , new ItemStack(BandbBeverages.itemSyrupLychee ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemMacadamia , new ItemStack(BandbBeverages.itemSyrupMacadamiaNut ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemMacaron , new ItemStack(BandbBeverages.itemSyrupMacaron ));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMango , new ItemStack(BandbBeverages.itemSyrupMango ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemMatchaGreenTea , new ItemStack(BandbBeverages.itemSyrupMatchaGreenTea ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMelon , new ItemStack(BandbBeverages.itemSyrupMelon ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMorelloCherry , new ItemStack(BandbBeverages.itemSyrupMorelloCherry ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange , new ItemStack(BandbBeverages.itemSyrupOrange ));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePassionfruit , new ItemStack(BandbBeverages.itemSyrupPassionFruit ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePeach , new ItemStack(BandbBeverages.itemSyrupPeach ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemPeachTea , new ItemStack(BandbBeverages.itemSyrupPeachTea ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePear , new ItemStack(BandbBeverages.itemSyrupPear ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePineappleVictoria , new ItemStack(BandbBeverages.itemSyrupPineapple ));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePineappleCayenneLisse , new ItemStack(BandbBeverages.itemSyrupPineapple ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceGrapefruitPink , new ItemStack(BandbBeverages.itemSyrupPinkGrapefruit ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemPistachio , new ItemStack(BandbBeverages.itemSyrupPistachio ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePomegranate , new ItemStack(BandbBeverages.itemSyrupPomegranate ));
+		RecipeSyrupMachine.addRecipe(Items.sugar, new ItemStack(BandbBeverages.itemSyrupPureCaneSugar));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLemon , new ItemStack(BandbBeverages.itemSyrupRantchoLemon ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceRaspberry , new ItemStack(BandbBeverages.itemSyrupRaspberry ));
+		RecipeSyrupMachine.addRecipe(BandbItems. itemRaspberryTea , new ItemStack(BandbBeverages.itemSyrupRaspberryTea ));
+		RecipeSyrupMachine.addRecipe(BandbItems. itemReastedHazelnut , new ItemStack(BandbBeverages.itemSyrupRoastedHazelnut ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemAmaryllisRed , new ItemStack(BandbBeverages.itemSyrupRose ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemRosmary , new ItemStack(BandbBeverages.itemSyrupRosmary ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageBrownRum , new ItemStack(BandbBeverages.itemSyrupRumFlavour ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemSaltedCaramel , new ItemStack(BandbBeverages.itemSyrupSaltedCaramel ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemSpeculoos , new ItemStack(BandbBeverages.itemSyrupSpeculoos ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceStrawberry , new ItemStack(BandbBeverages.itemSyrupStrawberry ));
+		
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceTangerine , new ItemStack(BandbBeverages.itemSyrupTangerine ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTarragon , new ItemStack(BandbBeverages.itemSyrupTarragon ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageTequila , new ItemStack(BandbBeverages.itemSyrupTequilaFlavour ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTiramisu , new ItemStack(BandbBeverages.itemSyrupTiramisu ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemToffeeNut , new ItemStack(BandbBeverages.itemSyrupToffeeNut ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTonkaBean , new ItemStack(BandbBeverages.itemSyrupTonkaBean ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageCuracaoTripleSec , new ItemStack(BandbBeverages.itemSyrupTripleSecCuracao ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemVanilla , new ItemStack(BandbBeverages.itemSyrupVanilla ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemViolet , new ItemStack(BandbBeverages.itemSyrupViolet ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceWatermelon , new ItemStack(BandbBeverages.itemSyrupWatermelon ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemWhiteChocolate, new ItemStack(BandbBeverages.itemSyrupWhiteChocolate ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceWhitePeach , new ItemStack(BandbBeverages.itemSyrupWhitePeach ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceWildStrawberry , new ItemStack(BandbBeverages.itemSyrupWildStrawberry ));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceBanana , new ItemStack(BandbBeverages.itemSyrupYellowBanana ));
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemStarAnise, BandbItems.itemAnise , new ItemStack(BandbBeverages.itemSyrupAnise));	
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChocolate, Items.cookie , new ItemStack(BandbBeverages.itemSyrupChocolateCookie));	
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChocolate, BandbItems.itemMint , new ItemStack(BandbBeverages.itemSyrupChocolateMint));	
+		RecipeSyrupMachine.addRecipe(BandbItems.itemMint, BandbItems.itemIceCube , new ItemStack(BandbBeverages.itemSyrupFrostedMint));	
+		RecipeSyrupMachine.addRecipe(BandbItems.itemLicorice, BandbItems.itemAppleAriane , new ItemStack(BandbBeverages.itemSyrupMapleSpice));	
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChocolate, BandbItems.itemNuts , new ItemStack(BandbBeverages.itemSyrupPraline));	
+		RecipeSyrupMachine.addRecipe(BandbItems.itemChili, BandbItems.itemCinnamon, new ItemStack(BandbBeverages.itemSyrupSpicy));	
+		
+		RecipeSyrupMachine.addRecipe(BandbItems.itemMint, BandbItems.itemLime, BandbBeverages.itemBeverageWhiteRum, new ItemStack(BandbBeverages.itemSyrupMojitoMint));	
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLemon, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbBeverages.itemSyrupGlascoLemon));	
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLime, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbBeverages.itemSyrupLimeJuiceCordialMixer));	
+	
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCurrant, BandbBeverages.itemJuiceRaspberry, BandbBeverages.itemJuiceBlackCurrant, BandbBeverages.itemJuiceStrawberry , new ItemStack(BandbBeverages.itemSyrupGrenadine));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleAntares , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleAriane , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleBelchardChancelier , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleBelleDeBoskoop , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleBraeburn , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleElstar , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleFuji , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleGala , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleGolden , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleGrannySmith , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleHoneycrunch , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleJazz , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleJonagoldJonagored , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleLesRouges , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemApplePinkLady , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemApplePommeDuLimousin , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleReineDesReinettes , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleReinetteGriseDuCanada , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeveragePetrus, BandbItems.itemOrange, BandbItems.itemAppleTentation , new ItemStack(BandbBeverages.itemSyrupSangria));
+		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMango, BandbItems.itemMango, BandbItems.itemChili, BandbItems.itemCinnamon , new ItemStack(BandbBeverages.itemSyrupSpicyMango));
+		
+		for(int i=0; i < ListPineapple.getListSize() ; i++ ){
+			RecipeSyrupMachine.addRecipe(ListPineapple.getItem(i), BandbBeverages.itemJuiceCocoMilk, BandbItems.itemMorelloCherry, BandbBeverages.itemBeverageWhiteRum , new ItemStack(BandbBeverages.itemSyrupPinacolada));
+			
+		}
+		//DRIER
+		RecipeDrier.addRecipe(BandbItems.itemTeaLeaves, new ItemStack(BandbItems.itemDriedTeaLeaves));		
+		RecipeDrier.addRecipe(BandbItems.itemTobacco, new ItemStack(BandbItems.itemTobaccoDried));
+		RecipeDrier.addRecipe(BandbItems.itemLeafCoca, new ItemStack(BandbItems.itemLeaveCocaDried));
+		RecipeDrier.addRecipe(BandbItems.itemCelery, new ItemStack(BandbItems.itemCelerySalt));
+		RecipeDrier.addRecipe(BandbItems.itemCurryLeaf, new ItemStack(BandbItems.itemCurryLeafDried));
+
+		//COFFEE MAKER
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleArpeggio, new ItemStack(BandbItems.itemCupArpeggio));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleBukeelaKaEthiopia, new ItemStack(BandbItems.itemCupBukeelaKaEthiopia));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleCapriccio, new ItemStack(BandbItems.itemCupCapriccio));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleCosi, new ItemStack(BandbItems.itemCupCosi));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleDecaffeinato, new ItemStack(BandbItems.itemCupDecaffeinato));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleDecaffeinatoIntenso, new ItemStack(BandbItems.itemCupDecaffeinatoIntenso));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleIndriyaFromIndia, new ItemStack(BandbItems.itemCupIndriyaFromIndia));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleKazaar, new ItemStack(BandbItems.itemCupKazaar));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleRistretto, new ItemStack(BandbItems.itemCupRistretto));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleDecaffeinatoLungo, new ItemStack(BandbItems.itemCupDecaffeinatoLungo));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleRosabayaDeColombia, new ItemStack(BandbItems.itemCupRosabayaDeColombia));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleDulsaoDoBrasil, new ItemStack(BandbItems.itemCupDulsaoDoBrasil));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleFortissioLungo, new ItemStack(BandbItems.itemCupFortissioLungo));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleLinizioLungo, new ItemStack(BandbItems.itemCupLinizioLungo));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleLivanto, new ItemStack(BandbItems.itemCupLivanto));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleRoma, new ItemStack(BandbItems.itemCupRoma));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleVivaltoLungo, new ItemStack(BandbItems.itemCupVivaltoLungo));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleVolluto, new ItemStack(BandbItems.itemCupVolluto));
+		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleDharkan, new ItemStack(BandbItems.itemCupDharkan));
+			
+		//PRINTER
+		RecipePrinter.addRecipe(BandbItems.itemBenturColaLabel, 2, 0, 2, 0);
+		RecipePrinter.addRecipe(BandbItems.itemBrandyLabel, 1, 1, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemCalvadosLabel, 1, 2, 1, 2);
+		RecipePrinter.addRecipe(BandbItems.itemCapCorseLabel, 2, 2, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemChouchenLabel, 2, 1, 2, 0);
+		RecipePrinter.addRecipe(BandbItems.itemCiderLabel, 1, 0, 0, 1);
+		RecipePrinter.addRecipe(BandbItems.itemCognacLabel, 1, 0, 0, 0);
+		RecipePrinter.addRecipe(BandbItems.itemGinLabel, 1, 0, 2, 0);
+		RecipePrinter.addRecipe(BandbItems.itemLambigLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLiquorLabel, 1, 0, 0, 1);
+		RecipePrinter.addRecipe(BandbItems.itemPastis51Label, 1, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemPerrierLabel, 0, 1, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemPommeauLabel, 1, 1, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemRedMartiniLabel, 0, 0, 1, 0);
+		RecipePrinter.addRecipe(BandbItems.itemRedPortLabel, 2, 0, 0, 1);
+		RecipePrinter.addRecipe(BandbItems.itemRumLabel, 0, 0, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemSiropMoninOrangeLabel, 3, 3, 3, 3);
+		RecipePrinter.addRecipe(BandbItems.itemTequilaLabel, 0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemVinegarLabel, 0, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemVodkaLabel, 0, 0, 1, 0);
+		RecipePrinter.addRecipe(BandbItems.itemWhiskeyLabel, 1, 0, 0, 1);
+		RecipePrinter.addRecipe(BandbItems.itemWhiteMartiniLabel, 1, 0, 0, 0);
+		RecipePrinter.addRecipe(BandbItems.itemWhitePortLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane200mg, 0, 2, 5, 5);
+		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane300mg, 0, 2, 0, 5);
+		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane500mg, 0, 2, 0, 10);
+		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane1000mg, 0, 2, 1, 10);
+
+		
+		//PRESS
+		RecipePress.addRecipe(BandbItems.itemBanana, 5, new ItemStack(BandbBeverages.itemJuiceBanana));
+		RecipePress.addRecipe(BandbItems.itemAppleAntares, 3, new ItemStack(BandbBeverages.itemJuiceAppleAntares));
+		RecipePress.addRecipe(BandbItems.itemAppleAriane, 3, new ItemStack(BandbBeverages.itemJuiceAppleAriane));
+		RecipePress.addRecipe(BandbItems.itemAppleBelchardChancelier, 3, new ItemStack(BandbBeverages.itemJuiceAppleBelchardChancelier));
+		RecipePress.addRecipe(BandbItems.itemAppleBelleDeBoskoop, 3, new ItemStack(BandbBeverages.itemJuiceAppleBelleDeBoskoop));
+		RecipePress.addRecipe(BandbItems.itemAppleBraeburn, 3, new ItemStack(BandbBeverages.itemJuiceAppleBraeburn));
+		RecipePress.addRecipe(BandbItems.itemApplePommeDuLimousin, 3, new ItemStack(BandbBeverages.itemJuiceAppleDuLimousin));
+		RecipePress.addRecipe(BandbItems.itemAppleElstar, 3, new ItemStack(BandbBeverages.itemJuiceAppleElstar));
+		RecipePress.addRecipe(BandbItems.itemAppleFuji, 3, new ItemStack(BandbBeverages.itemJuiceAppleFuji));
+		RecipePress.addRecipe(BandbItems.itemAppleGala, 3, new ItemStack(BandbBeverages.itemJuiceAppleGala));
+		RecipePress.addRecipe(BandbItems.itemAppleGolden, 3, new ItemStack(BandbBeverages.itemJuiceAppleGolden));
+		RecipePress.addRecipe(BandbItems.itemAppleGrannySmith, 3, new ItemStack(BandbBeverages.itemJuiceAppleGrannySmith));
+		RecipePress.addRecipe(BandbItems.itemAppleHoneycrunch, 3, new ItemStack(BandbBeverages.itemJuiceAppleHoneycrunch));
+		RecipePress.addRecipe(BandbItems.itemAppleJazz, 3, new ItemStack(BandbBeverages.itemJuiceAppleJazz));
+		RecipePress.addRecipe(BandbItems.itemAppleJonagoldJonagored, 3, new ItemStack(BandbBeverages.itemJuiceAppleJonagoldJonagored));
+		RecipePress.addRecipe(BandbItems.itemAppleLesRouges, 3, new ItemStack(BandbBeverages.itemJuiceAppleLesRouges));
+		RecipePress.addRecipe(BandbItems.itemApplePinkLady, 3, new ItemStack(BandbBeverages.itemJuiceApplePinkLady));
+		RecipePress.addRecipe(BandbItems.itemAppleReineDesReinettes, 3, new ItemStack(BandbBeverages.itemJuiceAppleReineDesReinettes));
+		RecipePress.addRecipe(BandbItems.itemAppleReinetteGriseDuCanada, 3, new ItemStack(BandbBeverages.itemJuiceAppleReinetteGriseDuCanada));
+		RecipePress.addRecipe(BandbItems.itemAppleTentation, 3, new ItemStack(BandbBeverages.itemJuiceAppleTentation));
+		RecipePress.addRecipe(BandbItems.itemApricot, 4, new ItemStack(BandbBeverages.itemJuiceApricot));
+		RecipePress.addRecipe(BandbItems.itemBanana, 6, new ItemStack(BandbBeverages.itemJuiceBanana));
+		RecipePress.addRecipe(BandbItems.itemBlackBerry, 32, new ItemStack(BandbBeverages.itemJuiceBlackberry));
+		RecipePress.addRecipe(BandbItems.itemBlackcurrant, 32, new ItemStack(BandbBeverages.itemJuiceCurrant));
+		RecipePress.addRecipe(BandbItems.itemBloodOrange, 1, new ItemStack(BandbBeverages.itemJuiceBloodOrange));
+		RecipePress.addRecipe(BandbItems.itemBlueBerry, 32, new ItemStack(BandbBeverages.itemJuiceBlueberry));
+		RecipePress.addRecipe(Items.carrot, 2, new ItemStack(BandbBeverages.itemJuiceCarrot));
+		RecipePress.addRecipe(BandbItems.itemCarrotTouchon, 2, new ItemStack(BandbBeverages.itemJuiceCarrot));
+		RecipePress.addRecipe(BandbItems.itemCherry, 10, new ItemStack(BandbBeverages.itemJuiceCherry));
+		RecipePress.addRecipe(BandbItems.itemMirabelle, 9, new ItemStack(BandbBeverages.itemJuiceCherryPlum));
+		RecipePress.addRecipe(BandbItems.itemClementine, 3, new ItemStack(BandbBeverages.itemJuiceClementine));
+		RecipePress.addRecipe(BandbItems.itemCoconut, 1, new ItemStack(BandbBeverages.itemJuiceCocoMilk));
+		RecipePress.addRecipe(BandbItems.itemCranberry, 32, new ItemStack(BandbBeverages.itemJuiceCranberry));
+		RecipePress.addRecipe(BandbItems.itemCucumber, 4, new ItemStack(BandbBeverages.itemJuiceCucumber));
+		RecipePress.addRecipe(BandbItems.itemCurrant, 32, new ItemStack(BandbBeverages.itemJuiceCurrant));
+		RecipePress.addRecipe(BandbItems.itemFig, 3, new ItemStack(BandbBeverages.itemJuiceFig));
+		RecipePress.addRecipe(BandbItems.itemGuava, 2, new ItemStack(BandbBeverages.itemJuiceGuava));
+		RecipePress.addRecipe(BandbItems.itemGrapefruit, 1, new ItemStack(BandbBeverages.itemJuiceGrapefruit));
+		RecipePress.addRecipe(BandbItems.itemGrapefruitPink, 1, new ItemStack(BandbBeverages.itemJuiceGrapefruitPink));
+		RecipePress.addRecipe(BandbItems.itemKiwi, 5, new ItemStack(BandbBeverages.itemJuiceKiwi));
+		RecipePress.addRecipe(BandbItems.itemLemon, 5, new ItemStack(BandbBeverages.itemJuiceLemon));
+		RecipePress.addRecipe(BandbItems.itemLime, 5, new ItemStack(BandbBeverages.itemJuiceLime));
+		RecipePress.addRecipe(BandbItems.itemLychee, 15, new ItemStack(BandbBeverages.itemJuiceLychee));
+		RecipePress.addRecipe(BandbItems.itemMango, 4, new ItemStack(BandbBeverages.itemJuiceMango));
+		RecipePress.addRecipe(Items.melon, 5, new ItemStack(BandbBeverages.itemJuiceMelon));
+		RecipePress.addRecipe(BandbItems.itemMirabelle, 9, new ItemStack(BandbBeverages.itemJuiceCherryPlum));
+		RecipePress.addRecipe(BandbItems.itemMorelloCherry, 10, new ItemStack(BandbBeverages.itemJuiceMorelloCherry));
+		RecipePress.addRecipe(BandbItems.itemOrange, 1, new ItemStack(BandbBeverages.itemJuiceOrange));
+		RecipePress.addRecipe(BandbItems.itemPapaya, 2, new ItemStack(BandbBeverages.itemJuicePapaya));
+		RecipePress.addRecipe(BandbItems.itemPassionfruit, 1, new ItemStack(BandbBeverages.itemJuicePassionfruit));			
+		RecipePress.addRecipe(BandbItems.itemPeach, 2, new ItemStack(BandbBeverages.itemJuicePeach));
+		RecipePress.addRecipe(BandbItems.itemPear, 5, new ItemStack(BandbBeverages.itemJuicePear));
+		RecipePress.addRecipe(BandbItems.itemPineappleCayenne, 1, new ItemStack(BandbBeverages.itemJuicePineappleCayenneLisse));
+		RecipePress.addRecipe(BandbItems.itemPineappleVictoria, 1, new ItemStack(BandbBeverages.itemJuicePineappleVictoria));
+		RecipePress.addRecipe(BandbItems.itemBananaPlantain, 6, new ItemStack(BandbBeverages.itemJuicePlantainBanana));
+		RecipePress.addRecipe(BandbItems.itemPlum, 9, new ItemStack(BandbBeverages.itemJuicePlum));
+		RecipePress.addRecipe(BandbItems.itemPomegranate, 5, new ItemStack(BandbBeverages.itemJuicePomegranate));
+		RecipePress.addRecipe(Items.potato, 20, new ItemStack(BandbBeverages.itemJuicePotato));
+		RecipePress.addRecipe(BandbItems.itemPricklyPear, 5, new ItemStack(BandbBeverages.itemJuicePricklyPear));
+		RecipePress.addRecipe(BandbItems.itemQuince, 5, new ItemStack(BandbBeverages.itemJuiceQuince));
+		RecipePress.addRecipe(BandbItems.itemRaspberry, 32, new ItemStack(BandbBeverages.itemJuiceRaspberry));
+		RecipePress.addRecipe(BandbItems.itemRhubarb, 16, new ItemStack(BandbBeverages.itemJuiceRhubarb));
+		RecipePress.addRecipe(BandbItems.itemStrawberry, 32, new ItemStack(BandbBeverages.itemJuiceStrawberry));
+		RecipePress.addRecipe(BandbItems.itemTangerine, 4, new ItemStack(BandbBeverages.itemJuiceTangerine));
+		RecipePress.addRecipe(BandbItems.itemTomato, 7, new ItemStack(BandbBeverages.itemJuiceTomato));
+		RecipePress.addRecipe(BandbItems.itemWhitePeach, 2, new ItemStack(BandbBeverages.itemJuiceWhitePeach));
+		RecipePress.addRecipe(BandbItems.itemWildStrawberry, 32, new ItemStack(BandbBeverages.itemJuiceWildStrawberry));
+		RecipePress.addRecipe(BandbItems.itemGrapeAbouriou, 2, new ItemStack(BandbBeverages.itemGrapeAbouriouJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeAleaticu, 2, new ItemStack(BandbBeverages.itemGrapeAleaticuJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeAligote, 2, new ItemStack(BandbBeverages.itemGrapeAligoteJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeAltesse, 2, new ItemStack(BandbBeverages.itemGrapeAltesseJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeAramon, 2, new ItemStack(BandbBeverages.itemGrapeAramonJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeArbois, 2, new ItemStack(BandbBeverages.itemGrapeArboisJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeArrufiac, 2, new ItemStack(BandbBeverages.itemGrapeArrufiacJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeAubinVert, 2, new ItemStack(BandbBeverages.itemGrapeAubinVertJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeBarbarossa, 2, new ItemStack(BandbBeverages.itemGrapeBarbarossaJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeBergeron, 2, new ItemStack(BandbBeverages.itemGrapeBergeronJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeBiancone, 2, new ItemStack(BandbBeverages.itemGrapeBianconeJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeBiancuGentile, 2, new ItemStack(BandbBeverages.itemGrapeBiancuGentileJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeBourboulenc, 2, new ItemStack(BandbBeverages.itemGrapeBourboulencJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeBraquet, 2, new ItemStack(BandbBeverages.itemGrapeBraquetJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCabernetFranc, 2, new ItemStack(BandbBeverages.itemGrapeCabernetFrancJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCabernetSauvignon, 2, new ItemStack(BandbBeverages.itemGrapeCabernetSauvignonJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCamarese, 2, new ItemStack(BandbBeverages.itemGrapeCamareseJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCarcaghjoluBiancu, 2, new ItemStack(BandbBeverages.itemGrapeCarcaghjoluBiancuJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCarcaghjoluNeru, 2, new ItemStack(BandbBeverages.itemGrapeCarcaghjoluNeruJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCarignan, 2, new ItemStack(BandbBeverages.itemGrapeCarignanJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCesar, 2, new ItemStack(BandbBeverages.itemGrapeCesarJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeChardonnay, 2, new ItemStack(BandbBeverages.itemGrapeChardonnayJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeChenin, 2, new ItemStack(BandbBeverages.itemGrapeCheninJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCinsault, 2, new ItemStack(BandbBeverages.itemGrapeCinsaultJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeClairette, 2, new ItemStack(BandbBeverages.itemGrapeClairetteJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeColombard, 2, new ItemStack(BandbBeverages.itemGrapeColombardJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCot, 2, new ItemStack(BandbBeverages.itemGrapeCotJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCounoise, 2, new ItemStack(BandbBeverages.itemGrapeCounoiseJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCourbu, 2, new ItemStack(BandbBeverages.itemGrapeCourbuJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeCudiverta, 2, new ItemStack(BandbBeverages.itemGrapeCudivertaJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeDuras, 2, new ItemStack(BandbBeverages.itemGrapeDurasJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeFerServadou, 2, new ItemStack(BandbBeverages.itemGrapeFerServadouJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeFolleBlanche, 2, new ItemStack(BandbBeverages.itemGrapeFolleBlancheJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeGamay, 2, new ItemStack(BandbBeverages.itemGrapeGamayJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeGewurztraminer, 2, new ItemStack(BandbBeverages.itemGrapeGewurztraminerJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeGrenacheBlanc, 2, new ItemStack(BandbBeverages.itemGrapeGrenacheBlancJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeGrenache, 2, new ItemStack(BandbBeverages.itemGrapeGrenacheJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeGrolleau, 2, new ItemStack(BandbBeverages.itemGrapeGrolleauJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeGrosMenseng, 2, new ItemStack(BandbBeverages.itemGrapeGrosMensengJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeJacquere, 2, new ItemStack(BandbBeverages.itemGrapeJacquereJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeLenDeLEl, 2, new ItemStack(BandbBeverages.itemGrapeLenDeLElJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeListan, 2, new ItemStack(BandbBeverages.itemGrapeListanJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMaccabeu, 2, new ItemStack(BandbBeverages.itemGrapeMaccabeuJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMalbec, 2, new ItemStack(BandbBeverages.itemGrapeMalbecJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMalvoisie, 2, new ItemStack(BandbBeverages.itemGrapeMalvoisieJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMarsanne, 2, new ItemStack(BandbBeverages.itemGrapeMarsanneJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMarselan, 2, new ItemStack(BandbBeverages.itemGrapeMarselanJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMauzac, 2, new ItemStack(BandbBeverages.itemGrapeMauzacJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMelonDeBourgogne, 2, new ItemStack(BandbBeverages.itemGrapeMelonDeBourgogneJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMelon, 2, new ItemStack(BandbBeverages.itemGrapeMelonJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMerlot, 2, new ItemStack(BandbBeverages.itemGrapeMerlotJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMolette, 2, new ItemStack(BandbBeverages.itemGrapeMoletteJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMollard, 2, new ItemStack(BandbBeverages.itemGrapeMollardJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMondeuseBlanche, 2, new ItemStack(BandbBeverages.itemGrapeMondeuseBlancheJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMondeuse, 2, new ItemStack(BandbBeverages.itemGrapeMondeuseJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMourvedre, 2, new ItemStack(BandbBeverages.itemGrapeMourvedreJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMuscadelle, 2, new ItemStack(BandbBeverages.itemGrapeMuscadelleJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMuscardin, 2, new ItemStack(BandbBeverages.itemGrapeMuscardinJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMuscatBlancAPetitsGrains, 2, new ItemStack(BandbBeverages.itemGrapeMuscatBlancAPetitsGrainsJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeMuscatDAlexandrie, 2, new ItemStack(BandbBeverages.itemGrapeMuscatDAlexandrieJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeNegrette, 2, new ItemStack(BandbBeverages.itemGrapeNegretteJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeNielluccio, 2, new ItemStack(BandbBeverages.itemGrapeNielluccioJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePagaDebiti, 2, new ItemStack(BandbBeverages.itemGrapePagaDebitiJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePetitCourbu, 2, new ItemStack(BandbBeverages.itemGrapePetitCourbuJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePetitMenseng, 2, new ItemStack(BandbBeverages.itemGrapePetitMensengJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePetitVerdot, 2, new ItemStack(BandbBeverages.itemGrapePetitVerdotJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePineauDAunis, 2, new ItemStack(BandbBeverages.itemGrapePineauDAunisJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePinotBlanc, 2, new ItemStack(BandbBeverages.itemGrapePinotBlancJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePinotMeunier, 2, new ItemStack(BandbBeverages.itemGrapePinotMeunierJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePinotNoir, 2, new ItemStack(BandbBeverages.itemGrapePinotNoirJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePiquepoul, 2, new ItemStack(BandbBeverages.itemGrapePiquepoulJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapePoulsard, 2, new ItemStack(BandbBeverages.itemGrapePoulsardJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeRiesling, 2, new ItemStack(BandbBeverages.itemGrapeRieslingJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeRomorantin, 2, new ItemStack(BandbBeverages.itemGrapeRomorantinJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeRossulaBianca, 2, new ItemStack(BandbBeverages.itemGrapeRossulaBiancaJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeSacy, 2, new ItemStack(BandbBeverages.itemGrapeSacyJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeSauvignon, 2, new ItemStack(BandbBeverages.itemGrapeSauvignonJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeSavagnin, 2, new ItemStack(BandbBeverages.itemGrapeSavagninJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeSemillon, 2, new ItemStack(BandbBeverages.itemGrapeSemillonJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeSylvaner, 2, new ItemStack(BandbBeverages.itemGrapeSylvanerJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeSyrah, 2, new ItemStack(BandbBeverages.itemGrapeSyrahJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeTannat, 2, new ItemStack(BandbBeverages.itemGrapeTannatJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeTeoulier, 2, new ItemStack(BandbBeverages.itemGrapeTeoulierJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeTerretNoir, 2, new ItemStack(BandbBeverages.itemGrapeTerretNoirJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeTibouren, 2, new ItemStack(BandbBeverages.itemGrapeTibourenJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeTressalier, 2, new ItemStack(BandbBeverages.itemGrapeTressalierJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeUgniBlanc, 2, new ItemStack(BandbBeverages.itemGrapeUgniBlancJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeVaccarese, 2, new ItemStack(BandbBeverages.itemGrapeVaccareseJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeVermentinu, 2, new ItemStack(BandbBeverages.itemGrapeVermentinuJuice));
+		RecipePress.addRecipe(BandbItems.itemGrapeViognier, 2, new ItemStack(BandbBeverages.itemGrapeViognierJuice));
+			
+		
+		//LABEL MACHINE
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemCapCorseWOLabel, BandbItems.itemCapCorseLabel, new ItemStack(BandbBeverages.itemBottleCapCorse));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemBrandyWOLabel, BandbItems.itemBrandyLabel, new ItemStack(BandbBeverages.itemBottleBrandy));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemCalvadosWOLabel, BandbItems.itemCalvadosLabel, new ItemStack(BandbBeverages.itemBottleCalvados));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemCiderKerneWOLabel, BandbItems.itemCiderLabel, new ItemStack(BandbBeverages.itemBottleCiderKerne));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemCognacWOLabel, BandbItems.itemCognacLabel, new ItemStack(BandbBeverages.itemBottleCognac));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemGinWOLabel, BandbItems.itemGinLabel, new ItemStack(BandbBeverages.itemBottleGin));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemLambigWOLabel, BandbItems.itemLambigLabel, new ItemStack(BandbBeverages.itemBottleLambig));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemPerrierWOLabel, BandbItems.itemPerrierLabel, new ItemStack(BandbBeverages.itemBottlePerrier));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemPommeauWOLabel, BandbItems.itemPommeauLabel, new ItemStack(BandbBeverages.itemBottlePommeau));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemRedMartiniWOLabel, BandbItems.itemRedMartiniLabel, new ItemStack(BandbBeverages.itemBottleRedMartini));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemRedPortWOLabel, BandbItems.itemRedPortLabel, new ItemStack(BandbBeverages.itemBottleRedPort));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemRumWOLabel, BandbItems.itemRumLabel, new ItemStack(BandbBeverages.itemBottleRum));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemTequilaWOLabel, BandbItems.itemTequilaLabel, new ItemStack(BandbBeverages.itemBottleTequila));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemVinegarWOLabel, BandbItems.itemVinegarLabel, new ItemStack(BandbBeverages.itemBottleVinegar));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemVodkaWOLabel, BandbItems.itemVodkaLabel, new ItemStack(BandbBeverages.itemBottleVodka));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemWhiteMartiniWOLabel, BandbItems.itemWhiteMartiniLabel, new ItemStack(BandbBeverages.itemBottleWhiteMartini));
+		RecipeLabelMachine.addRecipe(BandbBeverages.itemWhitePortWOLabel, BandbItems.itemWhitePortLabel, new ItemStack(BandbBeverages.itemBottleWhitePort));
+		
+		//BOTTLE CASTER
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCapCorseWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemBrandyWOLabel, 240);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCalvadosWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCiderKerneWOLabel, 70);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCognacWOLabel, 200);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemGinWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemLambigWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemPerrierWOLabel, 80);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemPint, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemPommeauWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemRedMartiniWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemRedPortWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemRumWOLabel, 120);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSyrupMoninWOLabel, 90);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemTequilaWOLabel, 150);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemVinegarWOLabel, 110);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemVodkaWOLabel, 180);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemWhiteMartiniWOLabel, 190);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemWhitePortWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbItems.itemTumbler, 10);
+		RecipeBottleCaster.addRecipe(BandbItems.itemCocktailGlass, 10);
+		RecipeBottleCaster.addRecipe(BandbItems.itemOldFashoned, 10);
+		RecipeBottleCaster.addRecipe(BandbItems.itemFlute, 10);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemDubonnetRougeWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemBenedictineWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemTabascoWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemPontarlierWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemWorcestershireSauceWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemBlueCuracaoWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCuracaoTripleSecWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemAmarettoWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemBitterWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemFleurOrangerWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemChartreuseJauneWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemGrandMarnierWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemLimonadeWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemXeresWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemScweppesTonicWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemHeinekenWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemBaileysWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemChartreuseVerteWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemPiscoWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCuracaoOrangeWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemCampariWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemAngosturaBitterWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemPetrusWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemDrambuieWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemFernetBrancaWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesGingerAleWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemChampagneMummWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemGuinnessWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemHoneyWOLabel, 160);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesAgrumWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesDarkSideWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesLemonWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesMangoWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesPamplemousseWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesPassionWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesPechWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesPommeWOLabel, 60);
+		RecipeBottleCaster.addRecipe(BandbBeverages.itemSchweppesRicqlesWOLabel, 60);
+			
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.sand), 200);
+		RecipeBottleCaster.addItemMoltenGlassProvider(BandbItems.itemBreakageOfGlass, 10);
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.glass), 50);
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.sandstone), 100);
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.sandstone_stairs), 40);
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.stained_glass), 60);
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.glass_pane), 60);
+		RecipeBottleCaster.addItemMoltenGlassProvider(Item.getItemFromBlock(Blocks.stained_glass_pane), 70);
+		
+		
+		// 3 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageAngosturaBitter, new ItemStack(BandbCocktails.itemCocktailPinkGin));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemBeverageGrandMarnier, new ItemStack(BandbCocktails.itemCocktailAliceInWonderland));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemBeverageTabasco, new ItemStack(BandbCocktails.itemCocktailCactusFlower));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageRedPort, new ItemStack(BandbCocktails.itemCocktailBP));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageCampari, new ItemStack(BandbCocktails.itemCocktailCC));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeveragePontarlier, new ItemStack(BandbCocktails.itemCocktailHemingway));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemLiqueurBlackcurrant, new ItemStack(BandbCocktails.itemCocktailKirRoyal));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbItems.itemPeach, new ItemStack(BandbCocktails.itemCocktailBellini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemJuiceOrange, new ItemStack(BandbCocktails.itemCocktailMimosa));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbItems.itemStrawberry, new ItemStack(BandbCocktails.itemCocktailRossini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemJuiceCranberry, new ItemStack(BandbCocktails.itemCocktailTropicalHibiscus));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageGuinness, new ItemStack(BandbCocktails.itemCocktailBlackVelvet));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageBourgogneAligote, BandbBeverages.itemLiqueurBlackcurrant, new ItemStack(BandbCocktails.itemCocktailKir));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageAlsaceRiesling, BandbBeverages.itemPerrier, new ItemStack(BandbCocktails.itemCocktailSpritzer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemLiqueurCoffee, BandbBeverages.itemBeverageGrandMarnier, new ItemStack(BandbCocktails.itemCocktailB52));
+		
+		// 4 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemGinger, BandbBeverages.itemBeverageWhiteRum, Items.sugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaipirinha));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemSyrupLimeJuiceCordialMixer, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVodkaGimlet));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurCoffee, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlackRussian));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageAmaretto, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGodmother));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurMint, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVodkaStinger));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageDubonnetRouge, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDubonnetCocktail));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageGin, BandbBeverages.itemSyrupLimeJuiceCordialMixer, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGimlet));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageHeineken, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTamanacoDry));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageChartreuseJaune, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAlaska));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbItems.itemMint, BandbBeverages.itemLiqueurCherry, new ItemStack(BandbCocktails.itemCocktailEvolution));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageAmaretto, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGodfather));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageBenedictine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKentuckyColonel));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageDrambuie, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRustyNail));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteRum, BandbItems.itemLime, BandbBeverages.itemSyrupPureCaneSugar, new ItemStack(BandbCocktails.itemCocktailTiPunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemLiqueurMint, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlackWidow));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbItems.itemSalt, BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailTequilaStraight));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAmbassador));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemLiqueurMint, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAztecStinger));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemLiqueurCoffee, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBraveBull));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCognac, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBrandyHighball));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageBenedictine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBB));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurBanana, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBananaBliss));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCoffee, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBrownBear));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBurgos));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurBlackberry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHighbinder));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageCognac, BandbItems.itemLemon, Items.sugar, new ItemStack(BandbCocktails.itemCocktailNikolaschka));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemLiqueurCherry, new ItemStack(BandbCocktails.itemCocktailSantinaSPousseCafe));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbItems.itemIceCube, BandbBeverages.itemLiqueurMint, new ItemStack(BandbCocktails.itemCocktailStinger));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageVodka, BandbItems.itemGinger, new ItemStack(BandbCocktails.itemCocktailGingerCocktail));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbItems.itemCucumber, BandbBeverages.itemBeverageGin, new ItemStack(BandbCocktails.itemCocktailPimmSRoyal));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, Items.sugar, BandbItems.itemMint, new ItemStack(BandbCocktails.itemCocktailChampagneJulep));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemJuiceLemon, new ItemStack(BandbCocktails.itemCocktailChampagneSour));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLiqueurApricot, new ItemStack(BandbCocktails.itemCocktailValencia));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCoffee, new ItemStack(BandbCocktails.itemCocktailBlackPearl));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageCampari, BandbBeverages.itemBeverageGrandMarnier, new ItemStack(BandbCocktails.itemCocktailNightDay));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeveragePontarlier, Items.sugar, Items.water_bucket, new ItemStack(BandbCocktails.itemCocktailAbsintheDrip));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeveragePontarlier, BandbBeverages.itemSyrupGrenadine, Items.water_bucket, new ItemStack(BandbCocktails.itemCocktailTomateALAbsinthe));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBordeauxChateauLary, BandbBeverages.itemJuiceLemon, Items.water_bucket, new ItemStack(BandbCocktails.itemCocktailAmericanLemonade));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCampari, BandbBeverages.itemJuiceOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGaribaldi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeveragePontarlier, BandbBeverages.itemJuiceOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTigerTail));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageAmaretto, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFerrari));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceCocoMilk, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCranberryColada));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, Items.milk_bucket, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailParisette));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, Items.milk_bucket, BandbItems.itemVanilla, BandbItems.itemIceCreamVanilla, new ItemStack(BandbCocktails.itemCocktailVanillaMilkshake));
+		
+		// 5 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, Items.sugar, Items.milk_bucket, BandbItems.itemCupArpeggio, new ItemStack(BandbCocktails.itemCocktailIrishCoffee));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBacardi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBalletRusse));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbItems.itemCucumber, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCucumberMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemBeverageRedMartini, new ItemStack(BandbCocktails.itemCocktailFiesta));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, Items.melon, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMelonMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBalalaika));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageBlueCuracao, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlueLagoon));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbItems.itemLime, Items.sugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaipirovska));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceCranberry, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCapeCodder));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCassisina));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbItems.itemOrange, Items.sugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailClockworkOrange));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKamikaze));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurBlackberry, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailUncleVanya));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLiqueurTangerine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHarverWallbanger));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLychee, BandbBeverages.itemLiqueurLychee, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLycheeMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceGrapefruitPink, BandbItems.itemSalt, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSaltyDog));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceOrange, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailScrewdriver));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurCacao, BandbItems.itemCacao, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChocolateMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageBenedictine, BandbBeverages.itemBeverageBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGipsyQueen));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBrandyCherry, BandbItems.itemMorelloCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRedRussian));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, Items.milk_bucket, BandbBeverages.itemLiqueurBanana, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJungleJoe));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, Items.milk_bucket, BandbBeverages.itemLiqueurCoffee, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailWhiteRussian));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbItems.itemOnion, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGibson));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKnickerbocker));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageGin, Items.water_bucket, BandbBeverages.itemBeveragePontarlier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLondonFog));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageDubonnetRouge, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailZaza));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurBlackberry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlackout));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemLiqueurMint, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGreenHat));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailNickySFizz));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPinkLady));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLiqueurApricot, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailResolute));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailWhiteLady));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceGrapefruit, BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailColonial));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageCuracaoTripleSec,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailOpal));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailOrangeBlossom));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLiqueurApricot,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailParadise));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageBenedictine, BandbBeverages.itemLiqueurCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAcacias));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbItems.itemHoney,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBeeSKnees));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurMint,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaruso));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageGrandMarnier, BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrenchKiss));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageRedPort, BandbBeverages.itemBeverageBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPrinceton));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageChartreuseVerte, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSpringFeeling));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageDubonnetRouge, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailEuropeanBeauty));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageBenedictine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrisco));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageDrambuie, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHemingwaySour));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbItems.itemMint, Items.sugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMintJulep));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailNewYorker));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailInkStreet));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPollySpecial));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageBenedictine, BandbBeverages.itemBeverageRedMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBobbyBurns));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageChartreuseVerte, BandbBeverages.itemBeverageRedMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTipperary));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, Items.water_bucket, Items.sugar, BandbItems.itemLemon, new ItemStack(BandbCocktails.itemCocktailBlueBlazer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbItems.itemLime, BandbBeverages.itemBenturCola, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCubaLibre));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDaiquiri));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceLime, BandbItems.itemHoney, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHoneySuckle));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailIsleOfPines));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageXeres, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailQuarterDeck));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailXYZ));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageBenedictine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSterling));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageDrambuie, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMackinnon));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemLiqueurCacao, Items.milk_bucket, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBabyAlexander));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemBeverageWhiteMartini, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTequini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLimonade, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAlamoSplash));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemLimonade, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChanguirongo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrozenMargarita));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurMelon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJapaneseSlipper));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbItems.itemLime, BandbBeverages.itemBenturCola, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMexicola));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPurplePancho));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTequilaSunset));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbItems.itemLime, BandbBeverages.itemSchweppesTonic, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTNTCocktail));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, Items.sugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVivaVilla));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceGrapefruit, BandbItems.itemSalt, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChihuahua));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTequilaSunrise));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbItems.itemHoney,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAguamiel));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurBanana,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBananaBoat));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurMint,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMockingbird));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemLiqueurMelon, BandbBeverages.itemLiqueurBlackberry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSpeedyGonzales));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbItems.itemButter, Items.water_bucket,Items.sugar, new ItemStack(BandbCocktails.itemCocktailGorillaSweat));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageBitter, BandbBeverages.itemBeveragePontarlier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGotham));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageAngosturaBitter, BandbBeverages.itemBeverageRedMartini,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHarvard));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemLiqueurCherry, BandbItems.itemMorelloCherry, BandbBeverages.itemBeverageWhiteMartini,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRose));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurBlackcurrant, BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCassisco));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbItems.itemMint, Items.sugar,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGeorgiaMintJulep));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJackRose));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageCuracaoTripleSec,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSideCar));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageCuracaoOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailOlympic));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCacao, BandbBeverages.itemLiqueurCoco,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBountyBoat));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurMint, BandbBeverages.itemBeverageFernetBranca,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCorpseReviver));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurApricot, BandbBeverages.itemJuiceLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCuban));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageGrandMarnier, BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrenchConnection));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, Items.water_bucket, Items.sugar,BandbItems.itemOrange, new ItemStack(BandbCocktails.itemCocktailBrandyBlazer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, Items.sugar, BandbBeverages.itemBeverageAngosturaBitter,BandbBeverages.itemBeverageDubonnetRouge, new ItemStack(BandbCocktails.itemCocktailAlfonso));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBrandyRaspberry, BandbBeverages.itemLiqueurRaspberry,BandbBeverages.itemSyrupPureCaneSugar, new ItemStack(BandbCocktails.itemCocktailCarolChanning));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, Items.sugar, BandbBeverages.itemBeverageAngosturaBitter,BandbBeverages.itemBeverageCognac, new ItemStack(BandbCocktails.itemCocktailChampagneCocktail));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, Items.milk_bucket, BandbBeverages.itemSyrupLimeJuiceCordialMixer,BandbBeverages.itemLiqueurLime, new ItemStack(BandbCocktails.itemCocktailMeringue));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageCognac, BandbBeverages.itemJuiceLemon,BandbBeverages.itemSyrupGrenadine, new ItemStack(BandbCocktails.itemCocktailPickMeUp));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange,BandbBeverages.itemLiqueurMelon, new ItemStack(BandbCocktails.itemCocktailJacuzzi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageChampagneMumm, BandbItems.itemStrawberry, BandbBeverages.itemBeverageCognac,BandbBeverages.itemSyrupPureCaneSugar, new ItemStack(BandbCocktails.itemCocktailRoyalHighball));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCacao,BandbBeverages.itemBeverageAmaretto, new ItemStack(BandbCocktails.itemCocktailMidnightMoon));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeveragePontarlier, BandbBeverages.itemSyrupPureCaneSugar, Items.water_bucket,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAbsintheVeilleuse));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCampari, BandbBeverages.itemBeverageRedMartini, BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAmericano));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageXeres, BandbBeverages.itemBeverageBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBamboo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVermouthCassis));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemLiqueurStrawberry, BandbBeverages.itemLiqueurBlackberry, BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBerrySour));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemPerrier, BandbItems.itemCucumber,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPimmSCup));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemLiqueurMelon, BandbBeverages.itemJuiceOrange, BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFuzzyNavel));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageSouthernComfort, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailScarlettOHara));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemLiqueurCacao, Items.milk_bucket,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDustyRose));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemLiqueurCacao, Items.milk_bucket,BandbItems.itemDarkChocolate, new ItemStack(BandbCocktails.itemCocktailGoldenCadillac));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemLiqueurMint, BandbBeverages.itemLiqueurCacao, Items.milk_bucket,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGrasshopper));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuiceLychee, BandbBeverages.itemJuicePassionfruit, BandbBeverages.itemSchweppesGingerAle,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAsianPassion));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemPerrier, BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGrapefruitCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, Items.water_bucket,BandbItems.itemLemon, new ItemStack(BandbCocktails.itemCocktailLemonade));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuicePassionfruit, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLimonade,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPassionCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemPerrier, BandbBeverages.itemSyrupRaspberry, BandbItems.itemLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPurplePash));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemStrawberry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaliforniaSmoothie));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceMango, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMangoBreeze));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuicePassionfruit, BandbBeverages.itemJuiceCranberry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPassionBreeze));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceBanana, BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPinkBanana));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuicePassionfruit, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupLimeJuiceCordialMixer,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailYellowBear));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceMango, Items.milk_bucket, BandbBeverages.itemSyrupRaspberry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMiklyMango));
+				
+		// 6 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, BandbBeverages.itemSyrupGrenadine, new ItemStack(BandbCocktails.itemCocktailEureka));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCosmopolitain));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbItems.itemRaspberry, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemMint, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRaspberryAndMintMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemLiqueurBlackcurrant, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBurgundyJuicer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurMelon, BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemJuiceCranberry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKillerPunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLemonDrop));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurOrange, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailNapoli));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemLiqueurBlackberry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPurpleHaze));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLime, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLiqueurBlackberry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPurpleHooter));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemPerrier, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTestaRossa));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbItems.itemPineappleCayenne, BandbBeverages.itemJuiceCocoMilk, BandbBeverages.itemJuicePineappleCayenneLisse, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChiChi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbItems.itemPineappleVictoria, BandbBeverages.itemJuiceCocoMilk, BandbBeverages.itemJuicePineappleVictoria, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChiChi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbItems.itemPineappleCayenne, BandbBeverages.itemJuiceCocoMilk, BandbBeverages.itemJuicePineappleVictoria, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChiChi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbItems.itemPineappleCayenne, BandbBeverages.itemJuiceCocoMilk, BandbBeverages.itemJuicePineappleCayenneLisse, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChiChi));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceCranberry, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMadras));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceGrapefruit, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSeaBreeze));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLiqueurOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSexOnTheBeach));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurOrange, BandbBeverages.itemJuiceCranberry, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailWooWoo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurCacao, Items.milk_bucket, BandbItems.itemDarkChocolate, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVelvetHammer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageBitter, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAstoria));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemSyrupGrenadine, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAttaboy));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbItems.itemStrawberry, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBloodhound));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbItems.itemLime, BandbBeverages.itemBeverageWhiteMartini, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBronxTerrace));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurApricot, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailClaridge));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbItems.itemOlive, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDryMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurCherry, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLoneTree));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailParisian));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLiqueurCherry, BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAviation));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageBlueCuracao, BandbBeverages.itemBeverageCuracaoTripleSec,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlueBird));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemBeverageCampari, BandbBeverages.itemJuiceLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJaizkibel));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLime, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailShadyGrove));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAbbey));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemBeveragePontarlier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMonkeyGland));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageGrandMarnier, BandbBeverages.itemJuiceLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRedLion));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageChartreuseVerte, BandbBeverages.itemBeverageBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBijou));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLiqueurMint, BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFallenAngel));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceCocoMilk, BandbItems.itemNutmeg, Items.milk_bucket,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAlexander));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, Items.egg, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCloverClub));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChurchill));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageCuracaoOrange, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGaslight));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageCampari, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHondarribia));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemMorelloCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailManhattan));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRobRoy));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBeverageGrandMarnier, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailUpToDate));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemBeverageBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCommodore));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHighlandCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHighVoltage));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailIrishRose));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKentuckyTea));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemLemon, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKlondikeCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemJuiceLemon, BandbItems.itemMorelloCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailWhiskeySour));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBeverageRedMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBloodAndSand));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailWardEight));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemLiqueurMint, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDelmarva));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemMorelloCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCubanManhattan));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemLiqueurStrawberry, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRedwood));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBacardiCocktailRum));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemLiqueurBanana, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBejaFlor));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrozenDaiquiri));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHemingwaySpecial));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemLiqueurApricot, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPeriodista));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbItems.itemLime, BandbBeverages.itemLiqueurCoffee, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRumble));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSchweppesGingerAle, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSuzieTaylor));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbItems.itemBanana, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBananaDaiquiri));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurCherry, BandbItems.itemJamCurrant, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJamDaiquiri));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageAmaretto, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJoeKangoo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceOrange, BandbItems.itemOrange, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPlanteur));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemLiqueurCacao, BandbBeverages.itemJuiceLime, BandbItems.itemLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMulata));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailYellowBird));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbItems.itemLemon, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageWhiteMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaliforniaDream));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbItems.itemMorelloCherry, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMexicoManhattan));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbItems.itemMint, Items.sugar, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAgaveJulep));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbItems.itemLime, BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemGinger, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailElDiablo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemSalt, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMargarita));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageCuracaoOrange, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailArriba));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBroadwayThirst));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageAmaretto, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCactusBanger));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailIceBreaker));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbItems.itemStrawberry, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailStrawberryMargarita));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceCranberry,BandbItems.itemOrange,BandbItems.itemIceCube,  new ItemStack(BandbCocktails.itemCocktailVertigo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, Items.milk_bucket, BandbBeverages.itemLiqueurCacao,BandbItems.itemNutmeg,BandbItems.itemIceCube,  new ItemStack(BandbCocktails.itemCocktailFrostbite));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemBeveragePontarlier,BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemIceCube,  new ItemStack(BandbCocktails.itemCocktailTNT2));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemJuiceLemon,BandbItems.itemIceCube,  new ItemStack(BandbCocktails.itemCocktailBetweenTheSheets));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurBanana, BandbItems.itemLime,BandbBeverages.itemLimonade,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDeeLight));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageCalvados, BandbItems.itemLemon,BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDepthBomb));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCognac, BandbItems.itemLemon, BandbBeverages.itemBeverageAngosturaBitter,BandbBeverages.itemSchweppesGingerAle,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHorseSNeck));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeveragePisco, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageAngosturaBitter,BandbBeverages.itemBenturCola,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPiscola));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemLiqueurBlackcurrant, BandbBeverages.itemJuiceLemon,BandbBeverages.itemJuiceOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAppleSunrise));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageChartreuseJaune, BandbBeverages.itemJuiceLemon,BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChampsElysees));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceLemon,BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCherryBlossom));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemSyrupAlmond, BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJapanese));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVanderbilt));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCacao, Items.milk_bucket,BandbItems.itemNutmeg,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBrandyAlexander));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemSyrupPureCaneSugar, Items.milk_bucket,BandbItems.itemNutmeg,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBrandyMilkPunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceLime,BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailAmericanFlyer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageVodka, BandbBeverages.itemBeverageBlueCuracao,BandbBeverages.itemJuiceLemon,BandbItems.itemLemon, new ItemStack(BandbCocktails.itemCocktailBlueChampagne));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageRedMartini,BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemBeverageAngosturaBitter, new ItemStack(BandbCocktails.itemCocktailOhio));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, Items.sugar, BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemBeverageCognac,BandbBeverages.itemBeverageAngosturaBitter, new ItemStack(BandbCocktails.itemCocktailPrinceOfWales));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageXeres, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageBitter,BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAdonis));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageXeres, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeveragePontarlier,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBrazil));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCampari, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageGin,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailNegroni));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemLiqueurApricot, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine,BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailApricotCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemLiqueurBanana, BandbBeverages.itemLiqueurCacao, BandbItems.itemNutmeg,Items.milk_bucket,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBananaBanshee));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageCuracaoTripleSec,Items.milk_bucket,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGoldenDream));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbItems.itemOrange, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemSchweppesGingerAle,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBullSEye));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuiceLemon, BandbBeverages.itemPerrier, BandbBeverages.itemSyrupRaspberry,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRaspberrySquash));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemSchweppesGingerAle, BandbBeverages.itemLimonade, BandbBeverages.itemSyrupGrenadine,BandbItems.itemLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailShirleyTemple));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceLemon, BandbItems.itemStrawberry, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailStrawberryCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuicePeach, BandbBeverages.itemSyrupGrenadine,BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCrazyNavel));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime,BandbItems.itemLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGentleBreeze));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLemon,BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMadraSpecial));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceLime, BandbItems.itemCucumber, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCucumberCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceCarrot, BandbBeverages.itemJuiceLime, BandbItems.itemLime,BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRabbitCooler));
+		
+		// 7 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube,BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailMetropolitain));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube,BandbBeverages.itemPerrier, BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailKremlinCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemGinger,BandbItems.itemIceCube, BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailMoscowMule));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbItems.itemRaspberry, BandbBeverages.itemJuiceLime, BandbItems.itemGinger, BandbItems.itemIceCube, BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailRaspberryMule));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageCuracaoTripleSec,BandbItems.itemIceCube, BandbItems.itemMorelloCherry, new ItemStack(BandbCocktails.itemCocktailFloriditaBronx));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMartinez));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemMint, BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAlabamaFizz));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemJamOrange, BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBreakfastMartini));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemLiqueurCherry, BandbItems.itemGinger, BandbItems.itemOrange,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDesertHealer));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemPerrier, BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJohnCollins));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemMint, BandbItems.itemLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSouthside));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBronx));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageChartreuseJaune, BandbBeverages.itemBeverageGrandMarnier, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJustTry));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemLiqueurLemon, BandbBeverages.itemBeverageChartreuseJaune, BandbBeverages.itemJuiceLemon, BandbItems.itemMorelloCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLemonySnicket));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeveragePontarlier, BandbItems.itemLemon, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlackthorn));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailScoffLaw));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeveragePontarlier, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemBeverageBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailWhizBang));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemGinger, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCableGram));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemLimonade, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLynchburgLemonade));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaliforniaLemonade));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBeamMeUpScotty));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, Items.egg, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBostonSour));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, Items.egg, BandbBeverages.itemBeverageRedPort, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailElkSown));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, Items.egg, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMillionnaire));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, Items.egg, BandbBeverages.itemPerrier, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMorningGloryFizz));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, Items.egg, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemJuiceLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMountain));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemSyrupGrenadine, BandbItems.itemOrange, BandbItems.itemMorelloCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPresidente));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemGinger, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBostonCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCableCar));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbBeverages.itemLimonade, BandbBeverages.itemJuiceOrange, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCitrusCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime, BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCosmoRon));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemGinger, BandbItems.itemLime, BandbBeverages.itemJuiceLime, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDarkAndStormy));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemJuiceLime, BandbBeverages.itemLiqueurCherry, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFloriditaDaiquiri));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbItems.itemGinger, BandbItems.itemLime, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJamaicanMule));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbItems.itemMint, Items.sugar, BandbBeverages.itemJuiceLime, BandbBeverages.itemPerrier, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMojito));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMontegoBay));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceLime, BandbItems.itemPomegranate, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPinkDaiquiri));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemBeverageAngosturaBitter, BandbBeverages.itemJuiceLime, Items.water_bucket, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPlanterSPunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageCognac, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupAlmond, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailScorpion));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeveragePisco, BandbBeverages.itemJuiceGrapefruit,BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTropicana));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemLiqueurCoffee, BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCentenario));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurPeach,BandbBeverages.itemJuiceLemon, Items.sugar ,Items.water_bucket, new ItemStack(BandbCocktails.itemCocktailFishHousePunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLime,BandbBeverages.itemBeverageCuracaoTripleSec, BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRideCosmopolitain));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageRedPort,BandbBeverages.itemSyrupPureCaneSugar ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAgavePunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurApricot, BandbBeverages.itemBeverageCuracaoTripleSec,BandbItems.itemOrange ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAmberTwist));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, BandbItems.itemMint, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedPort,BandbBeverages.itemJuiceOrange ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAmericanBeauty));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemPerrier,BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHavvardCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeveragePisco, Items.egg, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemBeverageAngosturaBitter ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPiscoSour));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageBenedictine, BandbBeverages.itemBeverageCuracaoOrange,BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHoneyMoon));
+		RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemJuiceLemon,BandbBeverages.itemBeverageCuracaoTripleSec ,BandbItems.itemOrange, new ItemStack(BandbCocktails.itemCocktailAmbrosia));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemMorelloCherry ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrench75));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemLiqueurRaspberry, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupAlmond,BandbBeverages.itemSchweppesTonic ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBasic));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceLemon, BandbBeverages.itemPerrier, BandbItems.itemMorelloCherry,BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCherryCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemSchweppesGingerAle ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailKlondikeHighball));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCampari, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSchweppesTonic,BandbItems.itemOrange ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTampico));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemPerrier, BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFlorida));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceLime, BandbItems.itemMint, BandbBeverages.itemPerrier, BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSouthsideCooler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceCarrot, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine,BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRabbitSunrise));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceTomato, BandbItems.itemCucumber, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemPerrier ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTomatoCucumberSparkle));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWorcestershireSauce, BandbItems.itemVinegar, BandbItems.itemKetchup, BandbBeverages.itemBeverageTabasco,Items.egg ,BandbItems.itemBlackPepper, new ItemStack(BandbCocktails.itemCocktailPrairieOyster));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemJuiceLemon, BandbBeverages.itemJuiceLime,Items.egg ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPussyFoot));
+		
+		// 8 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbItems.itemStrawberry, BandbBeverages.itemJuiceCranberry, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemPerrier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBerryBlush));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurOrange, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageBlueCuracao, BandbItems.itemOrange,BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBettyBlue));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBrandyApricot, BandbItems.itemLemon,BandbBeverages.itemJuiceLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLeaveItToMe));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBeveragePontarlier, BandbBeverages.itemBeverageBitter,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTurf));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLiqueurBlackberry, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemBlackBerry,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBramble));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemPerrier, BandbItems.itemMorelloCherry,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGinFizz));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemLiqueurBlackcurrant, BandbBeverages.itemPerrier,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMacka));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbItems.itemRaspberry, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemPerrier,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRaspberryCollins));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageAngosturaBitter, Items.sugar, Items.water_bucket, BandbItems.itemOrange,BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailOldFashioned));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageBitter, Items.sugar, Items.water_bucket, BandbBeverages.itemBeveragePontarlier,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSazerac));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemBeverageGrandMarnier, BandbBeverages.itemSyrupLimeJuiceCordialMixer, BandbItems.itemGinger, BandbItems.itemLime,BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCreativity));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemLiqueurMelon, BandbBeverages.itemLiqueurApple, BandbBeverages.itemSyrupLimeJuiceCordialMixer, BandbItems.itemOrange,BandbItems.itemMorelloCherry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTwistin));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageCuracaoOrange, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemGinger,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAnejoHighball));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemBeveragePontarlier,BandbBeverages.itemPerrier, BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDoctorFunk));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuicePassionfruit, BandbBeverages.itemBeverageBenedictine,BandbBeverages.itemSyrupStrawberry, BandbItems.itemStrawberry ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBaccarat));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceGrapefruit,BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPearlDiver));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLemon, Items.sugar, BandbItems.itemLemon,BandbItems.itemCinnamon, BandbItems.itemClove ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGrogAmericain));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageBrownRum, Items.sugar, BandbItems.itemCinnamon, BandbItems.itemClove,BandbBeverages.itemBeverageCognac, Items.egg ,Items.water_bucket, new ItemStack(BandbCocktails.itemCocktailTomAndJerry));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceLime,BandbBeverages.itemSyrupLimeJuiceCordialMixer, BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCastroColler));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageChampagneMumm, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLemon, BandbBeverages.itemLiqueurBlackcurrant,BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRussianSpringPunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemGlassCup, BandbBeverages.itemBeverageBordeauxChateauTourVerite, BandbItems.itemOrange, BandbItems.itemLemon, Items.water_bucket,BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemCinnamon ,BandbItems.itemClove, new ItemStack(BandbCocktails.itemCocktailVinChaud));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceCarrot, BandbBeverages.itemBeverageWorcestershireSauce, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageTabasco,BandbItems.itemCelerySalt, BandbItems.itemBlackPepper ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBunnyShame));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceTomato, BandbBeverages.itemBeverageWorcestershireSauce, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageTabasco,BandbItems.itemCelerySalt, BandbItems.itemBlackPepper ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHolyMary));
+		
+		// 9 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemBenturCola, BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailLongIslandIcedTea));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, BandbBeverages.itemJuiceTomato, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageWorcestershireSauce, BandbBeverages.itemBeverageTabasco,BandbItems.itemCelerySalt, BandbItems.itemCelery ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBloodyMary));
+		RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLemon,BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemMorelloCherry ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJournalist));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemLiqueurCherry, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageBenedictine, BandbBeverages.itemPerrier,BandbItems.itemLemon, BandbItems.itemMorelloCherry ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSingaporeSling));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupAlmond, BandbBeverages.itemBeverageCuracaoOrange,BandbItems.itemLime, BandbItems.itemMint ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMaiTai));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupAlmond, BandbBeverages.itemBeverageAngosturaBitter,BandbBeverages.itemLimonade, BandbItems.itemMint ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMaramaRumPunch));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine,BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAristo));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceTomato, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageWorcestershireSauce, BandbBeverages.itemBeverageTabasco,BandbItems.itemCelerySalt, BandbItems.itemBlackPepper ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCubanita));
+		RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiteRum, BandbItems.itemButter, Items.sugar, BandbItems.itemNutmeg, BandbItems.itemCinnamon,BandbItems.itemClove, BandbItems.itemSalt ,Items.water_bucket, new ItemStack(BandbCocktails.itemCocktailHotButteredRum));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, Items.egg, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemPerrier,BandbItems.itemOrange, BandbItems.itemLemon ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailParsonSSpecial));
+		
+		// 10 items
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, Items.egg, BandbBeverages.itemJuiceLemon, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar,Items.milk_bucket, BandbBeverages.itemPerrier ,BandbBeverages.itemFleurOranger,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRamosGinFizz));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceTomato, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageWorcestershireSauce, BandbBeverages.itemBeverageTabasco, BandbItems.itemCelerySalt, BandbItems.itemBlackPepper ,BandbItems.itemCelery,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRamosGinFizz));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceLime, BandbBeverages.itemJuiceGrapefruit, BandbBeverages.itemSyrupGrenadine, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemBeverageAngosturaBitter ,BandbBeverages.itemBeveragePontarlier,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailZombie));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceTomato, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageWorcestershireSauce, BandbItems.itemHoney, BandbBeverages.itemBeverageTabasco ,BandbItems.itemSalt,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTequilaEtSangrita));
+		RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceTomato, BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceLemon, BandbBeverages.itemBeverageWorcestershireSauce, BandbItems.itemHoney, BandbBeverages.itemBeverageTabasco ,BandbItems.itemSalt,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBloodyMaria));
+		RecipeCocktailBar.addRecipe(BandbItems.itemGlassCup, BandbBeverages.itemBeverageEnate, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemJuiceOrange, Items.sugar, BandbItems.itemCinnamon, BandbBeverages.itemPerrier ,BandbItems.itemLime,BandbItems.itemOrange, new ItemStack(BandbCocktails.itemCocktailSangria));
+		
+		
+		for(int i=0; i < ListPineapple.getListSize() ; i++ ){
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, ListPineapple.getItem(i), BandbBeverages.itemLiqueurCherry, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemBeverageBenedictine,BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine ,BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRafflesSling));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceOrange, ListPineapple.getItem(i), BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemSyrupGrenadine ,BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHurricane));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapple.getItem(i), BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBaticaAbaci));
+
+			for(int j=0; j < ListPineapplejuice.getListSize() ; j++ ){							
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageVodka, ListPineapple.getItem(i), ListPineapplejuice.getItem(j), BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemLiqueurBanana, BandbBeverages.itemSyrupGrenadine ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSanFrancisco));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, ListPineapple.getItem(i), ListPineapplejuice.getItem(j), BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemLiqueurApricot,BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailIslandInTheSun));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, ListPineapplejuice.getItem(j), BandbBeverages.itemBeverageAmaretto, BandbBeverages.itemLiqueurApricot, BandbBeverages.itemJuiceLime, ListPineapple.getItem(i) ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBossaNova));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageCognac, ListPineapplejuice.getItem(j), BandbBeverages.itemBeverageCuracaoOrange, ListPineapple.getItem(i), BandbBeverages.itemBeverageAngosturaBitter ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailEastIndia));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, ListPineapplejuice.getItem(j), ListPineapple.getItem(i), BandbBeverages.itemJuiceOrange,BandbBeverages.itemJuiceCocoMilk, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPainCutter));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListPineapplejuice.getItem(j), ListPineapple.getItem(i), BandbBeverages.itemJuiceCranberry,BandbBeverages.itemJuiceLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBabyBreeze));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListPineapplejuice.getItem(j), ListPineapple.getItem(i), BandbBeverages.itemSyrupGrenadine,BandbBeverages.itemSchweppesGingerAle,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBoraBoraBrew));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(j), ListPineapple.getItem(i), BandbBeverages.itemJuiceCocoMilk, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPinaColada));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin,ListPineapplejuice.getItem(j), BandbBeverages.itemSyrupPureCaneSugar, ListPineapple.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMiamiBeach));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListPineapplejuice.getItem(j), ListPineapple.getItem(i), BandbBeverages.itemJuiceCocoMilk,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVirginColada));
+
+			}		
+		}
+		for(int i=0; i < ListPineapplejuice.getListSize() ; i++ ){
+			RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, ListPineapplejuice.getItem(i), new ItemStack(BandbCocktails.itemCocktailHawaiiSparkle));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeveragePisco, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemBeverageCuracaoOrange,BandbBeverages.itemBeverageAngosturaBitter, BandbBeverages.itemSchweppesGingerAle ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPiscoPunch));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceOrange, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceCranberry,BandbBeverages.itemLimonade, BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailJungleJuice));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceCranberry, BandbBeverages.itemLiqueurBanana,BandbItems.itemLime, BandbBeverages.itemSyrupLimeJuiceCordialMixer ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCaribbeanBreeze));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceOrange, BandbItems.itemIceCube, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar, BandbBeverages.itemBeverageAngosturaBitter, new ItemStack(BandbCocktails.itemCocktailHonoluluPunch));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListPineapplejuice.getItem(i), BandbBeverages.itemPerrier, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupGrenadine,Items.egg ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPinkPineapple));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageWhiteRum, BandbBeverages.itemJuiceCocoMilk, BandbBeverages.itemLiqueurMelon, BandbBeverages.itemJuiceLemon, ListPineapplejuice.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAtomicDog));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, BandbBeverages.itemJuiceCocoMilk, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageAngosturaBitter, ListPineapplejuice.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBahamaMama));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageTequila, BandbBeverages.itemJuiceCranberry, ListPineapplejuice.getItem(i), BandbBeverages.itemBeverageCuracaoTripleSec,BandbBeverages.itemJuiceLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPlayaDelMar));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuicePassionFruit, ListPineapplejuice.getItem(i), BandbItems.itemIceCube,BandbBeverages.itemBeverageCuracaoTripleSec, BandbBeverages.itemLiqueurApricot, new ItemStack(BandbCocktails.itemCocktailLadyKiller));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageGin, BandbBeverages.itemJuiceOrange, BandbBeverages.itemBeverageWhiteMartini, BandbBeverages.itemBeverageRedMartini, ListPineapplejuice.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailQueenCocktail));
+			RecipeCocktailBar.addRecipe(BandbItems.itemFlute, BandbBeverages.itemBeverageChampagneMumm, ListPineapplejuice.getItem(i), BandbBeverages.itemBeverageCognac,BandbBeverages.itemLiqueurCherry,BandbBeverages.itemBeverageBitter, new ItemStack(BandbCocktails.itemCocktailSaratoga));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPinata));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, ListPineapplejuice.getItem(i), BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrenchMartini));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, ListPineapplejuice.getItem(i), BandbBeverages.itemBeverageWhiteMartini, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAlgonquin));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceCranberry,BandbItems.itemIceCube,BandbBeverages.itemBeverageCuracaoTripleSec,  new ItemStack(BandbCocktails.itemCocktailTomahawk));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceLime, BandbBeverages.itemBeverageAngosturaBitter, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailRumRunner));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceOrange, BandbBeverages.itemJuiceCocoMilk, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPainKiller));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFlamingo));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, ListPineapplejuice.getItem(i), Items.milk_bucket, BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailGoldenScream));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuiceOrange, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCinderella));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceCocoMilk,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailCocoMexico));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemSyrupGrenadine,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMexican));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListPineapplejuice.getItem(i), BandbBeverages.itemJuiceGrapefruit, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAcapulco));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, ListPineapplejuice.getItem(i), BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailHavanaBeach));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, ListPineapplejuice.getItem(i), BandbBeverages.itemSyrupGrenadine, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMaryPickford));
+			
+		}
+				
+		for(int i=0; i < ListCoffeeCup.getListSize() ; i++ ){
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiteRum, ListCoffeeCup.getItem(i), BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlackRose));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupAlmond, ListCoffeeCup.getItem(i), BandbBeverages.itemBeverageBitter,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFrancisTheMule));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageAmaretto, Items.milk_bucket, ListCoffeeCup.getItem(i), new ItemStack(BandbCocktails.itemCocktailHotShot));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, BandbBeverages.itemLiqueurCoffee, Items.sugar,BandbBeverages.itemLiqueurCacao, ListCoffeeCup.getItem(i), new ItemStack(BandbCocktails.itemCocktailCoffeeNudge));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCognac, BandbBeverages.itemBeverageBenedictine, Items.sugar, BandbBeverages.itemBeverageAmaretto, ListCoffeeCup.getItem(i), new ItemStack(BandbCocktails.itemCocktailMaximSCoffee));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageCognac, ListCoffeeCup.getItem(i), BandbBeverages.itemLiqueurCherry,BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBlackJack));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageWhiskey, BandbBeverages.itemLiqueurCacao, ListCoffeeCup.getItem(i), BandbBeverages.itemBeverageBaileys, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMochaMartini));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, ListCoffeeCup.getItem(i), BandbBeverages.itemLiqueurCoffee, BandbBeverages.itemSyrupPureCaneSugar, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailExpressoMartini));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageTequila, Items.milk_bucket, ListCoffeeCup.getItem(i), BandbBeverages.itemSyrupPureCaneSugar, new ItemStack(BandbCocktails.itemCocktailMexicanCoffee));
+
+		}
+		for(int i=0; i < ListApple.getListSize() ; i++ ){
+			
+		}	
+		for(int i=0; i < ListAppleJuice.getListSize() ; i++ ){
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurBlackcurrant, ListAppleJuice.getItem(i), BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemBeverageAngosturaBitter,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailDoubleVision));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, ListAppleJuice.getItem(i), BandbBeverages.itemLiqueurApple, BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemMint,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailFriskyBison));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListAppleJuice.getItem(i), BandbBeverages.itemJuiceLime, BandbBeverages.itemLimonade, BandbBeverages.itemSyrupGrenadine,BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailPlanterSPunchless));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageBrownRum, ListAppleJuice.getItem(i), BandbBeverages.itemBeverageRedMartini,BandbBeverages.itemJuiceLime, BandbBeverages.itemSyrupPureCaneSugar ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailVoodoo));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCalvados, BandbBeverages.itemLiqueurApple, ListAppleJuice.getItem(i), BandbBeverages.itemPerrier,BandbItems.itemLime ,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailNormandyCooler));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageBrownRum, Items.sugar, BandbBeverages.itemBeverageAngosturaBitter, ListAppleJuice.getItem(i), BandbItems.itemLemon, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTreacle));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListAppleJuice.getItem(i), BandbItems.itemMint, BandbBeverages.itemSyrupPureCaneSugar,BandbBeverages.itemSchweppesGingerAle,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailApplePilar));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageChampagneMumm, ListAppleJuice.getItem(i), BandbBeverages.itemBeverageCalvados,BandbItems.itemMint,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailSerendipiti));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemBeverageVodka, ListAppleJuice.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailTetanka));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurApple, ListAppleJuice.getItem(i), BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAppleMartini));
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, BandbBeverages.itemBeverageVodka, BandbBeverages.itemLiqueurPeach, ListAppleJuice.getItem(i), BandbBeverages.itemBeverageBlueCuracao, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAquamarine));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemJuiceBanana, ListAppleJuice.getItem(i), BandbBeverages.itemJuiceLime,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailBananaJuicer));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, BandbBeverages.itemJuiceMango, ListAppleJuice.getItem(i), BandbBeverages.itemLimonade,BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailMangoSparkle));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, ListAppleJuice.getItem(i), BandbBeverages.itemLimonade, BandbBeverages.itemSyrupRaspberry,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailAppleSparkle));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageCognac, ListAppleJuice.getItem(i), BandbBeverages.itemLiqueurCoco,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailElUltimo));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, ListAppleJuice.getItem(i), BandbBeverages.itemLiqueurBlackcurrant, BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailChimayo));
+
+			for(int j=0; j < ListApple.getListSize() ; j++ ){				
+			RecipeCocktailBar.addRecipe(BandbItems.itemCocktailGlass, Items.wheat_seeds, ListAppleJuice.getItem(i), BandbBeverages.itemLiqueurHoney, ListApple.getItem(j), BandbItems.itemIceCube, BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailPolishMartini));
+			RecipeCocktailBar.addRecipe(BandbItems.itemOldFashoned, ListAppleJuice.getItem(i), ListApple.getItem(j), BandbBeverages.itemJuiceLime,BandbBeverages.itemSyrupAlmond,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailMySky));
+
+			}
+		}	
+		for(int i=0; i < ListTeaCup.getListSize() ; i++ ){
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, ListTeaCup.getItem(i), BandbBeverages.itemJuiceLemon, BandbBeverages.itemSyrupPureCaneSugar,BandbItems.itemLemon,BandbItems.itemIceCube, new ItemStack(BandbCocktails.itemCocktailIcedTea));
+			RecipeCocktailBar.addRecipe(BandbItems.itemTumbler, BandbBeverages.itemBeverageTequila, Items.sugar, ListTeaCup.getItem(i), BandbItems.itemLime, new ItemStack(BandbCocktails.itemCocktailMexicanTea));
+
+		}
+		
+		RecipeBarrelApple.addRecipe(BandbBeverages.itemBottleCalvados, BandbBeverages.itemBeverageCiderKerne, BandbFluids.fluidCider, 50, 20, new ItemStack(BandbBeverages.itemBeverageCalvados));
+		
+		RecipeBarrelApple.addRecipe(BandbBeverages.itemBottleChouchen, BandbBeverages.itemJuiceAppleAntares, BandbItems.itemHoney, BandbFluids.fluidChouchen, 50, 5500, new ItemStack(BandbBeverages.itemBeverageChouchen));
+	}	
+	
+}
