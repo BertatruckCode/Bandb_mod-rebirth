@@ -6,9 +6,11 @@ entity.EntityCowMilka.name=Cow Milka
 entity.EntityCowCharolaise.name=Cow Charolaise
 entity.EntityCowGasconne.name=Cow Gasconne
 entity.EntityCowKerry.name=Cow Kerry
-entity.EntityCowMontbeliard.name=Cow Montbéliard
+entity.EntityCowMontbeliarde.name=Cow Montbéliard
 entity.entityGoatWhite.name=Goat White
 entity.Walker1.name=Walker
+entity.EntityZebra.name=Zebra
+
 tile.blockTest.name=Test
 tile.blockDistrib.name=Distrib
 
@@ -564,7 +566,7 @@ item.itemBluebellSeed.name=Bluebell Seeds
 item.itemDillSeed.name=Dill Seeds
 item.itemNettleSeed.name=Nettle Seeds
 item.itemGardeniaSeed.name=Gardenia Seeds
-item.itemThistleSeed.name=Thistle Seeds
+item.itemSeedThistle.name=Thistle Seeds
 item.itemSeedCherryTomato.name=Cherry Tomato Seeds
 item.itemSeedChervil.name=Chervil Seeds
 item.itemSeedFennel.name=Fennel Seeds
@@ -576,6 +578,7 @@ item.itemSeedWatercress.name=Watercress Seeds
 item.itemSeedChives.name=Chives Seeds
 item.itemSeedOregano.name=Oregano Seeds
 item.itemSeed.name= Seeds
+
 
 item.itemSeedGrapeCot.name=Grape Côt Seeds
 item.itemSeedGrape.name=Grape  Seeds
@@ -1353,6 +1356,10 @@ item.itemCassonade.name=Brown Sugar
 item.itemCotton.name=Cotton
 item.itemBetterCactus.name=Better Cactus
 item.itemRape.name=Rape
+item.itemKebabRaw.name=Kebab Raw
+item.itemKebabSpit.name=Kebab Spit
+item.itemKebab.name=Kebab
+item.item.name=
 
 
 
@@ -1732,6 +1739,8 @@ item.itemLightsaberRed2.name=Lightsaber Red
 item.itemLightsaberGreen2.name=Lightsaber Green
 item.itemLightsaberPurple2.name=Lightsaber Purple
 item.itemLightsaberBlue2.name=Lightsaber Blue
+tile.blockBarrelApple.name=Barrel Apple
+tile.blockKebabStand.name=Kebab Stand
 
 
 
@@ -3569,3 +3578,71 @@ tile.block.name=
 tile.block.name=
 tile.block.name=
 tile.block.name=
+
+
+
+
+
+
+
+
+
+// Butterfly
+itemGroup.CreativeTabsButterfly=Butterfly
+
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly
+item.itemButterfly.name=Butterfly

@@ -49,6 +49,4 @@ Temporary Items
 /*
 !/model techne
 !/src
-!.project
 !build.gradle
-!.classpath
