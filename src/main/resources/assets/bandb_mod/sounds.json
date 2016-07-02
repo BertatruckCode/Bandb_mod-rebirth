@@ -6,6 +6,4 @@
     "goat.hurt": {"category": "neutral", "sounds": ["goat_hurt"]},
 	      
 	"zebra.say": {"category": "neutral", "sounds": ["zebra"]}
-
- 
 }

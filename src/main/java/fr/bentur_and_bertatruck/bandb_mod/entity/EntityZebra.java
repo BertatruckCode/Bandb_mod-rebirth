@@ -61,7 +61,7 @@ public class EntityZebra extends EntityAnimal
      * Returns the sound this mob makes while it's alive.
      */
     protected String getLivingSound(){
-        return "mob.cow.say";
+        return "zebra.say";
     }
 
     /**
