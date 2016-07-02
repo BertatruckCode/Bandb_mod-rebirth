@@ -104,26 +104,16 @@ public class EntityZebra extends EntityAnimal
      * Drop 0-2 items of this living's type. @param par1 - Whether this entity has recently been hit by a player. @param
      * par2 - Level of Looting used to kill this mob.
      */
-    protected void dropFewItems(boolean p_70628_1_, int p_70628_2_)
-    {
+    protected void dropFewItems(boolean p_70628_1_, int p_70628_2_){
         int j = this.rand.nextInt(3) + this.rand.nextInt(1 + p_70628_2_);
         int k;
 
-        for (k = 0; k < j; ++k)
-        {
-            this.dropItem(Items.leather, 1);
-        }
-
         j = this.rand.nextInt(3) + 1 + this.rand.nextInt(1 + p_70628_2_);
 
-        for (k = 0; k < j; ++k)
-        {
-            if (this.isBurning())
-            {
+        for (k = 0; k < j; ++k){
+            if (this.isBurning()){
                 this.dropItem(BandbItems.itemZebraCooked, 1);
-            }
-            else
-            {
+            }else{
                 this.dropItem(BandbItems.itemZebraRaw, 1);
             }
         }
@@ -132,27 +122,8 @@ public class EntityZebra extends EntityAnimal
     /**
      * Called when a player interacts with a mob. e.g. gets milk from a cow, gets into the saddle on a pig.
      */
-    public boolean interact(EntityPlayer p_70085_1_)
-    {
-        ItemStack itemstack = p_70085_1_.inventory.getCurrentItem();
-
-        if (itemstack != null && itemstack.getItem() == Items.bucket && !p_70085_1_.capabilities.isCreativeMode)
-        {
-            if (itemstack.stackSize-- == 1)
-            {
-                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemBucketMilkaMilk));
-            }
-            else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemBucketMilkaMilk)))
-            {
-                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemBucketMilkaMilk, 1, 0), false);
-            }
-
-            return true;
-        }
-        else
-        {
-            return super.interact(p_70085_1_);
-        }
+    public boolean interact(EntityPlayer player){
+    	return super.interact(player);
     }
 
     public EntityZebra createChild(EntityAgeable p_90011_1_)
