@@ -481,5 +481,11 @@ public class BandbCraftingRecipes {
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCottonCandySugar), "XXX", "XYX", "XXX", 'X', new ItemStack(Items.dye,1,13),'Y', new ItemStack (Items.sugar));
 		
 	}
+	
+	public static void loaderFurnaceRecipe(){
+		GameRegistry.addSmelting(BandbItems.itemZebraRaw, new ItemStack(BandbItems.itemZebraCooked, 1), 0.5F);
+		
+	}
+
 
 }

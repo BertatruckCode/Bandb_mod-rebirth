@@ -51,8 +51,7 @@ public class EntityZebra extends EntityAnimal
         return true;
     }
 
-    protected void applyEntityAttributes()
-    {
+    protected void applyEntityAttributes(){
         super.applyEntityAttributes();
         this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.20000000298023224D);
@@ -61,42 +60,36 @@ public class EntityZebra extends EntityAnimal
     /**
      * Returns the sound this mob makes while it's alive.
      */
-    protected String getLivingSound()
-    {
+    protected String getLivingSound(){
         return "mob.cow.say";
     }
 
     /**
      * Returns the sound this mob makes when it is hurt.
      */
-    protected String getHurtSound()
-    {
+    protected String getHurtSound(){
         return "mob.cow.hurt";
     }
 
     /**
      * Returns the sound this mob makes on death.
      */
-    protected String getDeathSound()
-    {
+    protected String getDeathSound(){
         return "mob.cow.hurt";
     }
 
-    protected void func_145780_a(int p_145780_1_, int p_145780_2_, int p_145780_3_, Block p_145780_4_)
-    {
+    protected void func_145780_a(int p_145780_1_, int p_145780_2_, int p_145780_3_, Block p_145780_4_){
         this.playSound("mob.cow.step", 0.15F, 1.0F);
     }
 
     /**
      * Returns the volume for the sounds this mob makes.
      */
-    protected float getSoundVolume()
-    {
+    protected float getSoundVolume(){
         return 0.4F;
     }
 
-    protected Item getDropItem()
-    {
+    protected Item getDropItem(){
         return Items.leather;
     }
 
@@ -110,7 +103,7 @@ public class EntityZebra extends EntityAnimal
 
         j = this.rand.nextInt(3) + 1 + this.rand.nextInt(1 + p_70628_2_);
 
-        for (k = 0; k < j; ++k){
+        for(k = 0; k < j; ++k){
             if (this.isBurning()){
                 this.dropItem(BandbItems.itemZebraCooked, 1);
             }else{
@@ -126,15 +119,13 @@ public class EntityZebra extends EntityAnimal
     	return super.interact(player);
     }
 
-    public EntityZebra createChild(EntityAgeable p_90011_1_)
-    {
+    public EntityZebra createChild(EntityAgeable p_90011_1_){
         return new EntityZebra(this.worldObj);
     }
     
     //function horse 
     @SideOnly(Side.CLIENT)
-    public float func_110201_q(float p_110201_1_)
-    {
+    public float func_110201_q(float p_110201_1_){
         return this.prevMouthOpenness + (this.mouthOpenness - this.prevMouthOpenness) * p_110201_1_;
     }
 }

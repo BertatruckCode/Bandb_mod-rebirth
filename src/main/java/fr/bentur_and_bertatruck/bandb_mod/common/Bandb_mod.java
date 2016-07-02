@@ -143,6 +143,7 @@ public class Bandb_mod{
 		BandbMachines.init();
 		BandbMachineRecipes.init();
 		BandbCraftingRecipes.loaderRecipe();
+		BandbCraftingRecipes.loaderFurnaceRecipe();
 		BandbOreDictionary.loaderPlankWood();
 		
 		//register render
