@@ -255,7 +255,7 @@ public class BandbOreDictionary {
 		OreDictionary.registerOre("dyeBlue", new ItemStack(BandbItems.itemBlueDye, 1, 0));
 		OreDictionary.registerOre("dyeWhite", new ItemStack(BandbItems.itemWhiteDye, 1, 0));
 		
-
+		
 
 		
 	}

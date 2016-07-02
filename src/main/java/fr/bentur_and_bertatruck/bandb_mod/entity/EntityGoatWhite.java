@@ -93,7 +93,7 @@ public class EntityGoatWhite extends EntityAnimal
 
     protected Item getDropItem()
     {
-        return Items.leather;
+        return BandbItems.itemLeatherGoat;
     }
 
     /**
@@ -107,7 +107,7 @@ public class EntityGoatWhite extends EntityAnimal
 
         for (k = 0; k < j; ++k)
         {
-            this.dropItem(Items.leather, 1);
+            this.dropItem(BandbItems.itemLeatherGoat, 1);
         }
 
         j = this.rand.nextInt(3) + 1 + this.rand.nextInt(1 + p_70628_2_);
@@ -116,11 +116,11 @@ public class EntityGoatWhite extends EntityAnimal
         {
             if (this.isBurning())
             {
-                this.dropItem(Items.cooked_beef, 1);
+                this.dropItem(BandbItems.itemGoatCooked, 1);
             }
             else
             {
-                this.dropItem(Items.beef, 1);
+                this.dropItem(BandbItems.itemGoatRaw, 1);
             }
         }
     }
@@ -133,10 +133,10 @@ public class EntityGoatWhite extends EntityAnimal
 
         if (itemstack != null && itemstack.getItem() == Items.bucket && !p_70085_1_.capabilities.isCreativeMode){
             if (itemstack.stackSize-- == 1){
-                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemBucketMilkaMilk));
+                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemBucketGoatMilk));
             
-            }else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemBucketMilkaMilk))){
-                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemBucketMilkaMilk, 1, 0), false);
+            }else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemBucketGoatMilk))){
+                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemBucketGoatMilk, 1, 0), false);
             }
             return true;
         

@@ -160,6 +160,7 @@ public class Bandb_mod{
 		EntityHandler.RegisterEntities(EntityCowMontbeliarde.class,"EntityCowMontbeliarde");
 		EntityHandler.RegisterEntities(EntityGoatWhite.class, "entityGoatWhite");
 		EntityHandler.RegisterEntities(EntityZebra.class, "entityZebra");
+		EntityHandler.RegisterEntities(EntityWalker1.class, "entityWalker");
 
 		
 		EntityRegistry.addSpawn(EntityCowCharolaise.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills, BiomeGenBase.jungle,
@@ -178,10 +179,16 @@ public class Bandb_mod{
 				BiomeGenBase.jungleHills, BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.forest,
 				BiomeGenBase.forestHills, BiomeGenBase.swampland, BiomeGenBase.extremeHills, BiomeGenBase.extremeHillsEdge);
 			
+		EntityRegistry.addSpawn(EntityGoatWhite.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills,
+				BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.swampland, BiomeGenBase.extremeHills, BiomeGenBase.extremeHillsEdge);
+		
+		EntityRegistry.addSpawn(EntityZebra.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		
 			//walker1
 		EntityRegistry.registerGlobalEntityID(EntityWalker1.class, "Walker1", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
 		EntityRegistry.registerModEntity(EntityWalker1.class, "Walker1", 420, this.instance, 40, 1, true);	
-
+		EntityRegistry.addSpawn(EntityWalker1.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		
 		
 		//GameRegistry.registerTileEntity(TileEntityTestOGL.class, "tileEntityTestOGL");
 		GameRegistry.registerTileEntity(TileEntityDistributor.class, "tileEntityDistributor");

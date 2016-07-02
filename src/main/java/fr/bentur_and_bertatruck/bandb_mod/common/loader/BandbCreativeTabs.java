@@ -257,6 +257,25 @@ public class BandbCreativeTabs {
 			public Item getTabIconItem() {
 				return BandbItems.itemButterflyAcmonBlue;
 		}
+			
+		};
+		public static CreativeTabs CreativeTabsEggAndFeather = new CreativeTabs("CreativeTabsEggAndFeather") {
+
+			@Override
+			@SideOnly(Side.CLIENT)
+			public Item getTabIconItem() {
+				return BandbItems.itemEggandFeather;
+		}
+		};
+		public static CreativeTabs CreativeTabsMeat = new CreativeTabs("CreativeTabsMeat") {
+
+			@Override
+			@SideOnly(Side.CLIENT)
+			public Item getTabIconItem() {
+				return BandbItems.itemSaddleMuttonRaw;
+		
+				
+			}
 	};
 
 	/*

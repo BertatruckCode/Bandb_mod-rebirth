@@ -94,7 +94,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemBookCocktailGlass,itemBookCocktails,itemBookShaker,itemBookOldFashioned,itemSurpriseKinderYellow;
 		public static Item itemBookTumbler,itemSurprise,itemSurpriseKinderRed,itemBleach,itemMac;
 		public static Item itemLeatherCowBel, itemLeatherCowCharolais, itemLeatherCowGasconne, itemLeatherCowKerry, itemLeatherCowMilka;
-		public static Item itemLeatherCowMontbeliarde,itemWhiteDye,itemBlackDye,itemBlueDye;
+		public static Item itemLeatherCowMontbeliarde,itemWhiteDye,itemBlackDye,itemBlueDye,itemLeatherGoat;
 		
 //fruit
 		public static Item itemAlmond,itemApricot,itemBanana,itemCherry,itemClementine;
@@ -244,8 +244,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemCookieCutterCircle,itemCheeseGrater,itemBucketBelMilk,itemBucketMilkaMilk,itemScrewdriver;
 		public static Item itemCocktailGlass,itemFlute,itemOldFashoned,itemTumbler,itemGlassCup;
 		public static Item itemCocktailGlassDirty,itemFluteDirty,itemGlassCupDirty,itemOldFashonnedDirty,itemTumblerDirty;
-		public static Item itemLightsaberBlue,itemLightsaberGreen,itemLightsaberPurple,itemLightsaberRed;
-		public static Item itemLightsaberBlue2,itemLightsaberGreen2,itemLightsaberPurple2,itemLightsaberRed2;
+		public static Item itemBucketGoatMilk;
 		
 
 //creative only
@@ -253,7 +252,50 @@ import net.minecraftforge.common.util.EnumHelper;
 		
 //Butterfly
 		public static Item itemButterflyAcmonBlue,itemButterflyAfricanCloudedYellow,itemButterflyAfricanMapWing,itemButterflyAfricanPeachMoth,itemButterflyAlcidesAgathyrsus;
-
+		public static Item itemButterflyAmerilaastreus,itemButterflyApolloButterfly,itemButterflyAshButterfly,itemButterflyAtlasMoth,itemButterflyAmberPhantom;
+		public static Item itemButterflyAura,itemButterflyBandedBluePierrot,itemButterflyBirchButterfly,itemButterflyBloodRedGlider,itemButterflyBlueAdmiral;
+		public static Item itemButterflyBlueArgus,itemButterflyBlueEyedSailor,itemButterflyBlueMetalmare,itemButterflyBluePansy,itemButterflyBlueTigerMoth;
+		public static Item itemButterflyBlushingPhantom,itemButterflyBraccaRotundata,itemButterflyBraccaSubfumosa,itemButterflyCactiButterfy,itemButterflyCardinalApollo;
+		public static Item itemButterflyCinderella,itemButterflyCinnabarMoth,itemButterflyCloudButterfly,itemButterflyCloudedApollo;
+		public static Item itemButterflyColombianAdmiral,itemButterflyComma,itemButterflyCommonBrimstone,itemButterflyCommonGreenBirdwing,itemButterflyCommonGreenCharaxes;
+		public static Item itemButterflyCommonMestra,itemButterflyCrimsonSpottedForester,itemButterflyCrimsonTip,itemButterflyCrystalButterfly,itemButterflyDalmatianRinglet;
+		public static Item itemButterflyDarkCaveButterfly,itemButterflyDarkwoodButterfly,itemButterflyDawnCloudedButterfly,itemButterflyDeathsHeadHawkmoth,itemButterflyDiadem;
+		public static Item itemButterflyDiamondButterfly,itemButterflyDottedGlory,itemButterflyEasternTigerSwallowtail,itemButterflyEdwardsForester,itemButterflyEmeraldButterfly;
+		public static Item itemButterflyEmeraldSwallowtail,itemButterflyEndButterfly,itemButterflyFallenBarkLooper,itemButterflyFalseCrocusGeometer,itemButterflyFrozenButterfly;
+		public static Item itemButterflyGardenTigerMoth,itemButterflyGaudyCommodoreIntermediateForm,itemButterflyGaudyCommodoreSummerForm,itemButterflyGaudyCommodoreWinterForm,itemButterflyGiantNorthernSulfur;
+		public static Item itemButterflyGodartsNumberwing,itemButterflyGoldBandedForester,itemButterflyGoldenBirdwing,itemButterflyGoldenJezebel,itemButterflyGoliathBirdwing;
+		public static Item itemButterflyGrapevineEpimenis,itemButterflyGrayPansy,itemButterflyHewitsonsPigmy,itemButterflyHuebnersMetalmark,itemButterflyIndianRedAdmiral;
+		public static Item itemButterflyIreniaMetalmark,itemButterflyIridescentForester,itemButterflyJuttaArctic,itemButterflyLargeBlue,itemButterflyLavaButterfly;
+		public static Item itemButterflyLeafButterfly,itemButterflyLightCaveButterfly,itemButterflyLittleMetalmark,itemButterflyLuminescentButterflyGuardian,itemButterflyLunaMoth;
+		public static Item itemButterflyLustrousButterfly,itemButterflyMacrocosmaMoth,itemButterflyMadagascanSunsetMoth,itemButterflyMagmaButterfly,itemButterflyMalachiteButterfly;
+		public static Item itemButterflyMesosemiaLoruhamaCandara,itemButterflyMesosemiaPacifica,itemButterflyMilbertsTortoiseshell,itemButterflyMonarch,itemButterflyMooButterfly;
+		public static Item itemButterflyMountainApollo,itemButterflyMourningCloak,itemButterflyMylittaGreenwing,itemButterflyNessusLeafwing,itemButterflyNetherrackButterfly;
+		public static Item itemButterflyNetherSkullButterfly,itemButterflyNewZealandRedAdmiral,itemButterflyNorthernBrownArgus,itemButterflyNyctemeraKinabaluensis,itemButterflyNyx;
+		public static Item itemButterflyOceanBlue,itemButterflyOceanBlueAbSchmidtii,itemButterflyOrangeEmigrant,itemButterflyOrangeSpottedSkipper,itemButterflyOrangeTiger;
+		public static Item itemButterflyOrangeTippedAngleSulfur,itemButterflyOrnithopteraPriamusMiokensis,itemButterflyPaintedBeauty,itemButterflyPandoraPinemoth,itemButterflyPandoraSphinxMoth;
+		public static Item itemButterflyPartiallyFrozenPumpkinButterfly,itemButterflyPasiphae,itemButterflyPeacock,itemButterflyPeacockJewelMoth,itemButterflyPeacockPansy;
+		public static Item itemButterflyPearlCharaxes,itemButterflyPentheaMetalmark,itemButterflyPumpkinButterfly,itemButterflyPuririMoth,itemButterflyPurpleEdgedCopper;
+		public static Item itemButterflyQueenVictoriasBirdwing,itemButterflyRedAdmiral,itemButterflyRedBorderedPixie,itemButterflyReedButterfly,itemButterflyRockGrayling;
+		public static Item itemButterflyRoseateEmperorMoth,itemButterflyRubySpottedSwallowtail,itemButterflyRustic,itemButterflySagebrushGirdleMoth,itemButterflySaltMarshMoth;
+		public static Item itemButterflySilkyOwl,itemButterflySilveryBlue,itemButterflySmallCopper,itemButterflySmallTortoiseshell,itemButterflySmallWhite;
+		public static Item itemButterflySpawnerButterfly,itemButterflySturnulaMetalmark,itemButterflySwampButterfly,itemButterflySwissBrassyRinglet,itemButterflySyngraphaOrophila;
+		public static Item itemButterflyTawnyCoster,itemButterflyTelegoneEyemark,itemButterflyThalainaChionoptila,itemButterflyTheanoAlpine,itemButterflyTheWanderer;
+		public static Item itemButterflyTropicalCheckeredSkipper,itemButterflyTwoBarredFlasher,itemButterflyVariableBurnet,itemButterflyVoidButterfly,itemButterflyWallacesGoldenBirdwing;
+		public static Item itemButterflyYellowPansy,itemButterflyZodiacMoth;
+		
+//Egg and Feather
+		
+		public static Item itemEggandFeather,itemEggOstrich,itemFeatherOstrich,itemEggDuck,itemFeatherDuckFemale;
+		public static Item itemFeatherDuckMale,itemEggCassowary,itemFeatherCassowary,itemEggHummingbird,itemFeatherHummingbirdCanvasPrint;
+		public static Item itemFeatherHummingbirdCrimsonTopaz,itemFeatherHummingbirdFieryThroatedHummingbird,itemFeatherHummingbirdFlyingLavenderBlueHummingbird,itemFeatherHummingbirdSwordBilledHummingbird;
+		public static Item itemEggGouldianFinch,itemFeatherGouldianFinch1,itemFeatherGouldianFinch2,itemFeatherGouldianFinch3,itemFeatherGouldianFinch4;
+		public static Item itemFeatherGouldianFinch5,itemFeatherGouldianFinch6,itemEggSeagull,itemFeatherSeagull,itemEggRoadrunner;
+		public static Item itemFeatherRoadrunner,itemEggKiwi,itemFeatherKiwi,itemEggKingfisher,itemFeatherKingfisher;
+		public static Item itemEggLyrebird,itemFeatherLyrebird,itemEggGull,itemFeatherGull,itemEggPelican;
+		public static Item itemFeatherPelican,itemEggParrot,itemFatherParrotAfricanGreyParrot,itemFatherParrotBlueAndYellowMacaw,itemFatherParrotCockatoo;
+		public static Item itemFatherParrotGreatGreenMacaw,itemFatherParrotHyacinthMacaw,itemFatherParrotRedAndGreenMacaw,itemEggMagpie,itemFeatherMagpie;
+		public static Item itemEggPigeon,itemFeatherPigeon;
+		
 		
 //meat 
 		//raw
@@ -277,6 +319,10 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemLegMuttonCooked, itemSaddleMuttonCooked, itemShoulderMuttonCooked,itemMuttonCookedBrain;
 			//pig
 		public static Item itemPorkForeLoinCooked, itemPorkHamCooked, itemPorkLoinChopsCooked;
+		//Zebra
+		public static Item itemZebraCooked, itemZebraRaw;
+		//Goat
+		public static Item itemGoatCooked, itemGoatRaw;
 		
 //item dried
 		public static Item itemLeaveCocaDried, itemTobaccoDried;
@@ -883,6 +929,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	itemWhiteDye = new Item().setUnlocalizedName("itemWhiteDye").setTextureName(Bandb_mod.MODID + ":miscellaneous/itemWhiteDye").setCreativeTab(BandbCreativeTabs.CreativeTabsMiscellaneous);
 		    	itemBlackDye = new Item().setUnlocalizedName("itemBlackDye").setTextureName(Bandb_mod.MODID + ":miscellaneous/itemBlackDye").setCreativeTab(BandbCreativeTabs.CreativeTabsMiscellaneous);
 		    	itemBlueDye = new Item().setUnlocalizedName("itemBlueDye").setTextureName(Bandb_mod.MODID + ":miscellaneous/itemBlueDye").setCreativeTab(BandbCreativeTabs.CreativeTabsMiscellaneous);
+		    	itemLeatherGoat = new Item().setUnlocalizedName("itemLeatherGoat").setTextureName(Bandb_mod.MODID + ":miscellaneous/itemLeatherGoat").setCreativeTab(BandbCreativeTabs.CreativeTabsMiscellaneous);
 
 		    	GameRegistry.registerItem(itemLeatherCowBel, "itemLeatherCowBel");
 		    	GameRegistry.registerItem(itemLeatherCowCharolais, "itemLeatherCowCharolais");
@@ -894,6 +941,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	GameRegistry.registerItem(itemWhiteDye, "itemWhiteDye");
 		    	GameRegistry.registerItem(itemBlackDye, "itemBlackDye");
 		    	GameRegistry.registerItem(itemBlueDye, "itemBlueDye");
+		    	GameRegistry.registerItem(itemLeatherGoat, "itemLeatherGoat");
 		    	
 			}
 			
@@ -2259,6 +2307,10 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemTumblerDirty, "itemTumblerDirty");			
 				GameRegistry.registerItem(itemGlassCupDirty, "itemGlassCupDirty");	
 				
+				itemBucketGoatMilk = new ItemToolsKitchen().setUnlocalizedName("itemBucketGoatMilk").setTextureName(Bandb_mod.MODID + ":kitchentools/itemBucketGoatMilk");
+
+				GameRegistry.registerItem(itemBucketGoatMilk, "itemBucketGoatMilk");	
+				
 				
 			}
 		}
@@ -2283,10 +2335,10 @@ import net.minecraftforge.common.util.EnumHelper;
 		//meat 
 				//raw
 					//chicken				
-				itemChickenFleshRaw = new Item().setUnlocalizedName("itemChickenFleshRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFleshRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemChickenFullRaw = new Item().setUnlocalizedName("itemChickenFullRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFullRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemChickenLegRaw = new Item().setUnlocalizedName("itemChickenLegRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenLegRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemChickenNuggetRaw = new Item().setUnlocalizedName("itemChickenNuggetRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenNuggetRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemChickenFleshRaw = new Item().setUnlocalizedName("itemChickenFleshRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFleshRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemChickenFullRaw = new Item().setUnlocalizedName("itemChickenFullRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFullRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemChickenLegRaw = new Item().setUnlocalizedName("itemChickenLegRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenLegRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemChickenNuggetRaw = new Item().setUnlocalizedName("itemChickenNuggetRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenNuggetRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemChickenFleshRaw, "itemChickenFleshRaw");	
 				GameRegistry.registerItem(itemChickenFullRaw, "itemChickenFullRaw");	
@@ -2294,33 +2346,33 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemChickenNuggetRaw, "itemChickenNuggetRaw");	
 
 					//cow
-				itemCowForeRibRaw = new Item().setUnlocalizedName("itemCowForeRibRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowForeRibRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemCowRumpsteakRaw = new Item().setUnlocalizedName("itemCowRumpsteakRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowRumpsteakRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemCowForeRibRaw = new Item().setUnlocalizedName("itemCowForeRibRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowForeRibRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemCowRumpsteakRaw = new Item().setUnlocalizedName("itemCowRumpsteakRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowRumpsteakRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemCowForeRibRaw, "itemCowForeRibRaw");	
 				GameRegistry.registerItem(itemCowRumpsteakRaw, "itemCowRumpsteakRaw");
 					//sheep
-				itemLegMuttonRaw = new Item().setUnlocalizedName("itemLegMuttonRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemLegMuttonRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemSaddleMuttonRaw = new Item().setUnlocalizedName("itemSaddleMuttonRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemSaddleMuttonRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemShoulderMuttonRaw = new Item().setUnlocalizedName("itemShoulderMuttonRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemShoulderMuttonRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemMuttonBrain = new Item().setUnlocalizedName("itemMuttonBrain").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemMuttonBrain").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemLegMuttonRaw = new Item().setUnlocalizedName("itemLegMuttonRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemLegMuttonRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemSaddleMuttonRaw = new Item().setUnlocalizedName("itemSaddleMuttonRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemSaddleMuttonRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemShoulderMuttonRaw = new Item().setUnlocalizedName("itemShoulderMuttonRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemShoulderMuttonRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemMuttonBrain = new Item().setUnlocalizedName("itemMuttonBrain").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemMuttonBrain").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemLegMuttonRaw, "itemLegMuttonRaw");	
 				GameRegistry.registerItem(itemSaddleMuttonRaw, "itemSaddleMuttonRaw");	
 				GameRegistry.registerItem(itemShoulderMuttonRaw, "itemShoulderMuttonRaw");	
 				GameRegistry.registerItem(itemMuttonBrain, "itemMuttonBrain");	
 					//pig
-				itemPorkForeLoinRaw = new Item().setUnlocalizedName("itemPorkForeLoinRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkForeLoinRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemPorkHamRaw = new Item().setUnlocalizedName("itemPorkHamRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkHamRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemPorkLoinChopsRaw = new Item().setUnlocalizedName("itemPorkLoinChopsRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkLoinChopsRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemPorkForeLoinRaw = new Item().setUnlocalizedName("itemPorkForeLoinRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkForeLoinRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemPorkHamRaw = new Item().setUnlocalizedName("itemPorkHamRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkHamRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemPorkLoinChopsRaw = new Item().setUnlocalizedName("itemPorkLoinChopsRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkLoinChopsRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemPorkForeLoinRaw, "itemPorkForeLoinRaw");	
 				GameRegistry.registerItem(itemPorkHamRaw, "itemPorkHamRaw");	
 				GameRegistry.registerItem(itemPorkLoinChopsRaw, "itemPorkLoinChopsRaw");
 				
-				itemWorm = new Item().setUnlocalizedName("itemWorm").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemWorm").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemZombieArm = new Item().setUnlocalizedName("itemZombieArm").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemZombieArm").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemZombieFeet = new Item().setUnlocalizedName("itemZombieFeet").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemZombieFeet").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemWorm = new Item().setUnlocalizedName("itemWorm").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemWorm").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemZombieArm = new Item().setUnlocalizedName("itemZombieArm").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemZombieArm").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemZombieFeet = new Item().setUnlocalizedName("itemZombieFeet").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemZombieFeet").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemWorm, "itemWorm");
 				GameRegistry.registerItem(itemZombieArm, "itemZombieArm");
@@ -2328,10 +2380,10 @@ import net.minecraftforge.common.util.EnumHelper;
 			
 				//cooked
 					//chicken
-				itemChickenFleshCooked = new Item().setUnlocalizedName("itemChickenFleshCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFleshCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemChickenFullCooked = new Item().setUnlocalizedName("itemChickenFullCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFullCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemChickenLegCooked = new Item().setUnlocalizedName("itemChickenLegCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenLegCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemChickenNuggetCooked = new Item().setUnlocalizedName("itemChickenNuggetCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenNugget").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemChickenFleshCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemChickenFleshCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFleshCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemChickenFullCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemChickenFullCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenFullCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemChickenLegCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemChickenLegCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenLegCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemChickenNuggetCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemChickenNuggetCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemChickenNugget").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemChickenFleshCooked, "itemChickenFleshCooked");	
 				GameRegistry.registerItem(itemChickenFullCooked, "itemChickenFullCooked");	
@@ -2339,29 +2391,41 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemChickenNuggetCooked, "itemChickenNuggetCooked");	
 
 					//cow
-				itemCowForeRibCooked = new Item().setUnlocalizedName("itemCowForeRibCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowForeRibCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemCowRumpsteakCooked = new Item().setUnlocalizedName("itemCowRumpsteakCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowRumpsteakCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemCowForeRibCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemCowForeRibCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowForeRibCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemCowRumpsteakCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemCowRumpsteakCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemCowRumpsteakCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemCowForeRibCooked, "itemCowForeRibCooked");	
 				GameRegistry.registerItem(itemCowRumpsteakCooked, "itemCowRumpsteakCooked");	
 					//sheep
-				itemLegMuttonCooked = new Item().setUnlocalizedName("itemLegMuttonCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemLegMuttonCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemSaddleMuttonCooked = new Item().setUnlocalizedName("itemSaddleMuttonCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemSaddleMuttonCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemShoulderMuttonCooked = new Item().setUnlocalizedName("itemShoulderMuttonCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemShoulderMuttonCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemMuttonCookedBrain = new Item().setUnlocalizedName("itemMuttonCookedBrain").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemMuttonCookedBrain").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemLegMuttonCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemLegMuttonCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemLegMuttonCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemSaddleMuttonCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemSaddleMuttonCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemSaddleMuttonCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemShoulderMuttonCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemShoulderMuttonCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemShoulderMuttonCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemMuttonCookedBrain = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemMuttonCookedBrain").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemMuttonCookedBrain").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemLegMuttonCooked, "itemLegMuttonCooked");	
 				GameRegistry.registerItem(itemSaddleMuttonCooked, "itemSaddleMuttonCooked");	
 				GameRegistry.registerItem(itemShoulderMuttonCooked, "itemShoulderMuttonCooked");
 				GameRegistry.registerItem(itemMuttonCookedBrain, "itemMuttonCookedBrain");	
 					//pig
-				itemPorkForeLoinCooked = new Item().setUnlocalizedName("itemPorkForeLoinCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkForeLoinCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemPorkHamCooked = new Item().setUnlocalizedName("itemPorkHamCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkHamCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemPorkLoinChopsCooked = new Item().setUnlocalizedName("itemPorkLoinChopsCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkLoinChopsCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemPorkForeLoinCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemPorkForeLoinCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkForeLoinCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemPorkHamCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemPorkHamCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkHamCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemPorkLoinChopsCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemPorkLoinChopsCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemPorkLoinChopsCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemPorkForeLoinCooked, "itemPorkForeLoinCooked");	
 				GameRegistry.registerItem(itemPorkHamCooked, "itemPorkHamCooked");	
 				GameRegistry.registerItem(itemPorkLoinChopsCooked, "itemPorkLoinChopsCooked");		
+					//Zebra
+				itemZebraCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemZebraCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemZebraCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemZebraRaw = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemZebraRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemZebraRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemGoatCooked = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemGoatCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemGoatCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemGoatRaw = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemGoatRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemGoatRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				
+				GameRegistry.registerItem(itemZebraCooked, "itemZebraCooked");	
+				GameRegistry.registerItem(itemZebraRaw, "itemZebraRaw");		
+				GameRegistry.registerItem(itemGoatCooked, "itemGoatCooked");	
+				GameRegistry.registerItem(itemGoatRaw, "itemGoatRaw");		
+				
+				
 				
 				
 				
@@ -2371,9 +2435,9 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemLeaveCocaDried, "itemLeaveCocaDried");	
 				GameRegistry.registerItem(itemTobaccoDried, "itemTobaccoDried");	
 
-				itemKebabRaw = new Item().setUnlocalizedName("itemKebabRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebabRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemKebabSpit = new Item().setUnlocalizedName("itemKebabSpit").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebabSpit").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
-				itemKebab = new Item().setUnlocalizedName("itemKebab").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebab").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemKebabRaw = new Item().setUnlocalizedName("itemKebabRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebabRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemKebabSpit = new Item().setUnlocalizedName("itemKebabSpit").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebabSpit").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemKebab = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemKebab").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebab").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemKebabRaw, "itemKebabRaw");	
 				GameRegistry.registerItem(itemKebabSpit, "itemKebabSpit");	
@@ -2390,7 +2454,477 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemButterflyAfricanCloudedYellow, "itemButterflyAfricanCloudedYellow");	
 				GameRegistry.registerItem(itemButterflyAfricanMapWing, "itemButterflyAfricanMapWing");	
 				GameRegistry.registerItem(itemButterflyAfricanPeachMoth, "itemButterflyAfricanPeachMoth");	
-				GameRegistry.registerItem(itemButterflyAlcidesAgathyrsus, "itemButterflyAlcidesAgathyrsus");	
+				GameRegistry.registerItem(itemButterflyAlcidesAgathyrsus, "itemButterflyAlcidesAgathyrsus");
+				
+				itemButterflyAmerilaastreus = new Item().setUnlocalizedName("itemButterflyAmerilaastreus").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyAmerilaastreus").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyApolloButterfly = new Item().setUnlocalizedName("itemButterflyApolloButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyApolloButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyAshButterfly = new Item().setUnlocalizedName("itemButterflyAshButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyAshButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyAtlasMoth = new Item().setUnlocalizedName("itemButterflyAtlasMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyAtlasMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyAmberPhantom = new Item().setUnlocalizedName("itemButterflyAmberPhantom").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyAmberPhantom").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyAmerilaastreus, "itemButterflyAmerilaastreus");	
+				GameRegistry.registerItem(itemButterflyApolloButterfly, "itemButterflyApolloButterfly");	
+				GameRegistry.registerItem(itemButterflyAshButterfly, "itemButterflyAshButterfly");	
+				GameRegistry.registerItem(itemButterflyAtlasMoth, "itemButterflyAtlasMoth");	
+				GameRegistry.registerItem(itemButterflyAmberPhantom, "itemButterflyAmberPhantom");
+				
+				itemButterflyAura = new Item().setUnlocalizedName("itemButterflyAura").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyAura").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBandedBluePierrot = new Item().setUnlocalizedName("itemButterflyBandedBluePierrot").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBandedBluePierrot").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBirchButterfly = new Item().setUnlocalizedName("itemButterflyBirchButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBirchButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBloodRedGlider = new Item().setUnlocalizedName("itemButterflyBloodRedGlider").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBloodRedGlider").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBlueAdmiral = new Item().setUnlocalizedName("itemButterflyBlueAdmiral").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBlueAdmiral").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyAura, "itemButterflyAura");	
+				GameRegistry.registerItem(itemButterflyBandedBluePierrot, "itemButterflyBandedBluePierrot");	
+				GameRegistry.registerItem(itemButterflyBirchButterfly, "itemButterflyBirchButterfly");	
+				GameRegistry.registerItem(itemButterflyBloodRedGlider, "itemButterflyBloodRedGlider");	
+				GameRegistry.registerItem(itemButterflyBlueAdmiral, "itemButterflyBlueAdmiral");
+				
+				itemButterflyBlueArgus = new Item().setUnlocalizedName("itemButterflyBlueArgus").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBlueArgus").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBlueEyedSailor = new Item().setUnlocalizedName("itemButterflyBlueEyedSailor").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBlueEyedSailor").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBlueMetalmare = new Item().setUnlocalizedName("itemButterflyBlueMetalmare").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBlueMetalmare").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBluePansy = new Item().setUnlocalizedName("itemButterflyBluePansy").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBluePansy").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBlueTigerMoth = new Item().setUnlocalizedName("itemButterflyBlueTigerMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBlueTigerMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyBlueArgus, "itemButterflyBlueArgus");	
+				GameRegistry.registerItem(itemButterflyBlueEyedSailor, "itemButterflyBlueEyedSailor");	
+				GameRegistry.registerItem(itemButterflyBlueMetalmare, "itemButterflyBlueMetalmare");	
+				GameRegistry.registerItem(itemButterflyBluePansy, "itemButterflyBluePansy");	
+				GameRegistry.registerItem(itemButterflyBlueTigerMoth, "itemButterflyBlueTigerMoth");
+				
+				itemButterflyBlushingPhantom = new Item().setUnlocalizedName("itemButterflyBlushingPhantom").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBlushingPhantom").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBraccaRotundata = new Item().setUnlocalizedName("itemButterflyBraccaRotundata").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBraccaRotundata").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyBraccaSubfumosa = new Item().setUnlocalizedName("itemButterflyBraccaSubfumosa").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyBraccaSubfumosa").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCactiButterfy = new Item().setUnlocalizedName("itemButterflyCactiButterfy").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCactiButterfy").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCardinalApollo = new Item().setUnlocalizedName("itemButterflyCardinalApollo").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCardinalApollo").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyBlushingPhantom, "itemButterflyBlushingPhantom");	
+				GameRegistry.registerItem(itemButterflyBraccaRotundata, "itemButterflyBraccaRotundata");	
+				GameRegistry.registerItem(itemButterflyBraccaSubfumosa, "itemButterflyBraccaSubfumosa");	
+				GameRegistry.registerItem(itemButterflyCactiButterfy, "itemButterflyCactiButterfy");	
+				GameRegistry.registerItem(itemButterflyCardinalApollo, "itemButterflyCardinalApollo");
+				
+				itemButterflyCinderella = new Item().setUnlocalizedName("itemButterflyCinderella").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCinderella").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCinnabarMoth = new Item().setUnlocalizedName("itemButterflyCinnabarMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCinnabarMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCloudButterfly = new Item().setUnlocalizedName("itemButterflyCloudButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCloudButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCloudedApollo = new Item().setUnlocalizedName("itemButterflyCloudedApollo").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCloudedApollo").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+
+				GameRegistry.registerItem(itemButterflyCinderella, "itemButterflyCinderella");	
+				GameRegistry.registerItem(itemButterflyCinnabarMoth, "itemButterflyCinnabarMoth");	
+				GameRegistry.registerItem(itemButterflyCloudButterfly, "itemButterflyCloudButterfly");	
+				GameRegistry.registerItem(itemButterflyCloudedApollo, "itemButterflyCloudedApollo");
+				
+				itemButterflyColombianAdmiral = new Item().setUnlocalizedName("itemButterflyColombianAdmiral").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyColombianAdmiral").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyComma = new Item().setUnlocalizedName("itemButterflyComma").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyComma").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCommonBrimstone = new Item().setUnlocalizedName("itemButterflyCommonBrimstone").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCommonBrimstone").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCommonGreenBirdwing = new Item().setUnlocalizedName("itemButterflyCommonGreenBirdwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCommonGreenBirdwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCommonGreenCharaxes = new Item().setUnlocalizedName("itemButterflyCommonGreenCharaxes").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCommonGreenCharaxes").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyColombianAdmiral, "itemButterflyColombianAdmiral");	
+				GameRegistry.registerItem(itemButterflyComma, "itemButterflyComma");	
+				GameRegistry.registerItem(itemButterflyCommonBrimstone, "itemButterflyCommonBrimstone");	
+				GameRegistry.registerItem(itemButterflyCommonGreenBirdwing, "itemButterflyCommonGreenBirdwing");	
+				GameRegistry.registerItem(itemButterflyCommonGreenCharaxes, "itemButterflyCommonGreenCharaxes");
+				
+				itemButterflyCommonMestra = new Item().setUnlocalizedName("itemButterflyCommonMestra").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCommonMestra").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCrimsonSpottedForester = new Item().setUnlocalizedName("itemButterflyCrimsonSpottedForester").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCrimsonSpottedForester").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCrimsonTip = new Item().setUnlocalizedName("itemButterflyCrimsonTip").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCrimsonTip").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyCrystalButterfly = new Item().setUnlocalizedName("itemButterflyCrystalButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyCrystalButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyDalmatianRinglet = new Item().setUnlocalizedName("itemButterflyDalmatianRinglet").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDalmatianRinglet").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyCommonMestra, "itemButterflyCommonMestra");	
+				GameRegistry.registerItem(itemButterflyCrimsonSpottedForester, "itemButterflyCrimsonSpottedForester");	
+				GameRegistry.registerItem(itemButterflyCrimsonTip, "itemButterflyCrimsonTip");	
+				GameRegistry.registerItem(itemButterflyCrystalButterfly, "itemButterflyCrystalButterfly");	
+				GameRegistry.registerItem(itemButterflyDalmatianRinglet, "itemButterflyDalmatianRinglet");
+				
+				itemButterflyDarkCaveButterfly = new Item().setUnlocalizedName("itemButterflyDarkCaveButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDarkCaveButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyDarkwoodButterfly = new Item().setUnlocalizedName("itemButterflyDarkwoodButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDarkwoodButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyDawnCloudedButterfly = new Item().setUnlocalizedName("itemButterflyDawnCloudedButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDawnCloudedButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyDeathsHeadHawkmoth = new Item().setUnlocalizedName("itemButterflyDeathsHeadHawkmoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDeathsHeadHawkmoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyDiadem = new Item().setUnlocalizedName("itemButterflyDiadem").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDiadem").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyDarkCaveButterfly, "itemButterflyDarkCaveButterfly");	
+				GameRegistry.registerItem(itemButterflyDarkwoodButterfly, "itemButterflyDarkwoodButterfly");	
+				GameRegistry.registerItem(itemButterflyDawnCloudedButterfly, "itemButterflyDawnCloudedButterfly");	
+				GameRegistry.registerItem(itemButterflyDeathsHeadHawkmoth, "itemButterflyDeathsHeadHawkmoth");	
+				GameRegistry.registerItem(itemButterflyDiadem, "itemButterflyDiadem");
+				
+				itemButterflyDiamondButterfly = new Item().setUnlocalizedName("itemButterflyDiamondButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDiamondButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyDottedGlory = new Item().setUnlocalizedName("itemButterflyDottedGlory").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyDottedGlory").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyEasternTigerSwallowtail = new Item().setUnlocalizedName("itemButterflyEasternTigerSwallowtail").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyEasternTigerSwallowtail").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyEdwardsForester = new Item().setUnlocalizedName("itemButterflyEdwardsForester").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyEdwardsForester").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyEmeraldButterfly = new Item().setUnlocalizedName("itemButterflyEmeraldButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyEmeraldButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyDiamondButterfly, "itemButterflyDiamondButterfly");	
+				GameRegistry.registerItem(itemButterflyDottedGlory, "itemButterflyDottedGlory");	
+				GameRegistry.registerItem(itemButterflyEasternTigerSwallowtail, "itemButterflyEasternTigerSwallowtail");	
+				GameRegistry.registerItem(itemButterflyEdwardsForester, "itemButterflyEdwardsForester");	
+				GameRegistry.registerItem(itemButterflyEmeraldButterfly, "itemButterflyEmeraldButterfly");
+				
+				itemButterflyEmeraldSwallowtail = new Item().setUnlocalizedName("itemButterflyEmeraldSwallowtail").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyEmeraldSwallowtail").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyEndButterfly = new Item().setUnlocalizedName("itemButterflyEndButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyEndButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyFallenBarkLooper = new Item().setUnlocalizedName("itemButterflyFallenBarkLooper").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyFallenBarkLooper").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyFalseCrocusGeometer = new Item().setUnlocalizedName("itemButterflyFalseCrocusGeometer").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyFalseCrocusGeometer").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyFrozenButterfly = new Item().setUnlocalizedName("itemButterflyFrozenButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyFrozenButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyEmeraldSwallowtail, "itemButterflyEmeraldSwallowtail");	
+				GameRegistry.registerItem(itemButterflyEndButterfly, "itemButterflyEndButterfly");	
+				GameRegistry.registerItem(itemButterflyFallenBarkLooper, "itemButterflyFallenBarkLooper");	
+				GameRegistry.registerItem(itemButterflyFalseCrocusGeometer, "itemButterflyFalseCrocusGeometer");	
+				GameRegistry.registerItem(itemButterflyFrozenButterfly, "itemButterflyFrozenButterfly");
+				
+				itemButterflyGardenTigerMoth = new Item().setUnlocalizedName("itemButterflyGardenTigerMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGardenTigerMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGaudyCommodoreIntermediateForm = new Item().setUnlocalizedName("itemButterflyGaudyCommodoreIntermediateForm").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGaudyCommodoreIntermediateForm").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGaudyCommodoreSummerForm = new Item().setUnlocalizedName("itemButterflyGaudyCommodoreSummerForm").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGaudyCommodoreSummerForm").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGaudyCommodoreWinterForm = new Item().setUnlocalizedName("itemButterflyGaudyCommodoreWinterForm").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGaudyCommodoreWinterForm").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGiantNorthernSulfur = new Item().setUnlocalizedName("itemButterflyGiantNorthernSulfur").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGiantNorthernSulfur").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyGardenTigerMoth, "itemButterflyGardenTigerMoth");	
+				GameRegistry.registerItem(itemButterflyGaudyCommodoreIntermediateForm, "itemButterflyGaudyCommodoreIntermediateForm");	
+				GameRegistry.registerItem(itemButterflyGaudyCommodoreSummerForm, "itemButterflyGaudyCommodoreSummerForm");	
+				GameRegistry.registerItem(itemButterflyGaudyCommodoreWinterForm, "itemButterflyGaudyCommodoreWinterForm");	
+				GameRegistry.registerItem(itemButterflyGiantNorthernSulfur, "itemButterflyGiantNorthernSulfur");
+				
+				itemButterflyGodartsNumberwing = new Item().setUnlocalizedName("itemButterflyGodartsNumberwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGodartsNumberwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGoldBandedForester = new Item().setUnlocalizedName("itemButterflyGoldBandedForester").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGoldBandedForester").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGoldenBirdwing = new Item().setUnlocalizedName("itemButterflyGoldenBirdwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGoldenBirdwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGoldenJezebel = new Item().setUnlocalizedName("itemButterflyGoldenJezebel").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGoldenJezebel").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGoliathBirdwing = new Item().setUnlocalizedName("itemButterflyGoliathBirdwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGoliathBirdwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyGodartsNumberwing, "itemButterflyGodartsNumberwing");	
+				GameRegistry.registerItem(itemButterflyGoldBandedForester, "itemButterflyGoldBandedForester");	
+				GameRegistry.registerItem(itemButterflyGoldenBirdwing, "itemButterflyGoldenBirdwing");	
+				GameRegistry.registerItem(itemButterflyGoldenJezebel, "itemButterflyGoldenJezebel");	
+				GameRegistry.registerItem(itemButterflyGoliathBirdwing, "itemButterflyGoliathBirdwing");
+				
+				itemButterflyGrapevineEpimenis = new Item().setUnlocalizedName("itemButterflyGrapevineEpimenis").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGrapevineEpimenis").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyGrayPansy = new Item().setUnlocalizedName("itemButterflyGrayPansy").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyGrayPansy").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyHewitsonsPigmy = new Item().setUnlocalizedName("itemButterflyHewitsonsPigmy").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyHewitsonsPigmy").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyHuebnersMetalmark = new Item().setUnlocalizedName("itemButterflyHuebnersMetalmark").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyHuebnersMetalmark").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyIndianRedAdmiral = new Item().setUnlocalizedName("itemButterflyIndianRedAdmiral").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyIndianRedAdmiral").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyGrapevineEpimenis, "itemButterflyGrapevineEpimenis");	
+				GameRegistry.registerItem(itemButterflyGrayPansy, "itemButterflyGrayPansy");	
+				GameRegistry.registerItem(itemButterflyHewitsonsPigmy, "itemButterflyHewitsonsPigmy");	
+				GameRegistry.registerItem(itemButterflyHuebnersMetalmark, "itemButterflyHuebnersMetalmark");	
+				GameRegistry.registerItem(itemButterflyIndianRedAdmiral, "itemButterflyIndianRedAdmiral");
+				
+				itemButterflyIreniaMetalmark = new Item().setUnlocalizedName("itemButterflyIreniaMetalmark").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyIreniaMetalmark").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyIridescentForester = new Item().setUnlocalizedName("itemButterflyIridescentForester").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyIridescentForester").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyJuttaArctic = new Item().setUnlocalizedName("itemButterflyJuttaArctic").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyJuttaArctic").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyLargeBlue = new Item().setUnlocalizedName("itemButterflyLargeBlue").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLargeBlue").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyLavaButterfly = new Item().setUnlocalizedName("itemButterflyLavaButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLavaButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyIreniaMetalmark, "itemButterflyIreniaMetalmark");	
+				GameRegistry.registerItem(itemButterflyIridescentForester, "itemButterflyIridescentForester");	
+				GameRegistry.registerItem(itemButterflyJuttaArctic, "itemButterflyJuttaArctic");	
+				GameRegistry.registerItem(itemButterflyLargeBlue, "itemButterflyLargeBlue");	
+				GameRegistry.registerItem(itemButterflyLavaButterfly, "itemButterflyLavaButterfly");
+				
+				itemButterflyLeafButterfly = new Item().setUnlocalizedName("itemButterflyLeafButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLeafButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyLightCaveButterfly = new Item().setUnlocalizedName("itemButterflyLightCaveButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLightCaveButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyLittleMetalmark = new Item().setUnlocalizedName("itemButterflyLittleMetalmark").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLittleMetalmark").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyLuminescentButterflyGuardian = new Item().setUnlocalizedName("itemButterflyLuminescentButterflyGuardian").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLuminescentButterflyGuardian").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyLunaMoth = new Item().setUnlocalizedName("itemButterflyLunaMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLunaMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyLeafButterfly, "itemButterflyLeafButterfly");	
+				GameRegistry.registerItem(itemButterflyLightCaveButterfly, "itemButterflyLightCaveButterfly");	
+				GameRegistry.registerItem(itemButterflyLittleMetalmark, "itemButterflyLittleMetalmark");	
+				GameRegistry.registerItem(itemButterflyLuminescentButterflyGuardian, "itemButterflyLuminescentButterflyGuardian");	
+				GameRegistry.registerItem(itemButterflyLunaMoth, "itemButterflyLunaMoth");
+				
+				itemButterflyLustrousButterfly = new Item().setUnlocalizedName("itemButterflyLustrousButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyLustrousButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMacrocosmaMoth = new Item().setUnlocalizedName("itemButterflyMacrocosmaMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMacrocosmaMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMadagascanSunsetMoth = new Item().setUnlocalizedName("itemButterflyMadagascanSunsetMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMadagascanSunsetMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMagmaButterfly = new Item().setUnlocalizedName("itemButterflyMagmaButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMagmaButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMalachiteButterfly = new Item().setUnlocalizedName("itemButterflyMalachiteButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMalachiteButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyLustrousButterfly, "itemButterflyLustrousButterfly");	
+				GameRegistry.registerItem(itemButterflyMacrocosmaMoth, "itemButterflyMacrocosmaMoth");	
+				GameRegistry.registerItem(itemButterflyMadagascanSunsetMoth, "itemButterflyMadagascanSunsetMoth");	
+				GameRegistry.registerItem(itemButterflyMagmaButterfly, "itemButterflyMagmaButterfly");	
+				GameRegistry.registerItem(itemButterflyMalachiteButterfly, "itemButterflyMalachiteButterfly");
+				
+				itemButterflyMesosemiaLoruhamaCandara = new Item().setUnlocalizedName("itemButterflyMesosemiaLoruhamaCandara").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMesosemiaLoruhamaCandara").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMesosemiaPacifica = new Item().setUnlocalizedName("itemButterflyMesosemiaPacifica").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMesosemiaPacifica").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMilbertsTortoiseshell = new Item().setUnlocalizedName("itemButterflyMilbertsTortoiseshell").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMilbertsTortoiseshell").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMonarch = new Item().setUnlocalizedName("itemButterflyMonarch").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMonarch").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMooButterfly = new Item().setUnlocalizedName("itemButterflyMooButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMooButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyMesosemiaLoruhamaCandara, "itemButterflyMesosemiaLoruhamaCandara");	
+				GameRegistry.registerItem(itemButterflyMesosemiaPacifica, "itemButterflyMesosemiaPacifica");	
+				GameRegistry.registerItem(itemButterflyMilbertsTortoiseshell, "itemButterflyMilbertsTortoiseshell");	
+				GameRegistry.registerItem(itemButterflyMonarch, "itemButterflyMonarch");	
+				GameRegistry.registerItem(itemButterflyMooButterfly, "itemButterflyMooButterfly");
+				
+				itemButterflyMountainApollo = new Item().setUnlocalizedName("itemButterflyMountainApollo").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMountainApollo").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMourningCloak = new Item().setUnlocalizedName("itemButterflyMourningCloak").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMourningCloak").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyMylittaGreenwing = new Item().setUnlocalizedName("itemButterflyMylittaGreenwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyMylittaGreenwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyNessusLeafwing = new Item().setUnlocalizedName("itemButterflyNessusLeafwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNessusLeafwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyNetherrackButterfly = new Item().setUnlocalizedName("itemButterflyNetherrackButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNetherrackButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyMountainApollo, "itemButterflyMountainApollo");	
+				GameRegistry.registerItem(itemButterflyMourningCloak, "itemButterflyMourningCloak");	
+				GameRegistry.registerItem(itemButterflyMylittaGreenwing, "itemButterflyMylittaGreenwing");	
+				GameRegistry.registerItem(itemButterflyNessusLeafwing, "itemButterflyNessusLeafwing");	
+				GameRegistry.registerItem(itemButterflyNetherrackButterfly, "itemButterflyNetherrackButterfly");
+				
+				itemButterflyNetherSkullButterfly = new Item().setUnlocalizedName("itemButterflyNetherSkullButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNetherSkullButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyNewZealandRedAdmiral = new Item().setUnlocalizedName("itemButterflyNewZealandRedAdmiral").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNewZealandRedAdmiral").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyNorthernBrownArgus = new Item().setUnlocalizedName("itemButterflyNorthernBrownArgus").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNorthernBrownArgus").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyNyctemeraKinabaluensis = new Item().setUnlocalizedName("itemButterflyNyctemeraKinabaluensis").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNyctemeraKinabaluensis").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyNyx = new Item().setUnlocalizedName("itemButterflyNyx").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyNyx").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyNetherSkullButterfly, "itemButterflyNetherSkullButterfly");	
+				GameRegistry.registerItem(itemButterflyNewZealandRedAdmiral, "itemButterflyNewZealandRedAdmiral");	
+				GameRegistry.registerItem(itemButterflyNorthernBrownArgus, "itemButterflyNorthernBrownArgus");	
+				GameRegistry.registerItem(itemButterflyNyctemeraKinabaluensis, "itemButterflyNyctemeraKinabaluensis");	
+				GameRegistry.registerItem(itemButterflyNyx, "itemButterflyNyx");
+				
+				itemButterflyOceanBlue = new Item().setUnlocalizedName("itemButterflyOceanBlue").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOceanBlue").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyOceanBlueAbSchmidtii = new Item().setUnlocalizedName("itemButterflyOceanBlueAbSchmidtii").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOceanBlueAbSchmidtii").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyOrangeEmigrant = new Item().setUnlocalizedName("itemButterflyOrangeEmigrant").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOrangeEmigrant").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyOrangeSpottedSkipper = new Item().setUnlocalizedName("itemButterflyOrangeSpottedSkipper").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOrangeSpottedSkipper").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyOrangeTiger = new Item().setUnlocalizedName("itemButterflyOrangeTiger").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOrangeTiger").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyOceanBlue, "itemButterflyOceanBlue");	
+				GameRegistry.registerItem(itemButterflyOceanBlueAbSchmidtii, "itemButterflyOceanBlueAbSchmidtii");	
+				GameRegistry.registerItem(itemButterflyOrangeEmigrant, "itemButterflyOrangeEmigrant");	
+				GameRegistry.registerItem(itemButterflyOrangeSpottedSkipper, "itemButterflyOrangeSpottedSkipper");	
+				GameRegistry.registerItem(itemButterflyOrangeTiger, "itemButterflyOrangeTiger");
+				
+				itemButterflyOrangeTippedAngleSulfur = new Item().setUnlocalizedName("itemButterflyOrangeTippedAngleSulfur").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOrangeTippedAngleSulfur").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyOrnithopteraPriamusMiokensis = new Item().setUnlocalizedName("itemButterflyOrnithopteraPriamusMiokensis").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyOrnithopteraPriamusMiokensis").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPaintedBeauty = new Item().setUnlocalizedName("itemButterflyPaintedBeauty").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPaintedBeauty").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPandoraPinemoth = new Item().setUnlocalizedName("itemButterflyPandoraPinemoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPandoraPinemoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPandoraSphinxMoth = new Item().setUnlocalizedName("itemButterflyPandoraSphinxMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPandoraSphinxMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyOrangeTippedAngleSulfur, "itemButterflyOrangeTippedAngleSulfur");	
+				GameRegistry.registerItem(itemButterflyOrnithopteraPriamusMiokensis, "itemButterflyOrnithopteraPriamusMiokensis");	
+				GameRegistry.registerItem(itemButterflyPaintedBeauty, "itemButterflyPaintedBeauty");	
+				GameRegistry.registerItem(itemButterflyPandoraPinemoth, "itemButterflyPandoraPinemoth");	
+				GameRegistry.registerItem(itemButterflyPandoraSphinxMoth, "itemButterflyPandoraSphinxMoth");
+				
+				itemButterflyPartiallyFrozenPumpkinButterfly = new Item().setUnlocalizedName("itemButterflyPartiallyFrozenPumpkinButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPartiallyFrozenPumpkinButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPasiphae = new Item().setUnlocalizedName("itemButterflyPasiphae").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPasiphae").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPeacock = new Item().setUnlocalizedName("itemButterflyPeacock").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPeacock").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPeacockJewelMoth = new Item().setUnlocalizedName("itemButterflyPeacockJewelMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPeacockJewelMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPeacockPansy = new Item().setUnlocalizedName("itemButterflyPeacockPansy").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPeacockPansy").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyPartiallyFrozenPumpkinButterfly, "itemButterflyPartiallyFrozenPumpkinButterfly");	
+				GameRegistry.registerItem(itemButterflyPasiphae, "itemButterflyPasiphae");	
+				GameRegistry.registerItem(itemButterflyPeacock, "itemButterflyPeacock");	
+				GameRegistry.registerItem(itemButterflyPeacockJewelMoth, "itemButterflyPeacockJewelMoth");	
+				GameRegistry.registerItem(itemButterflyPeacockPansy, "itemButterflyPeacockPansy");
+				
+				itemButterflyPearlCharaxes = new Item().setUnlocalizedName("itemButterflyPearlCharaxes").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPearlCharaxes").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPentheaMetalmark = new Item().setUnlocalizedName("itemButterflyPentheaMetalmark").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPentheaMetalmark").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPumpkinButterfly = new Item().setUnlocalizedName("itemButterflyPumpkinButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPumpkinButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPuririMoth = new Item().setUnlocalizedName("itemButterflyPuririMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPuririMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyPurpleEdgedCopper = new Item().setUnlocalizedName("itemButterflyPurpleEdgedCopper").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyPurpleEdgedCopper").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyPearlCharaxes, "itemButterflyPearlCharaxes");	
+				GameRegistry.registerItem(itemButterflyPentheaMetalmark, "itemButterflyPentheaMetalmark");	
+				GameRegistry.registerItem(itemButterflyPumpkinButterfly, "itemButterflyPumpkinButterfly");	
+				GameRegistry.registerItem(itemButterflyPuririMoth, "itemButterflyPuririMoth");	
+				GameRegistry.registerItem(itemButterflyPurpleEdgedCopper, "itemButterflyPurpleEdgedCopper");
+				
+				itemButterflyQueenVictoriasBirdwing = new Item().setUnlocalizedName("itemButterflyQueenVictoriasBirdwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyQueenVictoriasBirdwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyRedAdmiral = new Item().setUnlocalizedName("itemButterflyRedAdmiral").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyRedAdmiral").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyRedBorderedPixie = new Item().setUnlocalizedName("itemButterflyRedBorderedPixie").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyRedBorderedPixie").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyReedButterfly = new Item().setUnlocalizedName("itemButterflyReedButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyReedButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyRockGrayling = new Item().setUnlocalizedName("itemButterflyRockGrayling").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyRockGrayling").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyQueenVictoriasBirdwing, "itemButterflyQueenVictoriasBirdwing");	
+				GameRegistry.registerItem(itemButterflyRedAdmiral, "itemButterflyRedAdmiral");	
+				GameRegistry.registerItem(itemButterflyRedBorderedPixie, "itemButterflyRedBorderedPixie");	
+				GameRegistry.registerItem(itemButterflyReedButterfly, "itemButterflyReedButterfly");	
+				GameRegistry.registerItem(itemButterflyRockGrayling, "itemButterflyRockGrayling");
+				
+				itemButterflyRoseateEmperorMoth = new Item().setUnlocalizedName("itemButterflyRoseateEmperorMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyRoseateEmperorMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyRubySpottedSwallowtail = new Item().setUnlocalizedName("itemButterflyRubySpottedSwallowtail").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyRubySpottedSwallowtail").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyRustic = new Item().setUnlocalizedName("itemButterflyRustic").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyRustic").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySagebrushGirdleMoth = new Item().setUnlocalizedName("itemButterflySagebrushGirdleMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySagebrushGirdleMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySaltMarshMoth = new Item().setUnlocalizedName("itemButterflySaltMarshMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySaltMarshMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyRoseateEmperorMoth, "itemButterflyRoseateEmperorMoth");	
+				GameRegistry.registerItem(itemButterflyRubySpottedSwallowtail, "itemButterflyRubySpottedSwallowtail");	
+				GameRegistry.registerItem(itemButterflyRustic, "itemButterflyRustic");	
+				GameRegistry.registerItem(itemButterflySagebrushGirdleMoth, "itemButterflySagebrushGirdleMoth");	
+				GameRegistry.registerItem(itemButterflySaltMarshMoth, "itemButterflySaltMarshMoth");
+				
+				itemButterflySilkyOwl = new Item().setUnlocalizedName("itemButterflySilkyOwl").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySilkyOwl").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySilveryBlue = new Item().setUnlocalizedName("itemButterflySilveryBlue").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySilveryBlue").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySmallCopper = new Item().setUnlocalizedName("itemButterflySmallCopper").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySmallCopper").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySmallTortoiseshell = new Item().setUnlocalizedName("itemButterflySmallTortoiseshell").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySmallTortoiseshell").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySmallWhite = new Item().setUnlocalizedName("itemButterflySmallWhite").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySmallWhite").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflySilkyOwl, "itemButterflySilkyOwl");	
+				GameRegistry.registerItem(itemButterflySilveryBlue, "itemButterflySilveryBlue");	
+				GameRegistry.registerItem(itemButterflySmallCopper, "itemButterflySmallCopper");	
+				GameRegistry.registerItem(itemButterflySmallTortoiseshell, "itemButterflySmallTortoiseshell");	
+				GameRegistry.registerItem(itemButterflySmallWhite, "itemButterflySmallWhite");
+				
+				itemButterflySpawnerButterfly = new Item().setUnlocalizedName("itemButterflySpawnerButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySpawnerButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySturnulaMetalmark = new Item().setUnlocalizedName("itemButterflySturnulaMetalmark").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySturnulaMetalmark").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySwampButterfly = new Item().setUnlocalizedName("itemButterflySwampButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySwampButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySwissBrassyRinglet = new Item().setUnlocalizedName("itemButterflySwissBrassyRinglet").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySwissBrassyRinglet").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflySyngraphaOrophila = new Item().setUnlocalizedName("itemButterflySyngraphaOrophila").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflySyngraphaOrophila").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflySpawnerButterfly, "itemButterflySpawnerButterfly");	
+				GameRegistry.registerItem(itemButterflySturnulaMetalmark, "itemButterflySturnulaMetalmark");	
+				GameRegistry.registerItem(itemButterflySwampButterfly, "itemButterflySwampButterfly");	
+				GameRegistry.registerItem(itemButterflySwissBrassyRinglet, "itemButterflySwissBrassyRinglet");	
+				GameRegistry.registerItem(itemButterflySyngraphaOrophila, "itemButterflySyngraphaOrophila");
+				
+				itemButterflyTawnyCoster = new Item().setUnlocalizedName("itemButterflyTawnyCoster").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyTawnyCoster").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyTelegoneEyemark = new Item().setUnlocalizedName("itemButterflyTelegoneEyemark").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyTelegoneEyemark").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyThalainaChionoptila = new Item().setUnlocalizedName("itemButterflyThalainaChionoptila").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyThalainaChionoptila").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyTheanoAlpine = new Item().setUnlocalizedName("itemButterflyTheanoAlpine").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyTheanoAlpine").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyTheWanderer = new Item().setUnlocalizedName("itemButterflyTheWanderer").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyTheWanderer").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyTawnyCoster, "itemButterflyTawnyCoster");	
+				GameRegistry.registerItem(itemButterflyTelegoneEyemark, "itemButterflyTelegoneEyemark");	
+				GameRegistry.registerItem(itemButterflyThalainaChionoptila, "itemButterflyThalainaChionoptila");	
+				GameRegistry.registerItem(itemButterflyTheanoAlpine, "itemButterflyTheanoAlpine");	
+				GameRegistry.registerItem(itemButterflyTheWanderer, "itemButterflyTheWanderer");
+				
+				itemButterflyTropicalCheckeredSkipper = new Item().setUnlocalizedName("itemButterflyTropicalCheckeredSkipper").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyTropicalCheckeredSkipper").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyTwoBarredFlasher = new Item().setUnlocalizedName("itemButterflyTwoBarredFlasher").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyTwoBarredFlasher").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyVariableBurnet = new Item().setUnlocalizedName("itemButterflyVariableBurnet").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyVariableBurnet").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyVoidButterfly = new Item().setUnlocalizedName("itemButterflyVoidButterfly").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyVoidButterfly").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyWallacesGoldenBirdwing = new Item().setUnlocalizedName("itemButterflyWallacesGoldenBirdwing").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyWallacesGoldenBirdwing").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyTropicalCheckeredSkipper, "itemButterflyTropicalCheckeredSkipper");	
+				GameRegistry.registerItem(itemButterflyTwoBarredFlasher, "itemButterflyTwoBarredFlasher");	
+				GameRegistry.registerItem(itemButterflyVariableBurnet, "itemButterflyVariableBurnet");	
+				GameRegistry.registerItem(itemButterflyVoidButterfly, "itemButterflyVoidButterfly");	
+				GameRegistry.registerItem(itemButterflyWallacesGoldenBirdwing, "itemButterflyWallacesGoldenBirdwing");
+				
+				itemButterflyYellowPansy = new Item().setUnlocalizedName("itemButterflyYellowPansy").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyYellowPansy").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+				itemButterflyZodiacMoth = new Item().setUnlocalizedName("itemButterflyZodiacMoth").setTextureName(Bandb_mod.MODID + ":butterfly/itemButterflyZodiacMoth").setCreativeTab(BandbCreativeTabs.CreativeTabsButterfly);
+
+				GameRegistry.registerItem(itemButterflyYellowPansy, "itemButterflyYellowPansy");	
+				GameRegistry.registerItem(itemButterflyZodiacMoth, "itemButterflyZodiacMoth");	
+				
+// egg and feather
+				
+				//Egg
+				itemEggOstrich = new Item().setUnlocalizedName("itemEggOstrich").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggOstrich").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggDuck = new Item().setUnlocalizedName("itemEggDuck").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggDuck").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggCassowary = new Item().setUnlocalizedName("itemEggCassowary").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggCassowary").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggHummingbird = new Item().setUnlocalizedName("itemEggHummingbird").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggHummingbird").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggGouldianFinch = new Item().setUnlocalizedName("itemEggGouldianFinch").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggGouldianFinch").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				itemEggSeagull = new Item().setUnlocalizedName("itemEggSeagull").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggSeagull").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggRoadrunner = new Item().setUnlocalizedName("itemEggRoadrunner").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggRoadrunner").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggKiwi = new Item().setUnlocalizedName("itemEggKiwi").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggKiwi").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggKingfisher = new Item().setUnlocalizedName("itemEggKingfisher").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggKingfisher").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggLyrebird = new Item().setUnlocalizedName("itemEggLyrebird").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggLyrebird").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				itemEggGull = new Item().setUnlocalizedName("itemEggGull").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggGull").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggPelican = new Item().setUnlocalizedName("itemEggPelican").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggPelican").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggParrot = new Item().setUnlocalizedName("itemEggParrot").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggParrot").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggMagpie = new Item().setUnlocalizedName("itemEggMagpie").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggMagpie").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemEggPigeon = new Item().setUnlocalizedName("itemEggPigeon").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggPigeon").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+																																		
+				GameRegistry.registerItem(itemEggOstrich, "itemEggOstrich");	
+				GameRegistry.registerItem(itemEggDuck, "itemEggDuck");	
+				GameRegistry.registerItem(itemEggCassowary, "itemEggCassowary");	
+				GameRegistry.registerItem(itemEggHummingbird, "itemEggHummingbird");	
+				GameRegistry.registerItem(itemEggGouldianFinch, "itemEggGouldianFinch");	
+				
+				GameRegistry.registerItem(itemEggSeagull, "itemEggSeagull");	
+				GameRegistry.registerItem(itemEggRoadrunner, "itemEggRoadrunner");	
+				GameRegistry.registerItem(itemEggKiwi, "itemEggKiwi");	
+				GameRegistry.registerItem(itemEggKingfisher, "itemEggKingfisher");	
+				GameRegistry.registerItem(itemEggLyrebird, "itemEggLyrebird");	
+				
+				GameRegistry.registerItem(itemEggGull, "itemEggGull");	
+				GameRegistry.registerItem(itemEggPelican, "itemEggPelican");	
+				GameRegistry.registerItem(itemEggParrot, "itemEggParrot");	
+				GameRegistry.registerItem(itemEggMagpie, "itemEggMagpie");	
+				GameRegistry.registerItem(itemEggPigeon, "itemEggPigeon");
+				
+				
+				//Feather
+				itemEggandFeather = new Item().setUnlocalizedName("itemEggandFeather").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemEggandFeather").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherOstrich = new Item().setUnlocalizedName("itemFeatherOstrich").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherOstrich").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherDuckFemale = new Item().setUnlocalizedName("itemFeatherDuckFemale").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherDuckFemale").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherDuckMale = new Item().setUnlocalizedName("itemFeatherDuckMale").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherDuckMale").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherCassowary = new Item().setUnlocalizedName("itemFeatherCassowary").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherCassowary").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				GameRegistry.registerItem(itemEggandFeather, "itemEggandFeather");	
+				GameRegistry.registerItem(itemFeatherOstrich, "itemFeatherOstrich");	
+				GameRegistry.registerItem(itemFeatherDuckFemale, "itemFeatherDuckFemale");	
+				GameRegistry.registerItem(itemFeatherDuckMale, "itemFeatherDuckMale");	
+				GameRegistry.registerItem(itemFeatherCassowary, "itemFeatherCassowary");	
+				
+				itemFeatherHummingbirdCrimsonTopaz = new Item().setUnlocalizedName("itemFeatherHummingbirdCrimsonTopaz").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherHummingbirdCrimsonTopaz").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherHummingbirdFieryThroatedHummingbird = new Item().setUnlocalizedName("itemFeatherHummingbirdFieryThroatedHummingbird").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherHummingbirdFieryThroatedHummingbird").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherHummingbirdFlyingLavenderBlueHummingbird = new Item().setUnlocalizedName("itemFeatherHummingbirdFlyingLavenderBlueHummingbird").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherHummingbirdFlyingLavenderBlueHummingbird").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherHummingbirdSwordBilledHummingbird = new Item().setUnlocalizedName("itemFeatherHummingbirdSwordBilledHummingbird").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherHummingbirdSwordBilledHummingbird").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherHummingbirdCanvasPrint = new Item().setUnlocalizedName("itemFeatherHummingbirdCanvasPrint").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherHummingbirdCanvasPrint").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+
+				GameRegistry.registerItem(itemFeatherHummingbirdCrimsonTopaz, "itemFeatherHummingbirdCrimsonTopaz");	
+				GameRegistry.registerItem(itemFeatherHummingbirdFieryThroatedHummingbird, "itemFeatherHummingbirdFieryThroatedHummingbird");	
+				GameRegistry.registerItem(itemFeatherHummingbirdFlyingLavenderBlueHummingbird, "itemFeatherHummingbirdFlyingLavenderBlueHummingbird");	
+				GameRegistry.registerItem(itemFeatherHummingbirdSwordBilledHummingbird, "itemFeatherHummingbirdSwordBilledHummingbird");	
+				GameRegistry.registerItem(itemFeatherHummingbirdCanvasPrint, "itemFeatherHummingbirdCanvasPrint");	
+				
+				itemFeatherGouldianFinch1 = new Item().setUnlocalizedName("itemFeatherGouldianFinch1").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGouldianFinch1").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherGouldianFinch2 = new Item().setUnlocalizedName("itemFeatherGouldianFinch2").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGouldianFinch2").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherGouldianFinch3 = new Item().setUnlocalizedName("itemFeatherGouldianFinch3").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGouldianFinch3").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherGouldianFinch4 = new Item().setUnlocalizedName("itemFeatherGouldianFinch4").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGouldianFinch4").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherGouldianFinch5 = new Item().setUnlocalizedName("itemFeatherGouldianFinch5").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGouldianFinch5").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				GameRegistry.registerItem(itemFeatherGouldianFinch1, "itemFeatherGouldianFinch1");	
+				GameRegistry.registerItem(itemFeatherGouldianFinch2, "itemFeatherGouldianFinch2");	
+				GameRegistry.registerItem(itemFeatherGouldianFinch3, "itemFeatherGouldianFinch3");	
+				GameRegistry.registerItem(itemFeatherGouldianFinch4, "itemFeatherGouldianFinch4");
+				GameRegistry.registerItem(itemFeatherGouldianFinch5, "itemFeatherGouldianFinch5");	
+					
+				itemFeatherRoadrunner = new Item().setUnlocalizedName("itemFeatherRoadrunner").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherRoadrunner").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherKiwi = new Item().setUnlocalizedName("itemFeatherKiwi").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherKiwi").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherKingfisher = new Item().setUnlocalizedName("itemFeatherKingfisher").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherKingfisher").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherGouldianFinch6 = new Item().setUnlocalizedName("itemFeatherGouldianFinch6").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGouldianFinch6").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherSeagull = new Item().setUnlocalizedName("itemFeatherSeagull").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherSeagull").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				GameRegistry.registerItem(itemFeatherRoadrunner, "itemFeatherRoadrunner");	
+				GameRegistry.registerItem(itemFeatherKiwi, "itemFeatherKiwi");	
+				GameRegistry.registerItem(itemFeatherKingfisher, "itemFeatherKingfisher");	
+				GameRegistry.registerItem(itemFeatherGouldianFinch6, "itemFeatherGouldianFinch6");	
+				GameRegistry.registerItem(itemFeatherSeagull, "itemFeatherSeagull");				
+				
+				itemFeatherPelican = new Item().setUnlocalizedName("itemFeatherPelican").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherPelican").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFatherParrotAfricanGreyParrot = new Item().setUnlocalizedName("itemFatherParrotAfricanGreyParrot").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFatherParrotAfricanGreyParrot").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFatherParrotBlueAndYellowMacaw = new Item().setUnlocalizedName("itemFatherParrotBlueAndYellowMacaw").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFatherParrotBlueAndYellowMacaw").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFatherParrotCockatoo = new Item().setUnlocalizedName("itemFatherParrotCockatoo").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFatherParrotCockatoo").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherPigeon = new Item().setUnlocalizedName("itemFeatherPigeon").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherPigeon").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+
+				GameRegistry.registerItem(itemFeatherPelican, "itemFeatherPelican");	
+				GameRegistry.registerItem(itemFatherParrotAfricanGreyParrot, "itemFatherParrotAfricanGreyParrot");	
+				GameRegistry.registerItem(itemFatherParrotBlueAndYellowMacaw, "itemFatherParrotBlueAndYellowMacaw");	
+				GameRegistry.registerItem(itemFatherParrotCockatoo, "itemFatherParrotCockatoo");	
+				GameRegistry.registerItem(itemFeatherPigeon, "itemFeatherPigeon");	
+
+				itemFatherParrotGreatGreenMacaw = new Item().setUnlocalizedName("itemFatherParrotGreatGreenMacaw").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFatherParrotGreatGreenMacaw").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFatherParrotHyacinthMacaw = new Item().setUnlocalizedName("itemFatherParrotHyacinthMacaw").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFatherParrotHyacinthMacaw").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFatherParrotRedAndGreenMacaw = new Item().setUnlocalizedName("itemFatherParrotRedAndGreenMacaw").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFatherParrotRedAndGreenMacaw").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherMagpie = new Item().setUnlocalizedName("itemFeatherMagpie").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherMagpie").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				itemFeatherGull = new Item().setUnlocalizedName("itemFeatherGull").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherGull").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				GameRegistry.registerItem(itemFatherParrotGreatGreenMacaw, "itemFatherParrotGreatGreenMacaw");	
+				GameRegistry.registerItem(itemFatherParrotHyacinthMacaw, "itemFatherParrotHyacinthMacaw");	
+				GameRegistry.registerItem(itemFatherParrotRedAndGreenMacaw, "itemFatherParrotRedAndGreenMacaw");	
+				GameRegistry.registerItem(itemFeatherMagpie, "itemFeatherMagpie");	
+				GameRegistry.registerItem(itemFeatherGull, "itemFeatherGull");	
+				
+				itemFeatherLyrebird = new Item().setUnlocalizedName("itemFeatherLyrebird").setTextureName(Bandb_mod.MODID + ":eggandfeather/itemFeatherLyrebird").setCreativeTab(BandbCreativeTabs.CreativeTabsEggAndFeather);
+				
+				GameRegistry.registerItem(itemFeatherLyrebird, "itemFeatherLyrebird");	
 				
 
 		}

@@ -120,11 +120,11 @@ public class EntityZebra extends EntityAnimal
         {
             if (this.isBurning())
             {
-                this.dropItem(Items.cooked_beef, 1);
+                this.dropItem(BandbItems.itemZebraCooked, 1);
             }
             else
             {
-                this.dropItem(Items.beef, 1);
+                this.dropItem(BandbItems.itemZebraRaw, 1);
             }
         }
     }
