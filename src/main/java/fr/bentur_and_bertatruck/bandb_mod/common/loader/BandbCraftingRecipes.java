@@ -485,14 +485,9 @@ public class BandbCraftingRecipes {
 	public static void loaderFurnaceRecipe(){
 		GameRegistry.addSmelting(BandbItems.itemZebraRaw, new ItemStack(BandbItems.itemZebraCooked, 1), 0.5F);
 		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbItems.itemPorkForeLoinRaw, new ItemStack(BandbItems.itemPorkForeLoinCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbItems.itemPorkHamRaw, new ItemStack(BandbItems.itemPorkHamCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbItems.itemPorkLoinChopsRaw, new ItemStack(BandbItems.itemPorkLoinChopsCooked, 1), 0.5F);
 		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
 		
 	}
