@@ -53,3 +53,4 @@ Temporary Items
 !/share file
 *.project
 *.classpath
+*.class
