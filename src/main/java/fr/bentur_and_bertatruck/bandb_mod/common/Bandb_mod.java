@@ -31,14 +31,17 @@ import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbMachines;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbOreDictionary;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbStuffs;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbWorldGeneration;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityBenLaden;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowCharolaise;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowGasconne;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowKerry;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowLaughting;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowMilka;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowMontbeliarde;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowNorwegian;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityGoatWhite;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityHandler;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityMomie;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityWalker1;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityZebra;
 import fr.bentur_and_bertatruck.bandb_mod.machine.gui.HandlerGui;
@@ -159,9 +162,12 @@ public class Bandb_mod{
 		EntityHandler.RegisterEntities(EntityCowGasconne.class,"EntityCowGasconne");
 		EntityHandler.RegisterEntities(EntityCowKerry.class,"EntityCowKerry");
 		EntityHandler.RegisterEntities(EntityCowMontbeliarde.class,"EntityCowMontbeliarde");
+		EntityHandler.RegisterEntities(EntityCowNorwegian.class,"EntityCowNorwegian");
 		EntityHandler.RegisterEntities(EntityGoatWhite.class, "entityGoatWhite");
 		EntityHandler.RegisterEntities(EntityZebra.class, "entityZebra");
 		EntityHandler.RegisterEntities(EntityWalker1.class, "entityWalker");
+		EntityHandler.RegisterEntities(EntityBenLaden.class, "EntityBenLaden");
+		EntityHandler.RegisterEntities(EntityMomie.class, "EntityMomie");
 
 		
 		EntityRegistry.addSpawn(EntityCowCharolaise.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills, BiomeGenBase.jungle,
@@ -179,6 +185,10 @@ public class Bandb_mod{
 		EntityRegistry.addSpawn(EntityCowMontbeliarde.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills, BiomeGenBase.jungle,
 				BiomeGenBase.jungleHills, BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.forest,
 				BiomeGenBase.forestHills, BiomeGenBase.swampland, BiomeGenBase.extremeHills, BiomeGenBase.extremeHillsEdge);
+		
+		EntityRegistry.addSpawn(EntityCowNorwegian.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills, BiomeGenBase.jungle,
+				BiomeGenBase.jungleHills, BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.forest,
+				BiomeGenBase.forestHills, BiomeGenBase.swampland, BiomeGenBase.extremeHills, BiomeGenBase.extremeHillsEdge);
 			
 		EntityRegistry.addSpawn(EntityGoatWhite.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills,
 				BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.swampland, BiomeGenBase.extremeHills, BiomeGenBase.extremeHillsEdge);
@@ -190,6 +200,16 @@ public class Bandb_mod{
 		EntityRegistry.registerModEntity(EntityWalker1.class, "Walker1", 420, this.instance, 40, 1, true);	
 		EntityRegistry.addSpawn(EntityWalker1.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
+			//Ben Laden
+		EntityRegistry.registerGlobalEntityID(EntityBenLaden.class, "BenLaden", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
+		EntityRegistry.registerModEntity(EntityBenLaden.class, "BenLaden", 420, this.instance, 40, 1, true);	
+		EntityRegistry.addSpawn(EntityBenLaden.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+				
+			//Momie
+		EntityRegistry.registerGlobalEntityID(EntityMomie.class, "Momie", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
+		EntityRegistry.registerModEntity(EntityMomie.class, "Momie", 420, this.instance, 40, 1, true);	
+		EntityRegistry.addSpawn(EntityMomie.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+				
 		
 		//GameRegistry.registerTileEntity(TileEntityTestOGL.class, "tileEntityTestOGL");
 		GameRegistry.registerTileEntity(TileEntityDistributor.class, "tileEntityDistributor");

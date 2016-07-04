@@ -62,7 +62,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemButter,itemKetchup,itemIceCreamVanilla,itemVinegar;
 		
 		public static Item itemBenco,itemBanania,itemSuperPoulain,itemNesquik,itemNesquikIntense;
-		public static Item itemSucreVanille,itemSucreVahine,itemCassonade;
+		public static Item itemSucreVanille,itemSucreVahine,itemCassonade,itemPretzel;
 		
 		//Gâteau Lu
 		public static Item itemLogoLu,itemMikadoChocolatNoir,itemMikadoChocolatLait,itemMikadoKingChoco,itemMikadoChocoNoisette;
@@ -629,6 +629,7 @@ import net.minecraftforge.common.util.EnumHelper;
 				itemSucreVahine = new Item().setUnlocalizedName("itemSucreVahine").setTextureName(Bandb_mod.MODID + ":ingredients/itemSucreVahine").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
 				itemVinegar = new Item().setUnlocalizedName("itemVinegar").setTextureName(Bandb_mod.MODID + ":beverage/itemVinegar").setCreativeTab(BandbCreativeTabs.CreativeTabsBeverage);
 				itemCassonade = new Item().setUnlocalizedName("itemCassonade").setTextureName(Bandb_mod.MODID + ":ingredients/itemCassonade").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemPretzel = new ItemFood(1, 1.5F, false).setUnlocalizedName("itemPretzel").setTextureName(Bandb_mod.MODID + ":processed food/itemPretzel").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
 				
 				GameRegistry.registerItem(itemBenco, "itemBenco");
 		    	GameRegistry.registerItem(itemBanania, "itemBanania");
@@ -640,7 +641,8 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	GameRegistry.registerItem(itemSucreVahine, "itemSucreVahine");
 		    	GameRegistry.registerItem(itemVinegar, "itemVinegar");
 		    	GameRegistry.registerItem(itemCassonade, "itemCassonade");
-		  
+		    	GameRegistry.registerItem(itemPretzel, "itemPretzel");
+				  
 		    	
 		    	//Gï¿½teau LU 			
 				itemLogoLu = new Item().setUnlocalizedName("itemLogoLu").setTextureName(Bandb_mod.MODID + ":lu/itemLogoLu").setCreativeTab(BandbCreativeTabs.CreativeTabsLu);

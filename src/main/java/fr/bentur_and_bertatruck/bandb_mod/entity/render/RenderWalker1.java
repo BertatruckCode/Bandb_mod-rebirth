@@ -9,7 +9,7 @@ import fr.bentur_and_bertatruck.bandb_mod.entity.EntityWalker1;
 
 public class RenderWalker1 extends RenderBiped {
 
-	public final ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/entity/mob_tutoriel.png");
+	public final ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/entity/modelArabe.png");
 	
 	public RenderWalker1(ModelBiped model, float shadow) 
 	{	
