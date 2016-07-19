@@ -2,18 +2,23 @@ package fr.bentur_and_bertatruck.bandb_mod.proxy;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityBenLaden;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowCharolaise;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowGasconne;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowKerry;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowLaughting;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowMilka;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowMontbeliarde;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityDracula;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityGoatWhite;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityMomie;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityWalker1;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityZebra;
 import fr.bentur_and_bertatruck.bandb_mod.entity.model.ModelCow;
 import fr.bentur_and_bertatruck.bandb_mod.entity.model.ModelGoat;
 import fr.bentur_and_bertatruck.bandb_mod.entity.model.ModelZebra;
+import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderBenLaden;
+import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderDracula;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityCowCharolaise;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityCowGasconne;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityCowKerry;
@@ -22,6 +27,7 @@ import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityCowMilka;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityCowMontbeliarde;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityGoatWhite;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderEntityZebra;
+import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderMomie;
 import fr.bentur_and_bertatruck.bandb_mod.entity.render.RenderWalker1;
 import fr.bentur_and_bertatruck.bandb_mod.machine.model.TESRInventoryRenderer;
 import fr.bentur_and_bertatruck.bandb_mod.machine.model.TileEntitySpecialRendererCoffeeMaker;
@@ -45,8 +51,11 @@ public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy
 	@Override
 	public void registerRender()
 	{
+	    RenderingRegistry.registerEntityRenderingHandler(EntityBenLaden.class, new RenderBenLaden(new ModelBiped(), 0.5F));
 
 	    RenderingRegistry.registerEntityRenderingHandler(EntityWalker1.class, new RenderWalker1(new ModelBiped(), 0.5F));
+	    RenderingRegistry.registerEntityRenderingHandler(EntityDracula.class, new RenderDracula(new ModelBiped(), 0.5F));
+	    RenderingRegistry.registerEntityRenderingHandler(EntityMomie.class, new RenderMomie(new ModelBiped(), 0.5F));
 	    	   
 	    //entities
 	    RenderingRegistry.registerEntityRenderingHandler(EntityCowLaughting.class, new RenderEntityCowLaughting(new ModelCow(), 0.3F));
@@ -58,7 +67,7 @@ public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy
 	    RenderingRegistry.registerEntityRenderingHandler(EntityGoatWhite.class, new RenderEntityGoatWhite(new ModelGoat(), 0.3F));
 	    RenderingRegistry.registerEntityRenderingHandler(EntityZebra.class, new RenderEntityZebra(new ModelZebra(), 0.3F));
 	    
-	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityCoffeeMaker.class, new TileEntitySpecialRendererCoffeeMaker());
+	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityCoffeeMaker.class, new TileEntitySpecialRendererCoffeeMaker());	
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityPrinter.class, new TileEntitySpecialRendererPrinter());
 	    //ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTestOGL.class, new TileEntitySpecialRenderTestOGL());
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityDistributor.class, new TileEntitySpecialRendererDistributor());

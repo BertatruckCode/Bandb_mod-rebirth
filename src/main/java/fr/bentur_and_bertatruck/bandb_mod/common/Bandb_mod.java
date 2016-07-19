@@ -151,8 +151,6 @@ public class Bandb_mod{
 		BandbCraftingRecipes.loaderFurnaceRecipe();
 		BandbOreDictionary.loaderPlankWood();
 		
-		//register render
-		proxy.registerRender();
 								
 		//generation///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		BandbWorldGeneration.init();
@@ -206,17 +204,17 @@ public class Bandb_mod{
 			//Ben Laden
 		EntityRegistry.registerGlobalEntityID(EntityBenLaden.class, "BenLaden", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
 		EntityRegistry.registerModEntity(EntityBenLaden.class, "BenLaden", 420, this.instance, 40, 1, true);	
-		EntityRegistry.addSpawn(EntityBenLaden.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		EntityRegistry.addSpawn(EntityBenLaden.class, 10, 1, 2, EnumCreatureType.ambient, BiomeGenBase.desert, BiomeGenBase.desertHills);
 				
 		//Momie
 		EntityRegistry.registerGlobalEntityID(EntityMomie.class, "Momie", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
 		EntityRegistry.registerModEntity(EntityMomie.class, "Momie", 420, this.instance, 40, 1, true);	
-		EntityRegistry.addSpawn(EntityMomie.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		EntityRegistry.addSpawn(EntityMomie.class, 10, 1, 2, EnumCreatureType.ambient, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
 		//Dracula
 		EntityRegistry.registerGlobalEntityID(EntityDracula.class, "Dracula", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
 		EntityRegistry.registerModEntity(EntityDracula.class, "Dracula", 420, this.instance, 40, 1, true);	
-		EntityRegistry.addSpawn(EntityDracula.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		EntityRegistry.addSpawn(EntityDracula.class, 10, 1, 2, EnumCreatureType.monster, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
 		
 		//GameRegistry.registerTileEntity(TileEntityTestOGL.class, "tileEntityTestOGL");
@@ -226,6 +224,9 @@ public class Bandb_mod{
 		//gui handler
 		NetworkRegistry.INSTANCE.registerGuiHandler(this, new HandlerGui());								
 		new NetworkHandler();
+		
+		//register render
+		proxy.registerRender();
 		
 	}
 

@@ -9,20 +9,18 @@ import fr.bentur_and_bertatruck.bandb_mod.entity.EntityWalker1;
 
 public class RenderWalker1 extends RenderBiped {
 
-	public final ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/entity/modelArabe.png");
+	public final ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/models/mob_tutoriel.png");
 	
-	public RenderWalker1(ModelBiped model, float shadow) 
-	{	
-			super(model, shadow);
+	public RenderWalker1(ModelBiped model, float shadow){	
+		super(model, shadow);
 	}	
-	protected ResourceLocation getEntityTexture(EntityLiving living)
-		{
-			return this.getWalker1Texture((EntityWalker1)living);
-		}
+	
+	protected ResourceLocation getEntityTexture(EntityLiving living){
+		return this.getWalker1Texture((EntityWalker1)living);
+	}
 
-	private ResourceLocation getWalker1Texture(EntityWalker1 Walker1)
-		{
-			return texture;
-		}
+	private ResourceLocation getWalker1Texture(EntityWalker1 Walker1){
+		return texture;
+	}
 	
 }

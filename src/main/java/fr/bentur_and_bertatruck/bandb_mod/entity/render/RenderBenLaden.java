@@ -12,18 +12,15 @@ public class RenderBenLaden extends RenderBiped {
 
 	public final ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/entity/modelBenLaden.png");
 	
-	public RenderBenLaden(ModelBiped model, float shadow) 
-	{	
-			super(model, shadow);
+	public RenderBenLaden(ModelBiped model, float shadow){	
+		super(model, shadow);
 	}	
-	protected ResourceLocation getEntityTexture(EntityLiving living)
-		{
-			return this.getBenLadenTexture((EntityBenLaden)living);
-		}
+	protected ResourceLocation getEntityTexture(EntityLiving living){
+		return this.getBenLadenTexture((EntityBenLaden)living);
+	}
 
-	private ResourceLocation getBenLadenTexture(EntityBenLaden BenLaden)
-		{
-			return texture;
-		}
+	private ResourceLocation getBenLadenTexture(EntityBenLaden BenLaden){
+		return texture;
+	}
 	
 }
