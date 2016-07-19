@@ -39,6 +39,7 @@ import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowLaughting;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowMilka;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowMontbeliarde;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowNorwegian;
+import fr.bentur_and_bertatruck.bandb_mod.entity.EntityDracula;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityGoatWhite;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityHandler;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityMomie;
@@ -88,6 +89,7 @@ public class Bandb_mod{
 	public void preInit(FMLPreInitializationEvent event){
 
 		Items.leather.setTextureName(Bandb_mod.MODID + ":miscellaneous/itemLeatherCowVanilla");
+		Items.melon.setTextureName(Bandb_mod.MODID + ":fruit/itemMelon");
 		
 		//event
 		FMLCommonHandler.instance().bus().register(events);
@@ -168,6 +170,7 @@ public class Bandb_mod{
 		EntityHandler.RegisterEntities(EntityWalker1.class, "entityWalker");
 		EntityHandler.RegisterEntities(EntityBenLaden.class, "EntityBenLaden");
 		EntityHandler.RegisterEntities(EntityMomie.class, "EntityMomie");
+		EntityHandler.RegisterEntities(EntityDracula.class, "EntityDracula");
 
 		
 		EntityRegistry.addSpawn(EntityCowCharolaise.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills, BiomeGenBase.jungle,
@@ -205,11 +208,16 @@ public class Bandb_mod{
 		EntityRegistry.registerModEntity(EntityBenLaden.class, "BenLaden", 420, this.instance, 40, 1, true);	
 		EntityRegistry.addSpawn(EntityBenLaden.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
 				
-			//Momie
+		//Momie
 		EntityRegistry.registerGlobalEntityID(EntityMomie.class, "Momie", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
 		EntityRegistry.registerModEntity(EntityMomie.class, "Momie", 420, this.instance, 40, 1, true);	
 		EntityRegistry.addSpawn(EntityMomie.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
-				
+		
+		//Dracula
+		EntityRegistry.registerGlobalEntityID(EntityDracula.class, "Dracula", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
+		EntityRegistry.registerModEntity(EntityDracula.class, "Dracula", 420, this.instance, 40, 1, true);	
+		EntityRegistry.addSpawn(EntityDracula.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		
 		
 		//GameRegistry.registerTileEntity(TileEntityTestOGL.class, "tileEntityTestOGL");
 		GameRegistry.registerTileEntity(TileEntityDistributor.class, "tileEntityDistributor");
