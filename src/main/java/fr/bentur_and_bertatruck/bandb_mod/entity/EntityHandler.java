@@ -8,17 +8,14 @@ import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
 
 public class EntityHandler {
 	
-	public static void RegisterEntities(Class entityClass, String name){
+	public static void RegisterEntities(Class entityClass, String name, int mainColor, int subColor){
 		int entityId = EntityRegistry.findGlobalUniqueEntityId();
 		long x = name.hashCode();
 		Random random = new Random();
-		int mainColor = random.nextInt() * 16777215;
-		int subColor = random.nextInt() * 16777215;
 		
 		EntityRegistry.registerGlobalEntityID(entityClass, name, entityId);
 		EntityRegistry.registerModEntity(entityClass, name, entityId, Bandb_mod.instance, 64, 1, true);
 		EntityList.entityEggs.put(Integer.valueOf(entityId), new EntityList.EntityEggInfo(entityId, mainColor, subColor));
-
 		
 	}
 

@@ -2,6 +2,7 @@ package fr.bentur_and_bertatruck.bandb_mod.common;
 
 
 import java.awt.Color;
+import java.util.Random;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -156,20 +157,17 @@ public class Bandb_mod{
 		BandbWorldGeneration.init();
 		
 		//entities 
-		EntityHandler.RegisterEntities(EntityCowLaughting.class,"EntityCowLaughting");
-		EntityHandler.RegisterEntities(EntityCowMilka.class,"EntityCowMilka");
-		EntityHandler.RegisterEntities(EntityCowCharolaise.class,"EntityCowCharolaise");
-		EntityHandler.RegisterEntities(EntityCowGasconne.class,"EntityCowGasconne");
-		EntityHandler.RegisterEntities(EntityCowKerry.class,"EntityCowKerry");
-		EntityHandler.RegisterEntities(EntityCowMontbeliarde.class,"EntityCowMontbeliarde");
-		EntityHandler.RegisterEntities(EntityCowNorwegian.class,"EntityCowNorwegian");
-		EntityHandler.RegisterEntities(EntityGoatWhite.class, "entityGoatWhite");
-		EntityHandler.RegisterEntities(EntityZebra.class, "entityZebra");
-		EntityHandler.RegisterEntities(EntityWalker1.class, "entityWalker");
-		EntityHandler.RegisterEntities(EntityBenLaden.class, "EntityBenLaden");
-		EntityHandler.RegisterEntities(EntityMomie.class, "EntityMomie");
-		EntityHandler.RegisterEntities(EntityDracula.class, "EntityDracula");
-
+		Random random = new Random();
+			//passive
+		EntityHandler.RegisterEntities(EntityCowLaughting.class,"EntityCowLaughting", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityCowMilka.class,"EntityCowMilka", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityCowCharolaise.class,"EntityCowCharolaise", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityCowGasconne.class,"EntityCowGasconne", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityCowKerry.class,"EntityCowKerry", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityCowMontbeliarde.class,"EntityCowMontbeliarde", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityCowNorwegian.class,"EntityCowNorwegian", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityGoatWhite.class, "entityGoatWhite", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityZebra.class, "entityZebra", random.nextInt() * 16777215, random.nextInt() * 16777215);			
 		
 		EntityRegistry.addSpawn(EntityCowCharolaise.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.taigaHills, BiomeGenBase.jungle,
 				BiomeGenBase.jungleHills, BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.forest,
@@ -197,29 +195,26 @@ public class Bandb_mod{
 		EntityRegistry.addSpawn(EntityZebra.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
 			//walker1
-		EntityRegistry.registerGlobalEntityID(EntityWalker1.class, "Walker1", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
-		EntityRegistry.registerModEntity(EntityWalker1.class, "Walker1", 420, this.instance, 40, 1, true);	
+		
+			//monster
+		EntityHandler.RegisterEntities(EntityWalker1.class, "Walker1", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityBenLaden.class, "BenLaden", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityMomie.class, "Momie", random.nextInt() * 16777215, random.nextInt() * 16777215);
+		EntityHandler.RegisterEntities(EntityDracula.class, "EntityDracula", random.nextInt() * 16777215, random.nextInt() * 16777215);
+
 		EntityRegistry.addSpawn(EntityWalker1.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
 			//Ben Laden
-		EntityRegistry.registerGlobalEntityID(EntityBenLaden.class, "BenLaden", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
-		EntityRegistry.registerModEntity(EntityBenLaden.class, "BenLaden", 420, this.instance, 40, 1, true);	
 		EntityRegistry.addSpawn(EntityBenLaden.class, 10, 1, 2, EnumCreatureType.ambient, BiomeGenBase.desert, BiomeGenBase.desertHills);
 				
 		//Momie
-		EntityRegistry.registerGlobalEntityID(EntityMomie.class, "Momie", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
-		EntityRegistry.registerModEntity(EntityMomie.class, "Momie", 420, this.instance, 40, 1, true);	
 		EntityRegistry.addSpawn(EntityMomie.class, 10, 1, 2, EnumCreatureType.ambient, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
 		//Dracula
-		EntityRegistry.registerGlobalEntityID(EntityDracula.class, "Dracula", EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 255, 0).getRGB(), new Color(255, 0, 0).getRGB());
-		EntityRegistry.registerModEntity(EntityDracula.class, "Dracula", 420, this.instance, 40, 1, true);	
 		EntityRegistry.addSpawn(EntityDracula.class, 10, 1, 2, EnumCreatureType.monster, BiomeGenBase.desert, BiomeGenBase.desertHills);
-		
-		
+				
 		//GameRegistry.registerTileEntity(TileEntityTestOGL.class, "tileEntityTestOGL");
 		GameRegistry.registerTileEntity(TileEntityDistributor.class, "tileEntityDistributor");
-
 		
 		//gui handler
 		NetworkRegistry.INSTANCE.registerGuiHandler(this, new HandlerGui());								

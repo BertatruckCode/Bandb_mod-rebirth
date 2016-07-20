@@ -41,18 +41,15 @@ import net.minecraft.client.model.ModelBiped;
 import test.TileEntityDistributor;
 
 
-
-public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy
-{
+public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy{
+	
 	public static int tesrRenderId;
 	public static int sphereID;
-
 	
 	@Override
-	public void registerRender()
-	{
+	public void registerRender(){
+		
 	    RenderingRegistry.registerEntityRenderingHandler(EntityBenLaden.class, new RenderBenLaden(new ModelBiped(), 0.5F));
-
 	    RenderingRegistry.registerEntityRenderingHandler(EntityWalker1.class, new RenderWalker1(new ModelBiped(), 0.5F));
 	    RenderingRegistry.registerEntityRenderingHandler(EntityDracula.class, new RenderDracula(new ModelBiped(), 0.5F));
 	    RenderingRegistry.registerEntityRenderingHandler(EntityMomie.class, new RenderMomie(new ModelBiped(), 0.5F));
@@ -69,11 +66,10 @@ public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy
 	    
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityCoffeeMaker.class, new TileEntitySpecialRendererCoffeeMaker());	
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityPrinter.class, new TileEntitySpecialRendererPrinter());
-	    //ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTestOGL.class, new TileEntitySpecialRenderTestOGL());
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityDistributor.class, new TileEntitySpecialRendererDistributor());
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityKebabStand.class, new TileEntitySpecialRendererKebabStand());
 
-
+	    //ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTestOGL.class, new TileEntitySpecialRenderTestOGL());
 
 	    /*
 		Sphere sphere = new Sphere();

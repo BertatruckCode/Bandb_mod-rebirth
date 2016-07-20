@@ -10,6 +10,7 @@ public class EntityWalker1 extends EntityMob {
 		super(world);
 		
 	}
+	
 	public void applyEntityAttributes(){
 		super.applyEntityAttributes();	
 		this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(20D);

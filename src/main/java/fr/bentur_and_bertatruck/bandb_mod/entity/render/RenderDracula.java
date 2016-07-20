@@ -13,22 +13,15 @@ public class RenderDracula extends RenderBiped {
 
 	public final ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/entity/modelDracula.png");
 	
-	public RenderDracula(ModelBiped model, float shadow) 
-	{	
-			super(model, shadow);
+	public RenderDracula(ModelBiped model, float shadow){	
+		super(model, shadow);
 	}	
-	protected ResourceLocation getEntityTexture(EntityLiving living)
-		{
-			return this.getDraculaTexture((EntityDracula)living);
-		}
-
-	private ResourceLocation getDraculaTexture(EntityDracula living) {
-		// TODO Auto-generated method stub
-		return null;
+	protected ResourceLocation getEntityTexture(EntityLiving living){
+		return this.getTexture((EntityDracula)living);
 	}
-	private ResourceLocation getMomieTexture(EntityDracula Dracula)
-		{
-			return texture;
-		}
+
+	private ResourceLocation getTexture(EntityDracula Dracula){
+		return texture;
+	}
 	
 }
