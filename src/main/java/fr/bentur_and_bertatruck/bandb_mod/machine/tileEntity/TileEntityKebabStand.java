@@ -104,7 +104,6 @@ public class TileEntityKebabStand extends TileEntity{
 		return false;
 	}
 	
-    @Override	
 	public void readFromNBT(NBTTagCompound nbt) {
 		super.readFromNBT(nbt);
 		
@@ -113,47 +112,31 @@ public class TileEntityKebabStand extends TileEntity{
         //miscellaneous
                 
 		this.setLayerRemaining(nbt.getInteger("layerRemaining"));		
-		System.out.println(String.valueOf(this.layerRemaining));
-		/*
 		this.workTime = nbt.getInteger("workTime");
-		System.out.println(String.valueOf(this.workTime));
 		this.angle = nbt.getFloat("angle");
-		System.out.println(String.valueOf(this.angle));
 		
 		for(int i = 0; i < currentTexture.length; i++){
 			String str = "text" + String.valueOf(i);
 			this.currentTexture[i] = nbt.getInteger(str);
-			System.out.println(String.valueOf(this.currentTexture[i]));
 		}
-		*/		
+				
 	}
    
-	@Override
 	public void writeToNBT(NBTTagCompound nbt) {
 		super.writeToNBT(nbt);
 		
 		//turn block
 		nbt.setByte("Direction", this.direction);
         //miscellaneous
-		System.out.println(String.valueOf(this.getLayerRemaining()));
-		System.out.println(String.valueOf(this.workTime));
-		System.out.println(String.valueOf(this.angle));
-		
-		
 		nbt.setInteger("layerRemaining", this.getLayerRemaining());
-		System.out.println(String.valueOf(this.layerRemaining));
-		/*
 		nbt.setInteger("workTime", this.workTime);
-		System.out.println(String.valueOf(this.workTime));
 		nbt.setFloat("angle", this.angle);
-		System.out.println(String.valueOf(this.angle));
 		
 		for(int i = 0; i < currentTexture.length;i++){
 			String str = "text" + String.valueOf(i);
 			nbt.setInteger(str, this.currentTexture[i]);		
-			System.out.println(String.valueOf(this.currentTexture[i]));
 		}
-		*/
+		
 	}
 
 	//turn block 
@@ -181,7 +164,7 @@ public class TileEntityKebabStand extends TileEntity{
     }
     
     public int getLayerRemaining(){
-    	System.out.println("requesting layerRemaining : " + this.layerRemaining);
+    	//System.out.println("requesting layerRemaining : " + this.layerRemaining);
     	return this.layerRemaining;
     }
     

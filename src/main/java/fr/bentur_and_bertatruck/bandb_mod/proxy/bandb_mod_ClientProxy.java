@@ -69,7 +69,8 @@ public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy{
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityKebabStand.class, new TileEntitySpecialRendererKebabStand());
 
 	    tesrRenderId = RenderingRegistry.getNextAvailableRenderId();
- 
+        RenderingRegistry.registerBlockHandler(new TESRInventoryRenderer());
+        
 	}
 
 }
