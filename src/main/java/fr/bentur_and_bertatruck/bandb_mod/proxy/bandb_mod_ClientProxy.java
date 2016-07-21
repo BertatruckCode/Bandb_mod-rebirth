@@ -44,7 +44,6 @@ import test.TileEntityDistributor;
 public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy{
 	
 	public static int tesrRenderId;
-	public static int sphereID;
 	
 	@Override
 	public void registerRender(){
@@ -69,46 +68,8 @@ public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy{
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityDistributor.class, new TileEntitySpecialRendererDistributor());
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityKebabStand.class, new TileEntitySpecialRendererKebabStand());
 
-	    //ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTestOGL.class, new TileEntitySpecialRenderTestOGL());
-
-	    /*
-		Sphere sphere = new Sphere();
-
-		// Set up paramters that are common to both outside and inside.
-
-		// GLU_FILL as a solid.
-		sphere.setDrawStyle(GLU.GLU_FILL);
-		// GLU_SMOOTH will try to smoothly apply lighting
-		sphere.setNormals(GLU.GLU_SMOOTH);
-
-		// First make the call list for the outside of the sphere
-
-		sphere.setOrientation(GLU.GLU_OUTSIDE);
-
-		sphereID = GL11.glGenLists(1);
-		// Create a new list to hold our sphere data.
-		GL11.glNewList(sphereID, GL11.GL_COMPILE);
-		// binds the texture
-		ResourceLocation rL = new ResourceLocation(Bandb_mod.MODID + ":textures/models/block/greenSide.png");
-		Minecraft.getMinecraft().getTextureManager().bindTexture(rL);
-		// The drawing the sphere is automatically doing is getting added to our
-		// list. Careful, the last 2 variables
-		// control the detail, but have a massive impact on performance. 32x32
-		// is a good balance on my machine.s
-		sphere.draw(0.5F, 32, 32);
-		GL11.glEndList();
-
-*/
 	    tesrRenderId = RenderingRegistry.getNextAvailableRenderId();
-        RenderingRegistry.registerBlockHandler(new TESRInventoryRenderer());
-	/*
-	}
-	
-	public int sphereID() {
-		return sphereID;
-	}
-	
-	 */
+ 
 	}
 
 }

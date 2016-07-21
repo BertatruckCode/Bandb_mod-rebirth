@@ -65,8 +65,6 @@ public class TileEntitySpecialRendererKebabStand  extends TileEntitySpecialRende
         
         }
     		
-		
- 
 		GL11.glPopMatrix();
 
     }

@@ -21,10 +21,10 @@ public class PacketKebabStand implements IMessage {
 		this.y = tile.yCoord;
 		this.z = tile.zCoord;
 		
-		this.workTime = tile.workTime;
-		this.layerRemaining = tile.layerRemaining;
-		this.angle = tile.angle;
-		this.currentTexture = tile.currentTexture;
+		this.workTime = tile.getWorkTime();
+		this.layerRemaining = tile.getLayerRemaining();
+		this.angle = tile.getAngle();
+		this.currentTexture = tile.getCurrentTexture();
 	}
 
 	public void fromBytes(ByteBuf buffer) {
@@ -61,12 +61,12 @@ public class PacketKebabStand implements IMessage {
 		TileEntityKebabStand tile = (TileEntityKebabStand) player.worldObj.getTileEntity(x, y, z);
 		if (tile != null) {
 
-			tile.workTime = workTime;
-			tile.layerRemaining = layerRemaining;
-			tile.angle = angle;
+			tile.setWorkTime(workTime);
+			tile.setLayerRemaining(layerRemaining);
+			tile.setAngle(angle);
 			
 			for(int i = 0; i < currentTexture.length;i++){
-				tile.currentTexture[i] = currentTexture[i];
+				tile.getCurrentTexture()[i] = currentTexture[i];
 
 			}
 			

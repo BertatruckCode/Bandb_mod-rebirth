@@ -16,115 +16,44 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 
-public class TileEntityKebabStand extends TileEntity  implements IInventory{
+public class TileEntityKebabStand extends TileEntity{
     
     //turn block
     private byte direction;
-       
-    private ItemStack[] slots = new ItemStack[1];
-      
+             
     //the time for the kebab to make 2 turn
-	public int furnaceSpeed = 400;
+	private int furnaceSpeed = 400;
 	
-	public int layerRemaining = 0;
-	public int workTime = 0;
-	public float angle = 0;
+	private int layerRemaining = 0;
+	private int workTime = 0;
+	private float angle = 0;
 		
-	public int[] currentTexture = new int[8];
-
+	private int[] currentTexture = new int[8];
 	
-	public TileEntityKebabStand() {
-		currentTexture[0] = 0;
-	    currentTexture[1] = 0;
-	    currentTexture[2] = 0;
-	    currentTexture[3] = 0;
-	    currentTexture[4] = 0;
-	    currentTexture[5] = 0;
-	    currentTexture[6] = 0;
-	    currentTexture[7] = 0;
+	public TileEntityKebabStand(){
+		getCurrentTexture()[0] = 0;
+	    getCurrentTexture()[1] = 0;
+	    getCurrentTexture()[2] = 0;
+	    getCurrentTexture()[3] = 0;
+	    getCurrentTexture()[4] = 0;
+	    getCurrentTexture()[5] = 0;
+	    getCurrentTexture()[6] = 0;
+	    getCurrentTexture()[7] = 0;
 	}
 
 	public String getInventoryName() {
 		return "Kebab Stand";
 	}
 
-	public boolean hasCustomInventoryName() {
-		return false;
-	}
-
-	public int getSizeInventory() {
-		return this.slots.length;
-	}
-
-	public ItemStack getStackInSlot(int var1) {
-		return this.slots[var1];
-	}
-
-	public ItemStack decrStackSize(int var1, int var2) {
-		if (this.slots[var1] != null) {
-			ItemStack itemstack;
-
-			if (this.slots[var1].stackSize <= var2) {
-				itemstack = this.slots[var1];
-				this.slots[var1] = null;
-				return itemstack;
-			} else {
-				itemstack = this.slots[var1].splitStack(var2);
-
-				if (this.slots[var1].stackSize == 0) {
-					this.slots[var1] = null;
-				}
-				return itemstack;
-			}
-		} else {
-			return null;
-		}
-
-	}
-
-	public ItemStack getStackInSlotOnClosing(int i) {
-		if (this.slots[i] != null) {
-			ItemStack itemstack = this.slots[i];
-			this.slots[i] = null;
-			return itemstack;
-		}
-		return null;
-	}
-
-	public void setInventorySlotContents(int i, ItemStack itemstack) {
-		this.slots[i] = itemstack;
-		if (itemstack != null && itemstack.stackSize > this.getInventoryStackLimit()) {
-			itemstack.stackSize = this.getInventoryStackLimit();
-		}
-	}
-
-	public int getInventoryStackLimit() {
-		return 64;
-	}
-
-	public boolean isUseableByPlayer(EntityPlayer entityplayer) {
-		return true;
-	}
-
-	public void openInventory() {
-	}
-
-	public void closeInventory() {
-	}
-
-	public boolean isItemValidForSlot(int i, ItemStack itemstack) {
-		return true;
-	}
-
 	public void updateEntity() {
-		if (worldObj.isRemote){
+		if(worldObj.isRemote){
 			if(this.canSmelt() && this.workTime <= this.furnaceSpeed){
 				this.workTime++;
 				this.angle += 2*Math.PI/200.0;
 				if(workTime%25==0){
 					System.out.println("worktime : " + workTime);
-					this.currentTexture[ 7 - (2 + this.workTime/25)%8] =  this.currentTexture[7 - (2 + this.workTime/25)%8] + 1;
-					System.out.println("changement de texture " + ((2 + this.workTime/25)%8) + this.currentTexture[(2 + this.workTime/25)%8]);
+					this.getCurrentTexture()[ 7 - (2 + this.workTime/25)%8] =  this.getCurrentTexture()[7 - (2 + this.workTime/25)%8] + 1;
+					System.out.println("changement de texture " + ((2 + this.workTime/25)%8) + this.getCurrentTexture()[(2 + this.workTime/25)%8]);
 				}
 				if(workTime%200==0){
 					System.out.println("angle : " + String.valueOf(angle/2.0/Math.PI));
@@ -139,14 +68,6 @@ public class TileEntityKebabStand extends TileEntity  implements IInventory{
 			return true;
 		return false;		
 	}
-
-	public void smeltItem() {
-		this.layerRemaining -= 1;
-		if(layerRemaining <= 0){
-			this.layerRemaining = 0;
-			this.decrStackSize(0, 1);
-		}
-	}
 	
 	public boolean isKebabCooked(){
 		if(workTime >= this.furnaceSpeed){
@@ -157,17 +78,17 @@ public class TileEntityKebabStand extends TileEntity  implements IInventory{
 	
 	public boolean addKebab(){
 		if(this.layerRemaining == 1){
-			System.out.println("adding kebab ");
+			//System.out.println("adding kebab ");
 			this.layerRemaining = 6;
 	   		workTime=0;    		
-    		currentTexture[0] = 0;
-            currentTexture[1] = 0;
-            currentTexture[2] = 0;
-            currentTexture[3] = 0;
-            currentTexture[4] = 0;
-            currentTexture[5] = 0;
-            currentTexture[6] = 0;
-            currentTexture[7] = 0;
+    		getCurrentTexture()[0] = 0;
+            getCurrentTexture()[1] = 0;
+            getCurrentTexture()[2] = 0;
+            getCurrentTexture()[3] = 0;
+            getCurrentTexture()[4] = 0;
+            getCurrentTexture()[5] = 0;
+            getCurrentTexture()[6] = 0;
+            getCurrentTexture()[7] = 0;
 
 			return true;
 		}
@@ -176,60 +97,63 @@ public class TileEntityKebabStand extends TileEntity  implements IInventory{
 	
 	public boolean addSplit(){
 		if(this.layerRemaining == 0){
-			System.out.println("adding split ");
+			//System.out.println("adding split ");
 			this.layerRemaining = 1;
 			return true;
 		}
 		return false;
 	}
 	
-	
+    @Override	
 	public void readFromNBT(NBTTagCompound nbt) {
 		super.readFromNBT(nbt);
 		
 		//turn block
         this.direction = nbt.getByte("Direction");
         //miscellaneous
-		NBTTagList list = nbt.getTagList("Items", 10);
-		this.slots = new ItemStack[this.getSizeInventory()];
-		for (int i = 0; i < list.tagCount(); i++) {
-			NBTTagCompound compound = (NBTTagCompound) list.getCompoundTagAt(i);
-			byte b = compound.getByte("Slot");
-			if (b >= 0 && b < this.slots.length) {
-				this.slots[b] = ItemStack.loadItemStackFromNBT(compound);
-			}
+                
+		this.setLayerRemaining(nbt.getInteger("layerRemaining"));		
+		System.out.println(String.valueOf(this.layerRemaining));
+		/*
+		this.workTime = nbt.getInteger("workTime");
+		System.out.println(String.valueOf(this.workTime));
+		this.angle = nbt.getFloat("angle");
+		System.out.println(String.valueOf(this.angle));
+		
+		for(int i = 0; i < currentTexture.length; i++){
+			String str = "text" + String.valueOf(i);
+			this.currentTexture[i] = nbt.getInteger(str);
+			System.out.println(String.valueOf(this.currentTexture[i]));
 		}
-		this.layerRemaining = (int) nbt.getShort("layerRemaining");
-		this.workTime = (int) nbt.getShort("workTime");
-		this.angle = (int) nbt.getShort("angle");
-		for(int i = 0; i < currentTexture.length;i++){
-			this.currentTexture[i] = (int) 	nbt.getShort("text" + String.valueOf(i));
-		}
-
+		*/		
 	}
-
+   
+	@Override
 	public void writeToNBT(NBTTagCompound nbt) {
 		super.writeToNBT(nbt);
+		
 		//turn block
 		nbt.setByte("Direction", this.direction);
         //miscellaneous
-		nbt.setShort("layerRemaining", (short) this.layerRemaining);
-		nbt.setShort("workTime", (short) this.workTime);
-		nbt.setShort("angle", (short) this.angle);
+		System.out.println(String.valueOf(this.getLayerRemaining()));
+		System.out.println(String.valueOf(this.workTime));
+		System.out.println(String.valueOf(this.angle));
+		
+		
+		nbt.setInteger("layerRemaining", this.getLayerRemaining());
+		System.out.println(String.valueOf(this.layerRemaining));
+		/*
+		nbt.setInteger("workTime", this.workTime);
+		System.out.println(String.valueOf(this.workTime));
+		nbt.setFloat("angle", this.angle);
+		System.out.println(String.valueOf(this.angle));
 		
 		for(int i = 0; i < currentTexture.length;i++){
-			nbt.setShort("text" + String.valueOf(i), (short) this.currentTexture[i]);		}
-		
-		NBTTagList list = new NBTTagList();
-		for (int i = 0; i < this.slots.length; i++) {
-			if (this.slots[i] != null) {
-				NBTTagCompound compound = new NBTTagCompound();
-				compound.setByte("Slot", (byte) i);
-				this.slots[i].writeToNBT(compound);
-				list.appendTag(compound);
-			}
+			String str = "text" + String.valueOf(i);
+			nbt.setInteger(str, this.currentTexture[i]);		
+			System.out.println(String.valueOf(this.currentTexture[i]));
 		}
-		nbt.setTag("Items", list);		
+		*/
 	}
 
 	//turn block 
@@ -257,6 +181,7 @@ public class TileEntityKebabStand extends TileEntity  implements IInventory{
     }
     
     public int getLayerRemaining(){
+    	System.out.println("requesting layerRemaining : " + this.layerRemaining);
     	return this.layerRemaining;
     }
     
@@ -266,23 +191,47 @@ public class TileEntityKebabStand extends TileEntity  implements IInventory{
     		workTime=0;
     		this.layerRemaining--;
     		
-    		currentTexture[0] = 0;
-            currentTexture[1] = 0;
-            currentTexture[2] = 0;
-            currentTexture[3] = 0;
-            currentTexture[4] = 0;
-            currentTexture[5] = 0;
-            currentTexture[6] = 0;
-            currentTexture[7] = 0;
+    		getCurrentTexture()[0] = 0;
+            getCurrentTexture()[1] = 0;
+            getCurrentTexture()[2] = 0;
+            getCurrentTexture()[3] = 0;
+            getCurrentTexture()[4] = 0;
+            getCurrentTexture()[5] = 0;
+            getCurrentTexture()[6] = 0;
+            getCurrentTexture()[7] = 0;
     	}
     		
     }
-    public float getAngle(){
+    public int getWorkTime() {
+		return workTime;
+	}
+
+	public void setWorkTime(int workTime) {
+		this.workTime = workTime;
+	}
+
+	public void setAngle(float angle) {
+		this.angle = angle;
+	}
+
+	public float getAngle(){
     	return this.angle;
     }
 	
     public int getCurrentTexture(int i){
     	return this.currentTexture[i];
     }
+
+	public void setLayerRemaining(int i) {
+		this.layerRemaining = i;
+	}
+
+	public int[] getCurrentTexture() {
+		return currentTexture;
+	}
+
+	public void setCurrentTexture(int[] currentTexture) {
+		this.currentTexture = currentTexture;
+	}
     
 }

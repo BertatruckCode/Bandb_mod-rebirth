@@ -71,13 +71,13 @@ public class BlockKebabStand extends BlockContainer {
 			if(tileKebab.getLayerRemaining() == 1){
 				if (!this.playerHasItem(player, BandbItems.itemKebabSpit) && player.inventory.getFirstEmptyStack() == -1) {
 					EntityItem entityitem = new EntityItem(world, player.posX, player.posY + 1, player.posZ, new ItemStack(BandbItems.itemKebabSpit));
-					tileKebab.layerRemaining = 0;
+					tileKebab.setLayerRemaining(0);
 					if (!world.isRemote)
 						world.spawnEntityInWorld(entityitem);
 				}else{
 					
 					player.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemKebabSpit));
-					tileKebab.layerRemaining = 0;
+					tileKebab.setLayerRemaining(0);
 				}
 
 			}
