@@ -51,12 +51,12 @@ public class TileEntityKebabStand extends TileEntity{
 				this.workTime++;
 				this.angle += 2*Math.PI/200.0;
 				if(workTime%25==0){
-					System.out.println("worktime : " + workTime);
+					//System.out.println("worktime : " + workTime);
 					this.getCurrentTexture()[ 7 - (2 + this.workTime/25)%8] =  this.getCurrentTexture()[7 - (2 + this.workTime/25)%8] + 1;
-					System.out.println("changement de texture " + ((2 + this.workTime/25)%8) + this.getCurrentTexture()[(2 + this.workTime/25)%8]);
+					//System.out.println("changement de texture " + ((2 + this.workTime/25)%8) + this.getCurrentTexture()[(2 + this.workTime/25)%8]);
 				}
 				if(workTime%200==0){
-					System.out.println("angle : " + String.valueOf(angle/2.0/Math.PI));
+					//System.out.println("angle : " + String.valueOf(angle/2.0/Math.PI));
 				}
 			}
 		}

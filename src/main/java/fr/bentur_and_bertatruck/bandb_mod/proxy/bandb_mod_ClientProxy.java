@@ -2,6 +2,8 @@ package fr.bentur_and_bertatruck.bandb_mod.proxy;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
+import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.model.TileEntitySpecialRendererFurnitureKitchenWorktopA;
+import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.tileEntity.TileEntityFurnitureKitchenWorktopA;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityBenLaden;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowCharolaise;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowGasconne;
@@ -67,6 +69,9 @@ public class bandb_mod_ClientProxy extends bandb_mod_CommonProxy{
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityPrinter.class, new TileEntitySpecialRendererPrinter());
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityDistributor.class, new TileEntitySpecialRendererDistributor());
 	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityKebabStand.class, new TileEntitySpecialRendererKebabStand());
+	    
+	    //furniture
+	    ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFurnitureKitchenWorktopA.class, new TileEntitySpecialRendererFurnitureKitchenWorktopA());	
 
 	    tesrRenderId = RenderingRegistry.getNextAvailableRenderId();
         RenderingRegistry.registerBlockHandler(new TESRInventoryRenderer());

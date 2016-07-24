@@ -1,7 +1,6 @@
 package fr.bentur_and_bertatruck.bandb_mod.common;
 
 
-import java.awt.Color;
 import java.util.Random;
 
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -17,6 +16,7 @@ import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import fr.bentur_and_bertatruck.bandb_mod.common.block.BlockNuke;
 import fr.bentur_and_bertatruck.bandb_mod.common.block.BlockTest;
+import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.tileEntity.TileEntityFurnitureKitchenWorktopA;
 import fr.bentur_and_bertatruck.bandb_mod.common.handler.CraftingHandler;
 import fr.bentur_and_bertatruck.bandb_mod.common.handler.EventHandlerBandb;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBeverages;
@@ -49,7 +49,6 @@ import fr.bentur_and_bertatruck.bandb_mod.entity.EntityZebra;
 import fr.bentur_and_bertatruck.bandb_mod.machine.gui.HandlerGui;
 import fr.bentur_and_bertatruck.bandb_mod.machine.network.NetworkHandler;
 import fr.bentur_and_bertatruck.bandb_mod.proxy.bandb_mod_ClientProxy;
-
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EnumCreatureType;
@@ -152,7 +151,8 @@ public class Bandb_mod{
 		BandbCraftingRecipes.loaderFurnaceRecipe();
 		BandbOreDictionary.loaderPlankWood();
 		
-								
+		GameRegistry.registerTileEntity(TileEntityFurnitureKitchenWorktopA.class, "tileEntityFurnitureKitchenWorktopA");
+						
 		//generation///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		BandbWorldGeneration.init();
 		

@@ -9,6 +9,9 @@ import org.lwjgl.opengl.GL11;
 
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
+import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.model.TileEntitySpecialRendererFurnitureKitchenWorktopA;
+import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.tileEntity.TileEntityFurnitureKitchenWorktopA;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBlocks;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbMachines;
 import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityKebabStand;
 import fr.bentur_and_bertatruck.bandb_mod.proxy.bandb_mod_ClientProxy;
@@ -17,8 +20,7 @@ public class TESRInventoryRenderer implements ISimpleBlockRenderingHandler {
 
 	public void renderInventoryBlock(Block block, int metadata, int modelId, RenderBlocks renderer) {
 
-		 if(block == BandbMachines.blockCoffeeMaker && metadata == 0)
-	        {
+		 if(block == BandbMachines.blockCoffeeMaker && metadata == 0){
 	            GL11.glPushMatrix();
 	            GL11.glRotatef(180F, 180F, 0.0F, 1.0F);
 	            GL11.glTranslatef(0.0F, -1.4F, 0.0F);
@@ -26,8 +28,8 @@ public class TESRInventoryRenderer implements ISimpleBlockRenderingHandler {
 	            TileEntitySpecialRendererCoffeeMaker.model.renderAll();
 	            GL11.glPopMatrix();
 	        }
-		 if(block == BandbMachines.blockPrinter && metadata == 0)
-	        {
+		 
+		 if(block == BandbMachines.blockPrinter && metadata == 0){
 	            GL11.glPushMatrix();
 	            GL11.glRotatef(180F, 180F, 0.0F, 1.0F);
 	            GL11.glTranslatef(0.0F, -1.4F, 0.0F);
@@ -35,8 +37,8 @@ public class TESRInventoryRenderer implements ISimpleBlockRenderingHandler {
 	            TileEntitySpecialRendererPrinter.model.renderAll();
 	            GL11.glPopMatrix();
 	        }
-		 if(block == Bandb_mod.blockDistrib && metadata == 0)
-	        {
+		 
+		 if(block == Bandb_mod.blockDistrib && metadata == 0){
 	            GL11.glPushMatrix();
 	            GL11.glScaled(0.6, 0.6, 0.6);
 	            GL11.glRotatef(180F, 180F, 0.0F, 225F);
@@ -44,13 +46,23 @@ public class TESRInventoryRenderer implements ISimpleBlockRenderingHandler {
 	            TileEntitySpecialRendererDistributor.renderDistributor(0, 0, 0);
 	            GL11.glPopMatrix();
 	        }
-		 if(block == BandbMachines.blockKebabStand && metadata == 0)
-	        {
+		 
+		 if(block == BandbMachines.blockKebabStand && metadata == 0){
 	            GL11.glPushMatrix();
 	            GL11.glScaled(0.6, 0.6, 0.6);
 	            GL11.glRotatef(180F, 180F, 0.0F, 225F);
 	            GL11.glTranslatef( -0.2F, -1.4F, 0.0F);
 	            TileEntitySpecialRendererKebabStand.render(0, 0, 0, new TileEntityKebabStand());
+	            GL11.glPopMatrix();
+	        }
+		 
+		 if(block == BandbBlocks.blockFurnitureKitchenWorktopA && metadata == 0){
+	            GL11.glPushMatrix();
+	            GL11.glScaled(0.6, 0.6, 0.6);
+	            GL11.glRotatef(180F, 180F, 0.0F, 225F);
+	            GL11.glTranslatef( -0.2F, -1.4F, 0.0F);
+	            Minecraft.getMinecraft().getTextureManager().bindTexture(TileEntitySpecialRendererFurnitureKitchenWorktopA.texture);
+	            TileEntitySpecialRendererFurnitureKitchenWorktopA.model.renderAll();
 	            GL11.glPopMatrix();
 	        }
 		 /*
