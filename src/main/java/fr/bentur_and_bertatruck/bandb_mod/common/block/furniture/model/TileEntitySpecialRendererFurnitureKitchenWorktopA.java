@@ -13,6 +13,7 @@ public class TileEntitySpecialRendererFurnitureKitchenWorktopA  extends TileEnti
 	
 	public static ModelFurnitureKitchenWorktopA model = new ModelFurnitureKitchenWorktopA();
     public static ResourceLocation texture = new ResourceLocation(Bandb_mod.MODID, "textures/models/block/furniture/textureWorktopA.png");
+    public static ResourceLocation texture_angle = new ResourceLocation(Bandb_mod.MODID, "textures/models/block/furniture/textureWorktopA.png");
     
     public TileEntitySpecialRendererFurnitureKitchenWorktopA(){
         this.func_147497_a(TileEntityRendererDispatcher.instance);
@@ -24,14 +25,24 @@ public class TileEntitySpecialRendererFurnitureKitchenWorktopA  extends TileEnti
 	}
 
 	private void render(TileEntityFurnitureKitchenWorktopA tile, double x, double y, double z, float partialRenderTick){
-		
-		GL11.glPushMatrix();
-        GL11.glTranslated(x + 0.5D, y + 1.5D, z + 0.5D);
-        GL11.glRotatef(180F, 0.0F, 0.0F, 1.0F);
-        GL11.glRotatef(180 + 90F * tile.getDirection(), 0.0F, 1.0F, 0.0F);
-        this.bindTexture(texture);
-        model.renderAll();
-        GL11.glPopMatrix();
+		if(tile.isAngle() == false){
+			GL11.glPushMatrix();
+	        GL11.glTranslated(x + 0.5D, y + 1.5D, z + 0.5D);
+	        GL11.glRotatef(180F, 0.0F, 0.0F, 1.0F);
+	        GL11.glRotatef(180 + 90F * tile.getDirection(), 0.0F, 1.0F, 0.0F);
+	        this.bindTexture(texture);
+	        model.renderAll();
+	        GL11.glPopMatrix();
+		}else {
+			GL11.glPushMatrix();
+	        GL11.glTranslated(x + 0.5D, y + 1.5D, z + 0.5D);
+	        GL11.glRotatef(180F, 0.0F, 0.0F, 1.0F);
+	        GL11.glRotatef(180 + 90F * tile.getDirection(), 0.0F, 1.0F, 0.0F);
+	        this.bindTexture(texture_angle);
+	        model.renderAngle();
+	        GL11.glPopMatrix();
+
+		}
     }
 
 }
