@@ -1,5 +1,6 @@
 package fr.bentur_and_bertatruck.bandb_mod.entity;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
 import fr.bentur_and_bertatruck.bandb_mod.entity.ai.EntityAIBenLaden;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIAttackOnCollide;
@@ -26,7 +27,7 @@ public class EntityBenLaden extends EntityMob {
 	int state;
 	
     /** Explosion radius for this creeper. */
-    private int explosionRadius = 3;
+    private int explosionRadius = 5;
     /**
      * Time when this creeper was last in an active state (Messed up code here, probably causes creeper animation to go
      * weird)
@@ -53,7 +54,7 @@ public class EntityBenLaden extends EntityMob {
 	public void applyEntityAttributes(){
 		super.applyEntityAttributes();	
 		this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(20D);
-		this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.7D);		
+		this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.5D);		
 	}
 	
 	 public boolean isAIEnabled(){
@@ -64,7 +65,7 @@ public class EntityBenLaden extends EntityMob {
      * Returns the sound this mob makes when it is hurt.
      */
     protected String getHurtSound(){
-        return "mob.creeper.say";
+        return Bandb_mod.MODID + ":alluha.say";
     }
 
     /**
