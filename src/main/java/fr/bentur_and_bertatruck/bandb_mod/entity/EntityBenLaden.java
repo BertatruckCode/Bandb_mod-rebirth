@@ -54,7 +54,6 @@ public class EntityBenLaden extends EntityMob {
 	public void applyEntityAttributes(){
 		super.applyEntityAttributes();	
 		this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(20D);
-		this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.5D);		
 	}
 	
 	 public boolean isAIEnabled(){
