@@ -253,17 +253,7 @@ public class BandbMachineRecipes {
 		RecipeCoffeeMaker.addRecipe(BandbItems.itemCapsuleDharkan, new ItemStack(BandbItems.itemCupDharkan));
 			
 		//PRINTER
-		RecipePrinter.addRecipe(BandbItems.itemBenturColaLabel, 2, 0, 2, 0);
-		RecipePrinter.addRecipe(BandbItems.itemBrandyLabel, 1, 1, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemCalvadosLabel, 1, 2, 1, 2);
-		RecipePrinter.addRecipe(BandbItems.itemCapCorseLabel, 2, 2, 2, 2);
-		RecipePrinter.addRecipe(BandbItems.itemChouchenLabel, 2, 1, 2, 0);
-		RecipePrinter.addRecipe(BandbItems.itemCiderLabel, 1, 0, 0, 1);
-		RecipePrinter.addRecipe(BandbItems.itemCognacLabel, 1, 0, 0, 0);
-		RecipePrinter.addRecipe(BandbItems.itemGinLabel, 1, 0, 2, 0);
-		RecipePrinter.addRecipe(BandbItems.itemLambigLabel, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemLiquorLabel, 1, 0, 0, 1);
-		RecipePrinter.addRecipe(BandbItems.itemPastis51Label, 1, 2, 1, 1);
+
 		RecipePrinter.addRecipe(BandbItems.itemPerrierLabel, 0, 1, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemPommeauLabel, 1, 1, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemRedMartiniLabel, 0, 0, 1, 0);
@@ -280,7 +270,76 @@ public class BandbMachineRecipes {
 		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane300mg, 0, 2, 0, 5);
 		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane500mg, 0, 2, 0, 10);
 		RecipePrinter.addRecipe(BandbItems.itemWrappingDoliprane1000mg, 0, 2, 1, 10);
-
+		RecipePrinter.addRecipe(BandbItems.itemAlsaceRieslingLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemAmarettoLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemAngosturaBitterLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBaileysLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBenedictineLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBenturColaLabel, 2, 0, 2, 0);
+		RecipePrinter.addRecipe(BandbItems.itemBitterLabel,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemBlueCuracaoLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBordeauxLaryLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBordeauxTourLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBourgogneAligoteLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemBrandyLabel, 1, 1, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemCalvadosLabel, 1, 2, 1, 2);
+		RecipePrinter.addRecipe(BandbItems.itemCampariLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemCapCorseLabel, 2, 2, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemChampagneMummLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemChartreuseJauneLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemChartreuseVerteLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemChouchenLabel, 2, 1, 2, 0);
+		RecipePrinter.addRecipe(BandbItems.itemCiderLabel, 1, 0, 0, 1);
+		RecipePrinter.addRecipe(BandbItems.itemCognacLabel, 0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemCuracaoOrangeLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemCuracaoTripleSecLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemDrambuieLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemDubonnetRougeLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemEnateLabel,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemFernetBrancaLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemFleurOrangerLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemGinLabel, 1, 0, 2, 0);
+		RecipePrinter.addRecipe(BandbItems.itemGrandMarnierLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemGuinnessLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemHeinekenLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemKetchupLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabel1664, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelBritt, 0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelDesperados, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelDuvel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelGet27,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelGrimbergen, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelHoney, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelLeffe, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSanMiguel,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesAgrum, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesDarkSide, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesLemon, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesMango,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPamplemousse, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPassion, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPech, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPomme,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesRaisin, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesRicqles, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSkoll,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSmirnoff, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelXII, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLambigLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLiquorLabel,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemPastis51Label, 1, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLiquorLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemPetrusLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemPiscoLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemSchweppesGingerAleLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemPontarlierLabel, 0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemSchweppesTonicLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemSouthernComfortLabel,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemTabascoLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemWorcestershireSauceLabel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemXeresLabel,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemMinecraftForDummies,  10, 10, 10, 10);
+		
 		
 		//PRESS
 		RecipePress.addRecipe(BandbItems.itemBanana, 5, new ItemStack(BandbBeverages.itemJuiceBanana));

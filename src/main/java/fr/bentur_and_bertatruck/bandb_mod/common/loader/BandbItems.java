@@ -224,7 +224,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemLabelSchweppesPamplemousse,itemLabelSchweppesPassion,itemLabelSchweppesPech,itemLabelSchweppesPomme,itemLabelSchweppesRicqles;
 		public static Item itemLabel1664,itemLabelBritt,itemLabelDesperados,itemLabelDuvel,itemLabelGrimbergen;
 		public static Item itemLabelLeffe,itemLabelSanMiguel,itemLabelSkoll,itemLabelSmirnoff,itemLabelXII;
-		public static Item itemLabelGet27,itemLabelSchweppesRaisin;
+		public static Item itemLabelGet27,itemLabelSchweppesRaisin,itemKetchupLabel;
 		
 //pharmaceuticals		
 		public static Item itemDoliprane200mg,itemDoliprane300mg,itemDoliprane500mg,itemDoliprane1000mg;
@@ -2170,25 +2170,27 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	itemSouthernComfortLabel = new ItemLabel().setUnlocalizedName("itemSouthernComfortLabel").setTextureName(Bandb_mod.MODID + ":labels/itemSouthernComfortLabel");
 		    	itemLabelHoney = new ItemLabel().setUnlocalizedName("itemLabelHoney").setTextureName(Bandb_mod.MODID + ":labels/itemLabelHoney");
 		    	itemLabelSchweppesRaisin = new ItemLabel().setUnlocalizedName("itemLabelSchweppesRaisin").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesRaisin");
-				
+		    	
 		    	GameRegistry.registerItem(itemAlsaceRieslingLabel, "itemAlsaceRieslingLabel");
 		    	GameRegistry.registerItem(itemBourgogneAligoteLabel, "itemBourgogneAligoteLabel");
 		    	GameRegistry.registerItem(itemSouthernComfortLabel, "itemSouthernComfortLabel");		    	
 		    	GameRegistry.registerItem(itemLabelHoney, "itemLabelHoney");		    	
 		    	GameRegistry.registerItem(itemLabelSchweppesRaisin, "itemLabelSchweppesRaisin");		    	
-		     	
+		    	
 		    	itemLabelSchweppesAgrum = new ItemLabel().setUnlocalizedName("itemLabelSchweppesAgrum").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesAgrum");
 		    	itemLabelSchweppesDarkSide = new ItemLabel().setUnlocalizedName("itemLabelSchweppesDarkSide").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesDarkSide");
 		    	itemLabelSchweppesLemon = new ItemLabel().setUnlocalizedName("itemLabelSchweppesLemon").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesLemon");
 		    	itemLabelSchweppesMango = new ItemLabel().setUnlocalizedName("itemLabelSchweppesMango").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesMango");
 		    	itemLabelSchweppesPamplemousse = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPamplemousse").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPamplemousse");
+		    	itemKetchupLabel = new ItemLabel().setUnlocalizedName("itemKetchupLabel").setTextureName(Bandb_mod.MODID + ":labels/itemKetchupLabel");
 				
 		    	GameRegistry.registerItem(itemLabelSchweppesAgrum, "itemLabelSchweppesAgrum");
 		    	GameRegistry.registerItem(itemLabelSchweppesDarkSide, "itemLabelSchweppesDarkSide");
 		    	GameRegistry.registerItem(itemLabelSchweppesLemon, "itemLabelSchweppesLemon");
 		    	GameRegistry.registerItem(itemLabelSchweppesMango, "itemLabelSchweppesMango");
 		    	GameRegistry.registerItem(itemLabelSchweppesPamplemousse, "itemLabelSchweppesPamplemousse");
-		    	
+		    	GameRegistry.registerItem(itemKetchupLabel, "itemKetchupLabel");		    	
+		     	
 		    	itemLabelSchweppesPassion = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPassion").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPassion");
 		    	itemLabelSchweppesPech = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPech").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPech");
 		    	itemLabelSchweppesPomme = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPomme").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPomme");

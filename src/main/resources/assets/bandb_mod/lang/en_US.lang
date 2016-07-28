@@ -1773,7 +1773,7 @@ item.itemCiderLabel.name=Cider Kerne label
 item.itemCognacLabel.name=Cognac label
 item.itemGinLabel.name=Gin label
 item.itemLambigLabel.name=Lambig label
-item.itemLiquorLabel.name=Liquor label
+item.itemLiquorLabel.name=Liqueur label
 item.itemPastis51Label.name=Pastis 51 label
 item.itemPerrierLabel.name=Perrier label
 item.itemPommeauLabel.name=Pommeau label
@@ -1846,7 +1846,7 @@ item.itemLabelXII.name=XII Label
 item.itemLabelDuvel.name=Duvel Label
 item.itemLabelGet27.name=Get 27 Label
 item.itemLabelSchweppesRaisin.name=Schweppes Raisin Label
-item.itemLabel.name= Label
+
 
 
 

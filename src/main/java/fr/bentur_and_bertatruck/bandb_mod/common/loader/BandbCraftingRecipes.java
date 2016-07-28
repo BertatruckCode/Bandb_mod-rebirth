@@ -1,6 +1,7 @@
 package fr.bentur_and_bertatruck.bandb_mod.common.loader;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
@@ -124,7 +125,7 @@ public class BandbCraftingRecipes {
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankSoursop ,4), new ItemStack(BandbBlocks.blockSoursopWood));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankTamarillo ,4), new ItemStack(BandbBlocks.blockTamarilloWood));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankCinchona ,4), new ItemStack(BandbBlocks.blockWoodCinchona));
-
+		//apple
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankCrabapple ,4), new ItemStack(BandbBlocks.blockCrabappleWood));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankAppleAntares ,4), new ItemStack(BandbBlocks.blockAppleAntaresWood));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankAppleAriane ,4), new ItemStack(BandbBlocks.blockAppleArianeWood));
@@ -161,53 +162,53 @@ public class BandbCraftingRecipes {
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbItems.itemSesame));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbBlocks.blockSesame));
 		
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockRape ,1), new ItemStack(BandbItems.itemRape));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBetterCactus ,1), new ItemStack(BandbItems.itemBetterCactus));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDaisy ,1), new ItemStack(BandbItems.itemDaisy));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockOrchid ,1), new ItemStack(BandbItems.itemOrchid));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockSesame ,1), new ItemStack(BandbItems.itemSesame));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockLicorice ,1), new ItemStack(BandbItems.itemLicorice));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockHibiscus ,1), new ItemStack(BandbItems.itemHibiscus));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockJasmine ,1), new ItemStack(BandbItems.itemJasmine));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockLavender ,1), new ItemStack(BandbItems.itemLavender));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockRosmary ,1), new ItemStack(BandbItems.itemRosmary));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockTarragon ,1), new ItemStack(BandbItems.itemTarragon));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAgave ,1), new ItemStack(BandbItems.itemAgave));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAmaryllisPink ,1), new ItemStack(BandbItems.itemAmaryllisPink));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAmaryllisRed ,1), new ItemStack(BandbItems.itemAmaryllisRed));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAmaryllisWhite ,1), new ItemStack(BandbItems.itemAmaryllisWhite));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBachelorsButtonBlue ,1), new ItemStack(BandbItems.itemBachelorsButtonBlue));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBelladonna ,1), new ItemStack(BandbItems.itemBelladonna));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBlowball ,1), new ItemStack(BandbItems.itemBlowball));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockButtercup ,1), new ItemStack(BandbItems.itemButtercup));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockCallaBlack ,1), new ItemStack(BandbItems.itemCallaBlack));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockCallaWhite ,1), new ItemStack(BandbItems.itemCallaWhite));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockChrysantheme ,1), new ItemStack(BandbItems.itemChrysantheme));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockEnzian ,1), new ItemStack(BandbItems.itemEnzian));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockFoxglove ,1), new ItemStack(BandbItems.itemFoxglove));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockHeather ,1), new ItemStack(BandbItems.itemHeather));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockIrisBlue ,1), new ItemStack(BandbItems.itemIrisBlue));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockIrisPurple ,1), new ItemStack(BandbItems.itemIrisPurple));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockLily ,1), new ItemStack(BandbItems.itemLily));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockMarshMarigold ,1), new ItemStack(BandbItems.itemMarshMarigold));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPansy ,1), new ItemStack(BandbItems.itemPansy));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPeony ,1), new ItemStack(BandbItems.itemPeony));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockSyringa ,1), new ItemStack(BandbItems.itemSyringa));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockViolet ,1), new ItemStack(BandbItems.itemViolet));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBluebell ,1), new ItemStack(BandbItems.itemBluebell));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDill ,1), new ItemStack(BandbItems.itemDill));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockGardenia ,1), new ItemStack(BandbItems.itemGardenia));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockNettle ,1), new ItemStack(BandbItems.itemNettle));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockThistle ,1), new ItemStack(BandbItems.itemThistle));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockChervil ,1), new ItemStack(BandbItems.itemChervil));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockChives ,1), new ItemStack(BandbItems.itemChives));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockFennel ,1), new ItemStack(BandbItems.itemFennel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockGentian ,1), new ItemStack(BandbItems.itemGentian));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockOregano ,1), new ItemStack(BandbItems.itemOregano));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockSage ,1), new ItemStack(BandbItems.itemSage));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockThyme ,1), new ItemStack(BandbItems.itemThyme));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockWatercress ,1), new ItemStack(BandbItems.itemWatercress));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockWormwood ,1), new ItemStack(BandbItems.itemWormwood));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockRape ,1), new ItemStack(BandbItems.itemRape));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBetterCactus ,1), new ItemStack(BandbItems.itemBetterCactus));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDaisy ,1), new ItemStack(BandbItems.itemDaisy));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockOrchid ,1), new ItemStack(BandbItems.itemOrchid));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockSesame ,1), new ItemStack(BandbItems.itemSesame));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockLicorice ,1), new ItemStack(BandbItems.itemLicorice));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockHibiscus ,1), new ItemStack(BandbItems.itemHibiscus));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockJasmine ,1), new ItemStack(BandbItems.itemJasmine));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockLavender ,1), new ItemStack(BandbItems.itemLavender));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockRosmary ,1), new ItemStack(BandbItems.itemRosmary));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockTarragon ,1), new ItemStack(BandbItems.itemTarragon));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAgave ,1), new ItemStack(BandbItems.itemAgave));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAmaryllisPink ,1), new ItemStack(BandbItems.itemAmaryllisPink));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAmaryllisRed ,1), new ItemStack(BandbItems.itemAmaryllisRed));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockAmaryllisWhite ,1), new ItemStack(BandbItems.itemAmaryllisWhite));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBachelorsButtonBlue ,1), new ItemStack(BandbItems.itemBachelorsButtonBlue));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBelladonna ,1), new ItemStack(BandbItems.itemBelladonna));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBlowball ,1), new ItemStack(BandbItems.itemBlowball));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockButtercup ,1), new ItemStack(BandbItems.itemButtercup));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockCallaBlack ,1), new ItemStack(BandbItems.itemCallaBlack));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockCallaWhite ,1), new ItemStack(BandbItems.itemCallaWhite));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockChrysantheme ,1), new ItemStack(BandbItems.itemChrysantheme));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockEnzian ,1), new ItemStack(BandbItems.itemEnzian));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockFoxglove ,1), new ItemStack(BandbItems.itemFoxglove));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockHeather ,1), new ItemStack(BandbItems.itemHeather));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockIrisBlue ,1), new ItemStack(BandbItems.itemIrisBlue));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockIrisPurple ,1), new ItemStack(BandbItems.itemIrisPurple));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockLily ,1), new ItemStack(BandbItems.itemLily));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockMarshMarigold ,1), new ItemStack(BandbItems.itemMarshMarigold));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPansy ,1), new ItemStack(BandbItems.itemPansy));
+	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPeony ,1), new ItemStack(BandbItems.itemPeony));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockSyringa ,1), new ItemStack(BandbItems.itemSyringa));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockViolet ,1), new ItemStack(BandbItems.itemViolet));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBluebell ,1), new ItemStack(BandbItems.itemBluebell));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDill ,1), new ItemStack(BandbItems.itemDill));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockGardenia ,1), new ItemStack(BandbItems.itemGardenia));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockNettle ,1), new ItemStack(BandbItems.itemNettle));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockThistle ,1), new ItemStack(BandbItems.itemThistle));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockChervil ,1), new ItemStack(BandbItems.itemChervil));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockChives ,1), new ItemStack(BandbItems.itemChives));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockFennel ,1), new ItemStack(BandbItems.itemFennel));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockGentian ,1), new ItemStack(BandbItems.itemGentian));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockOregano ,1), new ItemStack(BandbItems.itemOregano));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockSage ,1), new ItemStack(BandbItems.itemSage));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockThyme ,1), new ItemStack(BandbItems.itemThyme));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockWatercress ,1), new ItemStack(BandbItems.itemWatercress));
+		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockWormwood ,1), new ItemStack(BandbItems.itemWormwood));
 	
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemRape));
 		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 2), new ItemStack(BandbItems.itemBetterCactus));
@@ -269,7 +270,13 @@ public class BandbCraftingRecipes {
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookOldFashioned), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemOldFashoned));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookShaker), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemShaker));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookTumbler), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemTumbler));
-			
+		
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBlackInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(BandbItems.itemBlackDye),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCyanInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(BandbItems.itemBlueDye),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMagentaInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(Items.dye, 2, 13),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemYellowInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(Items.dye, 2, 11),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemEmptyInkCartridge), "XXX", "XYX", "XXX",'X', new ItemStack(Items.iron_ingot),'Y', new ItemStack (Items.bucket));
+		
 			//aluminium
 			//armor
 		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAluminium), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemIngotAluminium));
@@ -396,6 +403,7 @@ public class BandbCraftingRecipes {
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCookieCutterSquare), " XXX", "X X", "XXX", 'X', new ItemStack (Items.iron_ingot));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemFoforkStone), "X X", " Y ", "XYX", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKnifeIron), "   ", " X ", " Y ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
+		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockFurnitureKitchenWorktopA), "YYY", "XXX", "XXX", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Blocks.stone));
 		
 		//Mug and Teapot
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty), "   ", " XY", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
