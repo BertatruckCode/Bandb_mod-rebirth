@@ -139,7 +139,7 @@ public class BandbBeverages {
 			public static Item itemBottleBenturCola,itemBottlePerrier,itemPint,itemBottleFleurOranger,itemBottleLimonade,itemBottleSchweppesTonic;
 			public static Item itemBottleSchweppesGingerAle,itemBottleSchweppesAgrum,itemBottleSchweppesDarkSide,itemBottleSchweppesLemon,itemBottleSchweppesMango;
 			public static Item itemBottleSchweppesPamplemousse,itemBottleSchweppesPassion,itemBottleSchweppesPech,itemBottleSchweppesPomme,itemBottleSchweppesRicqles;
-			public static Item itemBottleSchweppesRaisin;
+			public static Item itemBottleSchweppesRaisin,itemBottleKetchup;
 			
 			//alcohol WO labels
 			public static Item itemCapCorseWOLabel,itemBrandyWOLabel,itemCalvadosWOLabel,itemCiderKerneWOLabel,itemCognacWOLabel;			
@@ -159,7 +159,7 @@ public class BandbBeverages {
 			public static Item itemLeffeWOLabel,itemSanMiguelWOLabel,itemSkollWOLabel,itemSmirnoffWOLabel,itemXIIWOLabel;
 	 		
 			//sweet WO labels
-			public static Item itemBenturColaWOLabel,itemPerrierWOLabel,itemSyrupMoninWOLabel,itemSchweppesRaisinWOLabel;
+			public static Item itemBenturColaWOLabel,itemPerrierWOLabel,itemSyrupMoninWOLabel,itemSchweppesRaisinWOLabel,itemKetchupWOLabel;
 
 	
 	public static void preInit(){
@@ -286,8 +286,10 @@ public class BandbBeverages {
 		GameRegistry.registerItem(itemBottleSchweppesRicqles, "itemBottleSchweppesRicqles");
 	
 		itemBottleSchweppesRaisin = new ItemBottle().setUnlocalizedName("itemBottleSchweppesRaisin");
+		itemBottleKetchup = new ItemBeverageSweet(BandbBeverages.itemBottleKetchup).setUnlocalizedName("itemBottleKetchup").setTextureName(Bandb_mod.MODID + ":beverage/itemBottleKetchup");
 		
 		GameRegistry.registerItem(itemBottleSchweppesRaisin, "itemBottleSchweppesRaisin");
+		GameRegistry.registerItem(itemBottleKetchup, "itemBottleKetchup");
 		
 		
 		itemBottleTabasco = new ItemBottle().setUnlocalizedName("itemBottleTabasco");
@@ -520,12 +522,15 @@ public class BandbBeverages {
 		itemAlsaceRieslingWOLabel = new ItemBottleWOLabel().setUnlocalizedName("itemAlsaceRieslingWOLabel");		
 		itemGet27WOLabel = new ItemBottleWOLabel().setUnlocalizedName("itemGet27WOLabel");		
 		itemSchweppesRaisinWOLabel = new ItemBottleWOLabel().setUnlocalizedName("itemSchweppesRaisinWOLabel");		
+		itemKetchupWOLabel = new ItemBottleWOLabel().setUnlocalizedName("itemKetchupWOLabel");		
 		
 		GameRegistry.registerItem(itemBourgogneAligoteWOLabel, "itemBourgogneAligoteWOLabel");
 		GameRegistry.registerItem(itemAlsaceRieslingWOLabel, "itemAlsaceRieslingWOLabel");
 		GameRegistry.registerItem(itemGet27WOLabel, "itemGet27WOLabel");
 		GameRegistry.registerItem(itemSchweppesRaisinWOLabel, "itemSchweppesRaisinWOLabel");
-	 	
+		GameRegistry.registerItem(itemKetchupWOLabel, "itemKetchupWOLabel");
+		
+		
 		item1664WOLabel = new ItemBottleWOLabel().setUnlocalizedName("item1664WOLabel");		
 		itemBrittWOLabel = new ItemBottleWOLabel().setUnlocalizedName("itemBrittWOLabel");		
 		itemDesperadosWOLabel = new ItemBottleWOLabel().setUnlocalizedName("itemDesperadosWOLabel");		

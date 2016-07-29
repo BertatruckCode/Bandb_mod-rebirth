@@ -194,6 +194,10 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemOats,itemMalt,itemMillet,itemRye,itemSorghum;			
 		public static Item itemCorn,itemBarley,itemRice,itemSesameSeed;
 		
+		public static Item itemFlourBuckwheat,itemFlourHemp,itemFlourSpelt,itemFlourFonio,itemFlourHop;
+		public static Item itemFlourOats,itemFlourMalt,itemFlourMillet,itemFlourRye,itemFlourSorghum;
+		public static Item itemFlourCorn,itemFlourBarley,itemPollen;
+		
 		//plants
 		public static Item itemMustard,itemMint,itemCotton,itemBetterCactus,itemRape;
 		public static Item itemSesame,itemOrchid,itemLicorice,itemDaisy,itemHibiscus;
@@ -244,7 +248,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemCookieCutterCircle,itemCheeseGrater,itemBucketBelMilk,itemBucketMilkaMilk,itemScrewdriver;
 		public static Item itemCocktailGlass,itemFlute,itemOldFashoned,itemTumbler,itemGlassCup;
 		public static Item itemCocktailGlassDirty,itemFluteDirty,itemGlassCupDirty,itemOldFashonnedDirty,itemTumblerDirty;
-		public static Item itemBucketGoatMilk;
+		public static Item itemBucketGoatMilk,itemBucketCream;
 		
 
 //creative only
@@ -1588,6 +1592,39 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemRice, "itemRice");
 				GameRegistry.registerItem(itemSesameSeed, "itemSesameSeed");
 
+				itemFlourBuckwheat = new Item().setUnlocalizedName("itemFlourBuckwheat").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourBuckwheat").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourHemp = new Item().setUnlocalizedName("itemFlourHemp").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourHemp").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourSpelt = new Item().setUnlocalizedName("itemFlourSpelt").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourSpelt").setCreativeTab(BandbCreativeTabs.CreativeTabsBeverage);
+				itemFlourFonio = new Item().setUnlocalizedName("itemFlourFonio").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourFonio").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourHop = new Item().setUnlocalizedName("itemFlourHop").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourHop").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				
+				GameRegistry.registerItem(itemFlourBuckwheat, "itemFlourBuckwheat");
+				GameRegistry.registerItem(itemFlourHemp, "itemFlourHemp");
+				GameRegistry.registerItem(itemFlourSpelt, "itemFlourSpelt");
+				GameRegistry.registerItem(itemFlourFonio, "itemFlourFonio");
+				GameRegistry.registerItem(itemFlourHop, "itemFlourHop");
+
+				itemFlourOats = new Item().setUnlocalizedName("itemFlourOats").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourOats").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourMalt = new Item().setUnlocalizedName("itemFlourMalt").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourMalt").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourMillet = new Item().setUnlocalizedName("itemFlourMillet").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourMillet").setCreativeTab(BandbCreativeTabs.CreativeTabsBeverage);
+				itemFlourRye = new Item().setUnlocalizedName("itemFlourRye").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourRye").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourSorghum = new Item().setUnlocalizedName("itemFlourSorghum").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourSorghum").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				
+				GameRegistry.registerItem(itemFlourOats, "itemFlourOats");
+				GameRegistry.registerItem(itemFlourMalt, "itemFlourMalt");
+				GameRegistry.registerItem(itemFlourMillet, "itemFlourMillet");
+				GameRegistry.registerItem(itemFlourRye, "itemFlourRye");
+				GameRegistry.registerItem(itemFlourSorghum, "itemFlourSorghum");
+
+				itemFlourCorn = new Item().setUnlocalizedName("itemFlourCorn").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourCorn").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemFlourBarley = new Item().setUnlocalizedName("itemFlourBarley").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourBarley").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemPollen = new Item().setUnlocalizedName("itemPollen").setTextureName(Bandb_mod.MODID + ":ingredients/itemPollen").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				
+				GameRegistry.registerItem(itemFlourCorn, "itemFlourCorn");
+				GameRegistry.registerItem(itemFlourBarley, "itemFlourBarley");
+				GameRegistry.registerItem(itemPollen, "itemPollen");
+				
+				
 				//plants
 				itemMustard = new Item().setUnlocalizedName("itemMustard").setTextureName(Bandb_mod.MODID + ":ingredients/plants/itemMustard").setCreativeTab(BandbCreativeTabs.CreativeTabsPlant);
 				itemMint = new Item().setUnlocalizedName("itemMint").setTextureName(Bandb_mod.MODID + ":ingredients/plants/itemMint").setCreativeTab(BandbCreativeTabs.CreativeTabsPlant);
@@ -2312,8 +2349,10 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemGlassCupDirty, "itemGlassCupDirty");	
 				
 				itemBucketGoatMilk = new ItemToolsKitchen().setUnlocalizedName("itemBucketGoatMilk").setTextureName(Bandb_mod.MODID + ":kitchentools/itemBucketGoatMilk");
+				itemBucketCream = new ItemToolsKitchen().setUnlocalizedName("itemBucketCream").setTextureName(Bandb_mod.MODID + ":kitchentools/itemBucketCream");
 
 				GameRegistry.registerItem(itemBucketGoatMilk, "itemBucketGoatMilk");	
+				GameRegistry.registerItem(itemBucketCream, "itemBucketCream");	
 				
 				
 			}

@@ -158,7 +158,25 @@ public class BandbCraftingRecipes {
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetSapphire ,9), new ItemStack(BandbItems.itemSapphire));										
 		
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemCurry ,1), new ItemStack(BandbItems.itemCurryLeafDried));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourBuckwheat ,1), new ItemStack(BandbItems.itemBuckwheat));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourHemp ,1), new ItemStack(BandbItems.itemHemp));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourSpelt ,1), new ItemStack(BandbItems.itemSpelt));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourFonio ,1), new ItemStack(BandbItems.itemFonio));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourHop ,1), new ItemStack(BandbItems.itemHop));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourOats ,1), new ItemStack(BandbItems.itemOats));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourMalt ,1), new ItemStack(BandbItems.itemMalt));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourMillet ,1), new ItemStack(BandbItems.itemMillet));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourRye ,1), new ItemStack(BandbItems.itemRye));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourSorghum ,1), new ItemStack(BandbItems.itemSorghum));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourCorn ,1), new ItemStack(BandbItems.itemCorn));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourBarley ,1), new ItemStack(BandbItems.itemBarley));
 		
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBucketCream ,1), new ItemStack(Items.milk_bucket));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationBrick_1 ,1), new ItemStack(Blocks.brick_block));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationSandstone_1 ,1), new ItemStack(Blocks.sandstone));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationTnt_1 ,2), new ItemStack(Blocks.tnt));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationGlass_black_1 ,1), new ItemStack(Blocks.glass));
+	
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbItems.itemSesame));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbBlocks.blockSesame));
 		
@@ -276,8 +294,14 @@ public class BandbCraftingRecipes {
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMagentaInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(Items.dye, 2, 13),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemYellowInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(Items.dye, 2, 11),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemEmptyInkCartridge), "XXX", "XYX", "XXX",'X', new ItemStack(Items.iron_ingot),'Y', new ItemStack (Items.bucket));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemJoint), "XXX", "YYY", "ZZZ",'X', new ItemStack(Items.paper),'Y', new ItemStack (BandbItems.itemTobaccoDried),'Z', new ItemStack (BandbItems.itemLeaveCocaDried));
 		
-			//aluminium
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemButter), "   ", "XXX", "   ",'X', new ItemStack(BandbItems.itemBucketCream));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKetchup), "XXX", "YZY", "XXX",'X', new ItemStack(BandbItems.itemTomato),'Y', new ItemStack (Items.sugar),'Z', new ItemStack (BandbBeverages.itemBottleKetchup));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCelerySalt), "XXX", "YYY", "XXX",'X', new ItemStack(BandbItems.itemSalt),'Y', new ItemStack (BandbItems.itemCelery));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemHoney), "XXX", "XYX", "XXX",'X', new ItemStack(BandbItems.itemPollen),'Y', new ItemStack (BandbBeverages.itemBottleHoney));
+		
+		//aluminium
 			//armor
 		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAluminium), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemIngotAluminium));
 		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAluminium), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemIngotAluminium));
