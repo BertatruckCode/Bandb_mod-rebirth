@@ -62,7 +62,8 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemButter,itemKetchup,itemIceCreamVanilla,itemVinegar;
 		
 		public static Item itemBenco,itemBanania,itemSuperPoulain,itemNesquik,itemNesquikIntense;
-		public static Item itemSucreVanille,itemSucreVahine,itemCassonade,itemPretzel;
+		public static Item itemSucreVanille,itemSucreVahine,itemCassonade,itemPretzel,itemCacaoPower;
+		public static Item itemWhiteSauce;
 		
 		//Gâteau Lu
 		public static Item itemLogoLu,itemMikadoChocolatNoir,itemMikadoChocolatLait,itemMikadoKingChoco,itemMikadoChocoNoisette;
@@ -177,8 +178,12 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemCoffeeKopiLuwakGround,itemCoffeeKupeAlamidGround,itemCoffeeMokaGround,itemCoffeeMundoNovoGround,itemCoffeeMuragogypeGround;
 		public static Item itemCoffeePeaberryGround,itemCoffeeTarrazuGround,itemCoffeeTorajaKalossiGround,itemCoffeeYirgacheffeGround,itemDriedTeaLeaves;
 		
-		public static Item itemLemonTea,itemPeachTea,itemRaspberryTea,itemMatchaGreenTea,itemChaiTea;
+		public static Item itemTeaLemon,itemTeaPeach,itemTeaRaspberry,itemTeaMatchaGreen,itemTeaChai;
+		public static Item itemTeaCaramel,itemTeaRedFruit,itemTeaEarlGrey;
 		
+		public static Item itemTeaBagLemon,itemTeaBagPeach,itemTeaBagRaspberry,itemTeaBagMatchaGreen,itemTeaBagChai;
+		public static Item itemTeaBagCaramel,itemTeaBagRedFruit,itemTeaBagEarlGrey,itemTeaBagEmpty;
+			
 		public static Item itemCupArpeggio,itemCupBukeelaKaEthiopia,itemCupCapriccio,itemCupCosi,itemCupDecaffeinato;
 		public static Item itemCupDecaffeinatoIntenso,itemCupIndriyaFromIndia,itemCupKazaar,itemCupRistretto,itemCupLinizioLungo;
 		public static Item itemCupRosabayaDeColombia,itemCupDulsaoDoBrasil,itemCupFortissioLungo,itemCupLivanto,itemCupDecaffeinatoLungo;
@@ -228,7 +233,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemLabelSchweppesPamplemousse,itemLabelSchweppesPassion,itemLabelSchweppesPech,itemLabelSchweppesPomme,itemLabelSchweppesRicqles;
 		public static Item itemLabel1664,itemLabelBritt,itemLabelDesperados,itemLabelDuvel,itemLabelGrimbergen;
 		public static Item itemLabelLeffe,itemLabelSanMiguel,itemLabelSkoll,itemLabelSmirnoff,itemLabelXII;
-		public static Item itemLabelGet27,itemLabelSchweppesRaisin,itemKetchupLabel;
+		public static Item itemLabelGet27,itemLabelSchweppesRaisin;
 		
 //pharmaceuticals		
 		public static Item itemDoliprane200mg,itemDoliprane300mg,itemDoliprane500mg,itemDoliprane1000mg;
@@ -300,7 +305,9 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemFatherParrotGreatGreenMacaw,itemFatherParrotHyacinthMacaw,itemFatherParrotRedAndGreenMacaw,itemEggMagpie,itemFeatherMagpie;
 		public static Item itemEggPigeon,itemFeatherPigeon;
 		
+//Bread
 		
+		public static Item itemBreadKebab;
 //meat 
 		//raw
 			//chicken
@@ -328,13 +335,19 @@ import net.minecraftforge.common.util.EnumHelper;
 		//Goat
 		public static Item itemGoatCooked, itemGoatRaw;
 		
-//item dried
+		//item dried
 		public static Item itemLeaveCocaDried, itemTobaccoDried;
 		
-//item kebab
-		public static Item itemKebabRaw, itemKebabSpit, itemKebab;
+		//item kebab
+		public static Item itemKebabRaw, itemKebabSpit, itemMeatKebab,itemKebab;
 		
-//Item Ingot Dust Nugget	
+		//item Mc Donald's
+		public static Item itemLogoMcDo,itemBreadBurger,itemBurgerCut,itemBurgerCheese,itemBurgerChicken;
+		public static Item itemMustardSauce,itemMayonnaise,itemSliverOnion,itemSliverCheese,itemSliverTomato;
+		public static Item itemBurgerBeef,itemBurgerFish,itemBurgerLamb,itemBurgerPork,itemBurgerZombie;
+		public static Item itemFrenchFries;
+				
+		//Item Ingot Dust Nugget	
 		public static void LoaderItemIngotDustNugget(Boolean bool){
 			if(bool = true){				
 
@@ -533,7 +546,6 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	itemJamCurrant = new ItemFood(0,1.0F,false).setUnlocalizedName("itemJamCurrant").setTextureName(Bandb_mod.MODID + ":processed food/itemJamCurrant").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 		    	itemButter = new ItemFood(0,1.0F,false).setUnlocalizedName("itemButter").setTextureName(Bandb_mod.MODID + ":processed food/itemButter").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 		    	
-		    	itemKetchup = new ItemFood(0,1.0F,false).setUnlocalizedName("itemKetchup").setTextureName(Bandb_mod.MODID + ":processed food/itemKetchup").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 		    	itemIceCreamVanilla = new ItemFood(0,1.0F,false).setUnlocalizedName("itemIceCreamVanilla").setTextureName(Bandb_mod.MODID + ":processed food/itemIceCreamVanilla").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 		    	
 		    	
@@ -549,7 +561,6 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemJamCurrant, "itemJamCurrant");
 				GameRegistry.registerItem(itemButter, "itemButter");
 				
-				GameRegistry.registerItem(itemKetchup, "itemKetchup");
 				GameRegistry.registerItem(itemIceCreamVanilla, "itemIceCreamVanilla");
 				
 		    	
@@ -647,6 +658,12 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	GameRegistry.registerItem(itemCassonade, "itemCassonade");
 		    	GameRegistry.registerItem(itemPretzel, "itemPretzel");
 				  
+		    	itemCacaoPower = new Item().setUnlocalizedName("itemCacaoPower").setTextureName(Bandb_mod.MODID + ":processed food/itemCacaoPower").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+		    	itemWhiteSauce = new Item().setUnlocalizedName("itemWhiteSauce").setTextureName(Bandb_mod.MODID + ":beverage/itemWhiteSauce").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				
+		    	GameRegistry.registerItem(itemCacaoPower, "itemCacaoPower");
+		    	GameRegistry.registerItem(itemWhiteSauce, "itemWhiteSauce");
+		    	
 		    	
 		    	//Gï¿½teau LU 			
 				itemLogoLu = new Item().setUnlocalizedName("itemLogoLu").setTextureName(Bandb_mod.MODID + ":lu/itemLogoLu").setCreativeTab(BandbCreativeTabs.CreativeTabsLu);
@@ -1965,19 +1982,47 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemCoffeeYirgacheffeGround, "item_Coffee_Yirgacheffe_Ground");	
 				GameRegistry.registerItem(itemDriedTeaLeaves, "item_Dried_Tea_Leaves");
 				
-				itemLemonTea = new Item().setUnlocalizedName("itemLemonTea").setTextureName(Bandb_mod.MODID + ":coffee/itemLemonTea").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
-				itemPeachTea = new Item().setUnlocalizedName("itemPeachTea").setTextureName(Bandb_mod.MODID + ":coffee/itemPeachTea").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
-				itemRaspberryTea = new Item().setUnlocalizedName("itemRaspberryTea").setTextureName(Bandb_mod.MODID + ":coffee/itemRaspberryTea").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
-				itemMatchaGreenTea = new Item().setUnlocalizedName("itemMatchaGreenTea").setTextureName(Bandb_mod.MODID + ":coffee/itemMatchaGreenTea").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaLemon = new Item().setUnlocalizedName("itemTeaLemon").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaLemon").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaPeach = new Item().setUnlocalizedName("itemTeaPeach").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaPeach").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaRaspberry = new Item().setUnlocalizedName("itemTeaRaspberry").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaRaspberry").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaMatchaGreen = new Item().setUnlocalizedName("itemTeaMatchaGreen").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaMatchaGreen").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaChai = new Item().setUnlocalizedName("itemTeaChai").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaChai").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
 
-				GameRegistry.registerItem(itemLemonTea, "itemLemonTea");	
-				GameRegistry.registerItem(itemPeachTea, "itemPeachTea");	
-				GameRegistry.registerItem(itemRaspberryTea, "itemRaspberryTea");	
-				GameRegistry.registerItem(itemMatchaGreenTea, "itemMatchaGreenTea");
+				GameRegistry.registerItem(itemTeaLemon, "itemTeaLemon");	
+				GameRegistry.registerItem(itemTeaPeach, "itemTeaPeach");	
+				GameRegistry.registerItem(itemTeaRaspberry, "itemTeaRaspberry");	
+				GameRegistry.registerItem(itemTeaMatchaGreen, "itemTeaMatchaGreen");
+				GameRegistry.registerItem(itemTeaChai, "itemTeaChai");	
 				
-				itemChaiTea = new Item().setUnlocalizedName("itemChaiTea").setTextureName(Bandb_mod.MODID + ":coffee/itemChaiTea").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaCaramel = new Item().setUnlocalizedName("itemTeaCaramel").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaCaramel").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaRedFruit = new Item().setUnlocalizedName("itemTeaRedFruit").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaRedFruit").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaEarlGrey = new Item().setUnlocalizedName("itemTeaEarlGrey").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaEarlGrey").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
 
-				GameRegistry.registerItem(itemChaiTea, "itemChaiTea");	
+				GameRegistry.registerItem(itemTeaCaramel, "itemTeaCaramel");	
+				GameRegistry.registerItem(itemTeaRedFruit, "itemTeaRedFruit");	
+				GameRegistry.registerItem(itemTeaEarlGrey, "itemTeaEarlGrey");	
+				
+				itemTeaBagLemon = new Item().setUnlocalizedName("itemTeaBagLemon").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagLemon").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagPeach = new Item().setUnlocalizedName("itemTeaBagPeach").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagPeach").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagRaspberry = new Item().setUnlocalizedName("itemTeaBagRaspberry").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagRaspberry").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagMatchaGreen = new Item().setUnlocalizedName("itemTeaBagMatchaGreen").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagMatchaGreen").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagChai = new Item().setUnlocalizedName("itemTeaBagChai").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagChai").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+
+				GameRegistry.registerItem(itemTeaBagLemon, "itemTeaBagLemon");	
+				GameRegistry.registerItem(itemTeaBagPeach, "itemTeaBagPeach");	
+				GameRegistry.registerItem(itemTeaBagRaspberry, "itemTeaBagRaspberry");	
+				GameRegistry.registerItem(itemTeaBagMatchaGreen, "itemTeaBagMatchaGreen");
+				GameRegistry.registerItem(itemTeaBagChai, "itemTeaBagChai");	
+				
+				itemTeaBagCaramel = new Item().setUnlocalizedName("itemTeaBagCaramel").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagCaramel").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagRedFruit = new Item().setUnlocalizedName("itemTeaBagRedFruit").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagRedFruit").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagEarlGrey = new Item().setUnlocalizedName("itemTeaBagEarlGrey").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagEarlGrey").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+				itemTeaBagEmpty = new Item().setUnlocalizedName("itemTeaBagEmpty").setTextureName(Bandb_mod.MODID + ":coffee/itemTeaBagEmpty").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
+
+				GameRegistry.registerItem(itemTeaBagCaramel, "itemTeaBagCaramel");	
+				GameRegistry.registerItem(itemTeaBagRedFruit, "itemTeaBagRedFruit");	
+				GameRegistry.registerItem(itemTeaBagEarlGrey, "itemTeaBagEarlGrey");	
+				GameRegistry.registerItem(itemTeaBagEmpty, "itemTeaBagEmpty");	
 				
 				
 				itemCupArpeggio = new Item().setUnlocalizedName("itemCupArpeggio").setTextureName(Bandb_mod.MODID + ":coffee/itemCupArpeggio").setCreativeTab(BandbCreativeTabs.CreativeTabsCoffeeAndTea);
@@ -2219,15 +2264,13 @@ import net.minecraftforge.common.util.EnumHelper;
 		    	itemLabelSchweppesLemon = new ItemLabel().setUnlocalizedName("itemLabelSchweppesLemon").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesLemon");
 		    	itemLabelSchweppesMango = new ItemLabel().setUnlocalizedName("itemLabelSchweppesMango").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesMango");
 		    	itemLabelSchweppesPamplemousse = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPamplemousse").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPamplemousse");
-		    	itemKetchupLabel = new ItemLabel().setUnlocalizedName("itemKetchupLabel").setTextureName(Bandb_mod.MODID + ":labels/itemKetchupLabel");
-				
+		    	
 		    	GameRegistry.registerItem(itemLabelSchweppesAgrum, "itemLabelSchweppesAgrum");
 		    	GameRegistry.registerItem(itemLabelSchweppesDarkSide, "itemLabelSchweppesDarkSide");
 		    	GameRegistry.registerItem(itemLabelSchweppesLemon, "itemLabelSchweppesLemon");
 		    	GameRegistry.registerItem(itemLabelSchweppesMango, "itemLabelSchweppesMango");
 		    	GameRegistry.registerItem(itemLabelSchweppesPamplemousse, "itemLabelSchweppesPamplemousse");
-		    	GameRegistry.registerItem(itemKetchupLabel, "itemKetchupLabel");		    	
-		     	
+		    	
 		    	itemLabelSchweppesPassion = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPassion").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPassion");
 		    	itemLabelSchweppesPech = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPech").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPech");
 		    	itemLabelSchweppesPomme = new ItemLabel().setUnlocalizedName("itemLabelSchweppesPomme").setTextureName(Bandb_mod.MODID + ":labels/itemLabelSchweppesPomme");
@@ -2480,10 +2523,12 @@ import net.minecraftforge.common.util.EnumHelper;
 
 				itemKebabRaw = new Item().setUnlocalizedName("itemKebabRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebabRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 				itemKebabSpit = new Item().setUnlocalizedName("itemKebabSpit").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebabSpit").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
-				itemKebab = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemKebab").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebab").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemMeatKebab = new ItemFood(1, 1.0F, false).setUnlocalizedName("itemMeatKebab").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemMeatKebab").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemKebab = new ItemFood(2, 2.0F, false).setUnlocalizedName("itemKebab").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKebab").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
 
 				GameRegistry.registerItem(itemKebabRaw, "itemKebabRaw");	
 				GameRegistry.registerItem(itemKebabSpit, "itemKebabSpit");	
+				GameRegistry.registerItem(itemMeatKebab, "itemMeatKebab");	
 				GameRegistry.registerItem(itemKebab, "itemKebab");	
 				
 //Butterfly
@@ -2969,6 +3014,54 @@ import net.minecraftforge.common.util.EnumHelper;
 				
 				GameRegistry.registerItem(itemFeatherLyrebird, "itemFeatherLyrebird");	
 				
-
+				//Bread
+				
+				itemBreadKebab = new Item().setUnlocalizedName("itemBreadKebab").setTextureName(Bandb_mod.MODID + ":bread/itemBreadKebab").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
+				
+				GameRegistry.registerItem(itemBreadKebab, "itemBreadKebab");	
+				
+				//Mc Donald's
+				itemLogoMcDo = new Item().setUnlocalizedName("itemLogoMcDo").setTextureName(Bandb_mod.MODID + ":mcdo/itemLogoMcDo").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBreadBurger = new Item().setUnlocalizedName("itemBreadBurger").setTextureName(Bandb_mod.MODID + ":bread/itemBreadBurger").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemFrenchFries = new Item().setUnlocalizedName("itemFrenchFries").setTextureName(Bandb_mod.MODID + ":mcdo/itemFrenchFries").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBurgerCut = new Item().setUnlocalizedName("itemBurgerCut").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerCut").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemKetchup = new Item().setUnlocalizedName("itemKetchup").setTextureName(Bandb_mod.MODID + ":mcdo/itemKetchup").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				
+				GameRegistry.registerItem(itemLogoMcDo, "itemLogoMcDo");	
+				GameRegistry.registerItem(itemBreadBurger, "itemBreadBurger");	
+				GameRegistry.registerItem(itemFrenchFries, "itemFrenchFries");	
+				GameRegistry.registerItem(itemBurgerCut, "itemBurgerCut");	
+				GameRegistry.registerItem(itemKetchup, "itemKetchup");	
+				
+				itemMustardSauce = new Item().setUnlocalizedName("itemMustardSauce").setTextureName(Bandb_mod.MODID + ":mcdo/itemMustardSauce").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemMayonnaise = new Item().setUnlocalizedName("itemMayonnaise").setTextureName(Bandb_mod.MODID + ":mcdo/itemMayonnaise").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemSliverOnion = new Item().setUnlocalizedName("itemSliverOnion").setTextureName(Bandb_mod.MODID + ":mcdo/itemSliverOnion").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemSliverCheese = new Item().setUnlocalizedName("itemSliverCheese").setTextureName(Bandb_mod.MODID + ":mcdo/itemSliverCheese").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemSliverTomato = new Item().setUnlocalizedName("itemSliverTomato").setTextureName(Bandb_mod.MODID + ":mcdo/itemSliverTomato").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				
+				GameRegistry.registerItem(itemMustardSauce, "itemMustardSauce");	
+				GameRegistry.registerItem(itemMayonnaise, "itemMayonnaise");	
+				GameRegistry.registerItem(itemSliverOnion, "itemSliverOnion");	
+				GameRegistry.registerItem(itemSliverCheese, "itemSliverCheese");	
+				GameRegistry.registerItem(itemSliverTomato, "itemSliverTomato");	
+				
+				itemBurgerChicken = new Item().setUnlocalizedName("itemBurgerChicken").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerChicken").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBurgerFish = new Item().setUnlocalizedName("itemBurgerFish").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerFish").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBurgerLamb = new Item().setUnlocalizedName("itemBurgerLamb").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerLamb").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBurgerPork = new Item().setUnlocalizedName("itemBurgerPork").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerPork").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBurgerZombie = new Item().setUnlocalizedName("itemBurgerZombie").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerZombie").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				
+				GameRegistry.registerItem(itemBurgerChicken, "itemBurgerChicken");	
+				GameRegistry.registerItem(itemBurgerFish, "itemBurgerFish");	
+				GameRegistry.registerItem(itemBurgerLamb, "itemBurgerLamb");	
+				GameRegistry.registerItem(itemBurgerPork, "itemBurgerPork");	
+				GameRegistry.registerItem(itemBurgerZombie, "itemBurgerZombie");	
+				
+				itemBurgerCheese = new Item().setUnlocalizedName("itemBurgerCheese").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerCheese").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBurgerBeef = new Item().setUnlocalizedName("itemBurgerBeef").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerBeef").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				
+				GameRegistry.registerItem(itemBurgerCheese, "itemBurgerCheese");	
+				GameRegistry.registerItem(itemBurgerBeef, "itemBurgerBeef");	
+				
 		}
 	}

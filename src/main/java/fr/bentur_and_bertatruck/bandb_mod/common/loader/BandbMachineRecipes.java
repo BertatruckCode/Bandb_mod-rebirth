@@ -74,7 +74,7 @@ public class BandbMachineRecipes {
 		RecipeSyrupMachine.addRecipe(BandbItems.itemCaramel , new ItemStack(BandbBeverages.itemSyrupCaramel ));
 		
 		RecipeSyrupMachine.addRecipe(BandbItems.itemCardamom , new ItemStack(BandbBeverages.itemSyrupCardamom ));
-		RecipeSyrupMachine.addRecipe(BandbItems.itemChaiTea , new ItemStack(BandbBeverages.itemSyrupChaiTea ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTeaChai , new ItemStack(BandbBeverages.itemSyrupChaiTea ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCherry , new ItemStack(BandbBeverages.itemSyrupCherry ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceCherryPlum , new ItemStack(BandbBeverages.itemSyrupCherryPlum ));
 		RecipeSyrupMachine.addRecipe(BandbItems.itemChestnut , new ItemStack(BandbBeverages.itemSyrupChestnut ));
@@ -133,21 +133,21 @@ public class BandbMachineRecipes {
 		RecipeSyrupMachine.addRecipe(BandbItems.itemLemonGrass , new ItemStack(BandbBeverages.itemSyrupLemonGrass ));
 		RecipeSyrupMachine.addRecipe(BandbItems.itemLemonPie , new ItemStack(BandbBeverages.itemSyrupLemonPie ));
 		
-		RecipeSyrupMachine.addRecipe(BandbItems.itemLemonTea , new ItemStack(BandbBeverages.itemSyrupLemonTea ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTeaLemon , new ItemStack(BandbBeverages.itemSyrupLemonTea ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLime , new ItemStack(BandbBeverages.itemSyrupLime ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLychee , new ItemStack(BandbBeverages.itemSyrupLychee ));
 		RecipeSyrupMachine.addRecipe(BandbItems.itemMacadamia , new ItemStack(BandbBeverages.itemSyrupMacadamiaNut ));
 		RecipeSyrupMachine.addRecipe(BandbItems.itemMacaron , new ItemStack(BandbBeverages.itemSyrupMacaron ));
 		
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMango , new ItemStack(BandbBeverages.itemSyrupMango ));
-		RecipeSyrupMachine.addRecipe(BandbItems.itemMatchaGreenTea , new ItemStack(BandbBeverages.itemSyrupMatchaGreenTea ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTeaMatchaGreen , new ItemStack(BandbBeverages.itemSyrupMatchaGreenTea ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMelon , new ItemStack(BandbBeverages.itemSyrupMelon ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceMorelloCherry , new ItemStack(BandbBeverages.itemSyrupMorelloCherry ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceOrange , new ItemStack(BandbBeverages.itemSyrupOrange ));
 		
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePassionfruit , new ItemStack(BandbBeverages.itemSyrupPassionFruit ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePeach , new ItemStack(BandbBeverages.itemSyrupPeach ));
-		RecipeSyrupMachine.addRecipe(BandbItems.itemPeachTea , new ItemStack(BandbBeverages.itemSyrupPeachTea ));
+		RecipeSyrupMachine.addRecipe(BandbItems.itemTeaPeach , new ItemStack(BandbBeverages.itemSyrupPeachTea ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePear , new ItemStack(BandbBeverages.itemSyrupPear ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePineappleVictoria , new ItemStack(BandbBeverages.itemSyrupPineapple ));
 		
@@ -159,7 +159,7 @@ public class BandbMachineRecipes {
 		
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLemon , new ItemStack(BandbBeverages.itemSyrupRantchoLemon ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceRaspberry , new ItemStack(BandbBeverages.itemSyrupRaspberry ));
-		RecipeSyrupMachine.addRecipe(BandbItems. itemRaspberryTea , new ItemStack(BandbBeverages.itemSyrupRaspberryTea ));
+		RecipeSyrupMachine.addRecipe(BandbItems. itemTeaRaspberry , new ItemStack(BandbBeverages.itemSyrupRaspberryTea ));
 		RecipeSyrupMachine.addRecipe(BandbItems. itemReastedHazelnut , new ItemStack(BandbBeverages.itemSyrupRoastedHazelnut ));
 		RecipeSyrupMachine.addRecipe(BandbItems.itemAmaryllisRed , new ItemStack(BandbBeverages.itemSyrupRose ));
 		
@@ -299,14 +299,13 @@ public class BandbMachineRecipes {
 		RecipePrinter.addRecipe(BandbItems.itemFernetBrancaLabel, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemFleurOrangerLabel, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemGinLabel, 1, 0, 2, 0);
-		RecipePrinter.addRecipe(BandbItems.itemGrandMarnierLabel, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemGuinnessLabel, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemHeinekenLabel, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemKetchupLabel, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemLabel1664, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemGrandMarnierLabel, 1, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemGuinnessLabel, 1, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemHeinekenLabel, 1, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabel1664, 1, 2, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelBritt, 0, 3, 2, 2);
 		RecipePrinter.addRecipe(BandbItems.itemLabelDesperados, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemLabelDuvel, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelDuvel, 1, 2, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelGet27,  0, 3, 2, 2);
 		RecipePrinter.addRecipe(BandbItems.itemLabelGrimbergen, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelHoney, 1, 0, 1, 1);
@@ -314,15 +313,15 @@ public class BandbMachineRecipes {
 		RecipePrinter.addRecipe(BandbItems.itemLabelSanMiguel,  0, 3, 2, 2);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesAgrum, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesDarkSide, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesLemon, 1, 0, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesLemon, 1, 2, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesMango,  0, 3, 2, 2);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPamplemousse, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPassion, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPech, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesPomme,  0, 3, 2, 2);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesRaisin, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesRicqles, 1, 0, 1, 1);
-		RecipePrinter.addRecipe(BandbItems.itemLabelSkoll,  0, 3, 2, 2);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSchweppesRicqles, 1, 2, 1, 1);
+		RecipePrinter.addRecipe(BandbItems.itemLabelSkoll,  2, 3, 2, 2);
 		RecipePrinter.addRecipe(BandbItems.itemLabelSmirnoff, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLabelXII, 1, 0, 1, 1);
 		RecipePrinter.addRecipe(BandbItems.itemLambigLabel, 1, 0, 1, 1);
@@ -557,7 +556,7 @@ public class BandbMachineRecipes {
 		RecipeLabelMachine.addRecipe(BandbBeverages.itemSchweppesPechWOLabel, BandbItems.itemLabelSchweppesPech, new ItemStack(BandbBeverages.itemBottleSchweppesPech));
 		RecipeLabelMachine.addRecipe(BandbBeverages.itemSchweppesPommeWOLabel, BandbItems.itemLabelSchweppesPomme, new ItemStack(BandbBeverages.itemBottleSchweppesPomme));
 		RecipeLabelMachine.addRecipe(BandbBeverages.itemSchweppesRicqlesWOLabel, BandbItems.itemLabelSchweppesRicqles, new ItemStack(BandbBeverages.itemBottleSchweppesRicqles));
-	//	RecipeLabelMachine.addRecipe(BandbBeverages.item1664WOLabel, BandbItems.1, new ItemStack(BandbBeverages.itemBottle1664));
+		RecipeLabelMachine.addRecipe(BandbBeverages.item1664WOLabel, BandbItems.itemLabel1664, new ItemStack(BandbBeverages.itemBottle1664));
 		RecipeLabelMachine.addRecipe(BandbBeverages.itemAlsaceRieslingWOLabel, BandbItems.itemAlsaceRieslingLabel, new ItemStack(BandbBeverages.itemBottleAlsaceRiesling));
 		RecipeLabelMachine.addRecipe(BandbBeverages.itemBenturColaWOLabel, BandbItems.itemBenturColaLabel, new ItemStack(BandbBeverages.itemBottleBenturCola));
 		RecipeLabelMachine.addRecipe(BandbBeverages.itemBottleChouchenWOLabel, BandbItems.itemChouchenLabel, new ItemStack(BandbBeverages.itemBottleChouchen));
@@ -1178,7 +1177,10 @@ public class BandbMachineRecipes {
 
 		}
 		
-		RecipeBarrelApple.addRecipe(BandbBeverages.itemBottleCalvados, BandbBeverages.itemBeverageCiderKerne, BandbFluids.fluidCider, 50, 20, new ItemStack(BandbBeverages.itemBeverageCalvados));
+		//BARREL
+	//	RecipeBarrelApple.addRecipe(BandbBeverages.itemBottleCiderKerne, BandbBeverages.juiceApple, BandbFluids.fluidCider, 50, 20, new ItemStack(BandbBeverages.itemBeverageCiderKerne));
+		
+		RecipeBarrelApple.addRecipe(BandbBeverages.itemBottleCalvados, BandbBeverages.itemBeverageCiderKerne, BandbFluids.fluidCalvados, 50, 20, new ItemStack(BandbBeverages.itemBeverageCalvados));
 		
 		RecipeBarrelApple.addRecipe(BandbBeverages.itemBottleChouchen, BandbBeverages.itemJuiceAppleAntares, BandbItems.itemHoney, BandbFluids.fluidChouchen, 50, 5500, new ItemStack(BandbBeverages.itemBeverageChouchen));
 	}	

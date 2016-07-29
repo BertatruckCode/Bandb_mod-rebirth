@@ -1365,7 +1365,22 @@ item.itemZebraCooked.name=Cooked Zebra
 item.itemZebraRaw.name=Raw Zebra
 item.itemGoatCooked.name=Cooked Goat
 item.itemGoatRaw.name=Raw Goat
-item.item.name=
+item.itemBreadKebab.name=Bread Kebab
+item.itemPretzel.name=Pretzel
+item.itemCacaoPower.name=Cacao Power
+item.itemWhiteSauce.name=White Sauce
+item.itemFlourBuckwheat.name=Buckwheat Flour
+item.itemFlourHemp.name=Hemp Flour
+item.itemFlourFonio.name=Fonio Flour
+item.itemFlourHop.name=Hop Flour
+item.itemFlourOats.name=Oats Flour
+item.itemFlourMalt.name=Malt Flour
+item.itemFlourRye.name=Rye Flour
+item.itemFlourSorghum.name=Sorghum Flour
+item.itemFlourCorn.name=Corn Flour
+item.itemFlourBarley.name=Barley Flour
+item.itemPollen.name=Pollen
+item.itemMeatKebab.name=Kebab Meat
 item.item.name=
 
 
@@ -3145,12 +3160,26 @@ item.itemBug.name=Gros BUG !!
 itemGroup.CreativeTabsCoffeeAndTea=Coffee & Tea
 
 item.itemTeapot.name=Teapot
-item.itemMugCoffeeEmpty.name=Mug Coffee Empty
-item.itemLemonTea.name=Lemon Tea
-item.itemPeachTea.name=Peach Tea
-item.itemMatchaGreenTea.name=Matcha Green Tea
-item.itemRaspberryTea.name=Raspberry Tea
-item.itemChaiTea.name=Chaï Tea
+item.itemMugCoffeeEmpty.name=Cup Empty
+
+item.itemTeaLemon.name=Lemon Tea
+item.itemTeaPeach.name=Peach Tea
+item.itemTeaMatchaGreen.name=Matcha Green Tea
+item.itemTeaRaspberry.name=Raspberry Tea
+item.itemTeaChai.name=Chaï Tea
+item.itemTeaEarlGrey.name=Earl Grey Tea
+item.itemTeaRedFruit.name=Red Fruit Tea
+item.itemTeaCaramel.name=Caramel Tea
+
+item.itemTeaBagCaramel.name=Caramel Tea Bag
+item.itemTeaBagLemon.name=Lemon Tea Bag
+item.itemTeaBagPeach.name=Peach Tea Bag
+item.itemTeaBagRaspberry.name=Raspberry Tea Bag
+item.itemTeaBagMatchaGreen.name=Matcha Green Tea Bag
+item.itemTeaBagChai.name=Chai Tea Bag
+item.itemTeaBagRedFruit.name=Red Fruit Tea Bag
+item.itemTeaBagEarlGrey.name=Earl Grey Tea Bag
+item.itemTeaBagEmpty.name=Empty Tea Bag
 
 item.itemCapsuleBukeelaKaEthiopia.name=Capsule Bukeela Ka Ethiopia
 item.itemCapsuleIndriyaFromIndia.name=Capsule Indriya From India
@@ -3810,6 +3839,58 @@ item.itemFeatherMagpie.name=Magpie Feather
 item.itemFeatherGull.name=Gull Feather
 item.itemFeatherLyrebird.name=Lyrebird Feather
 item.itemFeather.name= Feather
+
+
+
+
+
+
+
+
+//Mc Donald's
+itemGroup.CreativeTabsMcdo=Mc Donald's
+
+item.itemLogoMcDo.name=Logo Mc Donald's
+item.itemBreadBurger.name=Bread Burger
+item.itemFrenchFries.name=French Fries
+item.itemBurgerCut.name=Bread Cut
+item.itemMustardSauce.name=Mustard
+item.itemMayonnaise.name=Mayonnaise
+item.itemSliverOnion.name=Sliver Onions
+item.itemSliverCheese.name=Sliver Cheese
+item.itemSliverTomato.name=Sliver Tomato
+item.itemBurgerChicken.name=Chicken Burger
+item.itemBurgerFish.name=Fish Burger
+item.itemBurgerLamb.name=Lamb Burger
+item.itemBurgerPork.name=Pork Burger
+item.itemBurgerZombie.name=Zombie Burger
+item.itemBurgerCheese.name=Cheese Burger
+item.itemBurgerBeef.name=Beef Burger
+item.itemBurger.name=
+item.itemBurger.name=
+item.itemBurger.name=
+item.itemBurger.name=
+item.itemBurger.name=
+item.itemBurger.name=
+
+item.item.name=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

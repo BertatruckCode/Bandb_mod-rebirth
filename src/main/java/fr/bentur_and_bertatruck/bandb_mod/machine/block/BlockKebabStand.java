@@ -48,12 +48,12 @@ public class BlockKebabStand extends BlockContainer {
         	}else if(player.getCurrentEquippedItem().getItem() == BandbItems.itemKnifeIron){
 				if(tileKebab.isKebabCooked()){
 					tileKebab.decrLayer();					
-					if (!this.playerHasItem(player, BandbItems.itemKebab) && player.inventory.getFirstEmptyStack() == -1) {
-						EntityItem entityitem = new EntityItem(world, player.posX, player.posY + 1, player.posZ, new ItemStack(BandbItems.itemKebab));
+					if (!this.playerHasItem(player, BandbItems.itemMeatKebab) && player.inventory.getFirstEmptyStack() == -1) {
+						EntityItem entityitem = new EntityItem(world, player.posX, player.posY + 1, player.posZ, new ItemStack(BandbItems.itemMeatKebab));
 						if (!world.isRemote)
 							world.spawnEntityInWorld(entityitem);
 					}else{
-						((EntityPlayer)MinecraftServer.getServer().getConfigurationManager().playerEntityList.get(0)).inventory.addItemStackToInventory(new ItemStack(BandbItems.itemKebab));					}
+						((EntityPlayer)MinecraftServer.getServer().getConfigurationManager().playerEntityList.get(0)).inventory.addItemStackToInventory(new ItemStack(BandbItems.itemMeatKebab));					}
 				}
 				
         	}else if(player.getCurrentEquippedItem().getItem() == BandbItems.itemKebabSpit){

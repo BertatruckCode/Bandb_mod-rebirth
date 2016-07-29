@@ -332,11 +332,14 @@ public class BandbLists {
 		ListPineapplejuice.add(BandbBeverages.itemJuicePineappleVictoria);
 		ListPineapplejuice.add(BandbBeverages.itemJuicePineappleCayenneLisse);
 
-		ListTeaCup.add(BandbItems.itemLemonTea);
-		ListTeaCup.add(BandbItems.itemMatchaGreenTea);
-		ListTeaCup.add(BandbItems.itemPeachTea);
-		ListTeaCup.add(BandbItems.itemRaspberryTea);
-		ListTeaCup.add(BandbItems.itemChaiTea);
+		ListTeaCup.add(BandbItems.itemTeaLemon);
+		ListTeaCup.add(BandbItems.itemTeaMatchaGreen);
+		ListTeaCup.add(BandbItems.itemTeaPeach);
+		ListTeaCup.add(BandbItems.itemTeaRaspberry);
+		ListTeaCup.add(BandbItems.itemTeaCaramel);
+		ListTeaCup.add(BandbItems.itemTeaRedFruit);
+		ListTeaCup.add(BandbItems.itemTeaEarlGrey);
+		ListTeaCup.add(BandbItems.itemTeaChai);
 
 
 	}

@@ -273,10 +273,17 @@ public class BandbCreativeTabs {
 			@SideOnly(Side.CLIENT)
 			public Item getTabIconItem() {
 				return BandbItems.itemSaddleMuttonRaw;
-		
-				
 			}
-	};
+		};
+		public static CreativeTabs CreativeTabsMcDo = new CreativeTabs("CreativeTabsMcdo") {
+
+				@Override
+				@SideOnly(Side.CLIENT)
+				public Item getTabIconItem() {
+					return BandbItems.itemLogoMcDo;
+					
+			}
+		};
 
 	/*
 	 * public static CreativeTabs CreativeTabsSlab = new
