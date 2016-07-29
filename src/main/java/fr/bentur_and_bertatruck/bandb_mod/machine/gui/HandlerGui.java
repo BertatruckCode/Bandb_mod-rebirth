@@ -36,20 +36,18 @@ import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntitySyrupMach
 
 public class HandlerGui implements IGuiHandler {
 
-	public Object getServerGuiElement(int ID, EntityPlayer player, World world,
-			int x, int y, int z) {
+	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
 		TileEntity entity = world.getTileEntity(x, y, z);
+		
 		if (entity != null) {
 			switch (ID) {
 			case BandbMachines.guiIDOven:
 				if (entity instanceof TileEntityOven) {
-					return new ContainerOven(player.inventory,
-							(TileEntityOven) entity);
+					return new ContainerOven(player.inventory, (TileEntityOven) entity);
 				}
 			case BandbMachines.guiIDIngotMasher:
 				if (entity instanceof TileEntityIngotMasher) {
-					return new ContainerIngotMasher(player.inventory,
-							(TileEntityIngotMasher) entity);
+					return new ContainerIngotMasher(player.inventory, (TileEntityIngotMasher) entity);
 				}
 			case BandbMachines.guiIDPrinter:
 				if (entity instanceof TileEntityPrinter) {
@@ -59,18 +57,15 @@ public class HandlerGui implements IGuiHandler {
 			
 			case BandbMachines.guiIDPress:
 				if (entity instanceof TileEntityPress) {
-					return new ContainerPress(player.inventory,
-							(TileEntityPress) entity);
+					return new ContainerPress(player.inventory, (TileEntityPress) entity);
 				}
 			case BandbMachines.guiIDSyrupMachine:
 				if (entity instanceof TileEntitySyrupMachine) {
-					return new ContainerSyrupMachine(player.inventory,
-							(TileEntitySyrupMachine) entity);
+					return new ContainerSyrupMachine(player.inventory, (TileEntitySyrupMachine) entity);
 				}
 			case BandbMachines.guiIDDrier:
 				if (entity instanceof TileEntityDrier) {
-					return new ContainerDrier(player.inventory,
-							(TileEntityDrier) entity);
+					return new ContainerDrier(player.inventory, (TileEntityDrier) entity);
 				}
 			case BandbMachines.guiIDCoffeeMaker:
 				if (entity instanceof TileEntityCoffeeMaker) {
@@ -100,13 +95,11 @@ public class HandlerGui implements IGuiHandler {
 				if (entity instanceof TileEntityBarrelApple) {
 					return new ContainerBarrelApple(player.inventory, (TileEntityBarrelApple) entity);
 				}
-
 			default:
 				return null;
 			}
 		}
 		return null;
-
 	}
 
 	public Object getClientGuiElement(int ID, EntityPlayer player, World world,
@@ -116,15 +109,12 @@ public class HandlerGui implements IGuiHandler {
 			switch (ID) {
 			case BandbMachines.guiIDOven:
 				if (entity instanceof TileEntityOven) {
-					return new GuiOven(player.inventory,
-							(TileEntityOven) entity);
+					return new GuiOven(player.inventory, (TileEntityOven) entity);
 				}
-				return null;
 			case BandbMachines.guiIDIngotMasher:
 				if (entity instanceof TileEntityIngotMasher) {
 					return new GuiIngotMasher(player.inventory, (TileEntityIngotMasher) entity);
 				}
-				return null;
 			case BandbMachines.guiIDPrinter:
 				if (entity instanceof TileEntityPrinter) {
 					return new GuiPrinter(player.inventory, (TileEntityPrinter) entity);
@@ -175,7 +165,6 @@ public class HandlerGui implements IGuiHandler {
 				}
 			}
 		}
-
 		return null;
 	}
 

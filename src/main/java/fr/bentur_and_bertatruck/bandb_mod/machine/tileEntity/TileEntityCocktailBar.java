@@ -24,6 +24,7 @@ import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeDrier;
 import fr.bentur_and_bertatruck.bandb_mod.machine.recipe.RecipeSyrupMachine;
 
 public class TileEntityCocktailBar extends TileEntity implements IInventory, ISidedInventory {
+	
 	public ItemStack[] slots = new ItemStack[12];
 	public ItemStack[] bufferBottle = new ItemStack[8];
 	public int currentBottleSelected = 0;

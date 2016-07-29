@@ -104,9 +104,11 @@ public class TileEntityKebabStand extends TileEntity{
 		return false;
 	}
 	
+    @Override
 	public void readFromNBT(NBTTagCompound nbt) {
 		super.readFromNBT(nbt);
-		
+	    //this.readSyncableDataToNBT(nbt);
+	    
 		//turn block
         this.direction = nbt.getByte("Direction");
         //miscellaneous
@@ -121,7 +123,8 @@ public class TileEntityKebabStand extends TileEntity{
 		}
 				
 	}
-   
+	
+    @Override  
 	public void writeToNBT(NBTTagCompound nbt) {
 		super.writeToNBT(nbt);
 		
@@ -150,12 +153,14 @@ public class TileEntityKebabStand extends TileEntity{
         this.worldObj.markBlockForUpdate(this.xCoord, this.yCoord, this.zCoord);
     }
 
+    @Override
     public Packet getDescriptionPacket(){
         NBTTagCompound nbttagcompound = new NBTTagCompound();
         this.writeToNBT(nbttagcompound);
         return new S35PacketUpdateTileEntity(this.xCoord, this.yCoord, this.zCoord, 0, nbttagcompound);
     }
-       
+    
+    @Override
     public void onDataPacket(NetworkManager net, S35PacketUpdateTileEntity pkt){
         this.readFromNBT(pkt.func_148857_g());
         this.worldObj.markBlockRangeForRenderUpdate(this.xCoord, this.yCoord, this.zCoord, this.xCoord, this.yCoord, this.zCoord);
