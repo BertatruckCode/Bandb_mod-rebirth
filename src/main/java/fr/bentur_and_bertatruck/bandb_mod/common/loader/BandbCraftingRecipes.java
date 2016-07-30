@@ -182,7 +182,7 @@ public class BandbCraftingRecipes {
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbItems.itemSesame));
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbBlocks.blockSesame));
 		
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemGum ,2), new ItemStack(Blocks.spruce_stairs));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemGum, 2), new ItemStack(Blocks.spruce_stairs));
 		
 	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockRape ,1), new ItemStack(BandbItems.itemRape));
 	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBetterCactus ,1), new ItemStack(BandbItems.itemBetterCactus));
@@ -629,6 +629,8 @@ public class BandbCraftingRecipes {
 		GameRegistry.addSmelting(BandbItems.itemPorkHamRaw, new ItemStack(BandbItems.itemPorkHamCooked, 1), 0.5F);
 		GameRegistry.addSmelting(BandbItems.itemPorkLoinChopsRaw, new ItemStack(BandbItems.itemPorkLoinChopsCooked, 1), 0.5F);
 		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbItems.itemNuts, new ItemStack(BandbItems.itemReastedHazelnut, 1), 0.5F);
+		GameRegistry.addSmelting(BandbItems.itemSunflowerSeed, new ItemStack(BandbItems.itemSunflowerSeedRoasted, 1), 0.5F);
 		
 	}
 

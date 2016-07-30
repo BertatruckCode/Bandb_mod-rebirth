@@ -63,7 +63,8 @@ import net.minecraftforge.common.util.EnumHelper;
 		
 		public static Item itemBenco,itemBanania,itemSuperPoulain,itemNesquik,itemNesquikIntense;
 		public static Item itemSucreVanille,itemSucreVahine,itemCassonade,itemPretzel,itemCacaoPower;
-		public static Item itemWhiteSauce;
+		public static Item itemWhiteSauce,itemBloodSausage,itemHotDogSausageCooked,itemHotDogSausageRaw,itemKnack;
+		public static Item itemSaveloy,itemMallow,itemToffeeApple,itemSunflowerSeedRoasted,itemCandyCane;
 		
 		//Gâteau Lu
 		public static Item itemLogoLu,itemMikadoChocolatNoir,itemMikadoChocolatLait,itemMikadoKingChoco,itemMikadoChocoNoisette;
@@ -201,7 +202,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		
 		public static Item itemFlourBuckwheat,itemFlourHemp,itemFlourSpelt,itemFlourFonio,itemFlourHop;
 		public static Item itemFlourOats,itemFlourMalt,itemFlourMillet,itemFlourRye,itemFlourSorghum;
-		public static Item itemFlourCorn,itemFlourBarley,itemPollen;
+		public static Item itemFlourCorn,itemFlourBarley,itemPollen,itemSunflowerSeed;
 		
 		//plants
 		public static Item itemMustard,itemMint,itemCotton,itemBetterCactus,itemRape;
@@ -250,7 +251,7 @@ import net.minecraftforge.common.util.EnumHelper;
 		//kitchen tools
 		public static Item itemFlyingPan,itemCheeseKnife,itemCleaverIron,itemKnifeIron,itemShaker;
 		public static Item itemPizzaWheel,itemFoforkStone,itemCookieCutterStar,itemCookieCutterSquare,itemCookieCutterMan;
-		public static Item itemCookieCutterCircle,itemCheeseGrater,itemBucketBelMilk,itemBucketMilkaMilk,itemScrewdriver;
+		public static Item itemCookieCutterCircle,itemCheeseGraterMachine,itemBucketBelMilk,itemBucketMilkaMilk,itemScrewdriver;
 		public static Item itemCocktailGlass,itemFlute,itemOldFashoned,itemTumbler,itemGlassCup;
 		public static Item itemCocktailGlassDirty,itemFluteDirty,itemGlassCupDirty,itemOldFashonnedDirty,itemTumblerDirty;
 		public static Item itemBucketGoatMilk,itemBucketCream;
@@ -345,7 +346,16 @@ import net.minecraftforge.common.util.EnumHelper;
 		public static Item itemLogoMcDo,itemBreadBurger,itemBurgerCut,itemBurgerCheese,itemBurgerChicken;
 		public static Item itemMustardSauce,itemMayonnaise,itemSliverOnion,itemSliverCheese,itemSliverTomato;
 		public static Item itemBurgerBeef,itemBurgerFish,itemBurgerLamb,itemBurgerPork,itemBurgerZombie;
-		public static Item itemFrenchFries;
+		public static Item itemHotDog,ItemSandwichHamButter,itemTaco,itemWrapBeef,itemWrapPork;
+		public static Item itemFrenchFries,ItemBaguette,itemBreadHotDog,itemBreadTaco;
+		
+		//item Cheese
+		public static Item itemBleuDeCausses,itemBrie,itemCheeseGrater,itemGorgonzola,itemGruyeres;
+		public static Item itemRoquefort;	
+				
+				
+				
+				
 				
 		//Item Ingot Dust Nugget	
 		public static void LoaderItemIngotDustNugget(Boolean bool){
@@ -563,6 +573,18 @@ import net.minecraftforge.common.util.EnumHelper;
 				
 				GameRegistry.registerItem(itemIceCreamVanilla, "itemIceCreamVanilla");
 				
+				itemBloodSausage = new ItemFood(5,1.0F,false).setUnlocalizedName("itemBloodSausage").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemBloodSausage").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemHotDogSausageCooked = new ItemFood(5,1.0F,false).setUnlocalizedName("itemHotDogSausageCooked").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemHotDogSausageCooked").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemHotDogSausageRaw = new ItemFood(5,1.0F,false).setUnlocalizedName("itemHotDogSausageRaw").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemHotDogSausageRaw").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemKnack = new ItemFood(5,1.0F,false).setUnlocalizedName("itemKnack").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemKnack").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+				itemSaveloy = new ItemFood(5,1.0F,false).setUnlocalizedName("itemSaveloy").setTextureName(Bandb_mod.MODID + ":ingredients/meat/itemSaveloy").setCreativeTab(BandbCreativeTabs.CreativeTabsMeat);
+			
+				GameRegistry.registerItem(itemBloodSausage, "itemBloodSausage");
+		    	GameRegistry.registerItem(itemHotDogSausageCooked, "itemHotDogSausageCooked");
+		    	GameRegistry.registerItem(itemHotDogSausageRaw, "itemHotDogSausageRaw");
+		    	GameRegistry.registerItem(itemKnack, "itemKnack");
+			 	GameRegistry.registerItem(itemSaveloy, "itemSaveloy");
+	
 		    	
 				itemSavane = new ItemFood(5,1.0F,false).setUnlocalizedName("itemSavane").setTextureName(Bandb_mod.MODID + ":processed food/itemSavane").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 				itemSavaneNoir = new ItemFood(5,1.0F,false).setUnlocalizedName("itemSavaneNoir").setTextureName(Bandb_mod.MODID + ":processed food/itemSavaneNoir").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
@@ -623,6 +645,8 @@ import net.minecraftforge.common.util.EnumHelper;
 				itemHariboZanzigliss = new ItemFood(5,1.0F,false).setUnlocalizedName("itemHariboZanzigliss").setTextureName(Bandb_mod.MODID + ":processed food/itemHariboZanzigliss").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 				itemKinderChocolat = new ItemFood(5,1.0F,false).setUnlocalizedName("itemKinderChocolat").setTextureName(Bandb_mod.MODID + ":processed food/itemKinderChocolat").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 				itemBarreGlacee = new ItemFood(5,1.0F,false).setUnlocalizedName("itemBarreGlacee").setTextureName(Bandb_mod.MODID + ":processed food/itemBarreGlacee").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
+				itemCandyCane = new ItemFood(5,1.0F,false).setUnlocalizedName("itemCandyCane").setTextureName(Bandb_mod.MODID + ":processed food/itemCandyCane").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
+				itemSunflowerSeedRoasted = new ItemFood(5,1.0F,false).setUnlocalizedName("itemSunflowerSeedRoasted").setTextureName(Bandb_mod.MODID + ":processed food/itemSunflowerSeedRoasted").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
 	
 				GameRegistry.registerItem(itemFinger, "itemFinger");	    	
 		    	GameRegistry.registerItem(itemKinderSurprise, "itemKinderSurprise");
@@ -631,8 +655,16 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemSmartiesGlace, "itemSmartiesGlace");	   
 		    	
 				GameRegistry.registerItem(itemHariboZanzigliss, "itemHariboZanzigliss");
-			 	GameRegistry.registerItem(itemKinderChocolat, "itemKinderChocolat");
+				GameRegistry.registerItem(itemKinderChocolat, "itemKinderChocolat");
 		    	GameRegistry.registerItem(itemBarreGlacee, "itemBarreGlacee");
+		    	GameRegistry.registerItem(itemCandyCane, "itemCandyCane");
+		    	GameRegistry.registerItem(itemSunflowerSeedRoasted, "itemSunflowerSeedRoasted");
+		    	
+		    	itemToffeeApple = new ItemFood(5,1.0F,false).setUnlocalizedName("itemToffeeApple").setTextureName(Bandb_mod.MODID + ":processed food/itemToffeeApple").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
+		    	itemMallow = new ItemFood(5,1.0F,false).setUnlocalizedName("itemMallow").setTextureName(Bandb_mod.MODID + ":processed food/itemMallow").setCreativeTab(BandbCreativeTabs.CreativeTabsProcessedFood);
+
+		    	GameRegistry.registerItem(itemToffeeApple, "itemToffeeApple");
+		    	GameRegistry.registerItem(itemMallow, "itemMallow");
 		    	
 		    	itemBenco = new Item().setUnlocalizedName("itemBenco").setTextureName(Bandb_mod.MODID + ":ingredients/itemBenco").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
 				itemBanania = new Item().setUnlocalizedName("itemBanania").setTextureName(Bandb_mod.MODID + ":ingredients/itemBanania").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
@@ -1636,10 +1668,12 @@ import net.minecraftforge.common.util.EnumHelper;
 				itemFlourCorn = new Item().setUnlocalizedName("itemFlourCorn").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourCorn").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
 				itemFlourBarley = new Item().setUnlocalizedName("itemFlourBarley").setTextureName(Bandb_mod.MODID + ":ingredients/itemFlourBarley").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
 				itemPollen = new Item().setUnlocalizedName("itemPollen").setTextureName(Bandb_mod.MODID + ":ingredients/itemPollen").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemSunflowerSeed = new Item().setUnlocalizedName("itemSunflowerSeed").setTextureName(Bandb_mod.MODID + ":seed/itemSunflowerSeed").setCreativeTab(BandbCreativeTabs.CreativeTabsSeed);
 				
 				GameRegistry.registerItem(itemFlourCorn, "itemFlourCorn");
 				GameRegistry.registerItem(itemFlourBarley, "itemFlourBarley");
 				GameRegistry.registerItem(itemPollen, "itemPollen");
+				GameRegistry.registerItem(itemSunflowerSeed, "itemSunflowerSeed");
 				
 				
 				//plants
@@ -2355,7 +2389,7 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemCookieCutterMan, "itemCookieCutterMan");	
 				GameRegistry.registerItem(itemCookieCutterCircle, "itemCookieCutterCircle");	
 
-				itemCheeseGrater = new ItemToolsKitchen().setUnlocalizedName("itemCheeseGrater").setTextureName(Bandb_mod.MODID + ":kitchentools/itemCheeseGrater");
+				itemCheeseGraterMachine = new ItemToolsKitchen().setUnlocalizedName("itemCheeseGraterMachine").setTextureName(Bandb_mod.MODID + ":kitchentools/itemCheeseGrater");
 				itemFoforkStone = new ItemToolsKitchen().setUnlocalizedName("itemFoforkStone").setTextureName(Bandb_mod.MODID + ":kitchentools/itemFoforkStone");
 				itemBucketBelMilk = new ItemToolsKitchen().setUnlocalizedName("itemBucketBelMilk").setTextureName(Bandb_mod.MODID + ":kitchentools/itemBucketBelMilk");
 				itemBucketMilkaMilk = new ItemToolsKitchen().setUnlocalizedName("itemBucketMilkaMilk").setTextureName(Bandb_mod.MODID + ":kitchentools/itemBucketMilkaMilk");
@@ -2367,7 +2401,7 @@ import net.minecraftforge.common.util.EnumHelper;
 				itemTumbler = new ItemGlass().setUnlocalizedName("itemTumbler").setTextureName(Bandb_mod.MODID + ":kitchentools/itemTumbler");
 				itemGlassCup = new ItemGlass().setUnlocalizedName("itemGlassCup").setTextureName(Bandb_mod.MODID + ":kitchentools/itemGlassCup");
 
-				GameRegistry.registerItem(itemCheeseGrater, "itemCheeseGrater");	
+				GameRegistry.registerItem(itemCheeseGraterMachine, "itemCheeseGraterMachine");	
 				GameRegistry.registerItem(itemFoforkStone, "itemFoforkStone");	
 				GameRegistry.registerItem(itemBucketBelMilk, "itemBucketBelMilk");	
 				GameRegistry.registerItem(itemBucketMilkaMilk, "itemBucketMilkaMilk");			
@@ -3023,12 +3057,20 @@ import net.minecraftforge.common.util.EnumHelper;
 				//Mc Donald's
 				itemLogoMcDo = new Item().setUnlocalizedName("itemLogoMcDo").setTextureName(Bandb_mod.MODID + ":mcdo/itemLogoMcDo").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
 				itemBreadBurger = new Item().setUnlocalizedName("itemBreadBurger").setTextureName(Bandb_mod.MODID + ":bread/itemBreadBurger").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				ItemBaguette = new Item().setUnlocalizedName("ItemBaguette").setTextureName(Bandb_mod.MODID + ":bread/ItemBaguette").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBreadHotDog = new Item().setUnlocalizedName("itemBreadHotDog").setTextureName(Bandb_mod.MODID + ":bread/itemBreadHotDog").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemBreadTaco = new Item().setUnlocalizedName("itemBreadTaco").setTextureName(Bandb_mod.MODID + ":bread/itemBreadTaco").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				
+				GameRegistry.registerItem(itemLogoMcDo, "itemLogoMcDo");	
+				GameRegistry.registerItem(itemBreadBurger, "itemBreadBurger");	
+				GameRegistry.registerItem(ItemBaguette, "ItemBaguette");	
+				GameRegistry.registerItem(itemBreadHotDog, "itemBreadHotDog");	
+				GameRegistry.registerItem(itemBreadTaco, "itemBreadTaco");	
+				
 				itemFrenchFries = new Item().setUnlocalizedName("itemFrenchFries").setTextureName(Bandb_mod.MODID + ":mcdo/itemFrenchFries").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
 				itemBurgerCut = new Item().setUnlocalizedName("itemBurgerCut").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerCut").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
 				itemKetchup = new Item().setUnlocalizedName("itemKetchup").setTextureName(Bandb_mod.MODID + ":mcdo/itemKetchup").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
 				
-				GameRegistry.registerItem(itemLogoMcDo, "itemLogoMcDo");	
-				GameRegistry.registerItem(itemBreadBurger, "itemBreadBurger");	
 				GameRegistry.registerItem(itemFrenchFries, "itemFrenchFries");	
 				GameRegistry.registerItem(itemBurgerCut, "itemBurgerCut");	
 				GameRegistry.registerItem(itemKetchup, "itemKetchup");	
@@ -3044,6 +3086,18 @@ import net.minecraftforge.common.util.EnumHelper;
 				GameRegistry.registerItem(itemSliverOnion, "itemSliverOnion");	
 				GameRegistry.registerItem(itemSliverCheese, "itemSliverCheese");	
 				GameRegistry.registerItem(itemSliverTomato, "itemSliverTomato");	
+				
+				itemHotDog = new Item().setUnlocalizedName("itemHotDog").setTextureName(Bandb_mod.MODID + ":mcdo/itemHotDog").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				ItemSandwichHamButter = new Item().setUnlocalizedName("ItemSandwichHamButter").setTextureName(Bandb_mod.MODID + ":mcdo/ItemSandwichHamButter").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemTaco = new Item().setUnlocalizedName("itemTaco").setTextureName(Bandb_mod.MODID + ":mcdo/itemTaco").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemWrapBeef = new Item().setUnlocalizedName("itemWrapBeef").setTextureName(Bandb_mod.MODID + ":mcdo/itemWrapBeef").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				itemWrapPork = new Item().setUnlocalizedName("itemWrapPork").setTextureName(Bandb_mod.MODID + ":mcdo/itemWrapPork").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
+				
+				GameRegistry.registerItem(itemHotDog, "itemHotDog");	
+				GameRegistry.registerItem(ItemSandwichHamButter, "ItemSandwichHamButter");	
+				GameRegistry.registerItem(itemTaco, "itemTaco");	
+				GameRegistry.registerItem(itemWrapBeef, "itemWrapBeef");	
+				GameRegistry.registerItem(itemWrapPork, "itemWrapPork");	
 				
 				itemBurgerChicken = new Item().setUnlocalizedName("itemBurgerChicken").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerChicken").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
 				itemBurgerFish = new Item().setUnlocalizedName("itemBurgerFish").setTextureName(Bandb_mod.MODID + ":mcdo/itemBurgerFish").setCreativeTab(BandbCreativeTabs.CreativeTabsMcDo);
@@ -3062,6 +3116,26 @@ import net.minecraftforge.common.util.EnumHelper;
 				
 				GameRegistry.registerItem(itemBurgerCheese, "itemBurgerCheese");	
 				GameRegistry.registerItem(itemBurgerBeef, "itemBurgerBeef");	
+				
+				
+				
+				//Cheese
+				
+				itemBleuDeCausses = new Item().setUnlocalizedName("itemBleuDeCausses").setTextureName(Bandb_mod.MODID + ":cheese/itemBleuDeCausses").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemBrie = new Item().setUnlocalizedName("itemBrie").setTextureName(Bandb_mod.MODID + ":cheese/itemBrie").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemCheeseGrater = new Item().setUnlocalizedName("itemCheeseGrater").setTextureName(Bandb_mod.MODID + ":cheese/itemCheeseGrater").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemGorgonzola = new Item().setUnlocalizedName("itemGorgonzola").setTextureName(Bandb_mod.MODID + ":cheese/itemGorgonzola").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				itemGruyeres = new Item().setUnlocalizedName("itemGruyeres").setTextureName(Bandb_mod.MODID + ":cheese/itemGruyeres").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				
+				GameRegistry.registerItem(itemBleuDeCausses, "itemBleuDeCausses");	
+				GameRegistry.registerItem(itemBrie, "itemBrie");	
+				GameRegistry.registerItem(itemCheeseGrater, "itemCheeseGrater");	
+				GameRegistry.registerItem(itemGorgonzola, "itemGorgonzola");	
+				GameRegistry.registerItem(itemGruyeres, "itemGruyeres");	
+				
+				itemRoquefort = new Item().setUnlocalizedName("itemRoquefort").setTextureName(Bandb_mod.MODID + ":cheese/itemRoquefort").setCreativeTab(BandbCreativeTabs.CreativeTabsIngredient);
+				
+				GameRegistry.registerItem(itemRoquefort, "itemRoquefort");	
 				
 		}
 	}
