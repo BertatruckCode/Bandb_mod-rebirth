@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "snowy=false": { "model": "planttech:glowgrassblock" },
+        "snowy=true": { "model": "planttech:glowgrassblock" }
+         
+       }
+}

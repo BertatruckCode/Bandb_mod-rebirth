@@ -1,0 +1,7 @@
+{
+	 "variants": {
+		"none=a" : [
+				{ "model": "galactic:alienStoneSlab.green.double"}
+			]
+	}
+ }

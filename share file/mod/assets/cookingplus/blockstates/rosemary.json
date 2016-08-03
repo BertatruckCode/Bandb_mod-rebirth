@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"normal": { "model": "cookingplus:rosemary" },
+		"placed=0": { "model": "cookingplus:rosemary" },
+		"placed=1": { "model": "cookingplus:rosemary" }
+	}
+}

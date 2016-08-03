@@ -1,0 +1,129 @@
+// creative tabs
+itemGroup.FancyFishTab=Szép Hal Mod
+
+// blocks
+tile.FishTank.name=Halas Akvárium
+tile.FishTank.message.needsWater=Hogy egymásra hasson az akvárium, töltsd fel egy vízes vödörrel előszőr.
+
+tile.FishTank.message.alreadyFilled=Az halas akvárium már televan töltve vízzel.
+
+tile.FishTank.message.alreadyEmpty=A halas akvárium már kimerült a víztől
+
+tile.FishTank.message.needEmptyBowl=Te neked kell egy üres halastál elvigyél egy halat
+
+tile.LampShade.name=Lámpa árnyék
+
+tile.Teleport.name=Teleport
+
+
+
+
+tile.Kelp.name=Tengerimoszat
+
+tile.Clam.name=Kagyló
+
+// miscellaneous items
+item.Netting.name=Háló
+item.FishBowl.name=Halastál
+item.FishFood.name=Hal étel
+item.Pearl.name=Gyöngy
+
+// items - fish scales
+item.FishScaleRed.name=Piros-Pikkelyes hal
+item.FishScaleOrange.name=Narancs-Pikkelyes hal
+item.FishScaleYellow.name=Sárga-Pikkelyes hal
+item.FishScaleGreen.name=Zöld-Pikkelyes hal
+item.FishScaleBlue.name=Kék-Pikkelyes hal
+item.FishScaleIndigo.name=Indigó-Pikkelyes hal
+
+item.FishScaleViolet.name=Lila-Pikkelyes hal
+item.FishScaleBlack.name=Fekete-Pikkelyes hal
+item.FishScaleWhite.name=Fehér-Pikkelyes hal
+item.FishScaleSilver.name=Szürke-Pikkelyes hal
+
+// items - captured fish
+item.CapturedClownFish.name=Elfoglalt bohóchal
+item.CapturedRegalTang.name=Rögzitett Regel Tang
+item.CapturedMoorishIdol.name=Rögzitett mór-bálvány
+item.CapturedRoyalGramma.name=Rögzitett királyi-pázsítfű
+item.CapturedPufferFish.name=Rögzitett gömbhal
+item.CapturedYellowTang.name=Rögzitett sárga hínár
+item.CapturedDamselFish.name=Rögzitett korallsügér
+item.CapturedBlenny.name=Rögzitett nyálkás-hal
+item.CapturedMoonFish.name=Rögzitett holdi-hal
+
+// items - live fish
+item.LiveClownFish.name=Bohóchal
+item.LiveRegalTang.name=Királyihínár
+item.LiveMoorishIdol.name=Mór álvány
+
+item.LiveRoyalGramma.name=Királyi-Pázsítfű
+item.LivePufferFish.name=Gömbhal
+item.LiveYellowTang.name=Sárgahínár
+item.LiveDamselFish.name=Korallsügér
+
+item.LiveBlenny.name=Nyálkáshal
+item.LiveMoonFish.name=Holdihal
+
+
+// items - tools
+item.FishingNet.name=Halászháló
+item.FishScaleAxe.name=Hal-pikkelyes Balta
+item.FishScaleHoe.name=Hal-pikkelyes kapa
+
+// items - armour
+item.FishScaleHelmet.name=Hal-pikkelyes Sisak
+item.FishScaleChestPlate.name=Hal-pikkelyes Mellvért
+item.FishScaleLeggings.name=Hal-pikkelyes Nadrág
+item.FishScaleBoots.name=Hal-pikkelyes cipő
+
+item.FishScaleArmor.message.canBreathUnderwater=Mostantól tudsz levegőt venni a víz alatt!
+
+item.FishScaleArmor.message.cannotBreathUnderwater=Te neked felkell venned egy full Hal-pikkelyes szettet, hogy engedélyezd a vízalatti potion effectet.
+
+// items - sword
+item.FishScaleSword.name=Hal-pikkelyes kard
+
+
+// entities
+entity.FancyFish.ClownFish.name=Bohóchal
+entity.FancyFish.RegalTang.name=Királyihínár
+entity.FancyFish.MoorishIdol.name=Mór-bálvány
+entity.FancyFish.RoyalGramma.name=KIrályi pázsítfű
+entity.FancyFish.PufferFish.name=Gömbhal
+entity.FancyFish.YellowTang.name=Sárgahínár
+entity.FancyFish.DamselFish.name=Leányhal
+entity.FancyFish.Blenny.name=Nyálkáshal
+entity.FancyFish.MoonFish.name=Holdhal
+
+
+// containers
+container.FishTankTileEntity.name=Halas akvárium
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=NIncs elérhető rendelkezési hely a teleportra.
+
+// achievements
+achievement.BuildNetting=Szerencsés a háló!
+achievement.BuildNetting.desc=Használj fonalat, hogy építs háló-anyagot.
+
+achievement.BuildFishingNet=Hol van a fogás?
+achievement.BuildFishingNet.desc=Használj botokat, és hálókat hogy építs egy horgászhálót.
+
+achievement.CatchFish=Első fogás!
+achievement.CatchFish.desc=Használj horgászhálót, hogy egy élő halat kaphass el.
+
+achievement.HarvestScales=Gazdálkodás a pikkelyekből
+achievement.HarvestScales.desc=Ölj meg egy harat, hogy learasd a pikellyeket
+
+achievement.BuildLampShade=Árnyékos üzlet.
+achievement.BuildLampShade.desc=Építs egy lámpa árnyékot falapokból, fáklyából, és királyi pázsit pikellyekből.
+
+achievement.BuildFishScaleAxe=Axedental
+achievement.BuildFishScaleAxe.desc=Építs egy enchantolt baltát, bot, és zöld hal pikkelyekből
+
+achievement.BuildFishScaleHoe=A föld gyümölcse
+achievement.BuildFishScaleHoe.desc=Építs egy enchantolt kapát, bot, és indigó hal pikellyekből
+
+achievement.BuildFishScaleSword=Exscalebur!
+achievement.BuildFishScaleSword.desc=Építsd egy enchantolt kardot szürke, fehér és kék hal-pikkelyekből.
+

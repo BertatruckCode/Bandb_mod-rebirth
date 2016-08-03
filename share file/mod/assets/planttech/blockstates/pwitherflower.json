@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/witherflower" },
+        "age=1": { "model": "planttech:plant/witherflower" },
+        "age=2": { "model": "planttech:plant/witherflower" },
+        "age=3": { "model": "planttech:plant/witherflower" },
+        "age=4": { "model": "planttech:plant/witherflower" },
+        "age=5": { "model": "planttech:plant/witherflower" },
+        "age=6": { "model": "planttech:plant/witherflower" },
+        "age=7": { "model": "planttech:plant/witherflower" }
+    }
+}

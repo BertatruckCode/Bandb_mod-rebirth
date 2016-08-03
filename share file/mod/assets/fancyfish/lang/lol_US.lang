@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Fish Tank
+tile.FishTank.message.needsWater=2 interact wif teh tank, fill it up wif watah bukkit furst
+tile.FishTank.message.alreadyFilled=teh fish tank iz already filled wif watah
+tile.FishTank.message.alreadyEmpty=teh fish tank iz already draneed frum watah
+tile.FishTank.message.needEmptyBowl=U ned an empty fish bowl 2 carry fish around
+
+tile.LampShade.name=Lamp Shade
+
+tile.Teleport.name=Teleport
+
+tile.Kelp.name=kelp
+
+tile.Clam.name=Clam
+
+// miscellaneous items
+item.Netting.name=Nettin
+item.FishBowl.name=Fish Bowl
+item.FishFood.name=Fish Fud
+item.Pearl.name=Pearl
+
+// items - fish scales
+item.FishScaleRed.name=Red Fish Scalez
+item.FishScaleOrange.name=Orange Fish Scalez
+item.FishScaleYellow.name=Yellow Fish Scalez
+item.FishScaleGreen.name=Green Fish Scalez
+item.FishScaleBlue.name=Blue Fish Scalez
+item.FishScaleIndigo.name=Indigo Fish Scalez
+item.FishScaleViolet.name=Violet Fish Scalez
+item.FishScaleBlack.name=Black Fish Scalez
+item.FishScaleWhite.name=White Fish Scalez
+item.FishScaleSilver.name=Silver Fish Scalez
+
+// items - captured fish
+item.CapturedClownFish.name=Capturd Clownfish
+item.CapturedRegalTang.name=Capturd Regal Tang
+item.CapturedMoorishIdol.name=Capturd Moorish Idol
+item.CapturedRoyalGramma.name=Capturd Royal Gramma
+item.CapturedPufferFish.name=Capturd Pufferfish
+item.CapturedYellowTang.name=Capturd Yellow Tang
+item.CapturedDamselFish.name=Capturd Damselfish
+item.CapturedBlenny.name=Capturd Blenny
+item.CapturedMoonFish.name=Capturd Moonfish
+
+// items - live fish
+item.LiveClownFish.name=Clownfish
+item.LiveRegalTang.name=Regal Tang
+item.LiveMoorishIdol.name=Moorish Idol
+item.LiveRoyalGramma.name=Royal Gramma
+item.LivePufferFish.name=Pufferfish
+item.LiveYellowTang.name=Yellow Tang
+item.LiveDamselFish.name=Damselfish
+item.LiveBlenny.name=Blenny
+item.LiveMoonFish.name=Moonfish
+
+// items - tools
+item.FishingNet.name=Fishin Net
+item.FishScaleAxe.name=Fish Scale Axe
+item.FishScaleHoe.name=Fish Scale Hoe
+
+// items - armour
+item.FishScaleHelmet.name=Fish Scale Helmet
+item.FishScaleChestPlate.name=Fish Scale Chest Plate
+item.FishScaleLeggings.name=Fish Scale Leggins
+item.FishScaleBoots.name=Fish Scale Bootz
+
+item.FishScaleArmor.message.canBreathUnderwater=U can nao breath undr watah!
+item.FishScaleArmor.message.cannotBreathUnderwater=U ned 2 wear teh full fish scale armor set 2 enable teh watah breathin poshun effect
+
+// items - sword
+item.FishScaleSword.name=Fish Scale Sword
+
+// entities
+entity.FancyFish.ClownFish.name=Clownfish
+entity.FancyFish.RegalTang.name=Regal Tang
+entity.FancyFish.MoorishIdol.name=Moorish Idol
+entity.FancyFish.RoyalGramma.name=Royal Gramma
+entity.FancyFish.PufferFish.name=Pufferfish
+entity.FancyFish.YellowTang.name=Yellow Tang
+entity.FancyFish.DamselFish.name=DamselFish
+entity.FancyFish.Blenny.name=Blenny
+entity.FancyFish.MoonFish.name=Moonfish
+
+// containers
+container.FishTankTileEntity.name=Fish Tank
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=No destinashun teleport available
+
+// achievements
+achievement.BuildNetting=Nettd furtune!
+achievement.BuildNetting.desc=Use strin 2 build nettin material
+
+achievement.BuildFishingNet=Wherez teh katch?
+achievement.BuildFishingNet.desc=Use stickz an nettin 2 build fishin net
+
+achievement.CatchFish=Furst katch!
+achievement.CatchFish.desc=Use fishin net 2 katch liv fish
+
+achievement.HarvestScales=Economy ov scale
+achievement.HarvestScales.desc=Kill fish 2 harvest itz scalez
+
+achievement.BuildLampShade=Shady busines
+achievement.BuildLampShade.desc=Build lamp shade usin wooden slab, torch an royal gramma scalez
+
+achievement.BuildFishScaleAxe=Axedental
+achievement.BuildFishScaleAxe.desc=Build an enchanted axe using stickz an green fish scalez
+
+achievement.BuildFishScaleHoe=Fruits ov teh Earth
+achievement.BuildFishScaleHoe.desc=Build an enchanted hoe usin stickz an indigo fish scalez
+
+achievement.BuildFishScaleSword=Hisskalibur!
+achievement.BuildFishScaleSword.desc=Build an enchanted sword usin silver, white an blue fish scalez
+

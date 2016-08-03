@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Aquarium
+tile.FishTank.message.needsWater=Um das Aquarium verwenden zu können, befülle es erst mit einem Eimer voll Wasser
+tile.FishTank.message.alreadyFilled=Das Aquarium ist bereits mit Wasser gefüllt
+tile.FishTank.message.alreadyEmpty=Das Aquarium ist bereits geleert
+tile.FishTank.message.needEmptyBowl=Du benötigst eine leere Fisch Schale um einen Fisch zu fangen
+
+tile.LampShade.name=Lampenschirm
+
+tile.Teleport.name=Teleport
+
+tile.Kelp.name=Seetang
+
+tile.Clam.name=Muschel
+
+// miscellaneous items
+item.Netting.name=Netz
+item.FishBowl.name=Fisch Schale
+item.FishFood.name=Fischfutter
+item.Pearl.name=Perle
+
+// items - fish scales
+item.FishScaleRed.name=Rot gefärbte Fischschuppen
+item.FishScaleOrange.name=Orange gefärbte Fischschuppen
+item.FishScaleYellow.name=Gelb gefärbte Fischschuppen
+item.FishScaleGreen.name=Grün gefärbte Fischschuppen
+item.FishScaleBlue.name=Blau gefärbte Fischschuppen
+item.FishScaleIndigo.name=Lila gefärbte Fischschuppen
+item.FishScaleViolet.name=Violet gefärbte Fischschuppen
+item.FishScaleBlack.name=Schwarz gefärbte Fischschuppen
+item.FishScaleWhite.name=Weiß gefärbte Fischschuppen
+item.FishScaleSilver.name=Silber gefärbte Fischschuppen
+
+// items - captured fish
+item.CapturedClownFish.name=Gefangener Anemonenfisch
+item.CapturedRegalTang.name=Paletten-Doktorfisch gefangen
+item.CapturedMoorishIdol.name=Halfterfisch aufgenommen
+item.CapturedRoyalGramma.name=Königs-Feenbarsch aufgenommen
+item.CapturedPufferFish.name=Kugelfisch aufgenommen
+item.CapturedYellowTang.name=Gelber Segelflossendoktor aufgenommen
+item.CapturedDamselFish.name=Damselfisch aufgenommen
+item.CapturedBlenny.name=Schleimfisch aufgenommen
+item.CapturedMoonFish.name=Mondfisch aufgenommen
+
+// items - live fish
+item.LiveClownFish.name=Anemonenfisch
+item.LiveRegalTang.name=Paletten-Doktorfisch
+item.LiveMoorishIdol.name=Halfterfisch
+item.LiveRoyalGramma.name=Königs-Feenbarsch
+item.LivePufferFish.name=Kugelfisch
+item.LiveYellowTang.name=Gelber Segelflossendoktor
+item.LiveDamselFish.name=Damselfisch
+item.LiveBlenny.name=Schleimfisch
+item.LiveMoonFish.name=Mondfisch
+
+// items - tools
+item.FishingNet.name=Fischnetz
+item.FishScaleAxe.name=Fischschuppen Axt
+item.FishScaleHoe.name=Fischschuppen Hacke
+
+// items - armour
+item.FishScaleHelmet.name=Fischschuppen Helm
+item.FishScaleChestPlate.name=Fischschuppen Brust Platte
+item.FishScaleLeggings.name=Fischschuppen Beinkleid
+item.FishScaleBoots.name=Fischschuppen Schuhe
+
+item.FishScaleArmor.message.canBreathUnderwater=Du kannst nun unter Wasser atmen!
+item.FishScaleArmor.message.cannotBreathUnderwater=Du musst das komplette Fischschuppen Rüstungsset tragen um unter Wasser atmen zu können
+
+// items - sword
+item.FishScaleSword.name=Fischschuppen Schwert
+
+// entities
+entity.FancyFish.ClownFish.name=Anemonenfisch
+entity.FancyFish.RegalTang.name=Paletten-Doktorfisch
+entity.FancyFish.MoorishIdol.name=Halfterfisch
+entity.FancyFish.RoyalGramma.name=Königs-Feenbarsch
+entity.FancyFish.PufferFish.name=Kugelfisch
+entity.FancyFish.YellowTang.name=Gelber Segelflossendoktor
+entity.FancyFish.DamselFish.name=Damselfisch
+entity.FancyFish.Blenny.name=Schleimfisch
+entity.FancyFish.MoonFish.name=Mondfisch
+
+// containers
+container.FishTankTileEntity.name=Aquarium
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=Kein Ziel-Teleportpunkt vorhanden
+
+// achievements
+achievement.BuildNetting=Ein Vermögen verrechnet!
+achievement.BuildNetting.desc=Nutze eine Schnur um das Netzmaterial zu bauen
+
+achievement.BuildFishingNet=Wo ist der Haken?
+achievement.BuildFishingNet.desc=Benutze Stöcke und Netzgewebe um eine Angel zu bauen
+
+achievement.CatchFish=Erster Fang!
+achievement.CatchFish.desc=Nutze eine Angel um einen lebendigen Fisch zu fangen
+
+achievement.HarvestScales=Schuppeneffekte
+achievement.HarvestScales.desc=Töte einen Fisch um die Schuppen zu entfernen
+
+achievement.BuildLampShade=Dunkle Geschäfte
+achievement.BuildLampShade.desc=Baue einen Lampenschirm, eine Fackel und von einem Königs-Feenbarsch Schuppen
+
+achievement.BuildFishScaleAxe=Axt im Haus
+achievement.BuildFishScaleAxe.desc=Baue eine Verzauberte Axt mit Stöcken und grünen Fischschuppen
+
+achievement.BuildFishScaleHoe=Früchte der Erde
+achievement.BuildFishScaleHoe.desc=Baue eine verzauberte Hacke aus Stöcken und lila Fischschuppen
+
+achievement.BuildFishScaleSword=Sei gegrüßt!
+achievement.BuildFishScaleSword.desc=Baue ein verzaubertes Schwert aus silber, weißen und blauen Fischschuppen
+

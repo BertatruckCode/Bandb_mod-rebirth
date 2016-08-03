@@ -1,0 +1,10 @@
+{
+	 "variants": {
+		"half=bottom,none=a" : [
+				{ "model": "galactic:alienPlankSlab.yellow"}
+			],
+		"half=top,none=a" : [
+				{ "model": "galactic:alienPlankSlab.yellow.upper"}
+			]
+	}
+ }

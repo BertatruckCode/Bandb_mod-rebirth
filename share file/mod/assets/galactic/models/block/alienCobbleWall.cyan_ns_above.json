@@ -1,0 +1,4 @@
+{"parent": "block/wall_ns_above","textures": {
+"wall": "galactic:blocks/alienCobble.cyan"
+	}
+}

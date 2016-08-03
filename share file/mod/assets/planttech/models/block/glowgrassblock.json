@@ -1,0 +1,10 @@
+{
+    "parent": "block/grass",
+    "textures": {
+        "particle": "planttech:blocks/glowgrass_top",
+        "bottom": "planttech:blocks/glowdirt",
+        "top": "planttech:blocks/glowgrass_top",
+        "side": "planttech:blocks/glowgrass_side",
+        "overlay": "planttech:blocks/glowgrass_side_overlay"
+    }
+}

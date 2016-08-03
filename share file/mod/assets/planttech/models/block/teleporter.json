@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "planttech:blocks/teleporter_end_top",
+        "down": "planttech:blocks/teleporter_side_bottom",
+        "up": "planttech:blocks/teleporter_top",
+        "north": "planttech:blocks/teleporter_side_bottom",
+        "east": "planttech:blocks/teleporter_side_bottom",
+        "south": "planttech:blocks/teleporter_side_bottom",
+        "west": "planttech:blocks/teleporter_side_bottom"
+    }
+}

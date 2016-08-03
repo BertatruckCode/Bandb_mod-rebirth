@@ -1,0 +1,7 @@
+{
+"parent": "block/cube_column",
+	"textures": {
+		"end": "galactic:blocks/alienSandstoneTop.magenta",
+		"side": "galactic:blocks/alienSandstoneNormal.magenta"
+	}
+}

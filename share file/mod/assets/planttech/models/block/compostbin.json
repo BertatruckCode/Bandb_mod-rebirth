@@ -1,0 +1,7 @@
+{
+    "parent": "planttech:block/compostbin_blockmodel",
+    "textures": {
+         "0": "planttech:blocks/composter",
+        "1": "planttech:blocks/biomass_block"
+    }
+}

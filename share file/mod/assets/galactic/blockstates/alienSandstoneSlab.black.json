@@ -1,0 +1,10 @@
+{
+	 "variants": {
+		"half=bottom,none=a" : [
+				{ "model": "galactic:alienSandstoneSlab.black"}
+			],
+		"half=top,none=a" : [
+				{ "model": "galactic:alienSandstoneSlab.black.upper"}
+			]
+	}
+ }

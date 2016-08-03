@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/endflower" },
+        "age=1": { "model": "planttech:plant/endflower" },
+        "age=2": { "model": "planttech:plant/endflower" },
+        "age=3": { "model": "planttech:plant/endflower" },
+        "age=4": { "model": "planttech:plant/endflower" },
+        "age=5": { "model": "planttech:plant/endflower" },
+        "age=6": { "model": "planttech:plant/endflower" },
+        "age=7": { "model": "planttech:plant/endflower" }
+    }
+}

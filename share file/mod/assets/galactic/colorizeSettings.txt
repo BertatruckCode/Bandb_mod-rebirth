@@ -1,0 +1,16 @@
+black: sat 0 light -80
+blue: hue 238 sat 75
+brown: hue 26 sat 59 light -50
+cyan: hue 180
+gray: sat 0 light -30
+green: hue 118
+lightBlue: hue 212 sat 51 lightness 8
+lime: hue 131 sat 83
+magenta: hue 308
+orange: hue 16 sat 85 light 10
+pink: hue 0 sat 35 light 26
+purple: hue 266
+red: hue 0
+silver: sat 0 light 30
+white: sat 0 light 50
+yellow: hue 65 sat 62

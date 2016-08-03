@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Akvarium
+tile.FishTank.message.needsWater=For at interagere med akvariet skal du først fylde det op med en spand vand
+tile.FishTank.message.alreadyFilled=Akvariet er allerede fyldt med vand
+tile.FishTank.message.alreadyEmpty=Akvariet er allerede tømt for vand
+tile.FishTank.message.needEmptyBowl=Du har brug for en tom fiskebowle for at kunne bære rundt på fisk
+
+tile.LampShade.name=Lampeskærm
+
+tile.Teleport.name=Teleport
+
+tile.Kelp.name=Tang
+
+tile.Clam.name=Musling
+
+// miscellaneous items
+item.Netting.name=Netmateriale
+item.FishBowl.name=Fiskebowle
+item.FishFood.name=Fiskefoder
+item.Pearl.name=Perle
+
+// items - fish scales
+item.FishScaleRed.name=Røde fiskeskæl
+item.FishScaleOrange.name=Orange fiskeskæl
+item.FishScaleYellow.name=Gule fiskeskæl
+item.FishScaleGreen.name=Grønne fiskeskæl
+item.FishScaleBlue.name=Blå fiskeskæl
+item.FishScaleIndigo.name=Indigo fiskeskæl
+item.FishScaleViolet.name=Violette fiskeskæl
+item.FishScaleBlack.name=Sorte fiskeskæl
+item.FishScaleWhite.name=Hvide fiskeskæl
+item.FishScaleSilver.name=Sølvfarvede fiskeskæl
+
+// items - captured fish
+item.CapturedClownFish.name=Fanget klovnfisk
+item.CapturedRegalTang.name=Fanget paletkirurg
+item.CapturedMoorishIdol.name=Fanget zanclide
+item.CapturedRoyalGramma.name=Fanget royal gramma
+item.CapturedPufferFish.name=Fanget kuglefisk
+item.CapturedYellowTang.name=Fanget gul kirurgfisk
+item.CapturedDamselFish.name=Fanget sergentfisk
+item.CapturedBlenny.name=Fanget slimfisk
+item.CapturedMoonFish.name=Fanget klumpfisk
+
+// items - live fish
+item.LiveClownFish.name=Klovnfisk
+item.LiveRegalTang.name=Paletkirurg
+item.LiveMoorishIdol.name=Zanclide
+item.LiveRoyalGramma.name=Royal gramma
+item.LivePufferFish.name=Kuglefisk
+item.LiveYellowTang.name=Gul kirurgfisk
+item.LiveDamselFish.name=Sergentfisk
+item.LiveBlenny.name=Slimfisk
+item.LiveMoonFish.name=Klumpfisk
+
+// items - tools
+item.FishingNet.name=Fiskegarn
+item.FishScaleAxe.name=Fiskeskælsøkse
+item.FishScaleHoe.name=Fiskeskælslugejern
+
+// items - armour
+item.FishScaleHelmet.name=Fiskeskælshjelm
+item.FishScaleChestPlate.name=Fiskeskælsbrystpanser
+item.FishScaleLeggings.name=Fiskeskælsbenpanser
+item.FishScaleBoots.name=Fiskeskælsstøvler
+
+item.FishScaleArmor.message.canBreathUnderwater=Du kan nu ånde under vandet!
+item.FishScaleArmor.message.cannotBreathUnderwater=Du skal bære hele fiskeskælsrustningssættet for at kunne ånde under vandet
+
+// items - sword
+item.FishScaleSword.name=Fiskeskælssværd
+
+// entities
+entity.FancyFish.ClownFish.name=Klovnfisk
+entity.FancyFish.RegalTang.name=Paletkirurg
+entity.FancyFish.MoorishIdol.name=Zanclide
+entity.FancyFish.RoyalGramma.name=Royal gramma
+entity.FancyFish.PufferFish.name=Kuglefisk
+entity.FancyFish.YellowTang.name=Gul kirurgfisk
+entity.FancyFish.DamselFish.name=Sergentfisk
+entity.FancyFish.Blenny.name=Slimfisk
+entity.FancyFish.MoonFish.name=Klumpfisk
+
+// containers
+container.FishTankTileEntity.name=Akvarium
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=Ingen destination teleport er tilgængelig
+
+// achievements
+achievement.BuildNetting=Du fik en formue i garnet!
+achievement.BuildNetting.desc=Brug tråd for at lave netmateriale
+
+achievement.BuildFishingNet=Hvor er fangsten?
+achievement.BuildFishingNet.desc=Brug pinde og netmateriale til at bygge et fiskenet
+
+achievement.CatchFish=Første fangst!
+achievement.CatchFish.desc=Brug et fiskenet for at fange levende fisk
+
+achievement.HarvestScales=Skældriftsfordele
+achievement.HarvestScales.desc=Dræb en fisk for at indsamle dens skæl
+
+achievement.BuildLampShade=Lyssky forretning
+achievement.BuildLampShade.desc=Lav en lampeskærm af en træplade, en fakkel og skæl fra en royal gramma
+
+achievement.BuildFishScaleAxe=Øksefældigt
+achievement.BuildFishScaleAxe.desc=Byg en fortryllet økse af pinde og grønne fiskeskæl
+
+achievement.BuildFishScaleHoe=Jordens frugter
+achievement.BuildFishScaleHoe.desc=Lav et fortryllet lugejern af pinde og indigo fiskeskæl
+
+achievement.BuildFishScaleSword=Ekskælibur!
+achievement.BuildFishScaleSword.desc=Lav et fortryllet sværd af sølvfarvede, hvide og blå fiskeskæl
+

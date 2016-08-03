@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/netherflower" },
+        "age=1": { "model": "planttech:plant/netherflower" },
+        "age=2": { "model": "planttech:plant/netherflower" },
+        "age=3": { "model": "planttech:plant/netherflower" },
+        "age=4": { "model": "planttech:plant/netherflower" },
+        "age=5": { "model": "planttech:plant/netherflower" },
+        "age=6": { "model": "planttech:plant/netherflower" },
+        "age=7": { "model": "planttech:plant/netherflower" }
+    }
+}

@@ -1,0 +1,5 @@
+{"parent": "galactic:block/biome_wall_post","textures": {
+"wall": "galactic:blocks/alienCobble.blue"
+,"overlay": "galactic:blocks/cobblestone_mossy_overlay"
+	}
+}

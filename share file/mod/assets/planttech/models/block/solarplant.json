@@ -1,0 +1,9 @@
+{
+   "parent": "planttech:block/solarplant_model",
+    "textures": {
+        "0": "planttech:blocks/cables/cable_base",
+        "1": "planttech:blocks/cables/cable_root90",
+        "2": "planttech:blocks/cables/cable_end",
+        "3": "planttech:blocks/cables/solar_top"
+    }
+}

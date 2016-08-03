@@ -1,0 +1,5 @@
+{
+"parent": "block/button",
+"textures": {
+"texture": "galactic:blocks/alienPlanks.lime"}
+}

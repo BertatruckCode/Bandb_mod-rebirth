@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Hauska kala-mod
+
+// blocks
+tile.FishTank.name=Akvaario
+tile.FishTank.message.needsWater=Jotta voisit hallita akvaariota, niin täytä se ensin vesiämpärillä
+tile.FishTank.message.alreadyFilled=Akvaario on jo täytetty vedellä
+tile.FishTank.message.alreadyEmpty=Akvaario on jo tyhjennetty vedestä
+tile.FishTank.message.needEmptyBowl=Tarvitset tyhjän kalamaljan siirtääksesi kaloja
+
+tile.LampShade.name=Lampunvarjostin
+
+tile.Teleport.name=Teleportti
+
+tile.Kelp.name=Merilevä
+
+tile.Clam.name=Simpukka
+
+// miscellaneous items
+item.Netting.name=Kalaverkko
+item.FishBowl.name=Kalamalja
+item.FishFood.name=Kalanruoka
+item.Pearl.name=Helmi
+
+// items - fish scales
+item.FishScaleRed.name=Punaiset kalansuomut
+item.FishScaleOrange.name=Oranssit kalansuomut
+item.FishScaleYellow.name=Keltaiset kalansuomut
+item.FishScaleGreen.name=Vihreät kalansuomut
+item.FishScaleBlue.name=Siniset kalansuomut
+item.FishScaleIndigo.name=Indigonsiniset kalansuomut
+item.FishScaleViolet.name=Violetit kalansuomut
+item.FishScaleBlack.name=Mustat kalansuomut
+item.FishScaleWhite.name=Valkoiset kalansuomut
+item.FishScaleSilver.name=Hopeiset kalansuomut
+
+// items - captured fish
+item.CapturedClownFish.name=Kiinniotettu vuokkokala
+item.CapturedRegalTang.name=Kiinniotettu Regal Tang-kala
+item.CapturedMoorishIdol.name=Kiinniotettu Moorish Idol-kala
+item.CapturedRoyalGramma.name=Kiinniotettu Royal Gramma-kala
+item.CapturedPufferFish.name=Kiinniotettu pallokala
+item.CapturedYellowTang.name=Kiinniotettu Yellow Tang-kala
+item.CapturedDamselFish.name=Kiinniotettu ruskoneitokala
+item.CapturedBlenny.name=Kiinniotettu limakala
+item.CapturedMoonFish.name=Kiinniotettu kirveskala
+
+// items - live fish
+item.LiveClownFish.name=Vuokkokala
+item.LiveRegalTang.name=Regal Tang-kala
+item.LiveMoorishIdol.name=Moorish Idol-kala
+item.LiveRoyalGramma.name=Royal Gramma-kala
+item.LivePufferFish.name=Pallokala
+item.LiveYellowTang.name=Yellow Tang-kala
+item.LiveDamselFish.name=Ruskoneitokala
+item.LiveBlenny.name=Limakala
+item.LiveMoonFish.name=Kirveskala
+
+// items - tools
+item.FishingNet.name=Kalastusverkko
+item.FishScaleAxe.name=Kalansuomukirves
+item.FishScaleHoe.name=Kalansuomukuokka
+
+// items - armour
+item.FishScaleHelmet.name=Kalansuomukypärä
+item.FishScaleChestPlate.name=Kalansuomurintapanssari
+item.FishScaleLeggings.name=Kalansuomutrikoohousut
+item.FishScaleBoots.name=Kalansuomusaappaat
+
+item.FishScaleArmor.message.canBreathUnderwater=Voit nyt hengittää veden alla!
+item.FishScaleArmor.message.cannotBreathUnderwater=Sinun täytyy pukea täydellinen Fish Scale Armor, jotta saat vedenhengitystaikajuoman efektit
+
+// items - sword
+item.FishScaleSword.name=Kalansuomumiekka
+
+// entities
+entity.FancyFish.ClownFish.name=Vuokkokala
+entity.FancyFish.RegalTang.name=Regal Tang-kala
+entity.FancyFish.MoorishIdol.name=Moorish Idol-kala
+entity.FancyFish.RoyalGramma.name=Royal Gramma-kala
+entity.FancyFish.PufferFish.name=Pallokala
+entity.FancyFish.YellowTang.name=Yellow Tang-kala
+entity.FancyFish.DamselFish.name=Ruskoneitokala
+entity.FancyFish.Blenny.name=Limakala
+entity.FancyFish.MoonFish.name=Kirveskala
+
+// containers
+container.FishTankTileEntity.name=Akvaario
+container.TeleportTileEntity.name=Teleportti
+container.TeleportTileEntity.message.noDestination=Et voi teleportara kohteisiin
+
+// achievements
+achievement.BuildNetting=Kasvata omaisuutta!
+achievement.BuildNetting.desc=Käytä lankaa, jotta saat tehtyä verkkomateriaalia
+
+achievement.BuildFishingNet=Missä on saalis?
+achievement.BuildFishingNet.desc=Käytä keppejä ja verkkomateriaalia rakentaaksesi kalastusverkon
+
+achievement.CatchFish=Ensimmäinen saalis!
+achievement.CatchFish.desc=Käytä kalastusverkoa saadaksesi elävän kalan kiinni
+
+achievement.HarvestScales=Suomutaloutta
+achievement.HarvestScales.desc=Tapa kala saadaksesi siitä suomusadon
+
+achievement.BuildLampShade=Varjostinliiketoimintaa
+achievement.BuildLampShade.desc=Rakenna lampunvarjostin käyttäen puulaattaa, soihtua ja kuninkaallisia gramma-asteikkoja
+
+achievement.BuildFishScaleAxe=Kirveelle töitä
+achievement.BuildFishScaleAxe.desc=Tee lumottu kirves käyttäen keppejä ja vihreitä kalansuomuja
+
+achievement.BuildFishScaleHoe=Maan hedelmät
+achievement.BuildFishScaleHoe.desc=Rakenna lumottu kuokka käyttäen tikkuja ja indigonsinisiä kalansuomuja
+
+achievement.BuildFishScaleSword=Suomutaikaa!
+achievement.BuildFishScaleSword.desc=Rakenna lumottu miekka käyttäen hopeisia, valkoisia ja sinisiä kalansuomuja
+

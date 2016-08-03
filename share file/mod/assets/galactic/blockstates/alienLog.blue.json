@@ -1,0 +1,16 @@
+{
+	 "variants": {
+		"axis=none" : [
+				{ "model": "galactic:alienLog.blue.bark"}
+			],
+		"axis=z" : [
+				{ "model": "galactic:alienLog.blue.side"}
+			],
+		"axis=x" : [
+				{ "model": "galactic:alienLog.blue.side", "y": 90}
+			],
+		"axis=y" : [
+				{ "model": "galactic:alienLog.blue"}
+			]
+	}
+ }

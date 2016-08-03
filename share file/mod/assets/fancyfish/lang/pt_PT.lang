@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Aquário dos Peixes
+tile.FishTank.message.needsWater=Para interagir com o aquário, enche-o com um balde de água primeiro
+tile.FishTank.message.alreadyFilled=O aquário já está cheio de água
+tile.FishTank.message.alreadyEmpty=O aquário já não tem água
+tile.FishTank.message.needEmptyBowl=Precisas de um taça para peixes vazia para os transportares
+
+tile.LampShade.name=Candeeiro
+
+tile.Teleport.name=Teletransporte
+
+tile.Kelp.name=Alga
+
+tile.Clam.name=Amêijoa
+
+// miscellaneous items
+item.Netting.name=Rede
+item.FishBowl.name=Taça para os Peixes
+item.FishFood.name=Comida de Peixe
+item.Pearl.name=Pérola
+
+// items - fish scales
+item.FishScaleRed.name=Escamas de Peixe Vermelho
+item.FishScaleOrange.name=Escamas de Peixe Laranja
+item.FishScaleYellow.name=Escamas de Peixe Amarelo
+item.FishScaleGreen.name=Escamas de Peixe Verde
+item.FishScaleBlue.name=Escamas de Peixe Azul
+item.FishScaleIndigo.name=Escamas de Peixe Lilás
+item.FishScaleViolet.name=Escamas de Peixe Violeta
+item.FishScaleBlack.name=Escamas de Peixe Preto
+item.FishScaleWhite.name=Escamas de Peixe Branco
+item.FishScaleSilver.name=Escamas de Peixe Prateado
+
+// items - captured fish
+item.CapturedClownFish.name=Peixe Palhaço Capturado
+item.CapturedRegalTang.name=Cirurgião Patela Capturado
+item.CapturedMoorishIdol.name=Ídolo Mouro Capturado
+item.CapturedRoyalGramma.name=Royal Gramma Capturado
+item.CapturedPufferFish.name=Peixe Balão Capturado
+item.CapturedYellowTang.name=Cirurgião Amarelo Capturado
+item.CapturedDamselFish.name=Castanheta Capturada
+item.CapturedBlenny.name=Blenny Capturado
+item.CapturedMoonFish.name=Peixe Lua Capturado
+
+// items - live fish
+item.LiveClownFish.name=Peixe Palhaço
+item.LiveRegalTang.name=Cirurgião Patela
+item.LiveMoorishIdol.name=Ídolo Mouro
+item.LiveRoyalGramma.name=Royal Gramma
+item.LivePufferFish.name=Peixe Balão
+item.LiveYellowTang.name=Cirurgião Amarelo
+item.LiveDamselFish.name=Castanheta
+item.LiveBlenny.name=Blenny
+item.LiveMoonFish.name=Peixe Lua
+
+// items - tools
+item.FishingNet.name=Rede de Pesca
+item.FishScaleAxe.name=Machado de Escamas de Peixe
+item.FishScaleHoe.name=Enxada de Escamas de Peixe
+
+// items - armour
+item.FishScaleHelmet.name=Capacete de Escamas de Peixe
+item.FishScaleChestPlate.name=Peitoral de Escamas de Peixe
+item.FishScaleLeggings.name=Calças de Escamas de Peixe
+item.FishScaleBoots.name=Botas de Escamas de Peixe
+
+item.FishScaleArmor.message.canBreathUnderwater=Agora consegues respirar debaixo de água!
+item.FishScaleArmor.message.cannotBreathUnderwater=Precisas de um fato completo de escama de peixe para que consigas utilizar a poção para respirar debaixo de água
+
+// items - sword
+item.FishScaleSword.name=Espada de Escamas de Peixe
+
+// entities
+entity.FancyFish.ClownFish.name=Peixe Palhaço
+entity.FancyFish.RegalTang.name=Cirurgião Patela
+entity.FancyFish.MoorishIdol.name=Ídolo Mouro
+entity.FancyFish.RoyalGramma.name=Royal Gramma
+entity.FancyFish.PufferFish.name=Peixe Balão
+entity.FancyFish.YellowTang.name=Cirurgião Amarelo
+entity.FancyFish.DamselFish.name=Castanheta
+entity.FancyFish.Blenny.name=Blenny
+entity.FancyFish.MoonFish.name=Peixe Lua
+
+// containers
+container.FishTankTileEntity.name=Aquário dos Peixes
+container.TeleportTileEntity.name=Teletransporte
+container.TeleportTileEntity.message.noDestination=Destino para teletransporte indisponível
+
+// achievements
+achievement.BuildNetting=Apanhaste uma fortuna!
+achievement.BuildNetting.desc=Usa cordão para fazeres uma rede
+
+achievement.BuildFishingNet=Onde está a captura?
+achievement.BuildFishingNet.desc=Usa ramos e rede para fazeres uma rede de pesca
+
+achievement.CatchFish=Primeira Captura!
+achievement.CatchFish.desc=Usa uma rede de pesca para apanhares um peixe vivo
+
+achievement.HarvestScales=Economia de Escamas
+achievement.HarvestScales.desc=Mata um peixe para recolheres as suas escamas
+
+achievement.BuildLampShade=Negócio de sombras
+achievement.BuildLampShade.desc=Constrói um candeeiro usando madeira, uma torcha e escamas de Royal Gramma
+
+achievement.BuildFishScaleAxe=Machadada
+achievement.BuildFishScaleAxe.desc=Constrói um machado encantado usando ramos e escamas de peixe verde
+
+achievement.BuildFishScaleHoe=Frutos da Terra
+achievement.BuildFishScaleHoe.desc=Constrói uma enxada encantado usando ramos e escamas de peixe lilás
+
+achievement.BuildFishScaleSword=Escamalibur!
+achievement.BuildFishScaleSword.desc=Constrói uma espada encantada usando prata e escama de peixe azul e peixe branco
+

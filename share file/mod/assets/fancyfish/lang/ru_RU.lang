@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Фантазии рыб мод
+
+// blocks
+tile.FishTank.name=Аквариум
+tile.FishTank.message.needsWater=Наполни аквариум водой, используя ведро
+tile.FishTank.message.alreadyFilled=В аквариуме уже есть вода
+tile.FishTank.message.alreadyEmpty=Аквариум уже пустой
+tile.FishTank.message.needEmptyBowl=Для переноса пойманной рыбки потребуется пустой аквариум
+
+tile.LampShade.name=Абажур
+
+tile.Teleport.name=Телепорт
+
+tile.Kelp.name=Ламинария
+
+tile.Clam.name=Моллюск
+
+// miscellaneous items
+item.Netting.name=Сетка
+item.FishBowl.name=Мини-аквариум
+item.FishFood.name=Корма для рыб
+item.Pearl.name=Жемчужина
+
+// items - fish scales
+item.FishScaleRed.name=Красная чешуя
+item.FishScaleOrange.name=Оранжевая чешуя
+item.FishScaleYellow.name=Желтая Рыба чешуя
+item.FishScaleGreen.name=Зеленая рыба чешуя
+item.FishScaleBlue.name=Синий рыбьей чешуи
+item.FishScaleIndigo.name=Индиго рыбьей чешуи
+item.FishScaleViolet.name=Фиолетовый рыбьей чешуи
+item.FishScaleBlack.name=Черная рыба чешуя
+item.FishScaleWhite.name=Белая рыба чешуя
+item.FishScaleSilver.name=Серебряный рыбьей чешуи
+
+// items - captured fish
+item.CapturedClownFish.name=Пойманная рыба-клоун
+item.CapturedRegalTang.name=Пойманный флагохвостый хирург
+item.CapturedMoorishIdol.name=Пойманный занкл
+item.CapturedRoyalGramma.name=Пойманная королевская грамма
+item.CapturedPufferFish.name=Пойманная рыба-ёж
+item.CapturedYellowTang.name=Пойманная жёлтая зебрасома
+item.CapturedDamselFish.name=Пойманная рыба-девица
+item.CapturedBlenny.name=Пойманная Морская собачка
+item.CapturedMoonFish.name=Пойманная рыба-луна
+
+// items - live fish
+item.LiveClownFish.name=Клоун
+item.LiveRegalTang.name=Регал Тан
+item.LiveMoorishIdol.name=Мавританский идол
+item.LiveRoyalGramma.name=Грамма королевская
+item.LivePufferFish.name=Рыба-ёж
+item.LiveYellowTang.name=Желтой Тан
+item.LiveDamselFish.name=Pыба-девица
+item.LiveBlenny.name=Морская собачка
+item.LiveMoonFish.name=Рыба-луна
+
+// items - tools
+item.FishingNet.name=Рыболовная сеть
+item.FishScaleAxe.name=Топор из чешуи
+item.FishScaleHoe.name=Мотыга из чешуи
+
+// items - armour
+item.FishScaleHelmet.name=Шлем из чешуи
+item.FishScaleChestPlate.name=Кираса из чешуи
+item.FishScaleLeggings.name=Поножи из чешуи
+item.FishScaleBoots.name=Ботинки из чешуи
+
+item.FishScaleArmor.message.canBreathUnderwater=Вы можете дышать под водой!
+item.FishScaleArmor.message.cannotBreathUnderwater=Чтобы получить эффект зелья подводного дыхания наденьте полный комплект брони из чешуи
+
+// items - sword
+item.FishScaleSword.name=Меч из чешуи
+
+// entities
+entity.FancyFish.ClownFish.name=Клоун
+entity.FancyFish.RegalTang.name=Флагохвостый хирург
+entity.FancyFish.MoorishIdol.name=Занкл
+entity.FancyFish.RoyalGramma.name=Королевская грамма
+entity.FancyFish.PufferFish.name=Рыба-ёж
+entity.FancyFish.YellowTang.name=Жёлтая зебрасома
+entity.FancyFish.DamselFish.name=Pыба-девица
+entity.FancyFish.Blenny.name=Морская собачка
+entity.FancyFish.MoonFish.name=Рыба-луна
+
+// containers
+container.FishTankTileEntity.name=Аквариум
+container.TeleportTileEntity.name=Телепорт
+container.TeleportTileEntity.message.noDestination=Нет назначения телепорт доступен
+
+// achievements
+achievement.BuildNetting=Hашел состояние!
+achievement.BuildNetting.desc=Использовать строку для построения сетки материала
+
+achievement.BuildFishingNet=Где же подвох?
+achievement.BuildFishingNet.desc=Используйте сетку и палки, чтобы собрать рыболовную сеть
+
+achievement.CatchFish=Первый улов!
+achievement.CatchFish.desc=Используйте рыболовную сеть, чтобы поймать живую рыбу
+
+achievement.HarvestScales=Ценный продукт
+achievement.HarvestScales.desc=Убейте рыбку, чтобы получить чешую
+
+achievement.BuildLampShade=Пребывание в тени
+achievement.BuildLampShade.desc=Используйте деревянную плиту, факел и чешую королевской граммы, чтобы собрать абажур
+
+achievement.BuildFishScaleAxe=Острый топор для жесткой древесины
+achievement.BuildFishScaleAxe.desc=Используйте палки и зелёную чешую, чтобы собрать зачарованный топор
+
+achievement.BuildFishScaleHoe=Плоды земли
+achievement.BuildFishScaleHoe.desc=Используйте палки и тёмно-синюю чешую, чтобы собрать зачарованную мотыгу
+
+achievement.BuildFishScaleSword=Эkckaлибур!
+achievement.BuildFishScaleSword.desc=Используйте серебряную, белую и синюю чешую, чтобы собрать зачарованный меч
+

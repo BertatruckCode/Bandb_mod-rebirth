@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "planttech:blocks/plants/wpotatoes_stage_2"
+    }
+}

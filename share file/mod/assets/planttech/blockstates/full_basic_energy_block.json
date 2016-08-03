@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "planttech:full_basic_energy_block" }
+    }
+}

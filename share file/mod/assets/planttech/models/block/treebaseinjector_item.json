@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "planttech:blocks/plantmetall2_block",
+        "down": "planttech:blocks/plantmetall2_block",
+        "up": "planttech:blocks/plantmetall2_block",
+        "north": "planttech:blocks/plantmetall2_block",
+        "east": "planttech:blocks/treebaseinjectorfront",
+        "south": "planttech:blocks/treebaseinjectorfront",
+        "west": "planttech:blocks/plantmetall2_block"
+    }
+}

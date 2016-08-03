@@ -1,0 +1,8 @@
+{
+"parent": "block/stairs",
+"textures": {
+    "bottom": "galactic:blocks/alienPlanks.lime",
+    "top": "galactic:blocks/alienPlanks.lime",
+    "side": "galactic:blocks/alienPlanks.lime"
+  }
+}

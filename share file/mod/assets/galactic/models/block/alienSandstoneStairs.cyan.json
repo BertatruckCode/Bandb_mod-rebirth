@@ -1,0 +1,8 @@
+{
+"parent": "block/stairs",
+"textures": {
+    "bottom": "galactic:blocks/alienSandstoneBottom.cyan",
+    "top": "galactic:blocks/alienSandstoneTop.cyan",
+    "side": "galactic:blocks/alienSandstoneNormal.cyan"
+  }
+}

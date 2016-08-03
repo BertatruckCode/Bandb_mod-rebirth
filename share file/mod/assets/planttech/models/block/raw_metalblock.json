@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+       "down":  "planttech:blocks/raw_metalblock_down",
+       "up":    "planttech:blocks/raw_metalblock_up",
+       "north": "planttech:blocks/raw_metalblock_north",
+       "south": "planttech:blocks/raw_metalblock_south",
+       "west":  "planttech:blocks/raw_metalblock_east",
+       "east":  "planttech:blocks/raw_metalblock_west"
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "galactic:block/biomeOverlay",
+		"textures": {
+			"particle": "galactic:blocks/alienStoneBrick.green",
+			"bottom": "galactic:blocks/alienStoneBrick.green",
+			"top": "galactic:blocks/alienStoneBrick.green",
+			"side": "galactic:blocks/alienStoneBrick.green",
+			"overlay": "galactic:blocks/stonebrick_mossy_overlay"
+	}
+}

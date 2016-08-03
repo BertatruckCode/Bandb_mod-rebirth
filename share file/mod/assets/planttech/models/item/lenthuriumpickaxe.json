@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "planttech:items/tools/lenthurium_pickaxe"
+    }
+}

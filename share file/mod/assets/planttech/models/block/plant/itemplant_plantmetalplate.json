@@ -1,0 +1,8 @@
+{
+   "parent": "planttech:block/plant/itemplant_finish",
+    "textures": {
+        "particle": "blocks/glass",
+        "0": "planttech:blocks/plants/itemplantbase",
+        "1": "planttech:items/itemplants/plantmetalplate"
+    }
+}

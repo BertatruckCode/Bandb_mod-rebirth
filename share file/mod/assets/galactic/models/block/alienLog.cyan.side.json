@@ -1,0 +1,7 @@
+{
+"parent": "block/column_side",
+"textures": {
+	"end": "galactic:blocks/alienLog.cyan.top",
+	"side": "galactic:blocks/alienLog.cyan"
+}
+}

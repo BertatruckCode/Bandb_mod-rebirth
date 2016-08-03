@@ -1,0 +1,10 @@
+{
+	 "variants": {
+		"half=bottom,none=a" : [
+				{ "model": "galactic:alienStoneSlab.silver"}
+			],
+		"half=top,none=a" : [
+				{ "model": "galactic:alienStoneSlab.silver.upper"}
+			]
+	}
+ }

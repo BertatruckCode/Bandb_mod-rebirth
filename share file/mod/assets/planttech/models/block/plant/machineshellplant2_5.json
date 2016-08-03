@@ -1,0 +1,9 @@
+{
+   "parent": "planttech:block/shellmodel",
+    "textures": {
+        "0": "planttech:blocks/machines/machinehullplant2_5",
+        "1": "planttech:blocks/machines/machinehull2_bottom",
+        "2": "planttech:blocks/machines/machinehull2_side1",
+        "3": "planttech:blocks/machines/machinehull2_side2"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "variants":
+	{
+		"east=false,north=false,south=false,west=false": {"model": "pda:chocofence_post"},
+        "east=false,north=true,south=false,west=false": {"model": "pda:chocofence_n", "uvlock": true},
+        "east=true,north=false,south=false,west=false": {"model": "pda:chocofence_n", "y": 90, "uvlock": true},
+        "east=false,north=false,south=true,west=false": {"model": "pda:chocofence_n", "y": 180, "uvlock": true},
+        "east=false,north=false,south=false,west=true": {"model": "pda:chocofence_n", "y": 270, "uvlock": true},
+        "east=true,north=true,south=false,west=false": {"model": "pda:chocofence_ne", "uvlock": true},
+        "east=true,north=false,south=true,west=false": {"model": "pda:chocofence_ne", "y": 90, "uvlock": true},
+        "east=false,north=false,south=true,west=true": {"model": "pda:chocofence_ne", "y": 180, "uvlock": true},
+        "east=false,north=true,south=false,west=true": {"model": "pda:chocofence_ne", "y": 270, "uvlock": true},
+        "east=false,north=true,south=true,west=false": {"model": "pda:chocofence_ns", "uvlock": true},
+        "east=true,north=false,south=false,west=true": {"model": "pda:chocofence_ns", "y": 90, "uvlock": true},
+        "east=true,north=true,south=true,west=false": {"model": "pda:chocofence_nse", "uvlock": true},
+        "east=true,north=false,south=true,west=true": {"model": "pda:chocofence_nse", "y": 90, "uvlock": true},
+        "east=false,north=true,south=true,west=true": {"model": "pda:chocofence_nse", "y": 180, "uvlock": true},
+        "east=true,north=true,south=false,west=true": {"model": "pda:chocofence_nse", "y": 270, "uvlock": true},
+        "east=true,north=true,south=true,west=true": {"model": "pda:chocofence_nsew", "uvlock": true}
+   }
+}

@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Vrolijke Vis Mod
+
+// blocks
+tile.FishTank.name=Aquarium
+tile.FishTank.message.needsWater=Vul het aquarium eerst op met een emmer water, om het te kunnen gebruiken
+tile.FishTank.message.alreadyFilled=Het aquarium is al gevuld met water
+tile.FishTank.message.alreadyEmpty=Het aquarium is al geleegd
+tile.FishTank.message.needEmptyBowl=Je hebt een lege vissenkom nodig om vissen mee te dragen
+
+tile.LampShade.name=Lampenkap
+
+tile.Teleport.name=Teleporteer
+
+tile.Kelp.name=Zeewier
+
+tile.Clam.name=Schelp
+
+// miscellaneous items
+item.Netting.name=Netmateriaal
+item.FishBowl.name=Vissenkom
+item.FishFood.name=Visvoer
+item.Pearl.name=Parel
+
+// items - fish scales
+item.FishScaleRed.name=Rode Schubben
+item.FishScaleOrange.name=Oranje Schubben
+item.FishScaleYellow.name=Gele Schubben
+item.FishScaleGreen.name=Groene Schubben
+item.FishScaleBlue.name=Blauwe Schubben
+item.FishScaleIndigo.name=Indigo Schubben
+item.FishScaleViolet.name=Violette Schubben
+item.FishScaleBlack.name=Zwarte Schubben
+item.FishScaleWhite.name=Witte Schubben
+item.FishScaleSilver.name=Zilveren Schubben
+
+// items - captured fish
+item.CapturedClownFish.name=Anemoonvis Gevangen
+item.CapturedRegalTang.name=Doktersvis Gevangen
+item.CapturedMoorishIdol.name=Maskerwimpelvis Gevangen
+item.CapturedRoyalGramma.name=Feeënbaars Gevangen
+item.CapturedPufferFish.name=Kogelvis Gevangen
+item.CapturedYellowTang.name=Gele Zeilvindoktersvis Gevangen
+item.CapturedDamselFish.name=Koraaljuffertje Gevangen
+item.CapturedBlenny.name=Slijmvisachtige Gevangen
+item.CapturedMoonFish.name=Koningsvis Gevangen
+
+// items - live fish
+item.LiveClownFish.name=Anemoonvis
+item.LiveRegalTang.name=Doktersvis
+item.LiveMoorishIdol.name=Maskerwimpelvis
+item.LiveRoyalGramma.name=Feeënbaars
+item.LivePufferFish.name=Kogelvis
+item.LiveYellowTang.name=Gele Zeilvindoktersvis
+item.LiveDamselFish.name=Koraaljuffertje
+item.LiveBlenny.name=Slijmvisachtige
+item.LiveMoonFish.name=Koningsvis
+
+// items - tools
+item.FishingNet.name=Visnet
+item.FishScaleAxe.name=Schubbenbijl
+item.FishScaleHoe.name=Schubbenschoffel
+
+// items - armour
+item.FishScaleHelmet.name=Schubbenhelm
+item.FishScaleChestPlate.name=Schubbenborstplaat
+item.FishScaleLeggings.name=Schubbenbroek
+item.FishScaleBoots.name=Schubbenlaarzen
+
+item.FishScaleArmor.message.canBreathUnderwater=Je kan nu onder water ademen!
+item.FishScaleArmor.message.cannotBreathUnderwater=Je moet het volledige Schubbenharnas dragen om het Drank der Water-ademeneffect te activeren
+
+// items - sword
+item.FishScaleSword.name=Schubbenzwaard
+
+// entities
+entity.FancyFish.ClownFish.name=Anemoonvis
+entity.FancyFish.RegalTang.name=Doktersvis
+entity.FancyFish.MoorishIdol.name=Maskerwimpelvis
+entity.FancyFish.RoyalGramma.name=Feeënbaars
+entity.FancyFish.PufferFish.name=Kogelvis
+entity.FancyFish.YellowTang.name=Gele Zeilvindoktersvis
+entity.FancyFish.DamselFish.name=Koraaljuffertje
+entity.FancyFish.Blenny.name=Slijmvisachtige
+entity.FancyFish.MoonFish.name=Koningsvis
+
+// containers
+container.FishTankTileEntity.name=Aquarium
+container.TeleportTileEntity.name=Teleporteer
+container.TeleportTileEntity.message.noDestination=Geen teleporteerbestemming beschikbaar
+
+// achievements
+achievement.BuildNetting=Net materiaal!
+achievement.BuildNetting.desc=Gebruik draad om netmateriaal te maken
+
+achievement.BuildFishingNet=Netjes!
+achievement.BuildFishingNet.desc=Gebruik stokken en netmateriaal om een visnet te maken
+
+achievement.CatchFish=Eerste vangst!
+achievement.CatchFish.desc=Gebruik een visnet om een levende vis te vangen
+
+achievement.HarvestScales=Schubbenoogst
+achievement.HarvestScales.desc=Dood een vis om diens schubben te oogsten
+
+achievement.BuildLampShade=Tegen de lamp gelopen
+achievement.BuildLampShade.desc=Maak een lampenkap met een houten plaat, een fakkel en feeënbaarsschubben
+
+achievement.BuildFishScaleAxe=Bijlangrijk
+achievement.BuildFishScaleAxe.desc=Maak een betoverde bijl met stokken en groene schubben
+
+achievement.BuildFishScaleHoe=Vruchten der Aarde
+achievement.BuildFishScaleHoe.desc=Bouw een betoverde schoffel met stokken en indigo schubben
+
+achievement.BuildFishScaleSword=Excalibur!
+achievement.BuildFishScaleSword.desc=Bouw een betoverd zwaard met zilveren, witte en blauwe schubben
+

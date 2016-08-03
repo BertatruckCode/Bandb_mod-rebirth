@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Balık Tankı
+tile.FishTank.message.needsWater=Tankla etkileşim sağlamak için ilk önce onu su kovasıyla doldur
+tile.FishTank.message.alreadyFilled=Balık tankı zaten suyla doldurulmuş
+tile.FishTank.message.alreadyEmpty=Balık tankı zaten boş
+tile.FishTank.message.needEmptyBowl=Balığı taşıyabilmek için balıkları koyabileceğin bir kaseye ihtiyacın var
+
+tile.LampShade.name=Abajur
+
+tile.Teleport.name=Işınlanma
+
+tile.Kelp.name=Esmer Su yosunu
+
+tile.Clam.name=İstiridye
+
+// miscellaneous items
+item.Netting.name=Ağ
+item.FishBowl.name=Balık Kasesi
+item.FishFood.name=Balık Yemi
+item.Pearl.name=İnci
+
+// items - fish scales
+item.FishScaleRed.name=Kırmızı Balık Pulu
+item.FishScaleOrange.name=Turuncu Balık Pulu
+item.FishScaleYellow.name=Sarı Balık Pulu
+item.FishScaleGreen.name=Yeşil Balık Pulu
+item.FishScaleBlue.name=Mavi Balık Pulu
+item.FishScaleIndigo.name=Çivit Balık Pulu
+item.FishScaleViolet.name=Menekşe Rengi Balık Pulu
+item.FishScaleBlack.name=Siyah Balık Pulu
+item.FishScaleWhite.name=Beyaz Balık Pulu
+item.FishScaleSilver.name=Gümüş Balık Pulu
+
+// items - captured fish
+item.CapturedClownFish.name=Yakalanmış Palyaço Balığı
+item.CapturedRegalTang.name=Yakalanmış Mavi Cerrahbalığı
+item.CapturedMoorishIdol.name=Yakalanmış Moorish Idol
+item.CapturedRoyalGramma.name=Yakalanmış Royal Gramma
+item.CapturedPufferFish.name=Yakalanmış Kirpi Balığı
+item.CapturedYellowTang.name=Yakalanmış Yellow Tang
+item.CapturedDamselFish.name=Yakalanmış Papaz Balığı
+item.CapturedBlenny.name=Yakalanmış Horozbina
+item.CapturedMoonFish.name=Yakalanmış Aybalığı
+
+// items - live fish
+item.LiveClownFish.name=Palyaço Balığı
+item.LiveRegalTang.name=Mavi Cerrahbalığı
+item.LiveMoorishIdol.name=Moorish Idol
+item.LiveRoyalGramma.name=Royal Gramma
+item.LivePufferFish.name=Kirpi Balığı
+item.LiveYellowTang.name=Yellow Tang
+item.LiveDamselFish.name=Papaz Balığı
+item.LiveBlenny.name=Horozbina
+item.LiveMoonFish.name=Aybalığı
+
+// items - tools
+item.FishingNet.name=Balık Ağı
+item.FishScaleAxe.name=Balık Pullu Balta
+item.FishScaleHoe.name=Balık Pullu Çapa
+
+// items - armour
+item.FishScaleHelmet.name=Balık Pullu Kask
+item.FishScaleChestPlate.name=Balık Pullu Gövde Zırhı
+item.FishScaleLeggings.name=Balık Pullu Pantolon
+item.FishScaleBoots.name=Balık Pullu Botlar
+
+item.FishScaleArmor.message.canBreathUnderwater=Artık Suyun Altında Nefes Alabilirsin!
+item.FishScaleArmor.message.cannotBreathUnderwater=Suyun altında nefes almayı etkinleştirmek için Tüm Balık Pulu Zırhlarını giymen gerek
+
+// items - sword
+item.FishScaleSword.name=Balık Pullu Kılıç
+
+// entities
+entity.FancyFish.ClownFish.name=Palyaço Balığı
+entity.FancyFish.RegalTang.name=Mavi Cerrahbalığı
+entity.FancyFish.MoorishIdol.name=Moorish Idol
+entity.FancyFish.RoyalGramma.name=Royal Gramma
+entity.FancyFish.PufferFish.name=Kirpi Balığı
+entity.FancyFish.YellowTang.name=Yellow Tang
+entity.FancyFish.DamselFish.name=Papaz Balığı
+entity.FancyFish.Blenny.name=Horozbina
+entity.FancyFish.MoonFish.name=Aybalığı
+
+// containers
+container.FishTankTileEntity.name=Balık Kasesi
+container.TeleportTileEntity.name=Işınlan
+container.TeleportTileEntity.message.noDestination=Işınlanma hedefi yok
+
+// achievements
+achievement.BuildNetting=Şans avladın!
+achievement.BuildNetting.desc=Avlanma aleti yapmak için ip kullan
+
+achievement.BuildFishingNet=Kanca nerede?
+achievement.BuildFishingNet.desc=Balık ağı yapmak için çubukları ve ağı kullan
+
+achievement.CatchFish=İlk Yakalama!
+achievement.CatchFish.desc=Canlı bir balık yakalamak için balık ağını kullan
+
+achievement.HarvestScales=Balık pulu ekonomisi
+achievement.HarvestScales.desc=Balığın pulunu almak için onu öldür
+
+achievement.BuildLampShade=Şüpheli ticaret
+achievement.BuildLampShade.desc=Abajur yapmak için tahta basamak, meşale ve royal gramma pulu kullan
+
+achievement.BuildFishScaleAxe=Axedental
+achievement.BuildFishScaleAxe.desc=Büyülü balta yapmak için çubukları ve yeşil balık pullarını kullan
+
+achievement.BuildFishScaleHoe=Dünyanın Meyveleri
+achievement.BuildFishScaleHoe.desc=Büyülü çapa yapmak için çubukları ve çivit pulları kullan
+
+achievement.BuildFishScaleSword=Exscalebur!
+achievement.BuildFishScaleSword.desc=Büyülü kılıç yapmak için gümüş, beyaz ve mavi balık pullarını kullan
+

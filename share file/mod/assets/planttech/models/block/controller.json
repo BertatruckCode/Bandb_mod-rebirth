@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "planttech:blocks/cables/controller_buttom",
+        "down": "planttech:blocks/cables/controller_buttom",
+        "up": "planttech:blocks/cables/controller_top",
+        "north": "planttech:blocks/cables/controller_side",
+        "east": "planttech:blocks/cables/controller_side",
+        "south": "planttech:blocks/cables/controller_side",
+        "west": "planttech:blocks/cables/controller_side"
+    }
+}

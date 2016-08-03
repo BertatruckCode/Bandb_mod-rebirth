@@ -1,0 +1,388 @@
+{
+	 "variants": {
+		"color=cyan,moisture=3" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=cyan,moisture=2" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=cyan,moisture=5" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=cyan,moisture=4" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=cyan,moisture=1" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=cyan,moisture=0" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=magenta,moisture=2" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=magenta,moisture=3" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=pink,moisture=7" : [
+				{ "model": "galactic:alienFarmland.pink"}
+			],
+		"color=magenta,moisture=0" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=pink,moisture=6" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=magenta,moisture=1" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=pink,moisture=5" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=magenta,moisture=6" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=cyan,moisture=7" : [
+				{ "model": "galactic:alienFarmland.cyan"}
+			],
+		"color=pink,moisture=4" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=magenta,moisture=7" : [
+				{ "model": "galactic:alienFarmland.magenta"}
+			],
+		"color=cyan,moisture=6" : [
+				{ "model": "galactic:alienFarmland.cyan.dry"}
+			],
+		"color=pink,moisture=3" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=magenta,moisture=4" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=pink,moisture=2" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=magenta,moisture=5" : [
+				{ "model": "galactic:alienFarmland.magenta.dry"}
+			],
+		"color=pink,moisture=1" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=pink,moisture=0" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"color=light_blue,moisture=1" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=light_blue,moisture=0" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=light_blue,moisture=3" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=light_blue,moisture=2" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=light_blue,moisture=5" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=light_blue,moisture=4" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=light_blue,moisture=7" : [
+				{ "model": "galactic:alienFarmland.lightBlue"}
+			],
+		"color=light_blue,moisture=6" : [
+				{ "model": "galactic:alienFarmland.lightBlue.dry"}
+			],
+		"color=orange,moisture=3" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=orange,moisture=4" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=orange,moisture=1" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=orange,moisture=2" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=orange,moisture=7" : [
+				{ "model": "galactic:alienFarmland.orange"}
+			],
+		"color=orange,moisture=5" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=purple,moisture=7" : [
+				{ "model": "galactic:alienFarmland.purple"}
+			],
+		"color=orange,moisture=6" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=blue,moisture=1" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=white,moisture=7" : [
+				{ "model": "galactic:alienFarmland.white"}
+			],
+		"color=red,moisture=0" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=blue,moisture=2" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=white,moisture=6" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=red,moisture=1" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=blue,moisture=3" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=white,moisture=5" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=red,moisture=2" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=blue,moisture=4" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=white,moisture=4" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=red,moisture=3" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=white,moisture=3" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=red,moisture=4" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=white,moisture=2" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=orange,moisture=0" : [
+				{ "model": "galactic:alienFarmland.orange.dry"}
+			],
+		"color=red,moisture=5" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=white,moisture=1" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=red,moisture=6" : [
+				{ "model": "galactic:alienFarmland.red.dry"}
+			],
+		"color=blue,moisture=0" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=white,moisture=0" : [
+				{ "model": "galactic:alienFarmland.white.dry"}
+			],
+		"color=red,moisture=7" : [
+				{ "model": "galactic:alienFarmland.red"}
+			],
+		"color=blue,moisture=5" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=blue,moisture=6" : [
+				{ "model": "galactic:alienFarmland.blue.dry"}
+			],
+		"color=blue,moisture=7" : [
+				{ "model": "galactic:alienFarmland.blue"}
+			],
+		"color=purple,moisture=5" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=purple,moisture=6" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=purple,moisture=3" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=purple,moisture=4" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=purple,moisture=1" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=purple,moisture=2" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=purple,moisture=0" : [
+				{ "model": "galactic:alienFarmland.purple.dry"}
+			],
+		"color=silver,moisture=4" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=silver,moisture=5" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=silver,moisture=6" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=silver,moisture=7" : [
+				{ "model": "galactic:alienFarmland.silver"}
+			],
+		"color=silver,moisture=0" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=silver,moisture=1" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=silver,moisture=2" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=silver,moisture=3" : [
+				{ "model": "galactic:alienFarmland.silver.dry"}
+			],
+		"color=black,moisture=4" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=black,moisture=5" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=black,moisture=2" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=black,moisture=3" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=black,moisture=0" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=black,moisture=1" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=gray,moisture=2" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=gray,moisture=3" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=gray,moisture=4" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=gray,moisture=5" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=yellow,moisture=7" : [
+				{ "model": "galactic:alienFarmland.yellow"}
+			],
+		"color=gray,moisture=0" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=gray,moisture=1" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=yellow,moisture=3" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=yellow,moisture=4" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=yellow,moisture=5" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=yellow,moisture=6" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=gray,moisture=6" : [
+				{ "model": "galactic:alienFarmland.gray.dry"}
+			],
+		"color=gray,moisture=7" : [
+				{ "model": "galactic:alienFarmland.gray"}
+			],
+		"color=yellow,moisture=0" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=yellow,moisture=1" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=yellow,moisture=2" : [
+				{ "model": "galactic:alienFarmland.yellow.dry"}
+			],
+		"color=lime,moisture=4" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=brown,moisture=2" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=lime,moisture=5" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=brown,moisture=1" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=green,moisture=6" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=lime,moisture=6" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=brown,moisture=4" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=green,moisture=7" : [
+				{ "model": "galactic:alienFarmland.green"}
+			],
+		"color=lime,moisture=7" : [
+				{ "model": "galactic:alienFarmland.lime"}
+			],
+		"color=brown,moisture=3" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=green,moisture=4" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=lime,moisture=0" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=green,moisture=5" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=lime,moisture=1" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=green,moisture=2" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=lime,moisture=2" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=brown,moisture=0" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=green,moisture=3" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=lime,moisture=3" : [
+				{ "model": "galactic:alienFarmland.lime.dry"}
+			],
+		"color=green,moisture=0" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=green,moisture=1" : [
+				{ "model": "galactic:alienFarmland.green.dry"}
+			],
+		"color=brown,moisture=6" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=brown,moisture=5" : [
+				{ "model": "galactic:alienFarmland.brown.dry"}
+			],
+		"color=black,moisture=6" : [
+				{ "model": "galactic:alienFarmland.black.dry"}
+			],
+		"color=black,moisture=7" : [
+				{ "model": "galactic:alienFarmland.black"}
+			],
+		"color=brown,moisture=7" : [
+				{ "model": "galactic:alienFarmland.brown"}
+			]
+	}
+ }

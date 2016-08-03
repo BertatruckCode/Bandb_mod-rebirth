@@ -1,0 +1,8 @@
+{
+"parent": "block/inner_stairs",
+"textures": {
+    "bottom": "galactic:blocks/alienPlanks.purple",
+    "top": "galactic:blocks/alienPlanks.purple",
+    "side": "galactic:blocks/alienPlanks.purple"
+  }
+}

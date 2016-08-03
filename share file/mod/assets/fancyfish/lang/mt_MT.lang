@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Akwarju tal-Ħut
+tile.FishTank.message.needsWater=Sabiex tinteraġixxi mal-akwarju, l-ewwel jeħtieġ li timlih b'barmil ilma
+tile.FishTank.message.alreadyFilled=L-akwarju diġà mimli bl-ilma
+tile.FishTank.message.alreadyEmpty=L-akwarju diġà mbattal mill-ilma
+tile.FishTank.message.needEmptyBowl=Teħtieġ skutella tal-ħut sabiex tkun tista' ġġor ħuta ħajja
+
+tile.LampShade.name=Paralum
+
+tile.Teleport.name=Teletrasport
+
+tile.Kelp.name=Alka
+
+tile.Clam.name=Arzella
+
+// miscellaneous items
+item.Netting.name=Xbiek
+item.FishBowl.name=Skutella tal-Ħut
+item.FishFood.name=Għalf tal-Ħut
+item.Pearl.name=Perla
+
+// items - fish scales
+item.FishScaleRed.name=Qxur tal-Ħut Aħmar
+item.FishScaleOrange.name=Qxur tal-Ħut Oranġjo
+item.FishScaleYellow.name=Qxur tal-Ħut Isfar
+item.FishScaleGreen.name=Qxur tal-Ħut Aħdar
+item.FishScaleBlue.name=Qxur tal-Ħut Ikħal
+item.FishScaleIndigo.name=Qxur tal-Ħut Indigo
+item.FishScaleViolet.name=Qxur tal-Ħut Vjola
+item.FishScaleBlack.name=Qxur tal-Ħut Iswed
+item.FishScaleWhite.name=Qxur tal-Ħut Abjad
+item.FishScaleSilver.name=Qxur tal-Ħut Arġentat
+
+// items - captured fish
+item.CapturedClownFish.name=Clownfish Maqbud
+item.CapturedRegalTang.name=Tang Regali Maqbud
+item.CapturedMoorishIdol.name=Idolu Moresk Maqbud
+item.CapturedRoyalGramma.name=Gramma Rjali Maqbud
+item.CapturedPufferFish.name=Pufferfish Maqbud
+item.CapturedYellowTang.name=Tang Isfar Maqbud
+item.CapturedDamselFish.name=Ċawla Maqbuda
+item.CapturedBlenny.name=Budakkra Maqbuda
+item.CapturedMoonFish.name=Ħuta tal-Qamar Maqbud
+
+// items - live fish
+item.LiveClownFish.name=Clownfish
+item.LiveRegalTang.name=Tang Rjali
+item.LiveMoorishIdol.name=Idolu Moresk
+item.LiveRoyalGramma.name=Gramma Rjali
+item.LivePufferFish.name=Pufferfish
+item.LiveYellowTang.name=Tang Isfar
+item.LiveDamselFish.name=Ċawla
+item.LiveBlenny.name=Budakkra
+item.LiveMoonFish.name=Ħuta tal-Qamar
+
+// items - tools
+item.FishingNet.name=Kopp
+item.FishScaleAxe.name=Mannara ta' Qxur il-Ħut
+item.FishScaleHoe.name=Mgħażqa ta' Qxur il-Ħut
+
+// items - armour
+item.FishScaleHelmet.name=Elmu ta' Qxur il-Ħut
+item.FishScaleChestPlate.name=Korazza ta' Qxur il-Ħut
+item.FishScaleLeggings.name=Qalziet ta' Qxur il-Ħut
+item.FishScaleBoots.name=Stivali ta' Qxur il-Ħut
+
+item.FishScaleArmor.message.canBreathUnderwater=Issa tista' tieħu n-nifs taħt l-ilma!
+item.FishScaleArmor.message.cannotBreathUnderwater=Jeħtieġ li tilbes l-armatura sħieħa ta' qxur il-ħut qabel ma' tkun tista' tieħu n-nifs taħt l-ilma
+
+// items - sword
+item.FishScaleSword.name=Xabla ta' Qxur il-Ħut
+
+// entities
+entity.FancyFish.ClownFish.name=Clownfish
+entity.FancyFish.RegalTang.name=Tang Rjali
+entity.FancyFish.MoorishIdol.name=Idolu Moresk
+entity.FancyFish.RoyalGramma.name=Gramma Rjali
+entity.FancyFish.PufferFish.name=Pufferfish
+entity.FancyFish.YellowTang.name=Tang Isfar
+entity.FancyFish.DamselFish.name=Ċawla
+entity.FancyFish.Blenny.name=Budakkra
+entity.FancyFish.MoonFish.name=Ħuta tal-Qamar
+
+// containers
+container.FishTankTileEntity.name=Akwarju
+container.TeleportTileEntity.name=Teletrasport
+container.TeleportTileEntity.message.noDestination=L-ebda teletrasport destinatarju huwa disponibbli
+
+// achievements
+achievement.BuildNetting=Għal ġox-xibka!
+achievement.BuildNetting.desc=Uża l-ispag sabiex tibni x-xbiek
+
+achievement.BuildFishingNet=Mhux ser nikkoppa!
+achievement.BuildFishingNet.desc=Uża z-zkuk u x-xbiek sabiex tibni kopp
+
+achievement.CatchFish=Qbadtek!
+achievement.CatchFish.desc=Uża kopp sabiex taqbad ħuta ħajja
+
+achievement.HarvestScales=Oħroġ mil-qoxra
+achievement.HarvestScales.desc=Oqtol ħuta sabiex tikseb il-qxur
+
+achievement.BuildLampShade=Xaqq ta' dawl
+achievement.BuildLampShade.desc=Ibni paralum bl-użu ta' nofs blokka njam, torċa w qxur ta' gramma rjali
+
+achievement.BuildFishScaleAxe=Mastrudaxxa?
+achievement.BuildFishScaleAxe.desc=Ibni mannara msaħħra bl'użu ta' zkuk u qxur tal-ħut aħdar
+
+achievement.BuildFishScaleHoe=Frott l-Art
+achievement.BuildFishScaleHoe.desc=Ibni mgħażqa msaħħra bl-użu ta' zkuk u qxur tal-ħut indigo
+
+achievement.BuildFishScaleSword=Inqaxxrek!
+achievement.BuildFishScaleSword.desc=Ibni xabla msaħħra bl-użu ta' qxur il-ħut lewn abjad, ikħal u fidda
+

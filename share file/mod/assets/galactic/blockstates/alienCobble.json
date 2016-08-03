@@ -1,0 +1,21 @@
+{
+	"variants": {
+		"color=purple" : { "model": "galactic:alienCobble.purple" },
+		"color=blue": { "model": "galactic:alienCobble.blue" },
+		"color=magenta": { "model": "galactic:alienCobble.magenta" },
+		"color=light_blue": { "model": "galactic:alienCobble.lightBlue" },
+		"color=cyan": { "model": "galactic:alienCobble.cyan" },
+		"color=pink": { "model": "galactic:alienCobble.pink" },
+		"color=brown": { "model": "galactic:alienCobble.brown" },
+		"color=white": { "model": "galactic:alienCobble.white" },
+		"color=silver": { "model": "galactic:alienCobble.silver" },
+		"color=pink": { "model": "galactic:alienCobble.pink" },
+		"color=yellow": { "model": "galactic:alienCobble.yellow" },
+		"color=lime": { "model": "galactic:alienCobble.lime" },
+		"color=orange": { "model": "galactic:alienCobble.orange" },
+		"color=green": { "model": "galactic:alienCobble.green" },
+		"color=black": { "model": "galactic:alienCobble.black" },
+		"color=gray": { "model": "galactic:alienCobble.gray" },
+		"color=red": { "model": "galactic:alienCobble.red" }
+	}
+}

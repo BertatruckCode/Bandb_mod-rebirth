@@ -1,0 +1,7 @@
+{
+"parent": "block/cube_column",
+"textures": {
+	"end": "galactic:blocks/alienLog.lime.top",
+	"side": "galactic:blocks/alienLog.lime"
+}
+}

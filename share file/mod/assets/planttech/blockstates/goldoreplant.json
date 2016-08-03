@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/goldoreplant_0" },
+        "age=1": { "model": "planttech:plant/goldoreplant_1" },
+        "age=2": { "model": "planttech:plant/goldoreplant_2" },
+        "age=3": { "model": "planttech:plant/goldoreplant_3" },
+        "age=4": { "model": "planttech:plant/goldoreplant_4" },
+        "age=5": { "model": "planttech:plant/goldoreplant_5" },
+        "age=6": { "model": "planttech:plant/goldoreplant_6" },
+        "age=7": { "model": "planttech:plant/goldoreplant_7" }       
+       }
+}

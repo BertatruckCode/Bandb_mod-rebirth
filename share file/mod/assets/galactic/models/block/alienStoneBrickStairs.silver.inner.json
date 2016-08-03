@@ -1,0 +1,8 @@
+{
+"parent": "block/inner_stairs",
+"textures": {
+    "bottom": "galactic:blocks/alienStoneBrick.silver",
+    "top": "galactic:blocks/alienStoneBrick.silver",
+    "side": "galactic:blocks/alienStoneBrick.silver"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/cactus",
+    "textures": {
+        "top": "planttech:blocks/machines/cropenerygextractor_top",
+        "bottom": "planttech:blocks/machines/machinehull_bottom",
+        "side": "planttech:blocks/machines/machinehull_side"
+    }
+}

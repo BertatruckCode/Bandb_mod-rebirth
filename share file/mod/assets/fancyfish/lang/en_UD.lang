@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=poW ɥsᴉℲ ʎɔuɐℲ
+
+// blocks
+tile.FishTank.name=ʞuɐ┴ ɥsᴉℲ
+tile.FishTank.message.needsWater=ʇsɹᴉɟ ʇǝʞɔnq ɹǝʇɐʍ ɐ ɥʇᴉʍ dn ʇᴉ llᴉɟ 'ʞuɐʇ ǝɥʇ ɥʇᴉʍ ʇɔɐɹǝʇuᴉ o┴
+tile.FishTank.message.alreadyFilled=ɹǝʇɐʍ ɥʇᴉʍ pǝllᴉɟ ʎpɐǝɹlɐ sᴉ ʞuɐʇ ɥsᴉɟ ǝɥ┴
+tile.FishTank.message.alreadyEmpty=ɹǝʇɐʍ ɯoɹɟ pǝuıɐɹp ʎpɐǝɹןɐ sı ʞuɐʇ ɥsıɟ ǝɥʇ
+tile.FishTank.message.needEmptyBowl=punoɹɐ ɥsıɟ ʎɹɹɐɔ oʇ ןʍoq ɥsıɟ ʎʇdɯǝ uɐ pǝǝu noʎ
+
+tile.LampShade.name=ǝpɐɥs dɯɐן
+
+tile.Teleport.name=ʇɹodǝlǝ┴
+
+tile.Kelp.name=dןǝʞ
+
+tile.Clam.name=ɯɐlƆ
+
+// miscellaneous items
+item.Netting.name=ƃuıʇʇǝu
+item.FishBowl.name=ןʍoq ɥsıɟ
+item.FishFood.name=pooɟ ɥsıɟ
+item.Pearl.name=ןɹɐǝd
+
+// items - fish scales
+item.FishScaleRed.name=sǝןɐɔs ɥsıɟ pǝɹ
+item.FishScaleOrange.name=sǝןɐɔs ɥsıɟ ǝƃuɐɹo
+item.FishScaleYellow.name=sǝןɐɔs ɥsıɟ ʍoןןǝʎ
+item.FishScaleGreen.name=sǝןɐɔs ɥsıɟ uǝǝɹƃ
+item.FishScaleBlue.name=sǝןɐɔs ɥsıɟ ǝnןq
+item.FishScaleIndigo.name=sǝןɐɔs ɥsıɟ oƃıpuı
+item.FishScaleViolet.name=sǝןɐɔs ɥsıɟ ʇǝןoıʌ
+item.FishScaleBlack.name=sǝןɐɔs ɥsıɟ ʞɔɐןq
+item.FishScaleWhite.name=sǝןɐɔs ɥsıɟ ǝʇıɥʍ
+item.FishScaleSilver.name=sǝןɐɔs ɥsıɟ ɹǝʌןıs
+
+// items - captured fish
+item.CapturedClownFish.name=ɥsıɟuʍoןɔ pǝɹnʇdɐɔ
+item.CapturedRegalTang.name=ƃuɐʇ ןɐƃǝɹ pǝɹnʇdɐɔ
+item.CapturedMoorishIdol.name=ןopı ɥsıɹooɯ pǝɹnʇdɐɔ
+item.CapturedRoyalGramma.name=ɐɯɯɐɹƃ ןɐʎoɹ pǝɹnʇdɐɔ
+item.CapturedPufferFish.name=ɥsıɟɹǝɟɟnd pǝɹnʇdɐɔ
+item.CapturedYellowTang.name=ƃuɐʇ ʍoןןǝʎ pǝɹnʇdɐɔ
+item.CapturedDamselFish.name=ɥsıɟןǝsɯɐp pǝɹnʇdɐɔ
+item.CapturedBlenny.name=ʎuuǝןq pǝɹnʇdɐɔ
+item.CapturedMoonFish.name=ɥsıɟuooɯ pǝɹnʇdɐɔ
+
+// items - live fish
+item.LiveClownFish.name=ɥsıɟuʍoןɔ
+item.LiveRegalTang.name=ƃuɐʇ ןɐƃǝɹ
+item.LiveMoorishIdol.name=ןopı ɥsıɹooɯ
+item.LiveRoyalGramma.name=ɐɯɯɐɹƃ ןɐʎoɹ
+item.LivePufferFish.name=ɥsıɟɹǝɟɟnd
+item.LiveYellowTang.name=ƃuɐʇ ʍoןןǝʎ
+item.LiveDamselFish.name=ɥsıɟןǝsɯɐp
+item.LiveBlenny.name=ʎuuǝןq
+item.LiveMoonFish.name=ɥsıɟuooɯ
+
+// items - tools
+item.FishingNet.name=ʇǝu ƃuıɥsıɟ
+item.FishScaleAxe.name=ǝxɐ ǝןɐɔs ɥsıɟ
+item.FishScaleHoe.name=ǝoɥ ǝןɐɔs ɥsıɟ
+
+// items - armour
+item.FishScaleHelmet.name=ʇǝɯןǝɥ ǝןɐɔs ɥsıɟ
+item.FishScaleChestPlate.name=ǝʇɐןd ʇsǝɥɔ ǝןɐɔs ɥsıɟ
+item.FishScaleLeggings.name=sƃuıƃƃǝן ǝןɐɔs ɥsıɟ
+item.FishScaleBoots.name=sʇooq ǝןɐɔs ɥsıɟ
+
+item.FishScaleArmor.message.canBreathUnderwater=¡ɹǝʇɐʍ ɹǝpun ɥʇɐǝɹq ʍou uɐɔ noʎ
+item.FishScaleArmor.message.cannotBreathUnderwater=ʇɔǝɟɟǝ uoıʇod ƃuıɥʇɐǝɹq ɹǝʇɐʍ ǝɥʇ ǝןqɐuǝ oʇ ʇǝs ɹoɯɹɐ ǝןɐɔs ɥsıɟ ןןnɟ ǝɥʇ ɹɐǝʍ oʇ pǝǝu noʎ
+
+// items - sword
+item.FishScaleSword.name=pɹoʍs ǝןɐɔs ɥsıɟ
+
+// entities
+entity.FancyFish.ClownFish.name=ɥsıɟuʍoןɔ
+entity.FancyFish.RegalTang.name=ƃuɐʇ ןɐƃǝɹ
+entity.FancyFish.MoorishIdol.name=ןopı ɥsıɹooɯ
+entity.FancyFish.RoyalGramma.name=ɐɯɯɐɹƃ ןɐʎoɹ
+entity.FancyFish.PufferFish.name=ɥsıɟɹǝɟɟnd
+entity.FancyFish.YellowTang.name=ƃuɐʇ ʍoןןǝʎ
+entity.FancyFish.DamselFish.name=ɥsıɟןǝsɯɐp
+entity.FancyFish.Blenny.name=ʎuuǝןq
+entity.FancyFish.MoonFish.name=ɥsıɟuooɯ
+
+// containers
+container.FishTankTileEntity.name=ʞuɐ┴ ɥsᴉℲ
+container.TeleportTileEntity.name=ʇɹodǝlǝ┴
+container.TeleportTileEntity.message.noDestination=ǝlqɐlᴉɐʌɐ ʇɹodǝlǝʇ uoᴉʇɐuᴉʇsǝp oN
+
+// achievements
+achievement.BuildNetting=¡ǝunʇɹoɟ ɐ pǝʇʇǝu
+achievement.BuildNetting.desc=ןɐıɹǝʇɐɯ ƃuıʇʇǝu pןınq oʇ ƃuıɹʇs ǝsn
+
+achievement.BuildFishingNet=¿ɥɔʇɐɔ ǝɥʇ s,ǝɹǝɥʍ
+achievement.BuildFishingNet.desc=ʇǝu ƃuıɥsıɟ ɐ pןınq oʇ ƃuıʇʇǝu puɐ sʞɔıʇs ǝsn
+
+achievement.CatchFish=¡ɥɔʇɐɔ ʇsɹıɟ
+achievement.CatchFish.desc=ɥsıɟ ǝʌıן ɐ ɥɔʇɐɔ oʇ ʇǝu ƃuıɥsıɟ ɐ ǝsn
+
+achievement.HarvestScales=ǝןɐɔs ɟo ʎɯouoɔǝ
+achievement.HarvestScales.desc=sǝןɐɔs sʇı ʇsǝʌɹɐɥ oʇ ɥsıɟ ɐ ןןıʞ
+
+achievement.BuildLampShade=ssǝuısnq ʎpɐɥs
+achievement.BuildLampShade.desc=sǝןɐɔs ɐɯɯɐɹƃ ןɐʎoɹ puɐ ɥɔɹoʇ ɐ 'qɐןs uǝpooʍ ɐ ƃuısn ǝpɐɥs dɯɐן ɐ pןınq
+
+achievement.BuildFishScaleAxe=ןɐʇuǝpǝxɐ
+achievement.BuildFishScaleAxe.desc=sǝןɐɔs ɥsıɟ uǝǝɹƃ puɐ sʞɔıʇs ƃuısn ǝxɐ pǝʇuɐɥɔuǝ uɐ pןınq
+
+achievement.BuildFishScaleHoe=ɥʇɹɐǝ ǝɥʇ ɟo sʇınɹɟ
+achievement.BuildFishScaleHoe.desc=sǝןɐɔs ɥsıɟ oƃıpuı puɐ sʞɔıʇs ƃuısn ǝoɥ pǝʇuɐɥɔuǝ uɐ pןınq
+
+achievement.BuildFishScaleSword=¡ɹnqǝןɐɔsxǝ
+achievement.BuildFishScaleSword.desc=sǝןɐɔs ɥsıɟ ǝnןq puɐ ǝʇıɥʍ 'ɹǝʌןıs ƃuısn pɹoʍs pǝʇuɐɥɔuǝ uɐ pןınq
+

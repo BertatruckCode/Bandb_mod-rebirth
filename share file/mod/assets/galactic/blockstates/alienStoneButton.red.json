@@ -1,0 +1,16 @@
+{
+"variants": {
+"facing=up,powered=false":    { "model": "galactic:alienStoneButton.red" },
+"facing=down,powered=false":  { "model": "galactic:alienStoneButton.red", "x": 180 },
+"facing=east,powered=false":  { "model": "galactic:alienStoneButton.red", "x": 90, "y": 90 },
+"facing=west,powered=false":  { "model": "galactic:alienStoneButton.red", "x": 90, "y": 270 },
+"facing=south,powered=false": { "model": "galactic:alienStoneButton.red", "x": 90, "y": 180 },
+"facing=north,powered=false": { "model": "galactic:alienStoneButton.red", "x": 90 },
+"facing=up,powered=true":     { "model": "galactic:alienStoneButton.red_pressed" },
+"facing=down,powered=true":   { "model": "galactic:alienStoneButton.red_pressed", "x": 180 },
+"facing=east,powered=true":   { "model": "galactic:alienStoneButton.red_pressed", "x": 90, "y": 90 },
+"facing=west,powered=true":   { "model": "galactic:alienStoneButton.red_pressed", "x": 90, "y": 270 },
+"facing=south,powered=true":  { "model": "galactic:alienStoneButton.red_pressed", "x": 90, "y": 180 },
+"facing=north,powered=true":  { "model": "galactic:alienStoneButton.red_pressed", "x": 90 }
+}
+}

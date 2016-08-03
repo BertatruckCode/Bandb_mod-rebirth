@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence_nsew",
+    "textures":
+	{
+        "texture": "pda:blocks/caram"
+    }
+}

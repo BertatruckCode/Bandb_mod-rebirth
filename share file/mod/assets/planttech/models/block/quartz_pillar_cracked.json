@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "planttech:blocks/quartz_block_lines_top_cracked",
+        "side": "planttech:blocks/quartz_block_lines_cracked"
+    }
+}

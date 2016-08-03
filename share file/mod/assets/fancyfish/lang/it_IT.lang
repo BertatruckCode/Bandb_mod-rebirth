@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Acquario
+tile.FishTank.message.needsWater=Prima di interagire con l'acquario, riempilo con un secchio d'aqua
+tile.FishTank.message.alreadyFilled=L'acquario è già pieno d'acqua
+tile.FishTank.message.alreadyEmpty=L'acquario è già vuoto
+tile.FishTank.message.needEmptyBowl=Hai bisogno di una ciotola dei pesci vuota per trasportare un pesce
+
+tile.LampShade.name=Paralume
+
+tile.Teleport.name=Teletrasporto
+
+tile.Kelp.name=Alga Marina
+
+tile.Clam.name=Vongola
+
+// miscellaneous items
+item.Netting.name=Reticolato
+item.FishBowl.name=Ciotola dei Pesci
+item.FishFood.name=Cibo per Pesci
+item.Pearl.name=Perla
+
+// items - fish scales
+item.FishScaleRed.name=Scaglie di Pesce Rossi
+item.FishScaleOrange.name=Scaglie di Pesce Arancioni
+item.FishScaleYellow.name=Scaglie di Pesce Gialli
+item.FishScaleGreen.name=Scaglie di Pesce Verdi
+item.FishScaleBlue.name=Scaglie di Pesce Azzurri
+item.FishScaleIndigo.name=Scaglie di Pesce Indaci
+item.FishScaleViolet.name=Scaglie di Pesce Viola
+item.FishScaleBlack.name=Scaglie di Pesce Neri
+item.FishScaleWhite.name=Scaglie di Pesce Bianchi
+item.FishScaleSilver.name=Scaglie di Pesce Argentati
+
+// items - captured fish
+item.CapturedClownFish.name=Pesce Pagliaccio Catturato
+item.CapturedRegalTang.name=Linguetta Regale Catturata
+item.CapturedMoorishIdol.name=Idolo Moresco Catturato
+item.CapturedRoyalGramma.name=Gramma Loreto Catturato
+item.CapturedPufferFish.name=Pesce Palla Catturato
+item.CapturedYellowTang.name=Linguetta Gialla Catturata
+item.CapturedDamselFish.name=Castagnola Catturata
+item.CapturedBlenny.name=Bavosa Catturata
+item.CapturedMoonFish.name=Pesce Luna Catturato
+
+// items - live fish
+item.LiveClownFish.name=Pesce Pagliaccio
+item.LiveRegalTang.name=Linguetta Regale
+item.LiveMoorishIdol.name=Idolo Moresco
+item.LiveRoyalGramma.name=Gramma Loreto
+item.LivePufferFish.name=Pesce Palla
+item.LiveYellowTang.name=Linguetta Gialla
+item.LiveDamselFish.name=Castagnola
+item.LiveBlenny.name=Bavosa
+item.LiveMoonFish.name=Pesce Luna
+
+// items - tools
+item.FishingNet.name=Rete da pesca
+item.FishScaleAxe.name=Ascia Scagliata
+item.FishScaleHoe.name=Zappa di Scaglie
+
+// items - armour
+item.FishScaleHelmet.name=Elmo di Scaglie
+item.FishScaleChestPlate.name=Corazza di Scaglie
+item.FishScaleLeggings.name=Pantaloni di Scaglie
+item.FishScaleBoots.name=Stivali di Scaglie
+
+item.FishScaleArmor.message.canBreathUnderwater=Adesso puoi respirare sott' acqua!
+item.FishScaleArmor.message.cannotBreathUnderwater=Devi indossare l'intera armatura di scaglie per attivare l'effetto pozione del respiro subacqueo
+
+// items - sword
+item.FishScaleSword.name=Spada Scagliata
+
+// entities
+entity.FancyFish.ClownFish.name=Pesce Pagliaccio
+entity.FancyFish.RegalTang.name=Linguetta Regale
+entity.FancyFish.MoorishIdol.name=Idolo Moresco
+entity.FancyFish.RoyalGramma.name=Gramma Loreto
+entity.FancyFish.PufferFish.name=Pesce Palla
+entity.FancyFish.YellowTang.name=Linguetta Gialla
+entity.FancyFish.DamselFish.name=Castagnola
+entity.FancyFish.Blenny.name=Bavosa
+entity.FancyFish.MoonFish.name=Pesce Luna
+
+// containers
+container.FishTankTileEntity.name=Acquario
+container.TeleportTileEntity.name=Teletrasporto
+container.TeleportTileEntity.message.noDestination=Nessun teletrasporto di destinazione disponibile
+
+// achievements
+achievement.BuildNetting=Rete!
+achievement.BuildNetting.desc=Utilizza dei pezzi di stringa per manufatturare del reticolato
+
+achievement.BuildFishingNet=Tempo di pescare!
+achievement.BuildFishingNet.desc=Utilizza dei bastoni e reticolato per costruire una rete da pesca
+
+achievement.CatchFish=Pigliato l'Primo!
+achievement.CatchFish.desc=Utilizza una rete da pesca per catturare un pesce vivo
+
+achievement.HarvestScales=Economia di scaglie
+achievement.HarvestScales.desc=Uccidi un pesce per raccogliere le sue scaglie
+
+achievement.BuildLampShade=Motivi oscuri
+achievement.BuildLampShade.desc=Costruisci un paralume utilizzando una piastra di legno, una torcia e scaglie di gramma loreto
+
+achievement.BuildFishScaleAxe=Asciadenti!
+achievement.BuildFishScaleAxe.desc=Costruisci un'ascia incantata utilizzando bastoni e scaglie di pesce verdi
+
+achievement.BuildFishScaleHoe=Frutti della Terra
+achievement.BuildFishScaleHoe.desc=Costruisci una zappa incantata utilizzando dei bastoni e delle scaglie di pesce di colore indaco
+
+achievement.BuildFishScaleSword=Escagliabur!
+achievement.BuildFishScaleSword.desc=Costruisci una spada incantata utilizzando delle scaglie di pesce d'argento, bianci e azzurri
+

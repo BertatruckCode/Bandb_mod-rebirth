@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "filled=true": { "model": "fancyfish:FishTankFilled" },
+        "filled=false": { "model": "fancyfish:FishTank" }
+    }
+}

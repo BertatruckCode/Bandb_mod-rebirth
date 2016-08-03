@@ -1,0 +1,8 @@
+{
+	"parent": "block/farmland",
+	"textures": {
+		"particle": "galactic:blocks/alienDirt.cyan",
+		"dirt": "galactic:blocks/alienDirt.cyan",
+		"top": "galactic:blocks/alienFarmland.cyan"
+	}
+}

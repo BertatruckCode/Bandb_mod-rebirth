@@ -1,0 +1,7 @@
+{
+   "parent": "planttech:block/adapter_model",
+    "textures": {
+          "0": "blocks/log_oak",
+        "1": "planttech:blocks/plantwire"
+    }
+}

@@ -1,0 +1,100 @@
+{
+	 "variants": {
+		"color=magenta" : [
+				{ "model": "galactic:alienDirt.magenta", "y": 0},
+				{ "model": "galactic:alienDirt.magenta", "y": 90},
+				{ "model": "galactic:alienDirt.magenta", "y": 180},
+				{ "model": "galactic:alienDirt.magenta", "y": 270}
+			],
+		"color=green" : [
+				{ "model": "galactic:alienDirt.green", "y": 0},
+				{ "model": "galactic:alienDirt.green", "y": 90},
+				{ "model": "galactic:alienDirt.green", "y": 180},
+				{ "model": "galactic:alienDirt.green", "y": 270}
+			],
+		"color=blue" : [
+				{ "model": "galactic:alienDirt.blue", "y": 0},
+				{ "model": "galactic:alienDirt.blue", "y": 90},
+				{ "model": "galactic:alienDirt.blue", "y": 180},
+				{ "model": "galactic:alienDirt.blue", "y": 270}
+			],
+		"color=cyan" : [
+				{ "model": "galactic:alienDirt.cyan", "y": 0},
+				{ "model": "galactic:alienDirt.cyan", "y": 90},
+				{ "model": "galactic:alienDirt.cyan", "y": 180},
+				{ "model": "galactic:alienDirt.cyan", "y": 270}
+			],
+		"color=black" : [
+				{ "model": "galactic:alienDirt.black", "y": 0},
+				{ "model": "galactic:alienDirt.black", "y": 90},
+				{ "model": "galactic:alienDirt.black", "y": 180},
+				{ "model": "galactic:alienDirt.black", "y": 270}
+			],
+		"color=gray" : [
+				{ "model": "galactic:alienDirt.gray", "y": 0},
+				{ "model": "galactic:alienDirt.gray", "y": 90},
+				{ "model": "galactic:alienDirt.gray", "y": 180},
+				{ "model": "galactic:alienDirt.gray", "y": 270}
+			],
+		"color=white" : [
+				{ "model": "galactic:alienDirt.white", "y": 0},
+				{ "model": "galactic:alienDirt.white", "y": 90},
+				{ "model": "galactic:alienDirt.white", "y": 180},
+				{ "model": "galactic:alienDirt.white", "y": 270}
+			],
+		"color=yellow" : [
+				{ "model": "galactic:alienDirt.yellow", "y": 0},
+				{ "model": "galactic:alienDirt.yellow", "y": 90},
+				{ "model": "galactic:alienDirt.yellow", "y": 180},
+				{ "model": "galactic:alienDirt.yellow", "y": 270}
+			],
+		"color=orange" : [
+				{ "model": "galactic:alienDirt.orange", "y": 0},
+				{ "model": "galactic:alienDirt.orange", "y": 90},
+				{ "model": "galactic:alienDirt.orange", "y": 180},
+				{ "model": "galactic:alienDirt.orange", "y": 270}
+			],
+		"color=light_blue" : [
+				{ "model": "galactic:alienDirt.lightBlue", "y": 0},
+				{ "model": "galactic:alienDirt.lightBlue", "y": 90},
+				{ "model": "galactic:alienDirt.lightBlue", "y": 180},
+				{ "model": "galactic:alienDirt.lightBlue", "y": 270}
+			],
+		"color=pink" : [
+				{ "model": "galactic:alienDirt.pink", "y": 0},
+				{ "model": "galactic:alienDirt.pink", "y": 90},
+				{ "model": "galactic:alienDirt.pink", "y": 180},
+				{ "model": "galactic:alienDirt.pink", "y": 270}
+			],
+		"color=lime" : [
+				{ "model": "galactic:alienDirt.lime", "y": 0},
+				{ "model": "galactic:alienDirt.lime", "y": 90},
+				{ "model": "galactic:alienDirt.lime", "y": 180},
+				{ "model": "galactic:alienDirt.lime", "y": 270}
+			],
+		"color=silver" : [
+				{ "model": "galactic:alienDirt.silver", "y": 0},
+				{ "model": "galactic:alienDirt.silver", "y": 90},
+				{ "model": "galactic:alienDirt.silver", "y": 180},
+				{ "model": "galactic:alienDirt.silver", "y": 270}
+			],
+		"color=purple" : [
+				{ "model": "galactic:alienDirt.purple", "y": 0},
+				{ "model": "galactic:alienDirt.purple", "y": 90},
+				{ "model": "galactic:alienDirt.purple", "y": 180},
+				{ "model": "galactic:alienDirt.purple", "y": 270}
+			],
+		"color=brown" : [
+				{ "model": "galactic:alienDirt.brown", "y": 0},
+				{ "model": "galactic:alienDirt.brown", "y": 90},
+				{ "model": "galactic:alienDirt.brown", "y": 180},
+				{ "model": "galactic:alienDirt.brown", "y": 270}
+			],
+		"color=red" : [
+				{ "model": "galactic:alienDirt.red", "y": 0},
+				{ "model": "galactic:alienDirt.red", "y": 90},
+				{ "model": "galactic:alienDirt.red", "y": 180},
+				{ "model": "galactic:alienDirt.red", "y": 270}
+			]
+	}
+ }

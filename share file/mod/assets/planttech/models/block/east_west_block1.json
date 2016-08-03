@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+       "down":   "blocks/cobblestone",
+       "up":    "blocks/cobblestone",
+       "north": "blocks/cobblestone",
+       "south": "blocks/cobblestone",
+       "west":  "planttech:blocks/biomass_block",
+       "east":  "planttech:blocks/biomass_block"
+    }
+}

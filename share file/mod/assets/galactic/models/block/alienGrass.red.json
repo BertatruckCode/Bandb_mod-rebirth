@@ -1,0 +1,11 @@
+{
+	"parent": "block/grass",
+	"textures": {
+		"particle": "galactic:blocks/alienDirt.red",
+		"bottom": "galactic:blocks/alienDirt.red",
+		"top": "blocks/grass_top",
+		"side": "galactic:blocks/alienDirt.red",
+		"overlay": "blocks/grass_side_overlay"
+
+	}
+}

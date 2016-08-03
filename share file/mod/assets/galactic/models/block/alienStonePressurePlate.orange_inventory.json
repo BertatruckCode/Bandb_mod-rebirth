@@ -1,0 +1,5 @@
+{
+"parent": "block/pressure_plate_inventory",
+"textures": {
+"texture": "galactic:blocks/alienStone.orange"}
+}

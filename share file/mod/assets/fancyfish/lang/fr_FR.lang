@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Aquarium
+tile.FishTank.message.needsWater=Pour interagir avec l'aquarium, le remplir avec un seau d'eau première
+tile.FishTank.message.alreadyFilled=L'aquarium est déjà rempli d'eau
+tile.FishTank.message.alreadyEmpty=L'aquarium est déjà vidée de l'eau
+tile.FishTank.message.needEmptyBowl=Vous avez besoin d'un bocal à poissons vide pour transporter les poissons autour
+
+tile.LampShade.name=Abat-jour
+
+tile.Teleport.name=Téléport
+
+tile.Kelp.name=Varech
+
+tile.Clam.name=Palourde
+
+// miscellaneous items
+item.Netting.name=Filets
+item.FishBowl.name=Bocal à Poissons
+item.FishFood.name=Nourriture pour Poissons
+item.Pearl.name=Perle
+
+// items - fish scales
+item.FishScaleRed.name=Écailles Rouge
+item.FishScaleOrange.name=Écailles Orange
+item.FishScaleYellow.name=Écailles Jaune
+item.FishScaleGreen.name=Écailles Vert
+item.FishScaleBlue.name=Écailles Bleu
+item.FishScaleIndigo.name=Écailles Indigo
+item.FishScaleViolet.name=Écailles Violet
+item.FishScaleBlack.name=Écailles Noir
+item.FishScaleWhite.name=Écailles Blanc
+item.FishScaleSilver.name=Écailles Argenté
+
+// items - captured fish
+item.CapturedClownFish.name=Poisson-clown Attrapé
+item.CapturedRegalTang.name=Chirurgien Bleu Attrapé
+item.CapturedMoorishIdol.name=Idole Maure Attrapé
+item.CapturedRoyalGramma.name=Gramma Royal Attrapé
+item.CapturedPufferFish.name=Poisson-globe Attrapé
+item.CapturedYellowTang.name=Chirurgien Jaune Attrapé
+item.CapturedDamselFish.name=Demoiselle Attrapé
+item.CapturedBlenny.name=Blennie Attrapé
+item.CapturedMoonFish.name=Poisson-lune Attrapé
+
+// items - live fish
+item.LiveClownFish.name=Poisson-clown
+item.LiveRegalTang.name=Chirurgien Bleu
+item.LiveMoorishIdol.name=Idole Maure
+item.LiveRoyalGramma.name=Gramma Royal
+item.LivePufferFish.name=Poisson-globe
+item.LiveYellowTang.name=Chirurgien Jaune
+item.LiveDamselFish.name=Demoiselle
+item.LiveBlenny.name=Blennie
+item.LiveMoonFish.name=Poisson-lune
+
+// items - tools
+item.FishingNet.name=Filet de pêche
+item.FishScaleAxe.name=Hache de Écailles
+item.FishScaleHoe.name=Houe d'Écailles
+
+// items - armour
+item.FishScaleHelmet.name=Casque d'Écailles
+item.FishScaleChestPlate.name=Plastron d'Écailles
+item.FishScaleLeggings.name=Jambières d'Écailles
+item.FishScaleBoots.name=Bottes d'Écailles
+
+item.FishScaleArmor.message.canBreathUnderwater=Maintenant vous pouvez respirer sous l'eau !
+item.FishScaleArmor.message.cannotBreathUnderwater=Vous devez porter l'armure d'écailles complète pour activer l'effet de potion de respiration sous l'eau
+
+// items - sword
+item.FishScaleSword.name=Lame d'Écailles
+
+// entities
+entity.FancyFish.ClownFish.name=Poisson-clown
+entity.FancyFish.RegalTang.name=Chirurgien Bleu
+entity.FancyFish.MoorishIdol.name=Idole Maure
+entity.FancyFish.RoyalGramma.name=Gramma Royal
+entity.FancyFish.PufferFish.name=Poisson-globe
+entity.FancyFish.YellowTang.name=Chirurgien Jaune
+entity.FancyFish.DamselFish.name=Demoiselle
+entity.FancyFish.Blenny.name=Blennie
+entity.FancyFish.MoonFish.name=Poisson-lune
+
+// containers
+container.FishTankTileEntity.name=Aquarium
+container.TeleportTileEntity.name=Téléport
+container.TeleportTileEntity.message.noDestination=Aucune destination téléport disponible
+
+// achievements
+achievement.BuildNetting=Filet mignon!
+achievement.BuildNetting.desc=Utiliser de ficelle pour fabriquer matériau de filet
+
+achievement.BuildFishingNet=Où est le piège ?
+achievement.BuildFishingNet.desc=Utiliser des bâtons et filet pour fabriquer un filet de pêche
+
+achievement.CatchFish=Tout d'abord attraper !
+achievement.CatchFish.desc=Utilisez un filet de pêche pour attraper un poisson vivant
+
+achievement.HarvestScales=Économie d'Écailles
+achievement.HarvestScales.desc=Tuer un poisson pour récolter ses écailles
+
+achievement.BuildLampShade=Affaires sombres
+achievement.BuildLampShade.desc=Fabriquer un abat-jour à l'aide d'une dalle en bois, une torche et éscailles de gramma royal
+
+achievement.BuildFishScaleAxe=Hachedentel
+achievement.BuildFishScaleAxe.desc=Fabriquer une hache enchantée à l'aide de bâtons et des écailles vert
+
+achievement.BuildFishScaleHoe=Fruits de la Terre
+achievement.BuildFishScaleHoe.desc=Fabriquer une houe enchanté à l'aide de bâtons et des écailles indigo
+
+achievement.BuildFishScaleSword=Écaillibur!
+achievement.BuildFishScaleSword.desc=Fabriquer une lame enchantée à l'aide des écailles bleu, blanc et argent
+

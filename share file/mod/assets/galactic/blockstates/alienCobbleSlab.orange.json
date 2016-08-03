@@ -1,0 +1,10 @@
+{
+	 "variants": {
+		"half=bottom,none=a" : [
+				{ "model": "galactic:alienCobbleSlab.orange"}
+			],
+		"half=top,none=a" : [
+				{ "model": "galactic:alienCobbleSlab.orange.upper"}
+			]
+	}
+ }

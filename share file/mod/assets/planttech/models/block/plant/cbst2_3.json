@@ -1,0 +1,6 @@
+{
+    "parent": "planttech:block/cross",
+    "textures": {
+        "cross": "planttech:blocks/plants/machineplant_3"
+    }
+}

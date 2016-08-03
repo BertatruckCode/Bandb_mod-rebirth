@@ -1,0 +1,10 @@
+{
+	"parent": "galactic:block/biomeOverlay",
+		"textures": {
+			"particle": "galactic:blocks/alienCobble",
+			"bottom": "galactic:blocks/alienCobble.silver",
+			"top": "galactic:blocks/alienCobble.silver",
+			"side": "galactic:blocks/alienCobble.silver",
+			"overlay": "galactic:blocks/cobblestone_mossy_overlay"
+	}
+}

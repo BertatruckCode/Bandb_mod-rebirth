@@ -1,0 +1,43 @@
+{
+    "mob.fish.Living":
+        {
+            "category": "neutral",
+            "sounds":
+            [
+                "mob/fish/Living1",
+                "mob/fish/Living2"
+            ]
+        },
+    "mob.fish.Hurt":
+        {
+            "category": "neutral",
+            "sounds":
+            [
+                "mob/fish/Hurt"
+            ]
+        },
+    "mob.fish.Death":
+        {
+            "category": "neutral",
+            "sounds":
+            [
+                "mob/fish/Death"
+            ]
+        },
+    "block.clam.Open":
+        {
+            "category": "neutral",
+            "sounds":
+            [
+                "block/clam/Open"
+            ]
+        },
+    "block.teleport.Transfer":
+        {
+            "category": "neutral",
+            "sounds":
+            [
+                "block/teleport/Transfer"
+            ]
+        }
+}

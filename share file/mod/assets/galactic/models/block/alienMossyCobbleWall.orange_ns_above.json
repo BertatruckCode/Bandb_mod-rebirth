@@ -1,0 +1,5 @@
+{"parent": "galactic:block/biome_wall_ns_above","textures": {
+"wall": "galactic:blocks/alienCobble.orange"
+,"overlay": "galactic:blocks/cobblestone_mossy_overlay"
+	}
+}

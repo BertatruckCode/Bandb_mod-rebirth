@@ -1,0 +1,28 @@
+{
+	 "variants": {
+		"moisture=0" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=2" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=1" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=4" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=3" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=6" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=5" : [
+				{ "model": "galactic:alienFarmland.pink.dry"}
+			],
+		"moisture=7" : [
+				{ "model": "galactic:alienFarmland.pink"}
+			]
+	}
+ }

@@ -1,0 +1,8 @@
+{
+"parent": "block/stairs",
+"textures": {
+    "bottom": "galactic:blocks/alienCobble.silver",
+    "top": "galactic:blocks/alienCobble.silver",
+    "side": "galactic:blocks/alienCobble.silver"
+  }
+}

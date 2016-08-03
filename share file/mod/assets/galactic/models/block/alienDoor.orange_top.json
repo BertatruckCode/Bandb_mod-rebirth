@@ -1,0 +1,7 @@
+{
+"parent": "block/door_top_rh",
+"textures": {
+    "bottom": "galactic:blocks/alienDoorWoodLower.orange",
+    "top": "galactic:blocks/alienDoorWoodUpper.orange"
+  }
+}

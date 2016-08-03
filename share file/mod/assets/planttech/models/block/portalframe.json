@@ -1,0 +1,7 @@
+{
+   "parent": "planttech:block/crosscube_all",
+    "textures": {
+        "all": "planttech:blocks/metalblockcase",
+        "cross": "planttech:items/plantcore"
+    }
+}

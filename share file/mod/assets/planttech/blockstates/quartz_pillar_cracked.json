@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "planttech:quartz_pillar_cracked" },
+        "axis=z":     { "model": "planttech:quartz_pillar_cracked", "x": 90 },
+        "axis=x":     { "model": "planttech:quartz_pillar_cracked", "x": 90, "y": 90 },
+        "axis=none":   { "model": "planttech:quartz_pillar_cracked" }
+    }
+}

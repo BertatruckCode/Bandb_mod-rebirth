@@ -1,0 +1,6 @@
+{
+"variants": {
+"powered=false": { "model": "galactic:alienStonePressurePlate.pink_up" },
+"powered=true": { "model": "galactic:alienStonePressurePlate.pink_down" }
+}
+}

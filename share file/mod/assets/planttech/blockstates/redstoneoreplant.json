@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/redstoneoreplant_0" },
+        "age=1": { "model": "planttech:plant/redstoneoreplant_1" },
+        "age=2": { "model": "planttech:plant/redstoneoreplant_2" },
+        "age=3": { "model": "planttech:plant/redstoneoreplant_3" },
+        "age=4": { "model": "planttech:plant/redstoneoreplant_4" },
+        "age=5": { "model": "planttech:plant/redstoneoreplant_5" },
+        "age=6": { "model": "planttech:plant/redstoneoreplant_7" },
+        "age=7": { "model": "planttech:plant/redstoneoreplant_7" }       
+       }
+}

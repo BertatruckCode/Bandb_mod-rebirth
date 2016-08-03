@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "planttech:blocks/guideblockenergy_top",
+        "side": "planttech:blocks/guideshelfenergy"
+    }
+}

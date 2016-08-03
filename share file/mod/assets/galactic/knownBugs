@@ -1,0 +1,6 @@
+grass does not spread between colored and non-colored dirt (won't fix)
+plants will not stick on the colored dirt/farmland (won't fix)
+crafting vine+colored cobble results in normal moss stone. use 2 vines and 2 colored cobble instead.
+vanilla gates do not adjust location for colored cobble walls
+vannilla cobble walls do not connect to colored cobble walls and gates
+door texture backwards when closed

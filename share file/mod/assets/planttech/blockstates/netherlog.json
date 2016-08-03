@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "planttech:netherlog" },
+        "axis=z":     { "model": "planttech:netherlog", "x": 90 },
+        "axis=x":     { "model": "planttech:netherlog", "x": 90, "y": 90 },
+        "axis=none":   { "model": "planttech:netherlog" }
+    }
+}

@@ -1,0 +1,5 @@
+{
+"parent": "block/pressure_plate_up",
+"textures": {
+"texture": "galactic:blocks/alienStone.white"}
+}

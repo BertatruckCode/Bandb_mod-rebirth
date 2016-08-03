@@ -1,0 +1,9 @@
+{
+    "parent": "planttech:block/shellmodel",
+    "textures": {
+        "0": "planttech:blocks/machines/metallhull2_side",
+        "1": "planttech:blocks/machines/metallhull2_bottom",
+        "2": "planttech:blocks/machines/metallhull2_side1",
+        "3": "planttech:blocks/machines/metallhull2_side"
+    }
+}

@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Aquário
+tile.FishTank.message.needsWater=Para interagir com o aquário,você deve encher ele com um balde de água.
+tile.FishTank.message.alreadyFilled=O aquário já está cheio de água
+tile.FishTank.message.alreadyEmpty=O aquário já é drenada da água
+tile.FishTank.message.needEmptyBowl=Você precisa de uma bacia vazia para transportar os peixes
+
+tile.LampShade.name=Abajur
+
+tile.Teleport.name=Teletransporte
+
+tile.Kelp.name=Alga Marinha
+
+tile.Clam.name=Molusco
+
+// miscellaneous items
+item.Netting.name=Rede
+item.FishBowl.name=Bacia para peixes
+item.FishFood.name=Comida de peixe
+item.Pearl.name=Pérola
+
+// items - fish scales
+item.FishScaleRed.name=Escamas de peixe vermelha
+item.FishScaleOrange.name=Escamas de peixe laranja
+item.FishScaleYellow.name=Escamas de peixe amarela
+item.FishScaleGreen.name=Escamas de peixe verde
+item.FishScaleBlue.name=Escama de peixe azul
+item.FishScaleIndigo.name=Escama de peixe azul/marinho
+item.FishScaleViolet.name=Escama de peixe violeta
+item.FishScaleBlack.name=Escama de peixe preta
+item.FishScaleWhite.name=Escama de peixe branca
+item.FishScaleSilver.name=Escama de peixe prata
+
+// items - captured fish
+item.CapturedClownFish.name=Peixe Palhaço Capturado
+item.CapturedRegalTang.name=Regal Tang Capturado
+item.CapturedMoorishIdol.name=Moorish Idol Capturado
+item.CapturedRoyalGramma.name=Peixe Fluorescente Capturado
+item.CapturedPufferFish.name=Baiacu Capturado
+item.CapturedYellowTang.name=Amarelo Marinho Capturado
+item.CapturedDamselFish.name=Peixe Donzela Capturado
+item.CapturedBlenny.name=Blenny Capturado
+item.CapturedMoonFish.name=Peixe da Lua Capturado
+
+// items - live fish
+item.LiveClownFish.name=Peixe Palhaço
+item.LiveRegalTang.name=Regal Tang
+item.LiveMoorishIdol.name=Moorish Idol
+item.LiveRoyalGramma.name=Peixe Fluorescente
+item.LivePufferFish.name=Baiacu
+item.LiveYellowTang.name=Amarelo Marinho
+item.LiveDamselFish.name=Peixe Donzela
+item.LiveBlenny.name=Blenny
+item.LiveMoonFish.name=Peixe da Lua
+
+// items - tools
+item.FishingNet.name=Rede de pesca
+item.FishScaleAxe.name=Machado de escama de peixe
+item.FishScaleHoe.name=Enxada de escama de peixe
+
+// items - armour
+item.FishScaleHelmet.name=Capacete de escama de peixe
+item.FishScaleChestPlate.name=Peitoral de escama de Peixe
+item.FishScaleLeggings.name=Calça de escama de peixe
+item.FishScaleBoots.name=Bota de escama de peixe
+
+item.FishScaleArmor.message.canBreathUnderwater=Agora você pode respirar debaixo d'água!
+item.FishScaleArmor.message.cannotBreathUnderwater=Você precisa usar a armadura de escamas de peixe completo para respirar debaixo d'água
+
+// items - sword
+item.FishScaleSword.name=Espada de escama de peixe
+
+// entities
+entity.FancyFish.ClownFish.name=Peixe Palhaço
+entity.FancyFish.RegalTang.name=Regal Tang
+entity.FancyFish.MoorishIdol.name=Moorish Idol
+entity.FancyFish.RoyalGramma.name=Peixe Fluorescente
+entity.FancyFish.PufferFish.name=Baiacu
+entity.FancyFish.YellowTang.name=Amarelo Marinho
+entity.FancyFish.DamselFish.name=Peixe Donzela
+entity.FancyFish.Blenny.name=Blenny
+entity.FancyFish.MoonFish.name=Peixe da Lua
+
+// containers
+container.FishTankTileEntity.name=Aquário
+container.TeleportTileEntity.name=Teletransporte
+container.TeleportTileEntity.message.noDestination=Sem teletransporte destino disponível
+
+// achievements
+achievement.BuildNetting=Rendeu uma Fortuna!
+achievement.BuildNetting.desc=Usar a corda para construir materiais para uma rede
+
+achievement.BuildFishingNet=Onde esta o Problema?
+achievement.BuildFishingNet.desc=Usar bastões e panos para construir uma rede de pesca
+
+achievement.CatchFish=Primeiro peixe capturado!
+achievement.CatchFish.desc=Usar uma rede de pesca para pegar um peixe vivo
+
+achievement.HarvestScales=Economia de escama
+achievement.HarvestScales.desc=Matar um peixe para pegar as escamas
+
+achievement.BuildLampShade=Shady O negócio
+achievement.BuildLampShade.desc=Construí uma máscara de lâmpada usando uma laje de madeira, uma tocha e escamas Peixe Fluorescente
+
+achievement.BuildFishScaleAxe=Machado Bravado
+achievement.BuildFishScaleAxe.desc=Construí um machado encantado usando prata e escamas de peixe verde
+
+achievement.BuildFishScaleHoe=Frutos da Terra
+achievement.BuildFishScaleHoe.desc=Construí uma enxada encantada usando bastões e escamas de peixe índigo
+
+achievement.BuildFishScaleSword=A Excalibur!
+achievement.BuildFishScaleSword.desc=Construí uma espada encantada usando prata, escamas de peixe branco e azul
+

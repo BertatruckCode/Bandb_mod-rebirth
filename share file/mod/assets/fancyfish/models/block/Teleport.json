@@ -1,0 +1,14 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "blocks/obsidian",
+        "down": "blocks/obsidian",
+        "up": "fancyfish:blocks/TeleportTop",
+        "north": "fancyfish:blocks/TeleportSide",
+        "south": "fancyfish:blocks/TeleportSide",
+        "west": "fancyfish:blocks/TeleportSide",
+        "east": "fancyfish:blocks/TeleportSide"
+    }
+}
+
+

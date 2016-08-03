@@ -1,0 +1,8 @@
+{
+"parent": "block/half_slab",
+	"textures": {
+		"bottom": "galactic:blocks/alienPlank.brown*",
+		"top": "galactic:blocks/alienPlank.brown",
+		"side": "galactic:blocks/alienPlank.brown
+	}
+}

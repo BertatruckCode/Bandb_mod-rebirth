@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/dragonflower" },
+        "age=1": { "model": "planttech:plant/dragonflower" },
+        "age=2": { "model": "planttech:plant/dragonflower" },
+        "age=3": { "model": "planttech:plant/dragonflower" },
+        "age=4": { "model": "planttech:plant/dragonflower" },
+        "age=5": { "model": "planttech:plant/dragonflower" },
+        "age=6": { "model": "planttech:plant/dragonflower" },
+        "age=7": { "model": "planttech:plant/dragonflower" }
+    }
+}

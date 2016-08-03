@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Akwarium
+tile.FishTank.message.needsWater=By użyć akwarium napełnij je najpierw wodą
+tile.FishTank.message.alreadyFilled=Akwarium jest już napełnione
+tile.FishTank.message.alreadyEmpty=Akwarium jest już opróżnione z wody
+tile.FishTank.message.needEmptyBowl=Potrzebujesz pustego małe akwarium aby przenosić ryby
+
+tile.LampShade.name=Abażur
+
+tile.Teleport.name=Teleport
+
+tile.Kelp.name=Wodorosty
+
+tile.Clam.name=Milczek
+
+// miscellaneous items
+item.Netting.name=Siatka
+item.FishBowl.name=Małe Akwarium
+item.FishFood.name=Karma dla ryb
+item.Pearl.name=Perła
+
+// items - fish scales
+item.FishScaleRed.name=Czerwone rybie łuski
+item.FishScaleOrange.name=Pomarańczowe rybie łuski
+item.FishScaleYellow.name=Żółte rybie łuski
+item.FishScaleGreen.name=Zielone rybie łuski
+item.FishScaleBlue.name=Niebieske rybie łuski
+item.FishScaleIndigo.name=Indygo rybie łuski
+item.FishScaleViolet.name=Fioletowe rybie łuski
+item.FishScaleBlack.name=Czarny rybie łuski
+item.FishScaleWhite.name=Białe rybie łuski
+item.FishScaleSilver.name=Srebrne rybie łuski
+
+// items - captured fish
+item.CapturedClownFish.name=Złowiono Błazenka
+item.CapturedRegalTang.name=Złowiono Tanga Królewskiego
+item.CapturedMoorishIdol.name=Złowiono Mauretańskiego Idola
+item.CapturedRoyalGramma.name=Złowiono Gramma Królewskiego
+item.CapturedPufferFish.name=Złowiono Rozdymkę Tygrysią
+item.CapturedYellowTang.name=Złowiono Tanga żółtego
+item.CapturedDamselFish.name=Złowiono Garbikowate
+item.CapturedBlenny.name=Złowiono Ślizgowca
+item.CapturedMoonFish.name=Złowiono Lampris
+
+// items - live fish
+item.LiveClownFish.name=Błazenek
+item.LiveRegalTang.name=Pokolec królewski
+item.LiveMoorishIdol.name=Idolek mauretański
+item.LiveRoyalGramma.name=Gramma loreto
+item.LivePufferFish.name=Kolcobrzuch
+item.LiveYellowTang.name=Zebrasoma żółta
+item.LiveDamselFish.name=Garbikowate
+item.LiveBlenny.name=Ślizgowiec
+item.LiveMoonFish.name=Księżyc Ryba
+
+// items - tools
+item.FishingNet.name=Sieć rybacka
+item.FishScaleAxe.name=Topór z rybich łusek
+item.FishScaleHoe.name=Motyka z rybich łusek
+
+// items - armour
+item.FishScaleHelmet.name=Hełm z rybich łusek
+item.FishScaleChestPlate.name=Napierśnik z rybich łusek
+item.FishScaleLeggings.name=Nogawice z rybich łusek
+item.FishScaleBoots.name=Buty z rybich łusek
+
+item.FishScaleArmor.message.canBreathUnderwater=Możesz teraz oddychać pod wodą!
+item.FishScaleArmor.message.cannotBreathUnderwater=Musisz założyć pełną zbroję z rybich łusek aby aktywować efekt mikstury podwodnego oddychania
+
+// items - sword
+item.FishScaleSword.name=Miecz z rybich łusek
+
+// entities
+entity.FancyFish.ClownFish.name=Błazenek
+entity.FancyFish.RegalTang.name=Pokolec królewski
+entity.FancyFish.MoorishIdol.name=Idolek mauretański
+entity.FancyFish.RoyalGramma.name=Gramma loreto
+entity.FancyFish.PufferFish.name=Rozdymka
+entity.FancyFish.YellowTang.name=Zebrasoma żółta
+entity.FancyFish.DamselFish.name=Garbikowate
+entity.FancyFish.Blenny.name=Ślizgowiec
+entity.FancyFish.MoonFish.name=Lampris
+
+// containers
+container.FishTankTileEntity.name=Akwarium
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=Nie przeznaczenia teleport dostępne
+
+// achievements
+achievement.BuildNetting=Złowiono skarb!
+achievement.BuildNetting.desc=Użyj nici aby wytworzyć sieć
+
+achievement.BuildFishingNet=Gdzie jest haczyk?
+achievement.BuildFishingNet.desc=Użyj patyka i siatki aby zbudować sieć rybacką
+
+achievement.CatchFish=Pierwszy połów!
+achievement.CatchFish.desc=Użyj sieci rybackiej do połowu żywych ryb
+
+achievement.HarvestScales=Ekonomia Łusek
+achievement.HarvestScales.desc=Zabij rybę aby wydobyć łuski
+
+achievement.BuildLampShade=Shady business
+achievement.BuildLampShade.desc=Wytwórz abażur za pomocą drewnianej pół-płytki, pochodni oraz łusek Gramma Loreto
+
+achievement.BuildFishScaleAxe=Axedental
+achievement.BuildFishScaleAxe.desc=Wytwórz zaczarowaną skierę za pomocą patyka i zielonych rybich łusek
+
+achievement.BuildFishScaleHoe=Owoce morza
+achievement.BuildFishScaleHoe.desc=Wytwórz zaczarowaną motykę z patyka i łusek indygo
+
+achievement.BuildFishScaleSword=Exscalebur!
+achievement.BuildFishScaleSword.desc=Wytwórz zaczarowany miecz z srebrnych, białych oraz niebieskich łusek
+

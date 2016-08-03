@@ -1,0 +1,115 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Fish Tank
+tile.FishTank.message.needsWater=To interact with the tank, fill it up with a water bucket first
+tile.FishTank.message.alreadyFilled=The fish tank is already filled with water
+tile.FishTank.message.alreadyEmpty=The fish tank is already drained from water
+tile.FishTank.message.needEmptyBowl=You need an empty fish bowl to carry fish around
+
+tile.LampShade.name=Lamp Shade
+
+tile.Teleport.name=Teleport
+
+tile.Kelp.name=Kelp
+
+tile.Clam.name=Clam
+
+// miscellaneous items
+item.Netting.name=Netting
+item.FishBowl.name=Fish Bowl
+item.FishFood.name=Fish Food
+item.Pearl.name=Pearl
+
+// items - fish scales
+item.FishScaleRed.name=Red Fish Scales
+item.FishScaleOrange.name=Orange Fish Scales
+item.FishScaleYellow.name=Yellow Fish Scales
+item.FishScaleGreen.name=Green Fish Scales
+item.FishScaleBlue.name=Blue Fish Scales
+item.FishScaleIndigo.name=Indigo Fish Scales
+item.FishScaleViolet.name=Violet Fish Scales
+item.FishScaleBlack.name=Black Fish Scales
+item.FishScaleWhite.name=White Fish Scales
+item.FishScaleSilver.name=Silver Fish Scales
+
+// items - captured fish
+item.CapturedClownFish.name=Captured Clownfish
+item.CapturedRegalTang.name=Captured Regal Tang
+item.CapturedMoorishIdol.name=Captured Moorish Idol
+item.CapturedRoyalGramma.name=Captured Royal Gramma
+item.CapturedPufferFish.name=Captured Pufferfish
+item.CapturedYellowTang.name=Captured Yellow Tang
+item.CapturedDamselFish.name=Captured Damselfish
+item.CapturedBlenny.name=Captured Blenny
+item.CapturedMoonFish.name=Captured Moonfish
+
+// items - live fish
+item.LiveClownFish.name=Clownfish
+item.LiveRegalTang.name=Regal Tang
+item.LiveMoorishIdol.name=Moorish Idol
+item.LiveRoyalGramma.name=Royal Gramma
+item.LivePufferFish.name=Pufferfish
+item.LiveYellowTang.name=Yellow Tang
+item.LiveDamselFish.name=Damselfish
+item.LiveBlenny.name=Blenny
+item.LiveMoonFish.name=Moonfish
+
+// items - tools
+item.FishingNet.name=Fishing Net
+item.FishScaleAxe.name=Fish Scale Axe
+item.FishScaleHoe.name=Fish Scale Hoe
+
+// items - armour
+item.FishScaleHelmet.name=Fish Scale Helmet
+item.FishScaleChestPlate.name=Fish Scale Chest Plate
+item.FishScaleLeggings.name=Fish Scale Leggings
+item.FishScaleBoots.name=Fish Scale Boots
+
+item.FishScaleArmor.message.canBreathUnderwater=You can now breath under water!
+item.FishScaleArmor.message.cannotBreathUnderwater=You need to wear the full Fish Scale Armor set to enable the water breathing potion effect
+
+// items - sword
+item.FishScaleSword.name=Fish Scale Sword
+
+// entities
+entity.FancyFish.ClownFish.name=Clownfish
+entity.FancyFish.RegalTang.name=Regal Tang
+entity.FancyFish.MoorishIdol.name=Moorish Idol
+entity.FancyFish.RoyalGramma.name=Royal Gramma
+entity.FancyFish.PufferFish.name=Pufferfish
+entity.FancyFish.YellowTang.name=Yellow Tang
+entity.FancyFish.DamselFish.name=DamselFish
+entity.FancyFish.Blenny.name=Blenny
+entity.FancyFish.MoonFish.name=Moonfish
+
+// containers
+container.FishTankTileEntity.name=Fish Tank
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=No destination teleport available
+
+// achievements
+achievement.BuildNetting=Netted a fortune!
+achievement.BuildNetting.desc=Use string to build netting material
+
+achievement.BuildFishingNet=Where's the catch?
+achievement.BuildFishingNet.desc=Use sticks and netting to build a fishing net
+
+achievement.CatchFish=First catch!
+achievement.CatchFish.desc=Use a fishing net to catch a live fish
+
+achievement.HarvestScales=Economy of scale
+achievement.HarvestScales.desc=Kill a fish to harvest its scales
+
+achievement.BuildLampShade=Shady business
+achievement.BuildLampShade.desc=Build a lamp shade using a wooden slab, a torch and royal gramma scales
+
+achievement.BuildFishScaleAxe=Axedental
+achievement.BuildFishScaleAxe.desc=Build an enchanted axe using sticks and green fish scales
+
+achievement.BuildFishScaleHoe=Fruits of the Earth
+achievement.BuildFishScaleHoe.desc=Build an enchanted hoe using sticks and indigo fish scales
+
+achievement.BuildFishScaleSword=Exscalebur!
+achievement.BuildFishScaleSword.desc=Build an enchanted sword using silver, white and blue fish scales

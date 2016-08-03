@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "planttech:blocks/log_endtree_top",
+        "side": "planttech:blocks/log_endtree"
+    }
+}

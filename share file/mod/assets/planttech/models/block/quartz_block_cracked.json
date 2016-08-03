@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "planttech:blocks/quartz_block_bottom_cracked",
+        "top": "planttech:blocks/quartz_block_top_cracked",
+        "side": "planttech:blocks/quartz_block_side_cracked"
+    }
+}

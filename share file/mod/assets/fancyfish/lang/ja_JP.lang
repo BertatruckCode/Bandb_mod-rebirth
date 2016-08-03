@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=水槽
+tile.FishTank.message.needsWater=バケツ一杯分の水で水槽を満たせます
+tile.FishTank.message.alreadyFilled=水槽は既に水で満たされています
+tile.FishTank.message.alreadyEmpty=水槽は既に空です
+tile.FishTank.message.needEmptyBowl=魚を捕まえるには空の金魚鉢が必要です
+
+tile.LampShade.name=ランプシェード
+
+tile.Teleport.name=テレポート
+
+tile.Kelp.name=昆布
+
+tile.Clam.name=ハマグリ
+
+// miscellaneous items
+item.Netting.name=網
+item.FishBowl.name=金魚鉢
+item.FishFood.name=魚のエサ
+item.Pearl.name=パール
+
+// items - fish scales
+item.FishScaleRed.name=赤色のウロコ
+item.FishScaleOrange.name=橙色のウロコ
+item.FishScaleYellow.name=黄色のウロコ
+item.FishScaleGreen.name=緑色のウロコ
+item.FishScaleBlue.name=青色のウロコ
+item.FishScaleIndigo.name=赤紫色のウロコ
+item.FishScaleViolet.name=紫色のウロコ
+item.FishScaleBlack.name=黒色のウロコ
+item.FishScaleWhite.name=白色のウロコ
+item.FishScaleSilver.name=銀色のウロコ
+
+// items - captured fish
+item.CapturedClownFish.name=捕獲したクマノミ
+item.CapturedRegalTang.name=捕獲したナンヨウハギ
+item.CapturedMoorishIdol.name=捕獲したツノダシ
+item.CapturedRoyalGramma.name=捕獲したフェアリーバスレット
+item.CapturedPufferFish.name=捕獲したフグ
+item.CapturedYellowTang.name=捕獲したキイロハギ
+item.CapturedDamselFish.name=捕獲したスズメダイ
+item.CapturedBlenny.name=捕獲したギンポ
+item.CapturedMoonFish.name=捕獲したギンカガミ
+
+// items - live fish
+item.LiveClownFish.name=クマノミ
+item.LiveRegalTang.name=ナンヨウハギ
+item.LiveMoorishIdol.name=ツノダシ
+item.LiveRoyalGramma.name=フェアリーバスレット
+item.LivePufferFish.name=フグ
+item.LiveYellowTang.name=キイロハギ
+item.LiveDamselFish.name=スズメダイ
+item.LiveBlenny.name=ギンポ
+item.LiveMoonFish.name=ギンカガミ
+
+// items - tools
+item.FishingNet.name=漁網
+item.FishScaleAxe.name=魚鱗の斧
+item.FishScaleHoe.name=魚鱗のクワ
+
+// items - armour
+item.FishScaleHelmet.name=魚鱗のヘルメット
+item.FishScaleChestPlate.name=魚鱗のチェストプレート
+item.FishScaleLeggings.name=魚鱗のレギンス
+item.FishScaleBoots.name=魚鱗のブーツ
+
+item.FishScaleArmor.message.canBreathUnderwater=水中で呼吸ができるようになりました
+item.FishScaleArmor.message.cannotBreathUnderwater=魚鱗防具を一式装備することで、水中呼吸のポーションの効果が得られます
+
+// items - sword
+item.FishScaleSword.name=魚鱗の剣
+
+// entities
+entity.FancyFish.ClownFish.name=クマノミ
+entity.FancyFish.RegalTang.name=ナンヨウハギ
+entity.FancyFish.MoorishIdol.name=ツノダシ
+entity.FancyFish.RoyalGramma.name=フェアリーバスレット
+entity.FancyFish.PufferFish.name=フグ
+entity.FancyFish.YellowTang.name=キイロハギ
+entity.FancyFish.DamselFish.name=スズメダイ
+entity.FancyFish.Blenny.name=ギンポ
+entity.FancyFish.MoonFish.name=ギンカガミ
+
+// containers
+container.FishTankTileEntity.name=水槽
+container.TeleportTileEntity.name=テレポート
+container.TeleportTileEntity.message.noDestination=テレポート先にテレポートできません
+
+// achievements
+achievement.BuildNetting=大金が掛かったぞ！
+achievement.BuildNetting.desc=糸で漁網を作る
+
+achievement.BuildFishingNet=どこで捕獲しようかな？
+achievement.BuildFishingNet.desc=棒と漁網で網を作る
+
+achievement.CatchFish=まずは1匹
+achievement.CatchFish.desc=網で生きた魚を捕まえる
+
+achievement.HarvestScales=規模の経済
+achievement.HarvestScales.desc=魚を殺してウロコを手に入れる
+
+achievement.BuildLampShade=怪しげな商売
+achievement.BuildLampShade.desc=木材ハーフブロック、松明、フェアリーバスレットのウロコでランプシェードを作る
+
+achievement.BuildFishScaleAxe=アクスデント
+achievement.BuildFishScaleAxe.desc=棒と緑色のウロコでエンチャントされた斧を作る
+
+achievement.BuildFishScaleHoe=地球の果実
+achievement.BuildFishScaleHoe.desc=棒と赤紫色のウロコでエンチャントされたクワを作る
+
+achievement.BuildFishScaleSword=エスケールカリバー
+achievement.BuildFishScaleSword.desc=青、白、銀のウロコでエンチャントされた剣を作る
+

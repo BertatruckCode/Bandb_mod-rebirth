@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "planttech:air_energy_extractor" }
+    }
+}

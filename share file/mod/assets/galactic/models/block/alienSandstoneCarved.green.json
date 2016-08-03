@@ -1,0 +1,8 @@
+{
+"parent": "block/cube_bottom_top",
+"textures": {
+	"bottom": "galactic:blocks/alienSandstoneBottom.green",
+	"top": "galactic:blocks/alienSandstoneTop.green",
+	"side": "galactic:blocks/alienSandstoneCarved.green"
+}
+}

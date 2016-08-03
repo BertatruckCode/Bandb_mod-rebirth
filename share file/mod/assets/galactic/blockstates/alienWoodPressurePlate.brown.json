@@ -1,0 +1,6 @@
+{
+"variants": {
+"powered=false": { "model": "galactic:alienWoodPressurePlate.brown_up" },
+"powered=true": { "model": "galactic:alienWoodPressurePlate.brown_down" }
+}
+}

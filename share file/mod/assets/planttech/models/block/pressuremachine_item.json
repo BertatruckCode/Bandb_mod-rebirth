@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "planttech:blocks/plantmetall4_block",
+        "down": "planttech:blocks/plantmetall4_block",
+        "up": "planttech:blocks/plantmetall4_block",
+        "north": "planttech:blocks/plantmetall4_block",
+        "east": "planttech:blocks/pressuremachinefront",
+        "south": "planttech:blocks/pressuremachinefront",
+        "west": "planttech:blocks/plantmetall4_block"
+    }
+}

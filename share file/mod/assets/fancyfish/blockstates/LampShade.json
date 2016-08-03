@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "on=true": { "model": "fancyfish:LampShadeOn" },
+        "on=false": { "model": "fancyfish:LampShade" }
+    }
+}

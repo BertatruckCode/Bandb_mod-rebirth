@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fancy Fish Mod
+
+// blocks
+tile.FishTank.name=Acuario
+tile.FishTank.message.needsWater=Para interactuar con el acuario, primero llénalo con un cubo de agua
+tile.FishTank.message.alreadyFilled=El acuario ya está lleno de agua
+tile.FishTank.message.alreadyEmpty=El acuario ya ha sido vaciado
+tile.FishTank.message.needEmptyBowl=Necesitas una pecera vacía para llevarte los peces
+
+tile.LampShade.name=Pantalla
+
+tile.Teleport.name=Telepuerto
+
+tile.Kelp.name=Alga
+
+tile.Clam.name=Almeja
+
+// miscellaneous items
+item.Netting.name=Red
+item.FishBowl.name=Pecera
+item.FishFood.name=Comida para peces
+item.Pearl.name=Perla
+
+// items - fish scales
+item.FishScaleRed.name=Escamas rojas
+item.FishScaleOrange.name=Escamas naranjas
+item.FishScaleYellow.name=Escamas amarillas
+item.FishScaleGreen.name=Escamas verdes
+item.FishScaleBlue.name=Escamas azules
+item.FishScaleIndigo.name=Escamas añiles
+item.FishScaleViolet.name=Escamas violetas
+item.FishScaleBlack.name=Escamas negras
+item.FishScaleWhite.name=Escamas blancas
+item.FishScaleSilver.name=Escamas plateadas
+
+// items - captured fish
+item.CapturedClownFish.name=Pez payaso atrapado
+item.CapturedRegalTang.name=Pez cirujano azul atrapado
+item.CapturedMoorishIdol.name=Ídolo moro atrapado
+item.CapturedRoyalGramma.name=Pez abuela real atrapado
+item.CapturedPufferFish.name=Pez globo atrapado
+item.CapturedYellowTang.name=Pez cirujano amarillo atrapado
+item.CapturedDamselFish.name=Pez damisela atrapado
+item.CapturedBlenny.name=Blénido atrapado
+item.CapturedMoonFish.name=Pez luna atrapado
+
+// items - live fish
+item.LiveClownFish.name=Pez payaso
+item.LiveRegalTang.name=Pez cirujano azul
+item.LiveMoorishIdol.name=Ídolo moro
+item.LiveRoyalGramma.name=Pez abuela real
+item.LivePufferFish.name=Pez globo
+item.LiveYellowTang.name=Pez cirujano amarillo
+item.LiveDamselFish.name=Pez damisela
+item.LiveBlenny.name=Blénido
+item.LiveMoonFish.name=Pez luna
+
+// items - tools
+item.FishingNet.name=Sacadera
+item.FishScaleAxe.name=Hacha de escamas
+item.FishScaleHoe.name=Hoz de escamas
+
+// items - armour
+item.FishScaleHelmet.name=Casco de escamas
+item.FishScaleChestPlate.name=Pechera de escamas
+item.FishScaleLeggings.name=Pantalones de escamas
+item.FishScaleBoots.name=Botas de escamas
+
+item.FishScaleArmor.message.canBreathUnderwater=¡Ahora puedes respirar bajo el agua!
+item.FishScaleArmor.message.cannotBreathUnderwater=Necesitas llevar puesta al completo la armadura de escamas para activar el efecto de respiración acuática
+
+// items - sword
+item.FishScaleSword.name=Espada de escamas
+
+// entities
+entity.FancyFish.ClownFish.name=Pez payaso
+entity.FancyFish.RegalTang.name=Pez cirujano azul
+entity.FancyFish.MoorishIdol.name=Ídolo moro
+entity.FancyFish.RoyalGramma.name=Pez abuela real
+entity.FancyFish.PufferFish.name=Pez globo
+entity.FancyFish.YellowTang.name=Pez cirujano amarillo
+entity.FancyFish.DamselFish.name=Pez damisela
+entity.FancyFish.Blenny.name=Blénido
+entity.FancyFish.MoonFish.name=Pez luna
+
+// containers
+container.FishTankTileEntity.name=Acuario
+container.TeleportTileEntity.name=Telepuerto
+container.TeleportTileEntity.message.noDestination=No se telepuerto de destino disponibles
+
+// achievements
+achievement.BuildNetting=¡Atrapaste una fortuna!
+achievement.BuildNetting.desc=Usa hilo para fabricar materiales para redes
+
+achievement.BuildFishingNet=¿Dónde está la captura?
+achievement.BuildFishingNet.desc=Usa palos y red para fabricar una sacadera
+
+achievement.CatchFish=¡Primera captura!
+achievement.CatchFish.desc=Usa una sacadera para atrapar un pez con vida
+
+achievement.HarvestScales=Economía de la escama
+achievement.HarvestScales.desc=Mata a un pez para obtener sus escamas
+
+achievement.BuildLampShade=Negocio de sombras
+achievement.BuildLampShade.desc=Construye una pantalla usando una losa de madera, una antorcha y escamas de pez abuela real
+
+achievement.BuildFishScaleAxe=Hachadental
+achievement.BuildFishScaleAxe.desc=Fabrica un hacha encantada usando palos y escamas verdes
+
+achievement.BuildFishScaleHoe=Frutas de la Tierra
+achievement.BuildFishScaleHoe.desc=Fabrica una hoz encantada usando palos y escamas añiles
+
+achievement.BuildFishScaleSword=¡Escamabur!
+achievement.BuildFishScaleSword.desc=Fabrica una espada encantada usando escamas plateadas, blancas y azules
+

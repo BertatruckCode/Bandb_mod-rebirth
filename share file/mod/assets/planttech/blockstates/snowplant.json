@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "planttech:plant/snowplant0" },
+        "age=1": { "model": "planttech:plant/snowplant1" },
+        "age=2": { "model": "planttech:plant/snowplant2" },
+        "age=3": { "model": "planttech:plant/snowplant3" },
+        "age=4": { "model": "planttech:plant/snowplant4" },
+        "age=5": { "model": "planttech:plant/snowplant5" },
+        "age=6": { "model": "planttech:plant/snowplant6" },
+        "age=7": { "model": "planttech:plant/snowplant7" }       
+       }
+}

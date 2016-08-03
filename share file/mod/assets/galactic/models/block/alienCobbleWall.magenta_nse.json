@@ -1,0 +1,4 @@
+{"parent": "block/wall_nse","textures": {
+"wall": "galactic:blocks/alienCobble.magenta"
+	}
+}

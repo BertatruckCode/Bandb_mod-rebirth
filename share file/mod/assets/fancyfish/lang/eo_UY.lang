@@ -1,0 +1,116 @@
+// creative tabs
+itemGroup.FancyFishTab=Fikcifiŝi Mod
+
+// blocks
+tile.FishTank.name=Akvario
+tile.FishTank.message.needsWater=Por interagi kun la akvario, antaŭe plenigu ĝin per sitelo
+tile.FishTank.message.alreadyFilled=La akvario jam pleniĝis de akvo
+tile.FishTank.message.alreadyEmpty=La akvario jam malpleniĝis de akvo
+tile.FishTank.message.needEmptyBowl=Vi bezonas malplenan akvarieton por transporti fiŝojn kun vi
+
+tile.LampShade.name=Lampŝirmilo
+
+tile.Teleport.name=Teleport
+
+tile.Kelp.name=Algocindro
+
+tile.Clam.name=Tridakno
+
+// miscellaneous items
+item.Netting.name=Maŝaĵo
+item.FishBowl.name=Akvarieto
+item.FishFood.name=Manĝaĵo por Fiŝoj
+item.Pearl.name=Perlo
+
+// items - fish scales
+item.FishScaleRed.name=Ruĝaj Skvamoj
+item.FishScaleOrange.name=Oranĝkoloraj Skvamoj
+item.FishScaleYellow.name=Flavaj Skvamoj
+item.FishScaleGreen.name=Verdaj Skvamoj
+item.FishScaleBlue.name=Bluaj Skvamoj
+item.FishScaleIndigo.name=Indigkoloraj Skvamoj
+item.FishScaleViolet.name=Violaj Skvamoj
+item.FishScaleBlack.name=Nigraj Skvamoj
+item.FishScaleWhite.name=Blankaj Skvamoj
+item.FishScaleSilver.name=Arĝentkoloraj Skvamoj
+
+// items - captured fish
+item.CapturedClownFish.name=Kaptita Klaŭnfiŝo
+item.CapturedRegalTang.name=Kaptita Parakanturuso
+item.CapturedMoorishIdol.name=Kaptita Zankluso
+item.CapturedRoyalGramma.name=Kaptita Gramaloreto
+item.CapturedPufferFish.name=Kaptita Pufantfiŝo
+item.CapturedYellowTang.name=Kaptita Flavzebrasomo
+item.CapturedDamselFish.name=Kaptita Damselfiŝo
+item.CapturedBlenny.name=Kaptita Blenioideio
+item.CapturedMoonFish.name=Kaptita Lunfiŝo
+
+// items - live fish
+item.LiveClownFish.name=Klaŭnfiŝo
+item.LiveRegalTang.name=Parakanturuso
+item.LiveMoorishIdol.name=Zankluso
+item.LiveRoyalGramma.name=Gramaloreto
+item.LivePufferFish.name=Pufantfiŝo
+item.LiveYellowTang.name=Flavzebrasomo
+item.LiveDamselFish.name=Damselfiŝo
+item.LiveBlenny.name=Blenioideio
+item.LiveMoonFish.name=Lunfiŝo
+
+// items - tools
+item.FishingNet.name=Fiŝreto
+item.FishScaleAxe.name=Hakilo el Skvamoj
+item.FishScaleHoe.name=Sarkilo el Skvamoj
+
+// items - armour
+item.FishScaleHelmet.name=Kasko el Skvamoj
+item.FishScaleChestPlate.name=Brustkiraso el Skvamoj
+item.FishScaleLeggings.name=Kruringoj el Skvamoj
+item.FishScaleBoots.name=Botoj el Skvamoj
+
+item.FishScaleArmor.message.canBreathUnderwater=Vi nun povas spiri subakve!
+item.FishScaleArmor.message.cannotBreathUnderwater=Vi bezonas porti la tutan aron de Armaĵo el Skvamoj por ebligi la subakvaspiradan kapablon
+
+// items - sword
+item.FishScaleSword.name=Glavo el Skvamoj
+
+// entities
+entity.FancyFish.ClownFish.name=Klaŭnfiŝo
+entity.FancyFish.RegalTang.name=Parakanturuso
+entity.FancyFish.MoorishIdol.name=Zankluso
+entity.FancyFish.RoyalGramma.name=Gramaloreto
+entity.FancyFish.PufferFish.name=Pufantfiŝo
+entity.FancyFish.YellowTang.name=Flavzebrasomo
+entity.FancyFish.DamselFish.name=Damselfiŝo
+entity.FancyFish.Blenny.name=Blenioideio
+entity.FancyFish.MoonFish.name=Lunfiŝo
+
+// containers
+container.FishTankTileEntity.name=Akvario
+container.TeleportTileEntity.name=Teleport
+container.TeleportTileEntity.message.noDestination=Neniu destino Teleport disponeblas
+
+// achievements
+achievement.BuildNetting=Retkaptis!
+achievement.BuildNetting.desc=Uzu fadenon por krei maŝaĵon
+
+achievement.BuildFishingNet=Kie estas la retkaptaĵo?
+achievement.BuildFishingNet.desc=Uzu branĉetojn kaj maŝaĵon por krei fiŝreton
+
+achievement.CatchFish=Unua kaptaĵo!
+achievement.CatchFish.desc=Uzu fiŝreton por kapti vivantan fiŝon
+
+achievement.HarvestScales=Skvamaro
+achievement.HarvestScales.desc=Mortigu fiŝon por rikolti siajn skvamojn
+
+achievement.BuildLampShade=Skvamlampŝirmilo
+achievement.BuildLampShade.desc=Kreu lampŝirmilon per lignaplato, torĉo kaj skvamoj el Gramaloreto
+
+achievement.BuildFishScaleAxe=Skvamhakilo
+achievement.BuildFishScaleAxe.desc=Kreu sorĉitan hakilon per branĉetoj kaj verdaj skvamoj
+
+achievement.BuildFishScaleHoe=Fruktoj de la Tero
+achievement.BuildFishScaleHoe.desc=Kreu sorĉitan sarkilon per branĉetoj kaj indigkoloraj skvamoj
+
+achievement.BuildFishScaleSword=Ekskaliburo!
+achievement.BuildFishScaleSword.desc=Kreu sorĉitan glavon per arĝentkoloraj, blankaj kaj bluaj skvamoj
+

@@ -1,0 +1,8 @@
+{
+"parent": "block/outer_stairs",
+"textures": {
+    "bottom": "galactic:blocks/alienStoneBrick.magenta",
+    "top": "galactic:blocks/alienStoneBrick.magenta",
+    "side": "galactic:blocks/alienStoneBrick.magenta"
+  }
+}

@@ -1,0 +1,8 @@
+{
+"parent": "block/half_slab",
+	"textures": {
+		"bottom": "galactic:blocks/alienStoneSlabTop.lightBlue",
+		"top": "galactic:blocks/alienStoneSlabTop.lightBlue",
+		"side": "galactic:blocks/alienStoneSlabSide.lightBlue"
+	}
+}

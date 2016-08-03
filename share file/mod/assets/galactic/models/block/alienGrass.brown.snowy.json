@@ -1,0 +1,9 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"particle": "galactic:blocks/alienDirt.brown",
+		"bottom": "galactic:blocks/alienDirt.brown",
+		"top": "blocks/grass_top",
+		"side": "galactic:blocks/alienGrassSideSnowed.brown"
+	}
+}
